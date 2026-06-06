@@ -390,8 +390,23 @@ jobs:
         if: steps.check_files.outputs.has_files == 'true'
         run: |
           mkdir release_assets
+          find all_artifacts/ -name "*.apk" -exec mv -f {} release_assets/ \;
+          find all_artifacts/ -name "*.ipk" -exec mv -f {} release_assets/ \;
           
-          find all_artifacts/ -name "*.apk" -o -name "*.ipk" -exec mv -f {} release_assets/ \;
+          declare -A seen_i18n
+          for file in release_assets/*i18n*.*; do
+            [ -e "$file" ] || continue
+            
+            filename=$(basename "$file")
+            base_pkg="${filename%%_*}"
+            if [[ -n "${seen_i18n[$base_pkg]}" ]]; then
+              echo "remove i18n: $filename"
+              rm -f "$file"
+            else
+              seen_i18n[$base_pkg]=1
+              echo "save i18n: $filename"
+            fi
+          done
           
           find all_artifacts/ -name "release_notes.txt" | head -n 1 | xargs cat > final_release_notes.md
           

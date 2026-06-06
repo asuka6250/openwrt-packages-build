@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "architecture": "aarch64_cortex-a53",
-  "packages": {
-    "luci-app-wizard": "26.079.36352~0a6362a",
-    "luci-i18n-custom_packages-zh-cn": "26.079.36352~0a6362a"
-  }
-}

@@ -30,8 +30,8 @@ FULL_REPOS=(
 # 📂 Configuration 2: Sparse Checkout
 # ---------------------------------------------------
 SPARSE_REPOS=(
-    "immortalwrt/packages|openwrt-25.12|net/ua2f"
-    "immortalwrt/luci|openwrt-25.12|applications/luci-app-ua2f applications/luci-app-arpbind"
+    #"immortalwrt/packages|openwrt-25.12|net/ua2f"
+    #"immortalwrt/luci|openwrt-25.12|applications/luci-app-ua2f applications/luci-app-arpbind"
 )
 
 if [ "$1" == "--check" ]; then

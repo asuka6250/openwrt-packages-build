@@ -236,7 +236,10 @@ jobs:
           make defconfig 2>/dev/null
           
           echo "🔍 Scanning custom packages and injecting into compilation queue..."
+          > $GITHUB_WORKSPACE/build_pkg_list.txt
+          
           for makefile in $(find -L package/custom_packages -name Makefile); do
+            pkg_path=$(dirname "$makefile")
             pkg_name=$(awk -F'=' '
               /^[[:space:]]*[A-Za-z0-9_]+[[:space:]]*:?=/ {
                 sub(/:$/, "", $1); gsub(/^[[:space:]]+|[[:space:]]+$/, "", $1)
@@ -251,14 +254,15 @@ jobs:
                     if (v in vars) sub(/\$\([^)]+\)/, vars[v], pkg)
                     else break
                   }
-                  print pkg
+                  print tolower(pkg)
                 }
               }
             ' "$makefile")
             
             if [ -z "$pkg_name" ]; then
               if grep -q "TOPDIR" "$makefile"; then
-                pkg_name=$(basename $(dirname "$makefile"))
+                pkg_name=$(basename "$pkg_path")
+                pkg_name=$(echo "$pkg_name" | tr 'A-Z' 'a-z')
                 echo "⚠️ Info: No PKG_NAME found, using directory name fallback for $pkg_name"
               else
                 continue
@@ -266,8 +270,10 @@ jobs:
             fi
             
             echo "CONFIG_PACKAGE_$pkg_name=m" >> .config
-            echo "✅ Added to .config: $pkg_name (from $(dirname "$makefile"))"
+            echo "✅ Added to .config: $pkg_name (from $pkg_path)"
+            echo "$pkg_path:$pkg_name" >> $GITHUB_WORKSPACE/build_pkg_list.txt
           done
+          
           make defconfig 2>/dev/null 
           echo "CONFIG_LUCI_LANG_zh_Hans=y" >> .config
           make defconfig 2>/dev/null 
@@ -279,12 +285,14 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/openwrt-sdk
           echo "🚀 Starting targeted compilation for custom packages..."
-          
-          for makefile in $(find -L package/custom_packages -name Makefile); do
-            pkg_path=$(dirname "$makefile")
-            echo "🔨 Compiling target: $pkg_path/compile"
-            make "$pkg_path/compile" -j$(nproc) IGNORE_ERRORS=1 -k 2>/dev/null | grep -v -E "(Entering|Leaving) directory.*/scripts/config|'conf' is up to date|^#$|No change to \.config" || true
-          done
+          if [ -f "$GITHUB_WORKSPACE/build_pkg_list.txt" ]; then
+            while IFS=':' read -r pkg_path pkg_name; do
+              echo "🔨 Compiling target: $pkg_path/compile ($pkg_name)"
+              make "$pkg_path/compile" -j$(($(nproc) + 1)) IGNORE_ERRORS=1 -k 2>/dev/null | grep -v -E "(Entering|Leaving) directory.*/scripts/config|'conf' is up to date|^#$|No change to \.config" || true
+            done < "$GITHUB_WORKSPACE/build_pkg_list.txt"
+          else
+            echo "⚠️ No packages found in build list!"
+          fi
 
       - name: Collect and Rename Artifacts
         if: steps.filter.outputs.run == 'true'
@@ -396,15 +404,16 @@ jobs:
           declare -A seen_i18n
           for file in release_assets/*i18n*.*; do
             [ -e "$file" ] || continue
-            
             filename=$(basename "$file")
-            base_pkg="${filename%%_*}"
-            if [[ -n "${seen_i18n[$base_pkg]}" ]]; then
-              echo "remove i18n: $filename"
+            ext="${filename##*.}"
+            base_pkg=$(echo "$filename" | sed -E 's/[-_][0-9].*//')
+            dedup_key="${base_pkg}_${ext}"
+            if [[ -n "${seen_i18n[$dedup_key]}" ]]; then
+              echo "remove: $filename"
               rm -f "$file"
             else
-              seen_i18n[$base_pkg]=1
-              echo "save i18n: $filename"
+              seen_i18n[$dedup_key]=1
+              echo "save: $filename"
             fi
           done
           

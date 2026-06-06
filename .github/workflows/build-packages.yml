@@ -1,0 +1,422 @@
+name: Build OpenWrt Packages (Release)
+
+on:
+  # push:
+    # paths:
+    #   - '.github/scripts/clone_repos.sh'
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: '🏷️ Release 标签'
+        required: false
+        type: string
+        default: ''
+      build_24_10:
+        description: '📦 OpenWrt 24.10.x'
+        type: boolean
+        default: false
+      build_25_12:
+        description: '📦 OpenWrt 25.12.x'
+        type: boolean
+        default: true
+      arch_a53:
+        description: '⚙️ aarch64_cortex-a53'
+        type: boolean
+        default: true
+      arch_a72:
+        description: '⚙️ aarch64_cortex-a72'
+        type: boolean
+        default: false
+      arch_a76:
+        description: '⚙️ aarch64_cortex-a76'
+        type: boolean
+        default: false
+      arch_armv8:
+        description: '⚙️ aarch64_generic'
+        type: boolean
+        default: false
+      arch_x86:
+        description: '⚙️ x86-64'
+        type: boolean
+        default: false
+
+jobs:
+  check-plugins:
+    name: Check Plugins
+    runs-on: ubuntu-latest
+    outputs: 
+      has_plugins: ${{ steps.check.outputs.has_plugins }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          path: main-repo
+          
+      - name: Fast Check Plugin Configuration
+        id: check
+        run: |
+          chmod +x main-repo/.github/scripts/clone_repos.sh
+          ./main-repo/.github/scripts/clone_repos.sh --check
+
+  build:
+    name: ${{ matrix.arch }} (${{ matrix.ver }})
+    needs: check-plugins
+    if: needs.check-plugins.outputs.has_plugins == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # ==========================================
+          # 24.10.x
+          # ==========================================
+          - arch: "aarch64_cortex-a53"
+            ver: "24.10"
+            target_path: "mediatek/filogic" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/mediatek/filogic/openwrt-sdk-24.10.5-mediatek-filogic_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a72"
+            ver: "24.10"
+            target_path: "bcm27xx/bcm2711" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/bcm27xx/bcm2711/openwrt-sdk-24.10.5-bcm27xx-bcm2711_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a76"
+            ver: "24.10"
+            target_path: "bcm27xx/bcm2712" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/bcm27xx/bcm2712/openwrt-sdk-24.10.5-bcm27xx-bcm2712_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+          
+          - arch: "aarch64_generic"
+            ver: "24.10"
+            target_path: "rockchip/armv8" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/rockchip/armv8/openwrt-sdk-24.10.5-rockchip-armv8_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "x86-64"
+            ver: "24.10"
+            target_path: "x86/64" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/x86/64/openwrt-sdk-24.10.5-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          # ==========================================
+          # 25.12.x
+          # ==========================================
+          - arch: "aarch64_cortex-a53"
+            ver: "25.12"
+            target_path: "qualcommax/ipq60xx" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/qualcommax/ipq60xx/openwrt-sdk-25.12.4-qualcommax-ipq60xx_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a72"
+            ver: "25.12"
+            target_path: "bcm27xx/bcm2711" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2711/openwrt-sdk-25.12.4-bcm27xx-bcm2711_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a76"
+            ver: "25.12"
+            target_path: "bcm27xx/bcm2712" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2712/openwrt-sdk-25.12.4-bcm27xx-bcm2712_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+          
+          - arch: "aarch64_generic"
+            ver: "25.12"
+            target_path: "rockchip/armv8" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/rockchip/armv8/openwrt-sdk-25.12.4-rockchip-armv8_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "x86-64"
+            ver: "25.12"
+            target_path: "x86/64" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/x86/64/openwrt-sdk-25.12.4-x86-64_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+    steps:
+      - name: Check Matrix Execution Condition
+        id: filter
+        run: |
+          RUN_JOB="false"
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            RUN_JOB="true"
+          else
+            VER_MATCH="false"
+            if [ "${{ matrix.ver }}" == "24.10" ] && [ "${{ inputs.build_24_10 }}" == "true" ]; then VER_MATCH="true"; fi
+            if [ "${{ matrix.ver }}" == "25.12" ] && [ "${{ inputs.build_25_12 }}" == "true" ]; then VER_MATCH="true"; fi
+            
+            ARCH_MATCH="false"
+            if [ "${{ matrix.arch }}" == "aarch64_cortex-a53" ] && [ "${{ inputs.arch_a53 }}" == "true" ]; then ARCH_MATCH="true"; fi
+            if [ "${{ matrix.arch }}" == "aarch64_cortex-a72" ] && [ "${{ inputs.arch_a72 }}" == "true" ]; then ARCH_MATCH="true"; fi
+            if [ "${{ matrix.arch }}" == "aarch64_cortex-a76" ] && [ "${{ inputs.arch_a76 }}" == "true" ]; then ARCH_MATCH="true"; fi
+            if [ "${{ matrix.arch }}" == "aarch64_generic" ] && [ "${{ inputs.arch_armv8 }}" == "true" ]; then ARCH_MATCH="true"; fi
+            if [ "${{ matrix.arch }}" == "x86-64" ] && [ "${{ inputs.arch_x86 }}" == "true" ]; then ARCH_MATCH="true"; fi
+            
+            if [ "$VER_MATCH" == "true" ] && [ "$ARCH_MATCH" == "true" ]; then
+              RUN_JOB="true"
+            fi
+          fi
+          
+          echo "run=$RUN_JOB" >> $GITHUB_OUTPUT
+          if [ "$RUN_JOB" == "true" ]; then
+            echo "✅ User selected this combination. Proceeding..."
+          else
+            echo "🚫 Skipped by user selection."
+          fi
+
+      - name: Checkout Repository
+        if: steps.filter.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          path: main-repo
+                 
+      - name: Free Disk Space (Ubuntu)
+        if: steps.filter.outputs.run == 'true'
+        uses: jlumbroso/free-disk-space@main
+        continue-on-error: true
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+
+      - name: Install Compilation Dependencies
+        if: steps.filter.outputs.run == 'true'
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo -E apt-get -qq update
+          sudo -E apt-get -qq install build-essential clang flex bison g++ gawk gcc-multilib g++-multilib \
+          gettext git libncurses5-dev libssl-dev python3-setuptools swig zlib1g-dev libelf-dev \
+          unzip file python3 python3-pip rsync wget bzip2 patch libncursesw5-dev libsqlite3-dev \
+          libxml2-dev libxslt1-dev libffi-dev libc6-dev-i386 lib32z1-dev lib32ncurses-dev \
+          lib32stdc++6 dwarves llvm libcap-dev antlr3 gperf p7zip p7zip-full rename qemu-utils zstd \
+          python3-pyelftools
+          sudo timedatectl set-timezone Asia/Shanghai
+
+      - name: Download and Extract OpenWrt SDK
+        if: steps.filter.outputs.run == 'true'
+        run: |
+          wget -O sdk.tar.zst ${{ matrix.url_sdk }}
+          mkdir -p openwrt-sdk
+          tar -I zstd -xf sdk.tar.zst -C openwrt-sdk --strip-components=1
+          rm sdk.tar.zst
+
+      - name: Execute Custom Repositories Clone Script
+        if: steps.filter.outputs.run == 'true'
+        run: |
+          echo "📥 Executing clone script to fetch all configured upstream plugins..."
+          chmod +x main-repo/.github/scripts/clone_repos.sh
+          ./main-repo/.github/scripts/clone_repos.sh
+
+      - name: Update Feeds and Configure Components
+        if: steps.filter.outputs.run == 'true'
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          
+          sed -i 's/https:\/\/git.openwrt.org\/feed/https:\/\/github.com\/openwrt/g' feeds.conf.default
+          sed -i 's/https:\/\/git.openwrt.org\/project/https:\/\/github.com\/openwrt/g' feeds.conf.default
+          
+          ./scripts/feeds update -a
+          rm -rf feeds/packages/net/nginx
+          rm -rf feeds/packages/lang/golang
+          rm -rf feeds/packages/net/{xray-core,v2ray-geodata,sing-box,chinadns-ng,dns2socks,hysteria,ipt2socks,microsocks,naiveproxy,shadowsocks-rust,shadowsocksr-libev,simple-obfs,tcping,v2ray-plugin,xray-plugin,geoview,shadow-tls}
+          git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
+          ./scripts/feeds install -a
+          
+          mkdir -p feeds/base
+          ln -sf ../../package/custom_packages feeds/base/custom_packages
+          make defconfig 2>/dev/null
+
+          sed -i 's/^\(CONFIG_PACKAGE_.*\)=m$/# \1 is not set/' .config
+          make defconfig 2>/dev/null 
+          
+          echo "CONFIG_ALL_NONSHARED=n" >> .config
+          echo "CONFIG_ALL_KMODS=n" >> .config
+          echo "CONFIG_ALL=n" >> .config
+          echo "CONFIG_AUTOREMOVE=n" >> .config
+          make defconfig 2>/dev/null
+          
+          echo "🔍 Scanning custom packages and injecting into compilation queue..."
+          for makefile in $(find -L package/custom_packages -name Makefile); do
+            pkg_name=$(awk -F'=' '
+              /^[[:space:]]*[A-Za-z0-9_]+[[:space:]]*:?=/ {
+                sub(/:$/, "", $1); gsub(/^[[:space:]]+|[[:space:]]+$/, "", $1)
+                gsub(/^[[:space:]]+|[[:space:]]+$/, "", $2)
+                vars[$1] = $2
+              }
+              END {
+                if ("PKG_NAME" in vars) {
+                  pkg = vars["PKG_NAME"]
+                  while (match(pkg, /\$\([^)]+\)/)) {
+                    v = substr(pkg, RSTART+2, RLENGTH-3)
+                    if (v in vars) sub(/\$\([^)]+\)/, vars[v], pkg)
+                    else break
+                  }
+                  print pkg
+                }
+              }
+            ' "$makefile")
+            
+            if [ -z "$pkg_name" ]; then
+              if grep -q "TOPDIR" "$makefile"; then
+                pkg_name=$(basename $(dirname "$makefile"))
+                echo "⚠️ Info: No PKG_NAME found, using directory name fallback for $pkg_name"
+              else
+                continue
+              fi
+            fi
+            
+            echo "CONFIG_PACKAGE_$pkg_name=m" >> .config
+            echo "✅ Added to .config: $pkg_name (from $(dirname "$makefile"))"
+          done
+          make defconfig 2>/dev/null 
+          echo "CONFIG_LUCI_LANG_zh_Hans=y" >> .config
+          make defconfig 2>/dev/null 
+          sed -i 's/^# \(CONFIG_PACKAGE_[a-zA-Z0-9_-]*nginx[a-zA-Z0-9_-]*\) is not set$/\1=m/' .config
+          make defconfig 2>/dev/null
+
+      - name: Compile Packages (Quiet Resilient Mode)
+        if: steps.filter.outputs.run == 'true'
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          echo "🚀 Starting targeted compilation for custom packages..."
+          
+          for makefile in $(find -L package/custom_packages -name Makefile); do
+            pkg_path=$(dirname "$makefile")
+            echo "🔨 Compiling target: $pkg_path/compile"
+            make "$pkg_path/compile" -j$(nproc) IGNORE_ERRORS=1 -k 2>/dev/null | grep -v -E "(Entering|Leaving) directory.*/scripts/config|'conf' is up to date|^#$|No change to \.config" || true
+          done
+
+      - name: Collect and Rename Artifacts
+        if: steps.filter.outputs.run == 'true'
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          TARGET_DIR="$GITHUB_WORKSPACE/compiled_packages"
+          mkdir -p "$TARGET_DIR"
+          
+          ARCH="${{ matrix.arch }}"
+          VER="${{ matrix.ver }}"
+          
+          echo "📦 Renaming and moving compiled packages..."
+          for ext in apk ipk; do
+            find bin/packages/ -name "*.$ext" -type f | while read file; do
+                base=$(basename "$file" ".$ext")
+                
+                if [[ "$base" == *"i18n"* ]]; then
+                    echo "🌐 语言包跳过重命名: $base.$ext"
+                    mv "$file" "$TARGET_DIR/${base}.$ext"
+                else
+                    mv "$file" "$TARGET_DIR/${base}_${ARCH}-${VER}.$ext"
+                fi
+            done
+          done
+
+          rm -rf "$TARGET_DIR"/*firmware* "$TARGET_DIR"/zoneinfo-* "$TARGET_DIR"/pyth-* \
+                 "$TARGET_DIR"/coreutils* "$TARGET_DIR"/python3* "$TARGET_DIR"/ruby* \
+                 "$TARGET_DIR"/ath* "$TARGET_DIR"/lib* "$TARGET_DIR"/brc* \
+                 "$TARGET_DIR"/ucode* "$TARGET_DIR"/wget* "$TARGET_DIR"/blue* \
+                 "$TARGET_DIR"/firew* "$TARGET_DIR"/dnsmasq* "$TARGET_DIR"/dubs* \
+                 "$TARGET_DIR"/*disk* 2>/dev/null || true
+                 
+          rm -rf "$TARGET_DIR"/luci-proto-* \
+                 "$TARGET_DIR"/luci-lib-* \
+                 "$TARGET_DIR"/luci-base* \
+                 "$TARGET_DIR"/luci-mod-* \
+                 "$TARGET_DIR"/luci-compat* \
+                 "$TARGET_DIR"/rpcd* \
+                 "$TARGET_DIR"/ubus* \
+                 "$TARGET_DIR"/uci* \
+                 "$TARGET_DIR"/luci-*-firewall* \
+                 "$TARGET_DIR"/luci-*-package-* \
+                 "$TARGET_DIR"/curl* \
+                 "$TARGET_DIR"/lua_* \
+                 "$TARGET_DIR"/liblua* \
+                 "$TARGET_DIR"/luajit* \
+                 "$TARGET_DIR"/iwinfo* \
+                 "$TARGET_DIR"/libiwinfo* \
+                 "$TARGET_DIR"/uwsgi* \
+                 "$TARGET_DIR"/cgi-io* \
+                 "$TARGET_DIR"/ca-bundle* \
+                 "$TARGET_DIR"/ca-certificates* \
+                 "$TARGET_DIR"/ip-full* \
+                 "$TARGET_DIR"/nftables* \
+                 "$TARGET_DIR"/xz-u* \
+                 "$TARGET_DIR"/unzip* \
+                 "$TARGET_DIR"/jsh* \
+                 "$TARGET_DIR"/json* \
+                 "$TARGET_DIR"/ip-* \
+                 "$TARGET_DIR"/zlib* 2>/dev/null || true
+
+      - name: Upload Artifacts to Action
+        if: steps.filter.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: packages-${{ matrix.arch }}-${{ matrix.ver }}
+          path: compiled_packages/*
+          retention-days: 1
+
+      - name: Upload Release Notes
+        if: steps.filter.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-notes-${{ matrix.arch }}-${{ matrix.ver }}
+          path: release_notes.txt
+          retention-days: 1
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v4
+        continue-on-error: true 
+        with:
+          path: all_artifacts
+
+      - name: Check if Artifacts Exist
+        id: check_files
+        run: |
+          if [ ! -d "all_artifacts" ] || [ -z "$(ls -A all_artifacts 2>/dev/null)" ]; then
+            echo "⚠️ No artifacts found. You skipped all builds. Aborting release."
+            echo "has_files=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_files=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Prepare Release Assets
+        id: prep
+        if: steps.check_files.outputs.has_files == 'true'
+        run: |
+          mkdir release_assets
+          
+          find all_artifacts/ -name "*.apk" -o -name "*.ipk" -exec mv -f {} release_assets/ \;
+          
+          find all_artifacts/ -name "release_notes.txt" | head -n 1 | xargs cat > final_release_notes.md
+          
+          echo "" >> final_release_notes.md
+          echo "### 🛠️ 编译环境说明 (Build Environment)" >> final_release_notes.md
+          
+          if [ "${{ inputs.build_24_10 }}" == "true" ]; then
+            echo "- **SDK 版本**: OpenWrt 24.10.x" >> final_release_notes.md
+          fi
+          if [ "${{ inputs.build_25_12 }}" == "true" ]; then
+            echo "- **SDK 版本**: OpenWrt 25.12.x" >> final_release_notes.md
+          fi
+          echo "- **支持架构**: 见包名后缀 (如 \`_x86-64-25.12.apk\` 代表 x86架构 + 25.12版本 SDK 编译)" >> final_release_notes.md
+          echo "- **语言包**: \`i18n\` 结尾的包为全架构通用，无需区分后缀。" >> final_release_notes.md
+          
+          if [ -z "${{ inputs.release_tag }}" ]; then
+            echo "TAG_NAME=pkg-$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          else
+            echo "TAG_NAME=${{ inputs.release_tag }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Publish to GitHub Releases
+        if: steps.check_files.outputs.has_files == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.prep.outputs.TAG_NAME }}
+          name: OpenWrt Custom Packages (${{ steps.prep.outputs.TAG_NAME }})
+          body_path: final_release_notes.md
+          files: release_assets/*

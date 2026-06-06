@@ -1,0 +1,33 @@
+Package: luci-app-wizard
+Version: 26.079.36352~0a6362a
+Depends: libc
+Source: feeds/base/custom_packages
+SourceName: luci-app-wizard
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1774001152
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wizard_26.079.36352~0a6362a_all.ipk
+Size: 3250
+SHA256sum: ea31e52e4c1835820c61e1b68e677aaaaf3b389ee0e2474a6b9525be0aa6cce0
+Description:  LuCI Support for wizard
+
+Package: luci-i18n-custom_packages-zh-cn
+Version: 26.079.36352~0a6362a
+Depends: libc, luci-app-wizard
+Source: feeds/base/custom_packages
+SourceName: luci-app-wizard
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1774001152
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-custom_packages-zh-cn_26.079.36352~0a6362a_all.ipk
+Size: 1988
+SHA256sum: 106426d82194c3a4ce4001d30513356821889735b249c275db73d8368bc192b9
+Description:  Translation for luci-app-wizard - 简体中文 (Simplified Chinese)
+

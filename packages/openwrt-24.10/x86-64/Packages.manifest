@@ -442,14 +442,14 @@ Depends: libc, luci-base, nikki
 Source: feeds/base/custom_packages/OpenWrt-nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781277605
+SourceDateEpoch: 1781323073
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.26.1-r1_all.ipk
-Size: 10523
-SHA256sum: 8596e96ab8c57c7f11014c660cc58e763d51264528b86246f2bb930fa0300906
+Size: 10521
+SHA256sum: c153660b8f91d98a1b72875b1b8be194da4d0958b68a3e81577c3bebea3e5f2a
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -626,22 +626,6 @@ Size: 5659
 SHA256sum: 407e5c66b788877b56138bdf6f065b20a0b06f171060111fc6538f28d686fb30
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
-Package: luci-i18n-base-zh-cn
-Version: 25.340.26705~d88390b
-Depends: libc, luci-base
-Source: feeds/luci/modules/luci-base
-SourceName: luci-base
-License: Apache-2.0
-LicenseFiles: LICENSE NOTICE
-Section: luci
-SourceDateEpoch: 1765005905
-Architecture: all
-Installed-Size: 143360
-Filename: luci-i18n-base-zh-cn_25.340.26705~d88390b_all.ipk
-Size: 59556
-SHA256sum: 6c715986564ece09cf38ef454316e56803c4fe21fe06997822a30fd10d2ed32b
-Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
-
 Package: luci-i18n-dae-zh-cn
 Version: 26.163.55205~b3127e9
 Depends: libc, luci-app-dae
@@ -745,17 +729,17 @@ SHA256sum: fc8c70ee530e3f768b9be23b38cde4096621ef7d89235a9869d485ff0d6ca36a
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.163.55205~b3127e9
+Version: 26.164.14273~f798144
 Depends: libc, luci-app-nikki
 Source: feeds/base/custom_packages/OpenWrt-nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781277605
+SourceDateEpoch: 1781323073
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.163.55205~b3127e9_all.ipk
-Size: 5274
-SHA256sum: 2d11192b0e07123a3a301ad870a2c8e63b013c9210ac4ac5ae95c2ef41637d2f
+Filename: luci-i18n-nikki-zh-cn_26.164.14273~f798144_all.ipk
+Size: 5278
+SHA256sum: 45b52dc16a7f058f5a759f641f5d42a21fd88959fca205cf23a2ed19c426b272
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
@@ -1039,7 +1023,7 @@ Description:  A SOCKS5 service that you can run on your remote boxes to tunnel c
  This version supports forwarding rules.
 
 Package: mihomo-alpha
-Version: 2026.06.11
+Version: 2026.06.12
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-meta
 Provides: mihomo
@@ -1048,14 +1032,14 @@ Source: feeds/base/custom_packages/OpenWrt-nikki/mihomo-alpha
 SourceName: mihomo-alpha
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781277605
+SourceDateEpoch: 1781323073
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 48035840
-Filename: mihomo-alpha_2026.06.11_x86_64.ipk
-Size: 17733721
-SHA256sum: 66be5d685843701dd0ebfd2a26a1457ae6d17db5d094c4b627a9cbb787540cb9
+Installed-Size: 48056320
+Filename: mihomo-alpha_2026.06.12_x86_64.ipk
+Size: 17734454
+SHA256sum: eaee5682ed6d6dc101e016ee67640e97ce96cad6ea59b10b4563285ff0767fdc
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -1068,14 +1052,14 @@ Source: feeds/base/custom_packages/OpenWrt-nikki/mihomo-meta
 SourceName: mihomo-meta
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781277605
+SourceDateEpoch: 1781323073
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 48025600
 Filename: mihomo-meta_1.19.27_x86_64.ipk
-Size: 17727345
-SHA256sum: 45ba2a92966ff4a8518b66b215cc28e319b3c1b7477bebfc928290b9e2eb2481
+Size: 17727575
+SHA256sum: 63d39d2c489d608c5bc676166194ba9609f0c5f1f400639c2b5cdc5ab288f0a9
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1484,14 +1468,14 @@ Source: feeds/base/custom_packages/OpenWrt-nikki/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781277605
+SourceDateEpoch: 1781323073
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_x86_64.ipk
-Size: 53230
-SHA256sum: 7317440ebecc027ccd95dc4aa16204186fda4976f5099b52669e5123a0b31c86
+Size: 53207
+SHA256sum: d1edab5aaa20526e6aaa89ebef57b50bf389ed45ca4d3ecb8357d9e3f36fc871
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile

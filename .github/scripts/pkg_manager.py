@@ -132,6 +132,12 @@ if __name__ == '__main__':
                                     configs.append("CONFIG_PACKAGE_lanspeedd-bpf=m")
                                     changed_pkgs.add("lanspeedd-bpf")
                                     print(f"✅ Auto-queued BPF extension: lanspeedd-bpf (from {rel_path})")
+                                
+                                # 自动追加 smartdns-ui
+                                if p == "smartdns":
+                                    configs.append("CONFIG_PACKAGE_smartdns-ui=m")
+                                    changed_pkgs.add("smartdns-ui")
+                                    print(f"✅ Auto-queued UI extension: smartdns-ui (from {rel_path})")
 
         with open('/tmp/changed_pkgs.txt', 'w') as f: f.write('\n'.join(changed_pkgs))
         with open(out_config, 'a') as f: f.write('\n'.join(configs) + '\n')
@@ -139,9 +145,6 @@ if __name__ == '__main__':
         os.makedirs(os.path.dirname(new_state_file), exist_ok=True)
         with open(new_state_file, 'w') as f: json.dump(new_state, f, indent=2)
 
-    # ==========================================
-    # 模式 2：解析 apk/ipk 并生成覆盖和删除清单
-    # ==========================================
     elif mode == 'plan_sync':
         if len(sys.argv) < 4:
             sys.exit("Usage: python3 pkg_manager.py plan_sync <new_pkgs_list> <dest_dir>")

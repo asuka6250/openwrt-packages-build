@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Index of / - OpenWrt Packages</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231890ff'/><text x='50' y='72' font-size='65' font-family='Arial, sans-serif' font-style='italic' font-weight='bold' fill='white' text-anchor='middle'>O</text></svg>">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        
+        :root { --bg: #ffffff; --text: #333333; --muted: #737373; --primary: #0366d6; --border: #e1e4e8; --hover: #f6f8fa; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.5; overflow-x: hidden; }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; }
+        
+        .toolbar { display: flex; align-items: center; justify-content: flex-start; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+        .breadcrumb { font-size: 20px; font-weight: 500; color: var(--muted); display: flex; align-items: center; gap: 6px; flex-grow: 1; min-width: 0; }
+        .breadcrumb a { color: var(--primary); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .home-icon { width: 22px; height: 22px; fill: var(--muted); transition: fill 0.2s; flex-shrink: 0; }
+        .home-icon:hover { fill: var(--primary); }
+        
+        .search-box-wrapper { position: relative; width: 300px; max-width: 100%; flex-shrink: 0; }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; fill: var(--muted); }
+        .search-box { width: 100%; padding: 8px 12px 8px 32px; border: 1px solid var(--border); border-radius: 20px; font-size: 14px; outline: none; transition: all 0.2s; background: #fafbfc; }
+        .search-box:focus { border-color: var(--primary); background: #fff; box-shadow: 0 0 0 3px rgba(3,102,214,0.1); }
+        
+        .table-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 6px; border: 1px solid var(--border); }
+        table { width: 100%; border-collapse: collapse; table-layout: fixed; font-variant-numeric: tabular-nums; min-width: 300px; }
+        
+        th:nth-child(1) { width: auto; }
+        th:nth-child(2) { width: 160px; }
+        th:nth-child(3) { width: 100px; text-align: right; }
+        th:nth-child(4) { width: 100px; text-align: center; }
+
+        th { text-align: left; padding: 10px 16px; background: #f6f8fa; color: #586069; font-size: 14px; font-weight: 600; cursor: pointer; user-select: none; border-bottom: 1px solid var(--border); transition: background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        th:not(.no-sort):hover { background: #e1e4e8; color: var(--text); }
+        th .sort-indicator { display: inline-block; width: 14px; text-align: center; font-weight: normal; font-size: 12px; margin-left: 2px; }
+        
+        td { padding: 10px 16px; border-bottom: 1px solid var(--border); font-size: 14px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        th:nth-child(4), td:nth-child(4) { overflow: visible; text-overflow: clip; }
+
+        tr:hover td { background-color: var(--hover); }
+        
+        .item-name { display: flex; align-items: center; gap: 8px; width: 100%; overflow: hidden; }
+        .item-name a { color: var(--primary); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+        .item-name a:hover { text-decoration: underline; }
+        
+        .icon { width: 18px; height: 18px; flex-shrink: 0; }
+        .action-link { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 4px; color: var(--muted); transition: background 0.2s, color 0.2s; text-decoration: none; }
+        .action-link:hover { background: #e1e4e8; color: var(--primary); }
+        .action-icon { width: 18px; height: 18px; fill: currentColor; }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .toolbar { flex-direction: column; align-items: stretch; gap: 10px; margin-bottom: 10px; }
+            .breadcrumb { font-size: 16px; }
+            
+            th:nth-child(2) { width: 125px; } 
+            th:nth-child(3) { width: 70px; }  
+            th:nth-child(4) { width: 65px; }  
+            
+            th, td { padding: 10px 6px; font-size: 12px; }
+            th { font-size: 12px; }
+            
+            .icon { width: 16px; height: 16px; gap: 4px; }
+            .action-link { width: 24px; height: 24px; }
+            .action-icon { width: 16px; height: 16px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="toolbar">
+        <div class="breadcrumb" id="breadcrumb"></div>
+        <div class="search-box-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="text" id="searchBox" class="search-box" placeholder="Filter..." oninput="renderTableBody()">
+        </div>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortData('name', this)">Name<span class="sort-indicator">⇅</span></th>
+                    <th onclick="sortData('time', this)">Last Modified<span class="sort-indicator">⇅</span></th>
+                    <th onclick="sortData('size', this)">Size<span class="sort-indicator">⇅</span></th>
+                    <th class="no-sort" style="text-align: center;">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="file-list"></tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+const currentData = [
+    { type: 'file', name: 'adguardhome-0.107.74-r1.apk', size: 10848203, time: 1781318256 },
+    { type: 'file', name: 'bash-completion-2.17.0-r1.apk', size: 252783, time: 1781318256 },
+    { type: 'file', name: 'chinadns-ng-2025.08.09-r1.apk', size: 270145, time: 1781318256 },
+    { type: 'file', name: 'cpufreq-1.apk', size: 2143, time: 1781318256 },
+    { type: 'file', name: 'dae-2026.05.06-r1.apk', size: 11177759, time: 1781318256 },
+    { type: 'file', name: 'daed-2026.04.27-r1.apk', size: 21408320, time: 1781318256 },
+    { type: 'file', name: 'dns2socks-2.1-r2.apk', size: 11713, time: 1781318256 },
+    { type: 'file', name: 'dns2tcp-1.1.2-r1.apk', size: 11334, time: 1781318256 },
+    { type: 'file', name: 'geoview-0.2.6-r1.apk', size: 2729378, time: 1781318256 },
+    { type: 'file', name: 'hysteria-2.9.2-r1.apk', size: 7172003, time: 1781318256 },
+    { type: 'file', name: 'index.json', size: 4546, time: 1781318256 },
+    { type: 'file', name: 'ipt2socks-1.1.4-r3.apk', size: 26278, time: 1781318256 },
+    { type: 'file', name: 'lanspeedd-0.1.7-r1.apk', size: 57925, time: 1781318256 },
+    { type: 'file', name: 'lanspeedd-bpf-0.1.7-r1.apk', size: 14625, time: 1781318256 },
+    { type: 'file', name: 'lua-neturl-1.2.1-r1.apk', size: 5153, time: 1781318256 },
+    { type: 'file', name: 'luci-app-adguardhome-26.163.55205~b3127e9.apk', size: 20513, time: 1781318256 },
+    { type: 'file', name: 'luci-app-argon-config-1.0-r20230608.apk', size: 4067, time: 1781318256 },
+    { type: 'file', name: 'luci-app-arpbind-26.163.55205~b3127e9.apk', size: 2897, time: 1781318256 },
+    { type: 'file', name: 'luci-app-aurora-config-0.4.0-r20260531.apk', size: 57466, time: 1781318256 },
+    { type: 'file', name: 'luci-app-cpufreq-26.163.55205~b3127e9.apk', size: 2269, time: 1781318256 },
+    { type: 'file', name: 'luci-app-dae-26.163.55205~b3127e9.apk', size: 3323, time: 1781318256 },
+    { type: 'file', name: 'luci-app-daed-26.163.55205~b3127e9.apk', size: 3103, time: 1781318256 },
+    { type: 'file', name: 'luci-app-homeproxy-26.163.55205~b3127e9.apk', size: 607328, time: 1781318256 },
+    { type: 'file', name: 'luci-app-kucat-config-2.2.1-r20260312.apk', size: 17217, time: 1781318256 },
+    { type: 'file', name: 'luci-app-lanspeed-0.1.7-r1.apk', size: 33702, time: 1781318256 },
+    { type: 'file', name: 'luci-app-lucky-3.0.3-r1.apk', size: 5432, time: 1781318256 },
+    { type: 'file', name: 'luci-app-momo-1.2.1-r1.apk', size: 8043, time: 1781318256 },
+    { type: 'file', name: 'luci-app-mosdns-1.7.4-r1.apk', size: 106590, time: 1781318256 },
+    { type: 'file', name: 'luci-app-nikki-1.26.1-r1.apk', size: 10649, time: 1781318256 },
+    { type: 'file', name: 'luci-app-openclash-0.47.097.apk', size: 8017340, time: 1781318256 },
+    { type: 'file', name: 'luci-app-passwall-26.6.2-r1.apk', size: 858153, time: 1781318256 },
+    { type: 'file', name: 'luci-app-passwall2-26.6.3-r1.apk', size: 339871, time: 1781318256 },
+    { type: 'file', name: 'luci-app-quickfile-1.0.0-r1.apk', size: 1478, time: 1781318256 },
+    { type: 'file', name: 'luci-app-smartdns-1.2025.47.2-r2.apk', size: 11023, time: 1781318256 },
+    { type: 'file', name: 'luci-app-ssr-plus-193-r23.apk', size: 483696, time: 1781318256 },
+    { type: 'file', name: 'luci-app-ua2f-26.163.55205~b3127e9.apk', size: 2197, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-adguardhome-zh-cn-26.163.55205~b3127e9.apk', size: 2221, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-argon-config-zh-cn-26.163.55205~b3127e9.apk', size: 2003, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-arpbind-zh-cn-26.163.55205~b3127e9.apk', size: 1219, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-aurora-config-zh-cn-26.163.55205~b3127e9.apk', size: 5405, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-base-zh-cn-26.133.20346~e9ebca7.apk', size: 62755, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-cpufreq-zh-cn-26.163.55205~b3127e9.apk', size: 1483, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-dae-zh-cn-26.163.55205~b3127e9.apk', size: 1541, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-daed-zh-cn-26.163.55205~b3127e9.apk', size: 1430, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-homeproxy-zh-cn-26.163.55205~b3127e9.apk', size: 13570, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-kucat-config-zh-cn-26.163.55205~b3127e9.apk', size: 3575, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-lucky-zh-cn-26.163.55205~b3127e9.apk', size: 1473, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-momo-zh-cn-26.163.55205~b3127e9.apk', size: 3284, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-mosdns-zh-cn-26.163.55205~b3127e9.apk', size: 5256, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-nikki-zh-cn-26.163.55205~b3127e9.apk', size: 5038, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-passwall-zh-cn-26.6.2.apk', size: 17747, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-passwall2-zh-cn-26.6.3.apk', size: 19656, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-quickfile-zh-cn-26.163.55205~b3127e9.apk', size: 991, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-smartdns-zh-cn-26.163.55205~b3127e9.apk', size: 6952, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-ssr-plus-zh-cn-26.163.55205~b3127e9.apk', size: 13703, time: 1781318256 },
+    { type: 'file', name: 'luci-i18n-ua2f-zh-cn-26.163.55205~b3127e9.apk', size: 1410, time: 1781318256 },
+    { type: 'file', name: 'luci-lua-runtime-26.133.20346~e9ebca7.apk', size: 31513, time: 1781318256 },
+    { type: 'file', name: 'luci-nginx-26.133.20346~e9ebca7.apk', size: 920, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-argon-2.4.3-r20250722.apk', size: 399583, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-aurora-0.12.7-r20260612.apk', size: 818464, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-design-7.1-r20260411.apk', size: 314306, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-kucat-3.3.2-r20260329.apk', size: 910801, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-material3-26.163.55205~b3127e9.apk', size: 40426, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-shadcn-0.1.4-r20260606.apk', size: 1778932, time: 1781318256 },
+    { type: 'file', name: 'luci-theme-tp-26.163.55205~b3127e9.apk', size: 888190, time: 1781318256 },
+    { type: 'file', name: 'lucky-2.27.2-r2.apk', size: 9272396, time: 1781318256 },
+    { type: 'file', name: 'microsocks-1.0.5-r2.apk', size: 8683, time: 1781318256 },
+    { type: 'file', name: 'mihomo-alpha-2026.06.11.apk', size: 15817083, time: 1781318256 },
+    { type: 'file', name: 'mihomo-meta-1.19.27.apk', size: 15814222, time: 1781318256 },
+    { type: 'file', name: 'momo-2026.06.03-r1.apk', size: 49580, time: 1781318256 },
+    { type: 'file', name: 'mosdns-5.3.4-r5.apk', size: 6641336, time: 1781318256 },
+    { type: 'file', name: 'naiveproxy-148.0.7778.96-r5.apk', size: 5200562, time: 1781318256 },
+    { type: 'file', name: 'nginx-full-1.30.2-r1.apk', size: 469770, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-brotli-1.30.2-r1.apk', size: 295455, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-dav-ext-1.30.2-r1.apk', size: 10877, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-geoip2-1.30.2-r1.apk', size: 10589, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-headers-more-1.30.2-r1.apk', size: 9201, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-lua-1.30.2-r1.apk', size: 137994, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-lua-resty-core-1.30.2-r1.apk', size: 36344, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-lua-resty-lrucache-1.30.2-r1.apk', size: 8402, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-luci-1.30.2-r1.apk', size: 1654, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-naxsi-1.30.2-r1.apk', size: 85643, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-njs-1.30.2-r1.apk', size: 321068, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-rtmp-1.30.2-r1.apk', size: 112296, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-stream-1.30.2-r1.apk', size: 69005, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-ts-1.30.2-r1.apk', size: 22195, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-ubus-1.30.2-r1.apk', size: 9239, time: 1781318256 },
+    { type: 'file', name: 'nginx-mod-zstd-1.30.2-r1.apk', size: 9899, time: 1781318256 },
+    { type: 'file', name: 'nginx-ssl-1.30.2-r1.apk', size: 406791, time: 1781318256 },
+    { type: 'file', name: 'nginx-ssl-util-1.7-r2.apk', size: 55596, time: 1781318256 },
+    { type: 'file', name: 'nginx-ssl-util-nopcre-1.7-r2.apk', size: 82562, time: 1781318256 },
+    { type: 'file', name: 'nikki-2026.04.08-r1.apk', size: 53231, time: 1781318256 },
+    { type: 'file', name: 'packages.adb', size: 20407, time: 1781318256 },
+    { type: 'file', name: 'quickfile-1.0.24-r1.apk', size: 5138882, time: 1781318256 },
+    { type: 'file', name: 'shadow-tls-0.2.25-r1.apk', size: 1548232, time: 1781318256 },
+    { type: 'file', name: 'shadowsocks-rust-sslocal-1.24.0-r1.apk', size: 3576803, time: 1781318256 },
+    { type: 'file', name: 'shadowsocks-rust-ssserver-1.24.0-r1.apk', size: 2736311, time: 1781318256 },
+    { type: 'file', name: 'shadowsocksr-libev-ssr-local-2.5.6-r11.apk', size: 64084, time: 1781318256 },
+    { type: 'file', name: 'shadowsocksr-libev-ssr-redir-2.5.6-r11.apk', size: 56555, time: 1781318256 },
+    { type: 'file', name: 'shadowsocksr-libev-ssr-server-2.5.6-r11.apk', size: 67146, time: 1781318256 },
+    { type: 'file', name: 'simple-obfs-client-0.0.5-r3.apk', size: 31999, time: 1781318256 },
+    { type: 'file', name: 'simple-obfs-server-0.0.5-r3.apk', size: 34531, time: 1781318256 },
+    { type: 'file', name: 'sing-box-1.13.13-r1.apk', size: 15960420, time: 1781318256 },
+    { type: 'file', name: 'smartdns-48-r3.apk', size: 247598, time: 1781318256 },
+    { type: 'file', name: 'smartdns-ui-48-r3.apk', size: 6517690, time: 1781318256 },
+    { type: 'file', name: 'tcping-0.3-r1.apk', size: 4288, time: 1781318256 },
+    { type: 'file', name: 'ua2f-4.10.2-r1.apk', size: 101375, time: 1781318256 },
+    { type: 'file', name: 'v2dat-2022.12.15~47b8ee51-r4.apk', size: 3209741, time: 1781318256 },
+    { type: 'file', name: 'v2ray-geoip-202606040101.1.apk', size: 4039057, time: 1781318256 },
+    { type: 'file', name: 'v2ray-geosite-202606032327.1.apk', size: 3426912, time: 1781318256 },
+    { type: 'file', name: 'v2ray-plugin-5.49.0-r1.apk', size: 5940694, time: 1781318256 },
+    { type: 'file', name: 'vmlinux-btf-6.12.87-r6.apk', size: 1086264, time: 1781318256 },
+    { type: 'file', name: 'xray-core-26.6.1-r1.apk', size: 10971618, time: 1781318256 },
+    { type: 'file', name: 'xray-plugin-1.8.24-r1.apk', size: 6734013, time: 1781318256 },
+];
+
+// 纯小写完美排序
+currentData.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
+    const nameA = a.name.toLowerCase();
+    const nameB = b.name.toLowerCase();
+    if (nameA < nameB) return -1;
+    if (nameA > nameB) return 1;
+    return 0;
+});
+
+currentData.forEach((item, index) => item.originalIndex = index);
+
+let sortStates = { name: 0, time: 0, size: 0 };
+let currentSortKey = null;
+
+// 精准定制专属的证书与公钥图标
+const icons = {
+    home: `<svg class="home-icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>`,
+    folder: `<svg class="icon" viewBox="0 0 24 24" fill="#79b8ff"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>`,
+    apk: `<svg class="icon" viewBox="0 0 24 24" fill="#ffab70"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18-.21 0-.41-.06-.57-.18l-7.9-4.44A.991.991 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18.21 0 .41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9M12 4.15L6.04 7.5 12 10.85l5.96-3.35L12 4.15M5 15.91l6 3.38v-6.71L5 9.19v6.72m14 0v-6.72l-6 3.39v6.71l6-3.38z"/></svg>`,
+    document: `<svg class="icon" viewBox="0 0 24 24" fill="#959da5"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>`,
+    archive: `<svg class="icon" viewBox="0 0 24 24" fill="#e1e4e8"><path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-1 8h-3v3h-2v-3h-3v-2h3V9h2v3h3v2z"/></svg>`,
+    pem: `<svg class="icon" viewBox="0 0 24 24" fill="#586069"><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M19,19H5V5h14V19z"/><path d="M7,7h10v2H7V7z"/><path d="M7,11h7v2H7V11z"/><path d="M15.5,13c-1.38,0-2.5,1.12-2.5,2.5c0,0.85,0.43,1.6,1.08,2.06L13.5,21l2-1l2,1l-0.58-3.44c0.65-0.46,1.08-1.21,1.08-2.06 C18,14.12,16.88,13,15.5,13z M15.5,16.5c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S16.05,16.5,15.5,16.5z"/></svg>`,
+    pub: `<svg class="icon" viewBox="0 0 24 24" fill="#586069"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>`,
+    download: `<svg class="action-icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>`
+};
+
+function formatSize(item) {
+    if (item.type === 'folder') return item.size === 1 ? '1 item' : item.size + ' items';
+    if (item.size === 0 || isNaN(item.size)) return '-';
+    const i = Math.floor(Math.log(item.size) / Math.log(1024));
+    return parseFloat((item.size / Math.pow(1024, i)).toFixed(1)) + ' ' + ['B', 'KB', 'MB', 'GB'][i];
+}
+
+function formatDate(ts) {
+    if (!ts) return '-';
+    const d = new Date(ts * 1000);
+    const p = n => n.toString().padStart(2, '0');
+    return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+function renderBreadcrumbs() {
+    const pathParts = window.location.pathname.split('/').filter(p => p);
+    let bcHtml = `<a href="/" title="Home">${icons.home}</a>`;
+    let currPath = '/';
+    let docTitle = 'Index of /';
+
+    pathParts.forEach((part, index) => {
+        currPath += part + '/';
+        bcHtml += ` / <a href="${currPath}">${decodeURIComponent(part)}</a>`;
+        docTitle += decodeURIComponent(part) + '/';
+    });
+
+    document.getElementById('breadcrumb').innerHTML = bcHtml;
+    document.title = docTitle + ' - OpenWrt Packages';
+    return pathParts.length > 0;
+}
+
+const isSubdir = renderBreadcrumbs();
+
+function sortData(key, thElement) {
+    document.querySelectorAll('th:not(.no-sort) .sort-indicator').forEach(span => span.innerHTML = '⇅');
+    document.querySelectorAll('th').forEach(th => th.classList.remove('active'));
+
+    if (currentSortKey !== key) {
+        if (currentSortKey) sortStates[currentSortKey] = 0;
+        currentSortKey = key;
+    }
+
+    sortStates[key] = (sortStates[key] + 1) % 3;
+    
+    let iconStr = '⇅';
+    if (sortStates[key] === 1) iconStr = '↓';
+    else if (sortStates[key] === 2) iconStr = '↑';
+    
+    thElement.querySelector('.sort-indicator').innerHTML = iconStr;
+
+    if (sortStates[key] === 0) {
+        thElement.classList.remove('active');
+        currentData.sort((a, b) => a.originalIndex - b.originalIndex);
+    } else {
+        thElement.classList.add('active');
+        let sortAsc = sortStates[key] === 1;
+        
+        currentData.sort((a, b) => {
+            if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
+            let valA = a[key], valB = b[key];
+            if (key === 'name') {
+                const nameA = valA.toLowerCase();
+                const nameB = valB.toLowerCase();
+                if (sortAsc) return nameA < nameB ? -1 : (nameA > nameB ? 1 : 0);
+                else return nameA > nameB ? -1 : (nameA < nameB ? 1 : 0);
+            }
+            return sortAsc ? valA - valB : valB - valA;
+        });
+    }
+    renderTableBody();
+}
+
+function renderTableBody() {
+    const searchTerm = document.getElementById('searchBox').value.toLowerCase().trim();
+    const tbody = document.getElementById('file-list');
+    let html = '';
+
+    if (isSubdir && searchTerm === '') {
+        html += `
+        <tr>
+            <td><div class="item-name">${icons.folder} <a href="../">..</a></div></td>
+            <td>-</td>
+            <td style="text-align:right;">-</td>
+            <td style="text-align:center;">-</td>
+        </tr>`;
+    }
+
+    const filtered = currentData.filter(item => item.name.toLowerCase().includes(searchTerm));
+
+    if (filtered.length === 0 && currentData.length > 0) {
+        html += '<tr><td colspan="4" style="text-align:center; color:var(--muted); padding:30px; white-space: normal;">未找到文件</td></tr>';
+    }
+
+    // 将 pem, pub, key 加入可预览文本列表，点击直接浏览器打开而不是弹窗下载
+    const viewableExts = ['txt', 'json', 'yaml', 'yml', 'sh', 'conf', 'log', 'md', 'csv', 'xml', 'ini', 'pem', 'pub', 'key'];
+
+    filtered.forEach(item => {
+        if (item.type === 'folder') {
+            html += `
+            <tr>
+                <td><div class="item-name">${icons.folder} <a href="${item.name}/" title="${item.name}">${item.name}</a></div></td>
+                <td>${formatDate(item.time)}</td>
+                <td style="text-align:right;">${formatSize(item)}</td>
+                <td style="text-align:center;">-</td>
+            </tr>`;
+        } else {
+            const ext = item.name.includes('.') ? item.name.split('.').pop().toLowerCase() : '';
+            const isViewable = viewableExts.includes(ext) || ext === '';
+
+            // 🌟 核心修改：精确匹配后缀来应用新图标
+            let iconHtml = icons.archive;
+            if (ext === 'pem') iconHtml = icons.pem;
+            else if (ext === 'pub' || ext === 'key') iconHtml = icons.pub;
+            else if (isViewable) iconHtml = icons.document;
+            else if (ext === 'apk' || ext === 'ipk') iconHtml = icons.apk;
+
+            const attr = isViewable ? '' : 'download';
+
+            html += `
+            <tr>
+                <td><div class="item-name">${iconHtml} <a href="${item.name}" ${attr} title="${item.name}">${item.name}</a></div></td>
+                <td>${formatDate(item.time)}</td>
+                <td style="text-align:right;">${formatSize(item)}</td>
+                <td style="text-align:center;"><a href="${item.name}" download class="action-link" title="Download">${icons.download}</a></td>
+            </tr>`;
+        }
+    });
+
+    tbody.innerHTML = html;
+}
+
+renderTableBody();
+</script>
+</body>
+</html>

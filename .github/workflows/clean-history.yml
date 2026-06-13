@@ -1,0 +1,33 @@
+name: Auto Clean Git History
+
+on:
+  schedule:
+    - cron: '53 22 2,12,22 * *'
+  workflow_dispatch: 
+
+concurrency:
+  group: git-repo-update
+  cancel-in-progress: false 
+
+permissions:
+  contents: write 
+
+jobs:
+  clean-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1 
+
+      - name: Clean Git History and Force Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m "chore: Auto clean history [$(date +'%Y-%m-%d')]"
+          git branch -D master
+          git branch -m master
+          git push -f origin master

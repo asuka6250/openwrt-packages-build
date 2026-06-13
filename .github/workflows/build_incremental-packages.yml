@@ -1,0 +1,498 @@
+name: Build OpenWrt Packages (Incremental)
+
+on:
+  schedule:
+    - cron: '22 4,16 * * *'
+  workflow_dispatch:
+  
+#concurrency:
+  #group: git-repo-update
+  #cancel-in-progress: false
+  
+env:
+  UPSTREAM_REPO: "https://github.com/asuka6250/openwrt-packages.git"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  check-cache:
+    name: Check Upstream Updates
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write 
+    outputs:
+      cache-hit: ${{ steps.cache-hash.outputs.cache-hit }}
+    steps:
+      - name: Fetch Upstream Commit Hash
+        id: get-hash
+        run: |
+          REMOTE_HASH=$(git ls-remote ${{ env.UPSTREAM_REPO }} HEAD | awk '{print $1}')
+          
+          if [ -z "$REMOTE_HASH" ]; then
+            echo "❌ Error: Failed to fetch upstream commit hash!"
+            exit 1
+          fi
+          
+          echo "hash=$REMOTE_HASH" >> $GITHUB_OUTPUT
+          echo "Upstream Latest Hash: $REMOTE_HASH"
+
+      - name: Check GitHub Cache
+        id: cache-hash
+        uses: actions/cache@v5
+        with:
+          path: .upstream_cache_marker
+          key: upstream-pkg-${{ steps.get-hash.outputs.hash }}
+
+      - name: Create Marker on Cache Miss
+        if: steps.cache-hash.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p .upstream_cache_marker
+          echo "${{ steps.get-hash.outputs.hash }}" > .upstream_cache_marker/hash.txt
+
+      - name: Clean Up Old Caches
+        if: steps.cache-hash.outputs.cache-hit != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          echo "🧹 Cleaning up old hash caches to free up storage..."
+          keys=$(gh cache list -R $REPO --limit 100 | grep "upstream-pkg-" | awk '{print $2}' || true)
+          
+          for key in $keys; do
+            if [ -n "$key" ]; then
+              echo "🗑️ Deleting old cache: $key"
+              gh cache delete "$key" -R $REPO || true
+            fi
+          done
+          echo "✨ Cache cleanup complete!"
+
+  build-packages:
+    name: ${{ matrix.arch }} (${{ matrix.ver }})
+    needs: check-cache
+    if: needs.check-cache.outputs.cache-hit != 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+      actions: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # ==========================================
+          # 24.10.x
+          # ==========================================
+          - arch: "aarch64_cortex-a53"
+            ver: "24.10"
+            target_path: "mediatek/filogic" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/mediatek/filogic/openwrt-sdk-24.10.5-mediatek-filogic_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a72"
+            ver: "24.10"
+            target_path: "bcm27xx/bcm2711" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/bcm27xx/bcm2711/openwrt-sdk-24.10.5-bcm27xx-bcm2711_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a76"
+            ver: "24.10"
+            target_path: "bcm27xx/bcm2712" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/bcm27xx/bcm2712/openwrt-sdk-24.10.5-bcm27xx-bcm2712_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+          
+          - arch: "aarch64_generic"
+            ver: "24.10"
+            target_path: "rockchip/armv8" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/rockchip/armv8/openwrt-sdk-24.10.5-rockchip-armv8_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "x86-64"
+            ver: "24.10"
+            target_path: "x86/64" 
+            url_sdk: "https://downloads.openwrt.org/releases/24.10.5/targets/x86/64/openwrt-sdk-24.10.5-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst"
+
+          # ==========================================
+          # 25.12.x
+          # ==========================================
+          - arch: "aarch64_cortex-a53"
+            ver: "25.12"
+            target_path: "qualcommax/ipq60xx" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/qualcommax/ipq60xx/openwrt-sdk-25.12.4-qualcommax-ipq60xx_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a72"
+            ver: "25.12"
+            target_path: "bcm27xx/bcm2711" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2711/openwrt-sdk-25.12.4-bcm27xx-bcm2711_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "aarch64_cortex-a76"
+            ver: "25.12"
+            target_path: "bcm27xx/bcm2712" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2712/openwrt-sdk-25.12.4-bcm27xx-bcm2712_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+          
+          - arch: "aarch64_generic"
+            ver: "25.12"
+            target_path: "rockchip/armv8" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/rockchip/armv8/openwrt-sdk-25.12.4-rockchip-armv8_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+          - arch: "x86-64"
+            ver: "25.12"
+            target_path: "x86/64" 
+            url_sdk: "https://downloads.openwrt.org/releases/25.12.4/targets/x86/64/openwrt-sdk-25.12.4-x86-64_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        continue-on-error: true
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      - name: Checkout Public Repository
+        uses: actions/checkout@v4
+        with:
+          path: main-repo
+          fetch-depth: 1
+          ref: ${{ github.ref_name }}
+
+      - name: Restore Global Upstream State
+        uses: actions/cache@v5
+        with:
+          path: global-state/upstream_commit.json
+          key: upstream-commit-${{ github.run_id }}
+          restore-keys: |
+            upstream-commit-
+            
+      - name: Prepare State File
+        run: |
+          mkdir -p $GITHUB_WORKSPACE/global-state
+          if [ ! -f "$GITHUB_WORKSPACE/global-state/upstream_commit.json" ]; then
+            echo "{}" > "$GITHUB_WORKSPACE/global-state/upstream_commit.json"
+          fi
+
+      - name: Install Compilation Dependencies
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          docker rmi `docker images -q` || true 
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /etc/mysql /etc/php || true 
+          sudo -E apt-get -y purge azure-cli* docker* ghc* zulu* hhvm* llvm* firefox* google* dotnet* aspnetcore* powershell* openjdk* adoptopenjdk* mysql* php* mongodb* moby* snap* || true
+          sudo -E apt-get -qq update
+          sudo -E apt-get -qq install build-essential clang flex bison g++ gawk gcc-multilib g++-multilib \
+          gettext git libncurses5-dev libssl-dev python3-setuptools swig zlib1g-dev libelf-dev \
+          unzip zlib1g-dev file python3 python3-pip python3-pyelftools rsync subversion wget bzip2 patch \
+          libncursesw5-dev libsqlite3-dev libxml2-dev libxslt1-dev zlib1g-dev libffi-dev \
+          libc6-dev-i386 lib32z1-dev lib32ncurses-dev lib32stdc++6 dwarves llvm libcap-dev \
+          antlr3 gperf genisoimage p7zip p7zip-full rename qemu-utils rsync proxychains-ng zstd
+          sudo timedatectl set-timezone Asia/Shanghai
+
+      - name: Download and Extract OpenWrt SDK
+        run: |
+          wget -O sdk.tar.zst ${{ matrix.url_sdk }}
+          mkdir -p openwrt-sdk
+          tar -I zstd -xf sdk.tar.zst -C openwrt-sdk --strip-components=1
+          rm sdk.tar.zst
+
+      - name: Clone Custom Packages
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk/package
+          git clone --depth 1 ${{ env.UPSTREAM_REPO }} custom_packages
+          git clone --depth 1 -b lang  ${{ env.UPSTREAM_REPO }} rust-bindgen
+          
+      - name: Update Feeds and Configure Components
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          sed -i 's/https:\/\/git.openwrt.org\/feed/https:\/\/github.com\/openwrt/g' feeds.conf.default
+          sed -i 's/https:\/\/git.openwrt.org\/project/https:\/\/github.com\/openwrt/g' feeds.conf.default
+          
+          ./scripts/feeds update -a &>/dev/null
+          rm -rf feeds/packages/net/nginx
+          rm -rf feeds/packages/net/{xray-core,v2ray-geodata,sing-box,chinadns-ng,dns2socks,hysteria,ipt2socks,microsocks,naiveproxy,shadowsocks-rust,shadowsocksr-libev,simple-obfs,tcping,v2ray-plugin,xray-plugin,geoview,shadow-tls}
+          mv feeds/packages/lang/{golang,rust} /tmp/ 2>/dev/null || true
+          git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang || (rm -rf feeds/packages/lang/golang; mv -v /tmp/golang feeds/packages/lang/)
+          git clone https://github.com/sbwml/packages_lang_rust feeds/packages/lang/rust || (rm -rf feeds/packages/lang/rust; mv -v /tmp/rust feeds/packages/lang/)
+          ./scripts/feeds install -a &>/dev/null
+          
+          mkdir -p feeds/base
+          ln -sf ../../package/custom_packages feeds/base/custom_packages ||echo 'link custom_packages fail'
+          ln -sf ../../package/rust-bindgen feeds/base/rust-bindgen ||echo 'link rust-bindgen fail'
+          make defconfig 2>/dev/null
+
+          sed -i 's/^\(CONFIG_PACKAGE_.*\)=m$/# \1 is not set/' .config
+          
+          echo "CONFIG_ALL_NONSHARED=n" >> .config
+          echo "CONFIG_ALL_KMODS=n" >> .config
+          echo "CONFIG_ALL=n" >> .config
+          echo "CONFIG_AUTOREMOVE=n" >> .config
+          make defconfig 2>/dev/null
+
+      - name: Pre-download Linux Kernel Source (Dynamic Version)
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          echo "==== Step 1: 尝试动态提取 SDK 内核版本 ===="
+          LINUX_VERSION=$(printf "TOPDIR:=.\nINCLUDE_DIR:=./include\ninclude rules.mk\ninclude include/target.mk\ninclude include/kernel.mk\nall:\n\t@echo \$(LINUX_VERSION)\n" | make -s -f - 2>/dev/null) || true
+          
+          if [ -z "$LINUX_VERSION" ]; then
+            echo "⚠️ Warning: 无法获取内核版本（这在某些不包含内核源码树的轻量级 SDK 中是正常的）。"
+            echo "⏭️ 跳过内核源码下载，继续编译其他非内核依赖包..."
+          else
+            echo "=> 成功获取！当前 SDK 依赖的内核版本为: ${LINUX_VERSION}"
+
+            echo "==== Step 2: 拼接 Kernel.org 下载链接 ===="
+            KERNEL_MAJOR=$(echo ${LINUX_VERSION} | cut -d. -f1)
+            DOWNLOAD_URL="https://cdn.kernel.org/pub/linux/kernel/v${KERNEL_MAJOR}.x/linux-${LINUX_VERSION}.tar.xz"
+            echo "=> 下载链接: ${DOWNLOAD_URL}"
+
+            echo "==== Step 3: 执行下载 ===="
+            mkdir -p dl
+            wget -q --show-progress "${DOWNLOAD_URL}" -O dl/linux-${LINUX_VERSION}.tar.xz || echo "⚠️ Warning: wget 下载内核失败，将继续执行后续任务。"
+            
+            echo "=> 检查文件:"
+            ls -lh dl/linux-${LINUX_VERSION}.tar.xz || true
+          fi
+          
+      - name: Python Engine - Incremental Scan
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          > $GITHUB_WORKSPACE/build_pkg_list.txt
+          
+          python3 $GITHUB_WORKSPACE/main-repo/.github/scripts/pkg_manager.py check \
+            package/custom_packages \
+            "$GITHUB_WORKSPACE/global-state/upstream_commit.json" \
+            .config \
+            $GITHUB_WORKSPACE/build_pkg_list.txt \
+            /tmp/new_upstream_commit.json
+            
+          make defconfig 2>/dev/null 
+          echo "CONFIG_LUCI_LANG_zh_Hans=y" >> .config
+          sed -i 's/^# \(CONFIG_PACKAGE_[a-zA-Z0-9_-]*nginx[a-zA-Z0-9_-]*\) is not set$/\1=m/' .config
+          make defconfig 2>/dev/null
+
+      - name: Compile Packages (APK/IPK)
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          touch /tmp/build_start
+          
+          if [ -s "$GITHUB_WORKSPACE/build_pkg_list.txt" ]; then
+            while IFS=':' read -r pkg_path pkg_name; do
+              echo "🔨 Compiling target: $pkg_path"
+              make "$pkg_path/compile" -j$(($(nproc) + 1)) IGNORE_ERRORS=1 -k 2>/dev/null | grep -v -E "(Entering|Leaving) directory.*/scripts/config|'conf' is up to date|^#$|No change to \.config" || true
+            done < "$GITHUB_WORKSPACE/build_pkg_list.txt"
+          else
+            echo "💤 源码无变动，跳过编译步骤。"
+          fi
+
+          mkdir -p /tmp/compiled_packages
+          find bin/packages/*/base/ -type f \( -name "*.apk" -o -name "*.ipk" \) -newer /tmp/build_start -exec cp -a {} /tmp/compiled_packages/ \; 2>/dev/null || true
+
+      - name: Cache Signing Keys
+        uses: actions/cache@v5
+        with:
+          path: key-cache
+          key: ${{ matrix.ver == '24.10' && 'opkg-key-build' || 'apk-key-build' }}
+
+      - name: Key Management and Sync
+        run: |
+          cd $GITHUB_WORKSPACE/openwrt-sdk
+          
+          TARGET_BASE_DIR=$(find bin/targets/ -mindepth 2 -maxdepth 2 -type d | head -n 1)
+          if [ -z "$TARGET_BASE_DIR" ]; then
+            TARGET_PKG_DIR="$GITHUB_WORKSPACE/openwrt-sdk/bin/targets/${{ matrix.target_path }}/packages"
+          else
+            TARGET_PKG_DIR="$GITHUB_WORKSPACE/openwrt-sdk/$TARGET_BASE_DIR/packages"
+          fi
+          
+          
+          FINAL_DIR="$GITHUB_WORKSPACE/main-repo/packages/openwrt-${{ matrix.ver }}/${{ matrix.arch }}"
+          
+          cd $GITHUB_WORKSPACE/main-repo
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          echo "🔄 Starting Smart Incremental Sync-and-Push loop..."
+          for i in {1..15}; do
+            echo "▶️ Attempt $i/15..."
+            git fetch origin ${GITHUB_REF_NAME} 2>/dev/null || true
+            git reset --hard origin/${GITHUB_REF_NAME} 2>/dev/null || true
+            
+            mkdir -p "$FINAL_DIR"
+
+            UPDATED_PKGS=""
+            if [ -s "$GITHUB_WORKSPACE/build_pkg_list.txt" ]; then
+              while IFS=':' read -r pkg_path pkg_names; do
+                for base_name in $pkg_names; do
+                  if [[ -z "$UPDATED_PKGS" ]]; then
+                    UPDATED_PKGS="$base_name"
+                  elif [[ ! ", $UPDATED_PKGS," == *", $base_name,"* ]]; then
+                    UPDATED_PKGS="$UPDATED_PKGS, $base_name"
+                  fi
+                done
+              done < "$GITHUB_WORKSPACE/build_pkg_list.txt"
+            fi
+            
+            rm -rf "$TARGET_PKG_DIR"/*
+            mkdir -p "$TARGET_PKG_DIR"
+            
+            if [ "$(ls -A /tmp/compiled_packages 2>/dev/null)" ]; then
+              cp -a /tmp/compiled_packages/* "$TARGET_PKG_DIR/"
+            fi
+            
+            IGNORE_PATTERNS=(
+              "*firmware*" "zoneinfo-*" "pyth-*" "coreutils*" "python3*" "ruby*"
+              "ath*" "lib*" "brc*" "ucode*" "wget*" "blue*" "firew*" "dnsmasq*"
+              "dubs*" "*disk*" "luci-proto-*" "luci-lib-*" "luci-mod-*"
+              "luci-compat*" "rpcd*" "ubus*" "uci*" "luci-*firewall*" "luci-*package-*" "luci-*base[-_][0-9]*" "tc-*" "bash[-_][0-9]*"
+              "curl*" "lua_[0-9]*" "lua-[0-9]*" "liblua*" "luajit*" "iwinfo*" "libiwinfo*" "uwsgi*"
+              "cgi-io*" "ca-bundle*" "ca-certificates*" "nftables*" "xz-u*" "unzip*" "jansson*" "terminfo*" "resolveip*" "losetup*"
+              "jsh*" "json*" "ip-*" "zlib*" "jq*" "yq*" "lyaml*" "uclient-fetch*" "partx-*" "luci-theme-bootstrap*" "nping*" 
+            )
+            for pattern in "${IGNORE_PATTERNS[@]}"; do
+              rm -rf "$TARGET_PKG_DIR"/$pattern 2>/dev/null || true
+            done
+            
+            shopt -s nullglob
+            for new_pkg in "$TARGET_PKG_DIR"/*.{apk,ipk}; do
+              [ ! -f "$new_pkg" ] && continue
+              filename=$(basename "$new_pkg")
+              
+              if [[ "$filename" == *.apk ]]; then
+                base_name=$(echo "$filename" | sed -E 's/-[0-9].*\.apk$//')
+                echo "🧹 [去重] 从提交目录定点移除老版本 APK: ${base_name}"
+                rm -f "$FINAL_DIR/${base_name}-"[0-9]*.apk
+              elif [[ "$filename" == *.ipk ]]; then
+                base_name=$(echo "$filename" | sed -E 's/_.*\.ipk$//')
+                echo "🧹 [去重] 从提交目录定点移除老版本 IPK: ${base_name}"
+                rm -f "$FINAL_DIR/${base_name}_"[0-9]*.ipk
+              fi
+            done
+            shopt -u nullglob
+            
+            if [ "$(ls -A "$FINAL_DIR" 2>/dev/null)" ]; then
+              cp -a "$FINAL_DIR"/* "$TARGET_PKG_DIR/"
+            fi
+            
+            cp -f /tmp/new_upstream_commit.json $GITHUB_WORKSPACE/global-state/upstream_commit.json
+            
+            CACHE_DIR="$GITHUB_WORKSPACE/key-cache"
+            mkdir -p "$CACHE_DIR"
+            pushd $GITHUB_WORKSPACE/openwrt-sdk >/dev/null
+            if [ "${{ matrix.ver }}" == "24.10" ]; then
+              PUB_CACHE="$CACHE_DIR/opkg-key-build.pub"
+              PRIV_CACHE="$CACHE_DIR/opkg-key-build.key"
+              if [ -f "$PUB_CACHE" ] && [ -f "$PRIV_CACHE" ]; then
+                echo "🔄 Restoring 24.10 OPKG keys from universal cache..."
+                cp "$PUB_CACHE" key-build.pub
+                cp "$PRIV_CACHE" key-build
+              else
+                echo "🔑 No cached key found. Generating universal OPKG build key..."
+                ./staging_dir/host/bin/usign -G -s key-build -p key-build.pub -c "Universal Build Key"
+              fi
+            else
+              PUB_CACHE="$CACHE_DIR/apk-key-build.pem"
+              PRIV_CACHE="$CACHE_DIR/apk-key-build-private.pem"
+              if [ -f "$PUB_CACHE" ] && [ -f "$PRIV_CACHE" ]; then
+                echo "🔄 Restoring 25.12 APK keys from universal cache..."
+                cp "$PUB_CACHE" public-key.pem
+                cp "$PRIV_CACHE" private-key.pem
+              else
+                echo "🔑 No cached key found for 25.12. SDK will automatically generate APK keys during index creation."
+              fi
+            fi
+            
+            echo "🗂️ Generating comprehensive unified OpenWrt index..."
+            make package/index  2>/dev/null || true
+            
+            if [ "${{ matrix.ver }}" == "24.10" ]; then
+              [ -f key-build.pub ] && cp key-build.pub "$PUB_CACHE"
+              [ -f key-build ] && cp key-build "$PRIV_CACHE"
+            else
+              [ -f public-key.pem ] && cp public-key.pem "$PUB_CACHE"
+              [ -f private-key.pem ] && cp private-key.pem "$PRIV_CACHE"
+            fi
+            popd >/dev/null
+            
+            rm -rf "$FINAL_DIR"/*
+            if [ "$(ls -A "$TARGET_PKG_DIR" 2>/dev/null)" ]; then
+              cp -a "$TARGET_PKG_DIR"/* "$FINAL_DIR/"
+            fi
+            
+            mkdir -p packages
+            if [ "${{ matrix.ver }}" == "24.10" ]; then
+              [ -f "$GITHUB_WORKSPACE/openwrt-sdk/key-build.pub" ] && cp "$GITHUB_WORKSPACE/openwrt-sdk/key-build.pub" packages/opkg-key-build.pub
+            else
+              [ -f "$GITHUB_WORKSPACE/openwrt-sdk/public-key.pem" ] && cp "$GITHUB_WORKSPACE/openwrt-sdk/public-key.pem" packages/apk-key-build.pem
+            fi
+
+            # chmod +x .github/scripts/gen_index.sh
+            # ./.github/scripts/gen_index.sh
+            
+            git add "$FINAL_DIR" 2>/dev/null || true
+            git add "packages/index.html" "packages/openwrt-${{ matrix.ver }}/index.html"  2>/dev/null || true
+            git add "packages/apk-key-build.pem" "packages/opkg-key-build.pub" 2>/dev/null || true
+            
+            if ! git diff --staged --quiet; then
+              # git commit -m "🚀 Auto update packages for ${{ matrix.arch }} (${{ matrix.ver }})"
+              if [ -n "$UPDATED_PKGS" ]; then
+                COMMIT_MSG="🚀 Auto update packages for ${{ matrix.arch }} (${{ matrix.ver }}) [Updated: ${UPDATED_PKGS}]"
+              else
+                COMMIT_MSG="🚀 Auto update packages for ${{ matrix.arch }} (${{ matrix.ver }})"
+              fi 
+              git commit -m "$COMMIT_MSG"
+              if git push; then 
+                echo "🎉 Git push successfully coordinated!"
+                break; 
+              fi
+              echo "⚠️ Conflict detected on branch update, cooling down and re-syncing..."
+              sleep $((RANDOM % 11 + 5))
+            else
+              echo "💤 无包发生变动，跳过推送。"
+              break
+            fi
+          done
+
+      - name: Clean Old State Caches
+        # if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          echo "🧹 Cleaning up old state caches..."
+          keys=$(gh cache list -R $REPO | grep "upstream-commit-" | awk '{print $2}' || true)
+          for key in $keys; do
+            if [ "$key" != "upstream-commit-${{ github.run_id }}" ]; then
+              gh cache delete "$key" -R $REPO 2>/dev/null || true
+            fi
+          done
+
+      - name: Save Global Upstream State
+        uses: actions/cache/save@v5
+        # if: always()
+        with:
+          path: global-state/upstream_commit.json
+          key: upstream-commit-${{ github.run_id }}
+
+  sync-pages:
+    name: Sync to Pages
+    needs: [build-packages]
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Evaluate Matrix Status
+        id: status
+        run: |
+          if [[ "${{ needs.build-packages.result }}" == "success" ]]; then
+            true
+          elif [[ "${{ needs.build-packages.result }}" == "skipped" || "${{ needs.build-packages.result }}" == "cancelled" ]]; then
+            echo "skip or cancelled.."
+            exit 0
+          fi
+
+      - name: Trigger "Sync to Pages Branch" Workflow
+        if: needs.build-packages.result != 'skipped' && needs.build-packages.result != 'cancelled'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run "Generate Index and Trigger Sync" --ref ${{ github.ref_name }} -R ${{ github.repository }}
+
+ 

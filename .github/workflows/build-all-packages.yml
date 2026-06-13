@@ -358,7 +358,7 @@ jobs:
             "*firmware*" "zoneinfo-*" "pyth-*" "coreutils*" "python3*" "ruby*"
             "ath*" "lib*" "brc*" "ucode*" "wget*" "blue*" "firew*" "dnsmasq*"
             "dubs*" "*disk*" "luci-proto-*" "luci-lib-*" "luci-mod-*"
-            "luci-compat*" "rpcd*" "ubus*" "uci*" "luci-*firewall*" "luci-*package-*" "luci-*base[-_][0-9]*" "tc-*" "bash[-_][0-9]*"
+            "luci-compat*" "rpcd*" "ubus*" "uci*" "luci-*firewall*" "luci-*package-*" "luci-*base[-_]*" "tc-*" "bash[-_][0-9]*"
             "curl*" "lua_[0-9]*" "lua-[0-9]*" "liblua*" "luajit*" "iwinfo*" "libiwinfo*" "uwsgi*"
             "cgi-io*" "ca-bundle*" "ca-certificates*" "nftables*" "xz-u*" "unzip*" "jansson*" "terminfo*" "resolveip*" "losetup*"
             "jsh*" "json*" "ip-*" "zlib*" "jq*" "yq*" "lyaml*" "uclient-fetch*" "partx-*" "luci-theme-bootstrap*" "nping*" 

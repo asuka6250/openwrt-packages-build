@@ -365,8 +365,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.26.1-r1_all.ipk
-Size: 10523
-SHA256sum: 8596e96ab8c57c7f11014c660cc58e763d51264528b86246f2bb930fa0300906
+Size: 10521
+SHA256sum: c153660b8f91d98a1b72875b1b8be194da4d0958b68a3e81577c3bebea3e5f2a
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -501,18 +501,6 @@ Size: 5659
 SHA256sum: 407e5c66b788877b56138bdf6f065b20a0b06f171060111fc6538f28d686fb30
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
-Package: luci-i18n-base-zh-cn
-Version: 25.340.26705~d88390b
-Depends: libc, luci-base
-License: Apache-2.0
-Section: luci
-Architecture: all
-Installed-Size: 143360
-Filename: luci-i18n-base-zh-cn_25.340.26705~d88390b_all.ipk
-Size: 59556
-SHA256sum: 6c715986564ece09cf38ef454316e56803c4fe21fe06997822a30fd10d2ed32b
-Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
-
 Package: luci-i18n-cpufreq-zh-cn
 Version: 26.163.55205~b3127e9
 Depends: libc, luci-app-cpufreq
@@ -603,14 +591,14 @@ SHA256sum: fc8c70ee530e3f768b9be23b38cde4096621ef7d89235a9869d485ff0d6ca36a
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.163.55205~b3127e9
+Version: 26.164.14273~f798144
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.163.55205~b3127e9_all.ipk
-Size: 5274
-SHA256sum: 2d11192b0e07123a3a301ad870a2c8e63b013c9210ac4ac5ae95c2ef41637d2f
+Filename: luci-i18n-nikki-zh-cn_26.164.14273~f798144_all.ipk
+Size: 5278
+SHA256sum: 45b52dc16a7f058f5a759f641f5d42a21fd88959fca205cf23a2ed19c426b272
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
@@ -827,7 +815,7 @@ Description:  A SOCKS5 service that you can run on your remote boxes to tunnel c
  This version supports forwarding rules.
 
 Package: mihomo-alpha
-Version: 2026.06.11
+Version: 2026.06.12
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-meta
 Provides: mihomo
@@ -837,9 +825,9 @@ Section: net
 URL: https://wiki.metacubex.one
 Architecture: aarch64_generic
 Installed-Size: 43827200
-Filename: mihomo-alpha_2026.06.11_aarch64_generic.ipk
-Size: 15886534
-SHA256sum: 7262f22b52ef94c5dfa37cf6136bc08b3d61b81529f032153eca5599b7f0c174
+Filename: mihomo-alpha_2026.06.12_aarch64_generic.ipk
+Size: 15892578
+SHA256sum: 947f656d280eee36d9e39583769b811f82d655363ff00be7b6bbaf97bf197141
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -855,7 +843,7 @@ Architecture: aarch64_generic
 Installed-Size: 43827200
 Filename: mihomo-meta_1.19.27_aarch64_generic.ipk
 Size: 15883532
-SHA256sum: 2cc8559636e1b39835a61948ccf1937daa6795972f4beae07a71a865a16ad5e6
+SHA256sum: 05b3daef87294aa5b3b9a0f761706033ba971ff281f4796e18bab7a2235e8b3b
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1177,8 +1165,8 @@ URL: https://github.com/nikkinikki-org
 Architecture: aarch64_generic
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_aarch64_generic.ipk
-Size: 53237
-SHA256sum: 15c40bd846d2e85df1dcd3c57284e2450712dea7ae7c3d6b4ec863a394500c9e
+Size: 53215
+SHA256sum: a68c2fee5fd78a2b3422aaef507e183a8d2bea5c1776d9fef2cae0993bba855d
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile

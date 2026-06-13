@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269733
-SHA256sum: 0ea39a7971c553593a3d40c3b2fe3dfdc0fb4c7b885b585be493b283b4250310
+Size: 269752
+SHA256sum: d96322dff76d460fa93aef084a353d50de77be38a1ccb79a2df65de5f8131f7b
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: cpufreq
@@ -109,8 +109,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11395
-SHA256sum: 10dbbd7ec6068d797ef99ea4b865bacba6ce2c1b16a83ca24f7befcb874e785a
+Size: 11402
+SHA256sum: 4869b50a661acdfc753f25979ac83f4ea9356067144b139b7e5f579eeabedd27
 Description:  utility to convert dns query from udp to tcp
 
 Package: geoview
@@ -152,7 +152,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
 Size: 26153
-SHA256sum: d0bfe058c1d3e90222c3dbc6866c093c1e395eb8923e38e1ff9e5a16870ae742
+SHA256sum: b47ab58532c5144980d3da80f6db1baf91b765eccfaabee808b55004c4a31afb
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -189,8 +189,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5344
-SHA256sum: 8234223d85c29788b3ec07a7bb7b114f9c1e47e9147be73254c49edcb4c358f3
+Size: 5340
+SHA256sum: 0f8d3d06c9444d00f825b99de3b64726b1fc023bd8e1188fdb4aac890b7caf48
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -232,16 +232,16 @@ SHA256sum: 6a27ac0b3b61c9ba5dd5691e6d0e49fc33d90f394636b3251c7c5336db93c2c7
 Description:  LuCI support for ARP binding
 
 Package: luci-app-aurora-config
-Version: 0.4.0-r20260531
+Version: 0.4.1-r20260613
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 235520
-Filename: luci-app-aurora-config_0.4.0-r20260531_all.ipk
-Size: 57270
-SHA256sum: 1d62212dd870630e0f7150e23b4bf587cbda6e973bcf19e1989d31298bd7fea6
+Installed-Size: 276480
+Filename: luci-app-aurora-config_0.4.1-r20260613_all.ipk
+Size: 63418
+SHA256sum: dcc52424f83e04f9f1cdb1a01c74a4f2a29b3a4f7dd9854bd22480054b6b23b4
 Description:  LuCI configuration app for luci-theme-aurora
 
 Package: luci-app-cpufreq
@@ -438,8 +438,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2365440
 Filename: luci-app-ssr-plus_193-r23_all.ipk
-Size: 482652
-SHA256sum: fcfe05f9877a002f9f650abe998f28b12ecf20e536a69e9034d48dce04c45a64
+Size: 482620
+SHA256sum: b7e9fbb8d3a645a4b965d858bbed2ae6e82003e155d56981c9e4c1f88100c823
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -490,15 +490,15 @@ SHA256sum: 87350579551eda56741dffeb0bbbc90db9d9978a3e15a695b46bdb3b11194041
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-aurora-config-zh-cn
-Version: 26.163.55205~b3127e9
+Version: 26.164.62717~61de480
 Depends: libc, luci-app-aurora-config
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-aurora-config-zh-cn_26.163.55205~b3127e9_all.ipk
-Size: 5659
-SHA256sum: 407e5c66b788877b56138bdf6f065b20a0b06f171060111fc6538f28d686fb30
+Filename: luci-i18n-aurora-config-zh-cn_26.164.62717~61de480_all.ipk
+Size: 5657
+SHA256sum: cbedb40638cc043c13bc9ffff0d52bdf22b8305de46d25d4d6e5ec5a83c88bcd
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -648,14 +648,14 @@ SHA256sum: aececd931cc11872f18768bbe567c328e6e8cb3b13dce062df9ae47fc9b2644a
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.163.55205~b3127e9
+Version: 26.164.62717~61de480
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.163.55205~b3127e9_all.ipk
-Size: 13765
-SHA256sum: 04bf1efde35615f17305e7a094807e8eb704ce981088ac8e9d994e09b916a42d
+Filename: luci-i18n-ssr-plus-zh-cn_26.164.62717~61de480_all.ipk
+Size: 13763
+SHA256sum: 2ac1350838d9de72ccccd7846343ecc17f8a7d8e7055c44caee7d3ea779bf44d
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -710,16 +710,16 @@ SHA256sum: 55b2e525dd1bd0d649cc66f1c78b13c3d42c2233813c195e0f79f4aab0444ca7
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 0.12.7-r20260612
+Version: 0.12.8-r20260613
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3348480
-Filename: luci-theme-aurora_0.12.7-r20260612_all.ipk
-Size: 821296
-SHA256sum: e8748c3c612351574cf2b59a83d15847bb1dc182061b7b788da536906320e7ad
+Installed-Size: 3338240
+Filename: luci-theme-aurora_0.12.8-r20260613_all.ipk
+Size: 820573
+SHA256sum: 11ab2ab6c314e12fb0c01ffb160785ae4c27b10d96d692e1055f5effaa6c9107
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -808,8 +808,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8818
-SHA256sum: 500d84f8922330b343ac25e3662cddc5684b667a0dcd60c0b172ab1bff63ed05
+Size: 8817
+SHA256sum: bbcc766c1404d7e34ba11810c91389fc9c7db5791fc9c17b9b26bf4a8714ef78
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1233,8 +1233,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_aarch64_cortex-a72.ipk
-Size: 63672
-SHA256sum: d6aee8be72cf214b6fe3ae258b888aabac234b71a8e7c9121ccb09adff0a60c5
+Size: 63687
+SHA256sum: 0063ceb7354db39dc32a871835f5c24ca1aea6d83f286eab650c6c1d1b832688
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1246,8 +1246,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_aarch64_cortex-a72.ipk
-Size: 57113
-SHA256sum: 92ae04d28f75ef85a3d49c6ac3fd150cdb46e178575801e0df7727d2352b638e
+Size: 57110
+SHA256sum: 6149c47b3a67ce2ba23b0d5a5f43a5cf749a66af655e0148a904f3172f0e3588
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server

@@ -134,10 +134,10 @@ if __name__ == '__main__':
                                     print(f"✅ Auto-queued BPF extension: lanspeedd-bpf (from {rel_path})")
                                 
                                 # 自动追加 smartdns-ui
-                                if p == "smartdns":
-                                    configs.append("CONFIG_PACKAGE_smartdns-ui=m")
-                                    changed_pkgs.add("smartdns-ui")
-                                    print(f"✅ Auto-queued UI extension: smartdns-ui (from {rel_path})")
+                                # if p == "smartdns":
+                                #     configs.append("CONFIG_PACKAGE_smartdns-ui=m")
+                                #     changed_pkgs.add("smartdns-ui")
+                                #     print(f"✅ Auto-queued UI extension: smartdns-ui (from {rel_path})")
 
         with open('/tmp/changed_pkgs.txt', 'w') as f: f.write('\n'.join(changed_pkgs))
         with open(out_config, 'a') as f: f.write('\n'.join(configs) + '\n')

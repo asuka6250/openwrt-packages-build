@@ -19,7 +19,6 @@
 | `x86_64` | Intel / AMD 传统 x86 软路由 | ✅ 支持 | ✅ 支持 |
 | `aarch64_cortex-a53` | NanoPi R2S, 斐讯 N1 等 | ✅ 支持 | ✅ 支持 |
 | `aarch64_cortex-a72` | 树莓派 4B, NanoPi R4S 等 | ✅ 支持 | ✅ 支持 |
-| `aarch64_cortex-a76` | 树莓派 5, RK3588 系列等 | ✅ 支持 | ✅ 支持 |
 | `aarch64_generic` | 通用 ARM64 架构设备 | ✅ 支持 | ✅ 支持 |
 
 > **提示**：您可以通过在路由器终端执行 `cat /etc/os-release` 或 `opkg print-architecture` 来确认您设备的具体架构类型。

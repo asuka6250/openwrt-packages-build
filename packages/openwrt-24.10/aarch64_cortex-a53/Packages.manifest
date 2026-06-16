@@ -318,14 +318,14 @@ Source: feeds/base/custom_packages/luci-app-aurora-config
 SourceName: luci-app-aurora-config
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781552998
+SourceDateEpoch: 1781583834
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 245760
 Filename: luci-app-aurora-config_0.4.3-r20260615_all.ipk
-Size: 62770
-SHA256sum: a2d6023cb4cd65502fca90d51c75f58cc09e088b6c4eea61a3de3edba395e211
+Size: 62823
+SHA256sum: 889b4c9e845af95e4a4e75bf6e90065387fc210baa84d690169eed64e50934b5
 Description:  LuCI configuration app for luci-theme-aurora
 
 Package: luci-app-clashoo
@@ -480,14 +480,14 @@ Depends: libc, luci-base, momo
 Source: feeds/base/custom_packages/OpenWrt-momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-momo_1.2.1-r1_all.ipk
-Size: 7981
-SHA256sum: 1b7a786423fd853cd04a6f5a38ddc33379137071e8f1a75799cc95f20431e11b
+Size: 8238
+SHA256sum: 9254051571e505ee575a78b0cb1775af5ae9e27e0ea6750976a1f18688a4490f
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -512,14 +512,14 @@ Depends: libc, luci-base, nikki
 Source: feeds/base/custom_packages/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.26.1-r1_all.ipk
-Size: 10525
-SHA256sum: c161e112d2980fd7b3e72b2bd10ea39f1f4c5106daaedfbfd24e683df1ffaf50
+Size: 10793
+SHA256sum: 16ae94730c31c1ce662be7f28534491d35e7de22b4fe6c41973032226825d5cb
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -682,18 +682,18 @@ SHA256sum: e0f48ac59a974cd34cdb6a730be5454a52d43222f280ce60fcb6a5c9f003934f
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-aurora-config-zh-cn
-Version: 26.166.71398~6d6233c
+Version: 26.167.15834~7b52522
 Depends: libc, luci-app-aurora-config
 Source: feeds/base/custom_packages/luci-app-aurora-config
 SourceName: luci-app-aurora-config
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781552998
+SourceDateEpoch: 1781583834
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-aurora-config-zh-cn_26.166.71398~6d6233c_all.ipk
-Size: 5660
-SHA256sum: c60c4a939b1f1415c8ace3075ea805c58ec1e6a3606765b461e166bf80c345e9
+Filename: luci-i18n-aurora-config-zh-cn_26.167.15834~7b52522_all.ipk
+Size: 5658
+SHA256sum: bc98038ecaa098346407751c815075ad50001d369abec6bc4ac776e46f25af50
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
@@ -799,17 +799,17 @@ SHA256sum: 60db92dcdb0f135e32d2ff45778eb82df94c7469ad3e0527fcb9b6300176a7d2
 Description:  Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.166.28689~7af0cf3
+Version: 26.167.15834~7b52522
 Depends: libc, luci-app-momo
 Source: feeds/base/custom_packages/OpenWrt-momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-momo-zh-cn_26.166.28689~7af0cf3_all.ipk
-Size: 3566
-SHA256sum: 0c99982fb95560cc7a209b6067f27f3ba251172653a5956784c5a6140f28031e
+Filename: luci-i18n-momo-zh-cn_26.167.15834~7b52522_all.ipk
+Size: 3565
+SHA256sum: e2e95a8812d876f460746d29213ab5509f57629e597ee02663d4f57443a489a6
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -828,17 +828,17 @@ SHA256sum: b5d88a157f01263d89b23a4d5e6b7bce98e1189123154d959871fe8079ad1577
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.166.28689~7af0cf3
+Version: 26.167.15834~7b52522
 Depends: libc, luci-app-nikki
 Source: feeds/base/custom_packages/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.166.28689~7af0cf3_all.ipk
-Size: 5281
-SHA256sum: ed3e490593ae3283580ced87194ec6769c4daee5c93ae3d1aa55baa6d53c32ab
+Filename: luci-i18n-nikki-zh-cn_26.167.15834~7b52522_all.ipk
+Size: 5274
+SHA256sum: 52f675b6a25befe2590408a207d05eeb514417d35874d9d6c56c8aacb8b84515
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
@@ -989,14 +989,14 @@ Source: feeds/base/custom_packages/luci-theme-aurora
 SourceName: luci-theme-aurora
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781552998
+SourceDateEpoch: 1781583834
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3338240
 Filename: luci-theme-aurora_0.12.11-r20260616_all.ipk
-Size: 821150
-SHA256sum: cc1dc2f9fcd13f339778e57cd4a3b70c59e228bc93227352306038445efeb4a1
+Size: 821116
+SHA256sum: c14e5ce91871b31a4f2c7a8e88fc5aaa2e3b5057828cd8895f7e0b64c64dfc6b
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -1056,14 +1056,14 @@ Source: feeds/base/custom_packages/luci-theme-shadcn
 SourceName: luci-theme-shadcn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781552998
+SourceDateEpoch: 1781583834
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2263040
 Filename: luci-theme-shadcn_0.1.4-r20260606_all.ipk
-Size: 1780403
-SHA256sum: 380d2086d4ec034b6498c9b6123e6b5f30e6600921f0993aadd8d5f4bcad2d4e
+Size: 1780401
+SHA256sum: eef87d89a486317ed0b15202bc7b668bd3868ee6b90d4a8da6caa329405a897f
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: luci-theme-tp
@@ -1151,14 +1151,14 @@ Source: feeds/base/custom_packages/mihomo-meta
 SourceName: mihomo-meta
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 43827200
 Filename: mihomo-meta_1.19.27_aarch64_cortex-a53.ipk
-Size: 15883755
-SHA256sum: 51ffa548607502f923707f1165b863b0ea8e7d57164171dd0e11832883188d17
+Size: 15883365
+SHA256sum: b448f49ef1fa3414cacf2f78485652007b8655c3057b8ec5b989316bb383908b
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1168,14 +1168,14 @@ Source: feeds/base/custom_packages/OpenWrt-momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 286720
 Filename: momo_2026.06.03-r1_aarch64_cortex-a53.ipk
-Size: 49425
-SHA256sum: 0f5d335b0859ee1e29011915d44dd99369ce87655d7f7a2b9886a504d424ace0
+Size: 49783
+SHA256sum: f90d4b1b9690ff89a7ca23103fc944746ba0ef8d680ca9424521764ea24db2af
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: mosdns
@@ -1567,14 +1567,14 @@ Source: feeds/base/custom_packages/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_aarch64_cortex-a53.ipk
-Size: 53218
-SHA256sum: 9201befcf31656ba05a4562bd3186d8546758cc5800d249cb0aa4f21af6702bf
+Size: 53222
+SHA256sum: a2715476303720a7862e4b7e60ed938817efa02801ceb7f914bb5ee67c06835a
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
@@ -1713,14 +1713,14 @@ License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
 Require-User: sing-box=5566:sing-box=5566
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781583834
 URL: https://sing-box.sagernet.org/
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 45475840
 Filename: sing-box_1.13.13-r1_aarch64_cortex-a53.ipk
-Size: 16037135
-SHA256sum: f609dbf6fb207b49a0d155ad841eae65dd477358a47fa6ffc14c9d35080a506d
+Size: 16037270
+SHA256sum: 28e86265cb8c74ea597698920beb2ab03ea8d686f0fe99f88a52227184e97ae4
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 

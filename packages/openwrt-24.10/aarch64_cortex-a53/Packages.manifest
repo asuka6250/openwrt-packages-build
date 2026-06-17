@@ -312,20 +312,20 @@ SHA256sum: 8f9a8d8061a309aff48f9b116f0fa4301763d0ad2fc612594063784f274131ad
 Description:  LuCI support for ARP binding
 
 Package: luci-app-aurora-config
-Version: 0.4.7-r20260616
+Version: 0.4.9-r20260617
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-app-aurora-config
 SourceName: luci-app-aurora-config
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781638759
+SourceDateEpoch: 1781669900
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 245760
-Filename: luci-app-aurora-config_0.4.7-r20260616_all.ipk
-Size: 64266
-SHA256sum: 51cef58ab7faf4cbf2a7dafb4a8b32704ad1c38fcc49cf7ed86c7cd385b99a07
+Filename: luci-app-aurora-config_0.4.9-r20260617_all.ipk
+Size: 65341
+SHA256sum: 2b477cfbbad077f0dd422985e361686dac3a67b67e2f373447e54def95f538d4
 Description:  LuCI configuration app for luci-theme-aurora
 
 Package: luci-app-clashoo
@@ -682,18 +682,18 @@ SHA256sum: e0f48ac59a974cd34cdb6a730be5454a52d43222f280ce60fcb6a5c9f003934f
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-aurora-config-zh-cn
-Version: 26.167.70759~cbd6f7b
+Version: 26.168.15500~830d0d7
 Depends: libc, luci-app-aurora-config
 Source: feeds/base/custom_packages/luci-app-aurora-config
 SourceName: luci-app-aurora-config
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781638759
+SourceDateEpoch: 1781669900
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-aurora-config-zh-cn_26.167.70759~cbd6f7b_all.ipk
-Size: 5660
-SHA256sum: a37a4131c4ce9061047c33304f02a0806fd6a6fbf7057ae3226a157f27320447
+Filename: luci-i18n-aurora-config-zh-cn_26.168.15500~830d0d7_all.ipk
+Size: 5664
+SHA256sum: c161d8b8c3cff1edaabcf67a17029019d951d043ce431de2eb2e1d1ea242bc71
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
@@ -983,20 +983,20 @@ SHA256sum: ed8ae018bed5606462d7951ec8cd2931ecd116df38f4418547639588cbf00281
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 0.12.12-r20260616
+Version: 0.12.13-r20260617
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-aurora
 SourceName: luci-theme-aurora
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1781638759
+SourceDateEpoch: 1781669900
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3348480
-Filename: luci-theme-aurora_0.12.12-r20260616_all.ipk
-Size: 823016
-SHA256sum: fef12a292bc04c25d270bc515c0825beee3a50a45804c73e2d11151f5e0c23de
+Filename: luci-theme-aurora_0.12.13-r20260617_all.ipk
+Size: 823023
+SHA256sum: b9e982c3361fbb0404318b08e84efa0b53d2eb0ced7e7d0d407674acaf777dcc
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design

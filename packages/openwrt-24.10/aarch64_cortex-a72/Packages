@@ -41,16 +41,16 @@ SHA256sum: bb9881a8c38af58f8045bd06d3cb4271235a0a1683373eabbef7eff55f0a236f
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.06.17~8e2aba4-r1
+Version: 2026.06.17~8e2aba4-r5
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 44482560
-Filename: clashoo_2026.06.17~8e2aba4-r1_aarch64_cortex-a72.ipk
-Size: 16214677
-SHA256sum: e2ea5bc0ecab6d4ff37f6ca2c594f8057b4ae3be64bd3be4ad9bcc99dd123b1e
+Installed-Size: 44492800
+Filename: clashoo_2026.06.17~8e2aba4-r5_aarch64_cortex-a72.ipk
+Size: 16215575
+SHA256sum: 0db3cb6d03b3fc2e50c626446b323c44fa2de5ac1a59ac38d643dd3864f4c4a3
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -87,8 +87,8 @@ URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a72
 Installed-Size: 47513600
 Filename: daed_2026.06.14-r1_aarch64_cortex-a72.ipk
-Size: 23095820
-SHA256sum: eaa5dd8bf63172148de81b9abb524fb5021ec89b4dde1dc2296bbb353fa9a34d
+Size: 23095641
+SHA256sum: ae6d03407c6e088c5168b31c858085666e96819a5dd99dfe4b8baaab034b0db1
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -128,8 +128,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a72
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a72.ipk
-Size: 2742235
-SHA256sum: e35697e041d0b9ea3dc200a6bbdfaf64008d51ef6110bba54ae43dc00ece83a9
+Size: 2742210
+SHA256sum: 1678472d8a6f9d9311f0fcd72934311b32b79b590794d65d4e416a3512adbdf2
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -238,27 +238,27 @@ SHA256sum: 8f9a8d8061a309aff48f9b116f0fa4301763d0ad2fc612594063784f274131ad
 Description:  LuCI support for ARP binding
 
 Package: luci-app-aurora-config
-Version: 0.4.13-r20260618
+Version: 0.4.19-r20260619
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 256000
-Filename: luci-app-aurora-config_0.4.13-r20260618_all.ipk
-Size: 67211
-SHA256sum: e2d419574acaeabdf95473b3c100abdb38f3599ad0e126e994dcff99a75751b7
+Installed-Size: 245760
+Filename: luci-app-aurora-config_0.4.19-r20260619_all.ipk
+Size: 66276
+SHA256sum: eb0724b027d909022bcbbdbeb9dbe4ee7168da571f29e2c5eec525650e27c01f
 Description:  LuCI configuration app for luci-theme-aurora
 
 Package: luci-app-clashoo
-Version: 1.27.1-r1
+Version: 1.27.2-r1
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
 Installed-Size: 890880
-Filename: luci-app-clashoo_1.27.1-r1_all.ipk
-Size: 386567
-SHA256sum: d797a59143b8906122e06ae51ad329c581e0d9e96babd677bbf8f5ed60959dc3
+Filename: luci-app-clashoo_1.27.2-r1_all.ipk
+Size: 387039
+SHA256sum: c179fa5ccfad432b06780d9063f47d30aab8e6d57b68adc94cdacdbf259311e4
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -299,14 +299,14 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.13.0-r6
+Version: 1.13.0-r9
 Depends: libc, luci-base, daed
 Section: luci
 Architecture: all
-Installed-Size: 286720
-Filename: luci-app-daede_1.13.0-r6_all.ipk
-Size: 78557
-SHA256sum: ebeb907ccefaf01f8b81db4bca1421498d57f9c2a500a7d7225b23377ecac432
+Installed-Size: 296960
+Filename: luci-app-daede_1.13.0-r9_all.ipk
+Size: 81117
+SHA256sum: 92c18cd27ecd4301d9f8ed313596074f7a0e24c6a40264d599c3a11d6f508715
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -416,8 +416,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1372160
 Filename: luci-app-passwall2_26.6.16-r1_all.ipk
-Size: 337978
-SHA256sum: 65312d52ac2f8c19f214050f78e511acbaa1fbbf8d4af258b360ceaaeb8bb83d
+Size: 337879
+SHA256sum: 75436eb08bb90af5bfc7a7080c2468234f22f73de5705da9beb44768c4d5fcf2
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -518,26 +518,26 @@ SHA256sum: e0f48ac59a974cd34cdb6a730be5454a52d43222f280ce60fcb6a5c9f003934f
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-aurora-config-zh-cn
-Version: 26.169.15013~4a9d3fd
+Version: 26.169.66449~80a6fb9
 Depends: libc, luci-app-aurora-config
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-aurora-config-zh-cn_26.169.15013~4a9d3fd_all.ipk
-Size: 5658
-SHA256sum: 84bef1e0a7385f47d726031dab47c58dcea8722aa6dd4e740854722194013e9d
+Filename: luci-i18n-aurora-config-zh-cn_26.169.66449~80a6fb9_all.ipk
+Size: 7289
+SHA256sum: bfca73d017f5ae9aa74a4add72c6369b9aac8f4522b624bf639f26e373b4af92
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.27.1-r1
+Version: 1.27.2-r1
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-clashoo-zh-cn_1.27.1-r1_all.ipk
+Filename: luci-i18n-clashoo-zh-cn_1.27.2-r1_all.ipk
 Size: 8481
-SHA256sum: 0a2d8bb3898e3f2589af8913b1bee0905ab427fb4b7183814c0d7dc55e45da51
+SHA256sum: 856a9527798497ebbc49a475a519bf2c2b99d73160ac390cba465b001e1d056f
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -658,8 +658,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.6.16_all.ipk
-Size: 19683
-SHA256sum: 5852bffbcea6ff6f4c77179f8c9cf457db4685a32d98733d941e8898848f2b06
+Size: 19689
+SHA256sum: 351ad028a6c6947d843043126aca2550f60a0b1fe75ba3b9fe012db6aee40ae7
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -749,16 +749,16 @@ SHA256sum: ed8ae018bed5606462d7951ec8cd2931ecd116df38f4418547639588cbf00281
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 0.12.14-r20260617
+Version: 0.12.15-r20260618
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 491520
-Filename: luci-theme-aurora_0.12.14-r20260617_all.ipk
-Size: 199890
-SHA256sum: 46a45001af318312eaf322726177d66f40ea99bcab2bac680c64cc4dcdd8ae73
+Filename: luci-theme-aurora_0.12.15-r20260618_all.ipk
+Size: 199708
+SHA256sum: 62c3deaee930155bddc3a6cdeb030333bc5a5d763fd177013e586a1d7a75a4f3
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -1356,8 +1356,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4320
-SHA256sum: 21bf8496272bb21e2fa0e7996a641c71e620bed94242bb60ea211bf22bcb08bb
+Size: 4326
+SHA256sum: 9c6f23549b29966a06ff33f0369372a797097785865f3da70809577d291484bd
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1395,8 +1395,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 19138560
 Filename: v2ray-geoip_202606040101.1_all.ipk
-Size: 3918273
-SHA256sum: 0bc26b92b715a8597fe2b092ef4d4a25da018f712547157a62dbd9ea5cf538ad
+Size: 3918063
+SHA256sum: 9bd06881e1cddd51734415834b1300d7bbcc90e56846c066bba62199436a740b
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1408,8 +1408,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10485760
 Filename: v2ray-geosite_202606032327.1_all.ipk
-Size: 3437602
-SHA256sum: 3bfc12cf5ba6dc1adbf454f0d7331cabf3a9713febbedf3f2ec5b7231903aed3
+Size: 3437618
+SHA256sum: 7621d073d117b7563bb675900c98c098c94016e97be0cf860837d8cf3939017c
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1432,8 +1432,8 @@ Section: kernel
 Architecture: aarch64_cortex-a72
 Installed-Size: 3276800
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a72.ipk
-Size: 1073837
-SHA256sum: 92f6ea10d4e7095fc869697c64f988c171242f5de70f64c4c62fa5b4840da9d3
+Size: 1073763
+SHA256sum: 815b0837e664deac47147b28285ef13f52f893d52420c61c09a4ad067596a9a9
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

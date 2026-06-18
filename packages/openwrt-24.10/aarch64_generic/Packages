@@ -238,16 +238,16 @@ SHA256sum: 8f9a8d8061a309aff48f9b116f0fa4301763d0ad2fc612594063784f274131ad
 Description:  LuCI support for ARP binding
 
 Package: luci-app-aurora-config
-Version: 0.4.10-r20260617
+Version: 0.4.13-r20260618
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 256000
-Filename: luci-app-aurora-config_0.4.10-r20260617_all.ipk
-Size: 66204
-SHA256sum: 6f5770ca244f7c3890e406989e5326a3a7ffa24aa3594cd9e72edfd81a47270c
+Filename: luci-app-aurora-config_0.4.13-r20260618_all.ipk
+Size: 67211
+SHA256sum: e2d419574acaeabdf95473b3c100abdb38f3599ad0e126e994dcff99a75751b7
 Description:  LuCI configuration app for luci-theme-aurora
 
 Package: luci-app-clashoo
@@ -518,15 +518,15 @@ SHA256sum: e0f48ac59a974cd34cdb6a730be5454a52d43222f280ce60fcb6a5c9f003934f
 Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-aurora-config-zh-cn
-Version: 26.168.66080~1862bd7
+Version: 26.169.15013~4a9d3fd
 Depends: libc, luci-app-aurora-config
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-aurora-config-zh-cn_26.168.66080~1862bd7_all.ipk
-Size: 5650
-SHA256sum: b6c19568dff1f5d82fe05b3f9864c07d89a071454584d2a4675797192002a0f9
+Filename: luci-i18n-aurora-config-zh-cn_26.169.15013~4a9d3fd_all.ipk
+Size: 5658
+SHA256sum: 84bef1e0a7385f47d726031dab47c58dcea8722aa6dd4e740854722194013e9d
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn

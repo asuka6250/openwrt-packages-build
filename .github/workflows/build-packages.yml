@@ -1,4 +1,4 @@
-name: Build OpenWrt Packages (Release)
+name: Build OpenWrt Packages (ALL)
 
 on:
   # push:

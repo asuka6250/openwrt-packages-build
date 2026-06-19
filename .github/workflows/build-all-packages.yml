@@ -272,7 +272,8 @@ jobs:
             
             echo "CONFIG_PACKAGE_$pkg_name=m" >> .config
             if [ "pkg_name" == "smartdns" ];then
-              echo "CONFIG_PACKAGE_smartdns-ui=m" >> .config
+              echo "CONFIG_PACKAGE_smartdns-ui=m" >> .config && ok
+              echo "$pkg_path:smartdns-ui" >> $GITHUB_WORKSPACE/build_pkg_list.txt && ok
             fi
             echo "✅ Added to .config: $pkg_name (from $pkg_path)"
             echo "$pkg_path:$pkg_name" >> $GITHUB_WORKSPACE/build_pkg_list.txt

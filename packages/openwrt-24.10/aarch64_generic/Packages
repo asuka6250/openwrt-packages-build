@@ -93,8 +93,8 @@ URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_generic
 Installed-Size: 47513600
 Filename: daed_2026.06.14-r1_aarch64_generic.ipk
-Size: 23095487
-SHA256sum: 2bba93a4b4bee88b2c24a20540786be1db99f764a8a8eb4d29a33c058c41b2a3
+Size: 23095712
+SHA256sum: 75af74f3e2db951157b9f86d19ee530a435f0722d06d78f5d0f9f4d228f2d1ed
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -305,14 +305,14 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.13.0-r10
+Version: 1.14.0-r1
 Depends: libc, luci-base, daed
 Section: luci
 Architecture: all
-Installed-Size: 286720
-Filename: luci-app-daede_1.13.0-r10_all.ipk
-Size: 79445
-SHA256sum: 2ce7fd9107ab9cda75fd039511b8b87eebfdec4bb7f05ca0cbfceb9e98127faa
+Installed-Size: 296960
+Filename: luci-app-daede_1.14.0-r1_all.ipk
+Size: 81130
+SHA256sum: 5857db9c1a3c3c22507a22a6846fdfe8a6381908bd4554e8a1f8476f6d698a35
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -1324,7 +1324,7 @@ Description:  Sing-box is a universal proxy platform which supports hysteria, SO
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: smartdns-ui
-Version: 48-r3
+Version: 48.1-r1
 Depends: libc, smartdns
 License: GPL-3.0-or-later
 Section: net
@@ -1332,23 +1332,23 @@ URL: https://www.github.com/pymumu/smartdns/
 CPE-ID: cpe:/a:pymumu:smartdns
 Architecture: aarch64_generic
 Installed-Size: 12800000
-Filename: smartdns-ui_48-r3_aarch64_generic.ipk
-Size: 6516037
-SHA256sum: 1052435ed1313c3a5574f50c1ae26ea8f8b4353d436efc4c57d145f73ed74096
+Filename: smartdns-ui_48.1-r1_aarch64_generic.ipk
+Size: 6517512
+SHA256sum: f68b63c79b723a446879cd61df56c8c250d72c3998f7021dd23555a67ee49f65
 Description:  A dashboard ui for smartdns server.
 
 Package: smartdns
-Version: 48-r3
-Depends: libc, libopenssl3
+Version: 48.1-r1
+Depends: libc, libopenssl3, zlib
 License: GPL-3.0-or-later
 Section: net
 URL: https://www.github.com/pymumu/smartdns/
 CPE-ID: cpe:/a:pymumu:smartdns
 Architecture: aarch64_generic
 Installed-Size: 593920
-Filename: smartdns_48-r3_aarch64_generic.ipk
-Size: 243083
-SHA256sum: 2d8be729bd6dcc447f09f295a5e1a618d83b4242afa47903173f73936fcd6c3c
+Filename: smartdns_48.1-r1_aarch64_generic.ipk
+Size: 248762
+SHA256sum: 2b46c2007f6598c8421d12074d52c398b6940d148482e36b1042bdaa9a57f14d
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH.
@@ -1401,8 +1401,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 19138560
 Filename: v2ray-geoip_202606040101.1_all.ipk
-Size: 3918393
-SHA256sum: d5715e333268bef9d67ef92d5cb34c91ec68f12663c592d65dec9a9ab72e1d8d
+Size: 3917955
+SHA256sum: 4b23cca70760d33237f2e8016972af0dbe11237ae6998699ea74f9e37427f0c1
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1414,8 +1414,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10485760
 Filename: v2ray-geosite_202606032327.1_all.ipk
-Size: 3437610
-SHA256sum: c1189e56cdaa14d75f1650f0ebbbc680072e26a8184f55224c1847da50345f29
+Size: 3437615
+SHA256sum: 63025167af632ef3b1afbe82817a2bd0c7d014fb92bd85ef723538312c735635
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1438,8 +1438,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 3686400
 Filename: vmlinux-btf_6.6.119-r6_aarch64_generic.ipk
-Size: 1208709
-SHA256sum: 38d7b9e1de4b3f8dda2b70e4e897be3b9f5e85155221d7154051b05ffc9b28fe
+Size: 1208658
+SHA256sum: b40c8bf9d6fe251d80f27bf705d48815e9be005d108993f2359d672f6831f24a
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

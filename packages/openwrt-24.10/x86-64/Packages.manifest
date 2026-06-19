@@ -104,14 +104,14 @@ SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1781861439
+SourceDateEpoch: 1781875489
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 50554880
 Filename: daed_2026.06.14-r1_x86_64.ipk
-Size: 24684172
-SHA256sum: 0b852fbb255275a27f7d7f766c0004606079cb3b1b8977158cad34dc6d9d6964
+Size: 24684195
+SHA256sum: 749b7cf1f523e95b72bca3e51e54a9edb4acac132778f8a9c29aef3141418c48
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -369,18 +369,18 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.13.0-r10
+Version: 1.14.0-r1
 Depends: libc, luci-base, daed
 Source: feeds/base/custom_packages/luci-app-daede
 SourceName: luci-app-daede
 Section: luci
-SourceDateEpoch: 1781861439
+SourceDateEpoch: 1781875489
 Maintainer: kenzok8
 Architecture: all
-Installed-Size: 286720
-Filename: luci-app-daede_1.13.0-r10_all.ipk
-Size: 79445
-SHA256sum: 2ce7fd9107ab9cda75fd039511b8b87eebfdec4bb7f05ca0cbfceb9e98127faa
+Installed-Size: 296960
+Filename: luci-app-daede_1.14.0-r1_all.ipk
+Size: 81130
+SHA256sum: 5857db9c1a3c3c22507a22a6846fdfe8a6381908bd4554e8a1f8476f6d698a35
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -1687,41 +1687,41 @@ Description:  Sing-box is a universal proxy platform which supports hysteria, SO
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: smartdns-ui
-Version: 48-r3
+Version: 48.1-r1
 Depends: libc, smartdns
 Source: feeds/base/custom_packages/smartdns
 SourceName: smartdns
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781875489
 URL: https://www.github.com/pymumu/smartdns/
 CPE-ID: cpe:/a:pymumu:smartdns
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: x86_64
 Installed-Size: 13250560
-Filename: smartdns-ui_48-r3_x86_64.ipk
-Size: 6608813
-SHA256sum: 84f9eaa8d27f4810dafeeafa291117d769bf9abc5db4bff9ca6c2c0ebc6b10bc
+Filename: smartdns-ui_48.1-r1_x86_64.ipk
+Size: 6606546
+SHA256sum: 881a221a8a3c21340afd891caf70f1cb988533f45b139b9422a443425d6c853f
 Description:  A dashboard ui for smartdns server.
 
 Package: smartdns
-Version: 48-r3
-Depends: libc, libopenssl3
+Version: 48.1-r1
+Depends: libc, libopenssl3, zlib
 Source: feeds/base/custom_packages/smartdns
 SourceName: smartdns
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1781510289
+SourceDateEpoch: 1781875489
 URL: https://www.github.com/pymumu/smartdns/
 CPE-ID: cpe:/a:pymumu:smartdns
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: x86_64
-Installed-Size: 552960
-Filename: smartdns_48-r3_x86_64.ipk
-Size: 243096
-SHA256sum: c658644b7b1531958f9e640291c1d0cd9d42e98757cf78bc804d135de4974fbb
+Installed-Size: 563200
+Filename: smartdns_48.1-r1_x86_64.ipk
+Size: 248525
+SHA256sum: e5c2f56d8eae58039d93e8fb6ff57fa51aa1db41cc1ffa5fc24b38e7a5dff3b4
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH.
@@ -1786,14 +1786,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1781861439
+SourceDateEpoch: 1781875489
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 19138560
 Filename: v2ray-geoip_202606040101.1_all.ipk
-Size: 3918393
-SHA256sum: d5715e333268bef9d67ef92d5cb34c91ec68f12663c592d65dec9a9ab72e1d8d
+Size: 3917955
+SHA256sum: 4b23cca70760d33237f2e8016972af0dbe11237ae6998699ea74f9e37427f0c1
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1804,14 +1804,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1781861439
+SourceDateEpoch: 1781875489
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 10485760
 Filename: v2ray-geosite_202606032327.1_all.ipk
-Size: 3437610
-SHA256sum: c1189e56cdaa14d75f1650f0ebbbc680072e26a8184f55224c1847da50345f29
+Size: 3437615
+SHA256sum: 63025167af632ef3b1afbe82817a2bd0c7d014fb92bd85ef723538312c735635
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1838,12 +1838,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1781861439
+SourceDateEpoch: 1781875489
 Architecture: x86_64
 Installed-Size: 4259840
 Filename: vmlinux-btf_6.6.119-r6_x86_64.ipk
-Size: 1408756
-SHA256sum: 7b467ad5a15a84ba3622cda5c56ee463dc0dd6258414f46b8e468f3dce64ba6f
+Size: 1408846
+SHA256sum: 71b6cb2093a37fb8a9b4140c5e20e36ff0eb53ebe32904f589bdbd0f38d90f44
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

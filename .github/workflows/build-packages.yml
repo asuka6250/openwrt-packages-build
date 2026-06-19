@@ -188,7 +188,7 @@ jobs:
           unzip file python3 python3-pip rsync wget bzip2 patch libncursesw5-dev libsqlite3-dev \
           libxml2-dev libxslt1-dev libffi-dev libc6-dev-i386 lib32z1-dev lib32ncurses-dev \
           lib32stdc++6 dwarves llvm libcap-dev antlr3 gperf p7zip p7zip-full rename qemu-utils zstd \
-          python3-pyelftools
+          python3-pyelftools libclang-dev nodejs npm
           sudo timedatectl set-timezone Asia/Shanghai
 
       - name: Download and Extract OpenWrt SDK
@@ -221,9 +221,10 @@ jobs:
           git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang || (rm -rf feeds/packages/lang/golang; mv -v /tmp/golang feeds/packages/lang/)
           git clone https://github.com/sbwml/packages_lang_rust feeds/packages/lang/rust || (rm -rf feeds/packages/lang/rust; mv -v /tmp/rust feeds/packages/lang/)
           ./scripts/feeds install -a
-          
+           git clone --depth 1  -b lang https://github.com/asuka6250/openwrt-packages.git package/rust-bindgen
           mkdir -p feeds/base
           ln -sf ../../package/custom_packages feeds/base/custom_packages
+          ln -sf ../../package/rust-bindgen feeds/base/rust-bindgen ||echo 'link rust-bindgen fail'
           make defconfig 2>/dev/null
 
           sed -i 's/^\(CONFIG_PACKAGE_.*\)=m$/# \1 is not set/' .config
@@ -288,7 +289,7 @@ jobs:
           if [ -f "$GITHUB_WORKSPACE/build_pkg_list.txt" ]; then
             while IFS=':' read -r pkg_path pkg_name; do
               echo "🔨 Compiling target: $pkg_path/compile ($pkg_name)"
-              make "$pkg_path/compile" -j$(($(nproc) + 1)) IGNORE_ERRORS=1 -k 2>/dev/null | grep -v -E "(Entering|Leaving) directory.*/scripts/config|'conf' is up to date|^#$|No change to \.config" || true
+              make "$pkg_path/compile" -j$(($(nproc) + 1)) IGNORE_ERRORS=1 -k 2>/dev/null | grep -v -E "(Entering|Leaving) directory.*/scripts/config|'conf' is up to date|^#$|No change to \.config" || make "$pkg_path/compile" -j$(($(nproc) + 1)) IGNORE_ERRORS=1 -k V=s 
             done < "$GITHUB_WORKSPACE/build_pkg_list.txt"
           else
             echo "⚠️ No packages found in build list!"

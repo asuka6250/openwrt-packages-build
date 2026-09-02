@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269736
-SHA256sum: a8e88d2b73833629e3d027c24143b9e3133968c3f856dd0e1aa97bd5c7969e92
+Size: 269725
+SHA256sum: be98faba717a1f9cb157cecdf7906ad94e6709750b6fc12faafdff98f9c759fe
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11828
-SHA256sum: a84b41c6f21d787ae67a087d7a9b22acff0bfa056c92eb6b640b8b3663ff3ea5
+Size: 11827
+SHA256sum: e979546b9baece21bf8abea44b3a5785efdfd4dc396ddaf3c4fc7220aac9a61f
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3133440
 Filename: luci-app-passwall_26.9.1-r1_all.ipk
-Size: 839556
-SHA256sum: e32c82d91f38e110c9c21d64f001071c3d04923fd0900f9f98a0e92251bb9587
+Size: 839794
+SHA256sum: 68eb691c2ac606778a18eb92dc2aaaacd586296a4a857b7e54aecb6800787ee8
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.1_all.ipk
-Size: 18214
-SHA256sum: 7907a3999ffbf93c5f0ffaf073134f220e7f0a84137cfe104491d4a8d49c6a9d
+Size: 18216
+SHA256sum: 0975eda9d8ff1cd5edae4907ada419f4023b3735b36e37087f0eb5e2301ecebe
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -849,16 +849,16 @@ SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.244.58400~b62a19d
+Version: 26.245.30657~d40e1c9
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.244.58400~b62a19d_all.ipk
-Size: 74789
-SHA256sum: 06e87fa9b3488bcd0b9b4aa2c72850fe5cd6f2fd32e4cda878538348f8ef7610
+Filename: luci-theme-footstrap_26.245.30657~d40e1c9_all.ipk
+Size: 74698
+SHA256sum: 6dd2c92bcab1e7b22d8324b2eb89562f6af438eb1063db0c82eced65a03f0f10
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -947,7 +947,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
 Size: 8794
-SHA256sum: e13454c5799935ba7d919a3dce2f2071985c89d9fe5d31fd9c58d931ffdb078d
+SHA256sum: 1432541f068ebdb47ca21c045a48b8538525ec95dbc39492f7840b9a9f60688d
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4315
-SHA256sum: 554adcc7371d6fb77b082cf898b36b76410993308bfce65f6074616399ddade1
+Size: 4321
+SHA256sum: 90f94346ecb02249c793fb1d4dae0eba24276e7909ac33920a4b758a42ee0928
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

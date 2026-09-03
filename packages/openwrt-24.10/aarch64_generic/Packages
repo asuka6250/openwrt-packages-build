@@ -41,16 +41,16 @@ SHA256sum: 964666a14eb8ee98c939c1d7925bacda8eaf6eedfd6711ab12486d5227a61cce
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.08.31~68ec4fa-r1
+Version: 2026.09.03~810b014-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 47872000
-Filename: clashoo_2026.08.31~68ec4fa-r1_aarch64_generic.ipk
-Size: 17792455
-SHA256sum: d871d974460b7f60925983f8b986520d0845f8456dfdea89980b8d8d5bbac9b6
+Installed-Size: 47933440
+Filename: clashoo_2026.09.03~810b014-r1_aarch64_generic.ipk
+Size: 17816726
+SHA256sum: fb1be6aee6fa9e2828c2ec5268981fef98df8f778bbb36f27046fac94220c7d2
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -141,8 +141,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_generic
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_generic.ipk
-Size: 2744688
-SHA256sum: acd1d5a5c19f002787157b02c803126dee19a4293eb5175d3dc7a007fb58e796
+Size: 2744745
+SHA256sum: 1b02bbbf9f329f18cd9d378f8ff3e0299ad2d0a554374aed8c1c9d628c2602ff
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.30.0-r9
+Version: 1.30.0-r10
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
 Installed-Size: 942080
-Filename: luci-app-clashoo_1.30.0-r9_all.ipk
-Size: 396448
-SHA256sum: 863cd58065ff16ebc5ccbd0e55567ffc3f0de934edc134fdb12ddedb600f3339
+Filename: luci-app-clashoo_1.30.0-r10_all.ipk
+Size: 396393
+SHA256sum: e24649434276e6460506ba07e0f25090639f33019a469adee07e626851e99c98
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -429,8 +429,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1361920
 Filename: luci-app-passwall2_26.9.2-r1_all.ipk
-Size: 343671
-SHA256sum: 9156291be379a4e61fffe438777889627b9504778e804a6a408aeb94f545b65b
+Size: 343707
+SHA256sum: 7ba267e3244c2e7b0ae9f0e16fe6ff03b62bbeeda9622649e2c04d02c58ca25d
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.30.0-r9
+Version: 1.30.0-r10
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.30.0-r9_all.ipk
-Size: 12227
-SHA256sum: d5e5aeda1626891d40885c87cfd30e965725d5f380fd6126eef6c71e5107c275
+Filename: luci-i18n-clashoo-zh-cn_1.30.0-r10_all.ipk
+Size: 12228
+SHA256sum: 541b38bfc669fb42e96961ddc27a6691b7c58e7a5accc118550be6ca0e7a9e9a
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -706,8 +706,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.9.2_all.ipk
-Size: 20163
-SHA256sum: eb4490474434e2477cef96b721da891db62a5b8082576cd5f5d8f9574890e395
+Size: 20170
+SHA256sum: 697c9d724eaa06bf2921134a77f16530375e33c63f11ca956983793805ad2606
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -849,16 +849,16 @@ SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.245.58113~5991c09
+Version: 26.246.31157~78d33df
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.245.58113~5991c09_all.ipk
-Size: 74231
-SHA256sum: b053b2a1391f94eae49359a948f129bb8d78dff6384d287c85155a4edcbd9d27
+Filename: luci-theme-footstrap_26.246.31157~78d33df_all.ipk
+Size: 74535
+SHA256sum: e3cf4d30cdca0a4d11ca43198a5be64e962aaf1b4b0416c25bfcfef1c9fecacf
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1482,7 +1482,7 @@ Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
 Size: 4323
-SHA256sum: 0b6243d24a0ffb4b8c6f0c4cac1d6ef13103d786c3ad94759a3e7996bc396e63
+SHA256sum: 3b16e77b479a911198678cd405af00b33fc096a0af55f7925126690bb0824908
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17233920
 Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558667
-SHA256sum: 4be6507e0e5f297ca4b5b77ec03c00f00a74a6bc9d24e93c741786040de1ba2d
+Size: 3558501
+SHA256sum: 4e92baad97f3a4bb972b85ff2685dcf79aae9561ee9ad7aa4bf6e77b2704d29b
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11018240
 Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612713
-SHA256sum: 61ab4c77255d5ca02f31982b12dbdd5f068edb56b64623ca5ed36e11be876477
+Size: 3612689
+SHA256sum: 63e104282a019d05b5bf2e3ae81a94e23828e1e04b5fec36a802bcc604536b00
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

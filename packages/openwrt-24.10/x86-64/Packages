@@ -41,16 +41,16 @@ SHA256sum: e79b579f4790de32e51d5e064e29902cff1f7eb76384b43bf93c9f6964cde91d
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.03~810b014-r1
+Version: 2026.09.03~810b014-r2
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: x86_64
 Installed-Size: 52428800
-Filename: clashoo_2026.09.03~810b014-r1_x86_64.ipk
-Size: 19751238
-SHA256sum: c922d2ab076789405cb9440784d3dec4e60fdf4bdf1adda3124f61ec354f7219
+Filename: clashoo_2026.09.03~810b014-r2_x86_64.ipk
+Size: 19750323
+SHA256sum: ae7a463b58ce5456059ac596b72cc45d5eb7ab3f8d5f93cebf443ee6d162a51b
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -171,22 +171,22 @@ Section: net
 Architecture: x86_64
 Installed-Size: 358400
 Filename: lanspeedd-bpf_1.2.0-r3_x86_64.ipk
-Size: 83869
-SHA256sum: cf0142579380b1e7364eb49b94441885579313b9468ef1c83fc5a1b2c80fd517
+Size: 83887
+SHA256sum: 0ade6ee8adda697bd360ee7d6b84ed3a27d79391cf14ce6a116fb08f010439f1
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
 
 Package: lanspeedd
 Version: 1.2.0-r3
-Depends: libc, libgcc1, kmod-nf-conntrack-netlink, tc-full, ip, nftables, conntrack, kmod-ifb, kmod-sched-core, kmod-sched
+Depends: libc, libgcc1, kmod-nf-conntrack-netlink, libsqlite3-0, tc-full, ip, nftables, conntrack, kmod-ifb, kmod-sched-core, kmod-sched
 License: Apache-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 2263040
+Installed-Size: 2283520
 Filename: lanspeedd_1.2.0-r3_x86_64.ipk
-Size: 1036299
-SHA256sum: ac8c33bf20d8c10f70d081d31df0a89975c4388024908234e1584cc6cdf43b19
+Size: 1046507
+SHA256sum: e5b914342ec6e8d026759299f30a31d95e093e484acc791f7b664525c9845633
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -260,8 +260,8 @@ Section: luci
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r10_all.ipk
-Size: 396393
-SHA256sum: e24649434276e6460506ba07e0f25090639f33019a469adee07e626851e99c98
+Size: 396450
+SHA256sum: e17c447081f44924e44bf83fba33c1ccbb5db296173ef312fee05f3b9aeaf7d6
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -330,10 +330,10 @@ Depends: libc, lanspeedd, lanspeedd-bpf, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 860160
+Installed-Size: 890880
 Filename: luci-app-lanspeed_1.2.0-r3_all.ipk
-Size: 178656
-SHA256sum: 384257209afd2a5653c101deba555cd496ea7e51f97236c027735aea06f2f20a
+Size: 184691
+SHA256sum: 38b17e6d4d47f3de0d1c83585e5830b7f62f9906ba1ba80e627c2d5b4f137dd2
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for
@@ -526,8 +526,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r10_all.ipk
-Size: 12228
-SHA256sum: 541b38bfc669fb42e96961ddc27a6691b7c58e7a5accc118550be6ca0e7a9e9a
+Size: 12232
+SHA256sum: 2453bf6cdd9ef9e9e4f5e8d0b4d01e5a834a78f7ed862d4625f940a6b0c0983f
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn

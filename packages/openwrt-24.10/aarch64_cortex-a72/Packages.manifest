@@ -105,21 +105,21 @@ Description:  dae, means goose, is a lightweight and high-performance transparen
  proxy solution.
 
 Package: daed
-Version: 2026.08.28-r3
+Version: 2026.08.28-r4
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/daed
 SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1788254451
+SourceDateEpoch: 1788547965
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a72
 Installed-Size: 48179200
-Filename: daed_2026.08.28-r3_aarch64_cortex-a72.ipk
-Size: 23298103
-SHA256sum: b6de9ef090700ca9709548b7e62f66c5c7f903647501f4ac67c43bbf2626e050
+Filename: daed_2026.08.28-r4_aarch64_cortex-a72.ipk
+Size: 23298123
+SHA256sum: 36f4748280f0184e6858d39d0f6bcbafb1157ea5ec8094415da8035da3bbae93
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -184,14 +184,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788424757
+SourceDateEpoch: 1788547965
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_cortex-a72
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a72.ipk
-Size: 2744750
-SHA256sum: 80e8d3ecfa78fc0c230ca45fea6722f82f7c25839929407cce6e9577645cb6cf
+Size: 2744735
+SHA256sum: 43e88d5028417c70dca94c32ff097a142e3429f635fad5459e7bd85ab29564e2
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -560,14 +560,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1788424757
+SourceDateEpoch: 1788547965
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1361920
 Filename: luci-app-passwall2_26.9.2-r1_all.ipk
-Size: 343707
-SHA256sum: 7ba267e3244c2e7b0ae9f0e16fe6ff03b62bbeeda9622649e2c04d02c58ca25d
+Size: 343652
+SHA256sum: 86933a2041efa73828887d53844fe27cfa10e4d77837c6f35005851e3bf4a022
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -922,12 +922,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1788424757
+SourceDateEpoch: 1788547965
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.9.2_all.ipk
-Size: 20170
-SHA256sum: 697c9d724eaa06bf2921134a77f16530375e33c63f11ca956983793805ad2606
+Size: 20159
+SHA256sum: 7f7e762976033391ea2b1cc314bebf90d463b48569c1fe4778248de49a9464f3
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1112,21 +1112,21 @@ SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.247.30851~17d7591
+Version: 26.247.67965~c5ed76c
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1788510851
+SourceDateEpoch: 1788547965
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.247.30851~17d7591_all.ipk
-Size: 74534
-SHA256sum: 67d35da129322909427cd288c3edd4d4096fa8d8f90e2fee689aa6f93c1811cd
+Filename: luci-theme-footstrap_26.247.67965~c5ed76c_all.ipk
+Size: 75705
+SHA256sum: f9df68e47c7da9cc63d4d703630ade2c0c633dc2dac61625f81d262aa9bbfcdc
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1179,20 +1179,20 @@ SHA256sum: c48dcb08d2a370eea0b3369717f081d4c3bda6bcf73a01e5a345f9fed48232c7
 Description:  Material3 Theme (default)
 
 Package: luci-theme-shadcn
-Version: 0.5.0-r20260830
+Version: 0.5.1-r20260904
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-shadcn
 SourceName: luci-theme-shadcn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1788116783
+SourceDateEpoch: 1788547965
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 798720
-Filename: luci-theme-shadcn_0.5.0-r20260830_all.ipk
-Size: 523455
-SHA256sum: afdd4249604a468cbacc42eb0608ed5b11bdcf35afca120ce8c9f5d74d94d1ce
+Filename: luci-theme-shadcn_0.5.1-r20260904_all.ipk
+Size: 523486
+SHA256sum: cc98b2a366612cca51385bdb7de1d31f487b0ead5b9b08363513abfe3b87dd3f
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: luci-theme-tp
@@ -1936,13 +1936,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1788424757
+SourceDateEpoch: 1788547965
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4331
-SHA256sum: 8343f1265ecce7d4244e54d222c3f1082eb20d7c3778934769c8122d1242938b
+Size: 4320
+SHA256sum: d0d7827d35c1380a0f5b351cdb31d94c3d70430d9e5b101b1ddb17ada5ebea7b
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1988,14 +1988,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788424757
+SourceDateEpoch: 1788547965
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 17233920
 Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558501
-SHA256sum: 4e92baad97f3a4bb972b85ff2685dcf79aae9561ee9ad7aa4bf6e77b2704d29b
+Size: 3558876
+SHA256sum: 41386108fd1066431a14b3a0ecdfd90f13ca231a8d4ea97207f6ab3ce2899000
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2006,14 +2006,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788424757
+SourceDateEpoch: 1788547965
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11018240
 Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612689
-SHA256sum: 63e104282a019d05b5bf2e3ae81a94e23828e1e04b5fec36a802bcc604536b00
+Size: 3612690
+SHA256sum: 125ca9afe1718212163ba3d1031e183d473eaffe37a4c5ce937a58e15d270a5f
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2040,12 +2040,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1788254451
+SourceDateEpoch: 1788547965
 Architecture: aarch64_cortex-a72
 Installed-Size: 3276800
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a72.ipk
-Size: 1073736
-SHA256sum: d566b8df023cdd468148f9c943ad3b734d048b543f4afb8f0224191bc0506a2f
+Size: 1073768
+SHA256sum: 3d71710d9c5e907c2e95ef0636667ac0ef1bc68b58e26aa1b31b03756d596694
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

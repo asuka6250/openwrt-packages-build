@@ -41,16 +41,16 @@ SHA256sum: 964666a14eb8ee98c939c1d7925bacda8eaf6eedfd6711ab12486d5227a61cce
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.03~810b014-r1
+Version: 2026.09.03~810b014-r3
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 47933440
-Filename: clashoo_2026.09.03~810b014-r1_aarch64_generic.ipk
-Size: 17816726
-SHA256sum: fb1be6aee6fa9e2828c2ec5268981fef98df8f778bbb36f27046fac94220c7d2
+Installed-Size: 47943680
+Filename: clashoo_2026.09.03~810b014-r3_aarch64_generic.ipk
+Size: 17816856
+SHA256sum: 24e19141c7cba9dfd379276d09d2fade98649ac9940fcf200a6811bfcbcc0e12
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.30.0-r10
+Version: 1.30.0-r11
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
 Installed-Size: 942080
-Filename: luci-app-clashoo_1.30.0-r10_all.ipk
-Size: 396393
-SHA256sum: e24649434276e6460506ba07e0f25090639f33019a469adee07e626851e99c98
+Filename: luci-app-clashoo_1.30.0-r11_all.ipk
+Size: 396501
+SHA256sum: 1304556b5184a1db8a27e4530ccfa4a02bd197f5e04a6bbffbc3be21fda72543
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.30.0-r10
+Version: 1.30.0-r11
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.30.0-r10_all.ipk
-Size: 12228
-SHA256sum: 541b38bfc669fb42e96961ddc27a6691b7c58e7a5accc118550be6ca0e7a9e9a
+Filename: luci-i18n-clashoo-zh-cn_1.30.0-r11_all.ipk
+Size: 12229
+SHA256sum: 593d505c0b4b7ed44a79551e9d5cadd08a26f7a55ccee82b8239a9bd4231a435
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -797,16 +797,16 @@ SHA256sum: b30cc4e6b028eab1a04351b5ed12e3ad1e622540029eb3a1eae9c0e205ddcd99
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 1.3.0-r20260830
+Version: 1.3.1-r20260904
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 471040
-Filename: luci-theme-aurora_1.3.0-r20260830_all.ipk
-Size: 183241
-SHA256sum: 56dba24ac1bdc2a92f16732c900d78ed16ce1ec9dc1f8a122b36d36c133dd699
+Filename: luci-theme-aurora_1.3.1-r20260904_all.ipk
+Size: 183259
+SHA256sum: 1bf1314ba4b1c1a49967e3a7aa70214b375c6fb84bbbddaa5ccb67388906019d
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -849,16 +849,16 @@ SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.246.31157~78d33df
+Version: 26.247.30851~17d7591
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.246.31157~78d33df_all.ipk
-Size: 74535
-SHA256sum: e3cf4d30cdca0a4d11ca43198a5be64e962aaf1b4b0416c25bfcfef1c9fecacf
+Filename: luci-theme-footstrap_26.247.30851~17d7591_all.ipk
+Size: 74534
+SHA256sum: 67d35da129322909427cd288c3edd4d4096fa8d8f90e2fee689aa6f93c1811cd
 Description:  Footstrap Theme
 
 Package: luci-theme-glass

@@ -79,16 +79,16 @@ Description:  dae, means goose, is a lightweight and high-performance transparen
  proxy solution.
 
 Package: daed
-Version: 2026.08.28-r3
+Version: 2026.08.28-r4
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a53
 Installed-Size: 48179200
-Filename: daed_2026.08.28-r3_aarch64_cortex-a53.ipk
-Size: 23298752
-SHA256sum: 5ab9119aabeeb8a1a3c3c135897543c3e21f3fce5fcf90e4811429336dabe257
+Filename: daed_2026.08.28-r4_aarch64_cortex-a53.ipk
+Size: 23299445
+SHA256sum: c7c04dcace655e37d01a5a8fef36c48940284840bf3e7ac09ff0065a7d349154
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -141,8 +141,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a53.ipk
-Size: 2744743
-SHA256sum: a61c20602c93443e5d707eaa5c85664198832c2417bdaaae7b862c1a12c6d06c
+Size: 2744821
+SHA256sum: 7c9857dc27708c91129adbc623ac7416c02bd2451aedf3b10026fb08b95ab803
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -429,8 +429,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1361920
 Filename: luci-app-passwall2_26.9.2-r1_all.ipk
-Size: 343707
-SHA256sum: 7ba267e3244c2e7b0ae9f0e16fe6ff03b62bbeeda9622649e2c04d02c58ca25d
+Size: 343652
+SHA256sum: 86933a2041efa73828887d53844fe27cfa10e4d77837c6f35005851e3bf4a022
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -706,8 +706,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.9.2_all.ipk
-Size: 20170
-SHA256sum: 697c9d724eaa06bf2921134a77f16530375e33c63f11ca956983793805ad2606
+Size: 20159
+SHA256sum: 7f7e762976033391ea2b1cc314bebf90d463b48569c1fe4778248de49a9464f3
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -849,16 +849,16 @@ SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.247.30851~17d7591
+Version: 26.247.67965~c5ed76c
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.247.30851~17d7591_all.ipk
-Size: 74534
-SHA256sum: 67d35da129322909427cd288c3edd4d4096fa8d8f90e2fee689aa6f93c1811cd
+Filename: luci-theme-footstrap_26.247.67965~c5ed76c_all.ipk
+Size: 75705
+SHA256sum: f9df68e47c7da9cc63d4d703630ade2c0c633dc2dac61625f81d262aa9bbfcdc
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -899,16 +899,16 @@ SHA256sum: c48dcb08d2a370eea0b3369717f081d4c3bda6bcf73a01e5a345f9fed48232c7
 Description:  Material3 Theme (default)
 
 Package: luci-theme-shadcn
-Version: 0.5.0-r20260830
+Version: 0.5.1-r20260904
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 798720
-Filename: luci-theme-shadcn_0.5.0-r20260830_all.ipk
-Size: 523455
-SHA256sum: afdd4249604a468cbacc42eb0608ed5b11bdcf35afca120ce8c9f5d74d94d1ce
+Filename: luci-theme-shadcn_0.5.1-r20260904_all.ipk
+Size: 523486
+SHA256sum: cc98b2a366612cca51385bdb7de1d31f487b0ead5b9b08363513abfe3b87dd3f
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: luci-theme-tp
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4329
-SHA256sum: ca03e518a51aa8c030ae9cf4ff6fe6943e334473e1ac487d429c490c242f98d8
+Size: 4321
+SHA256sum: 0a729ab9fd7f570a5b7c2d6f55280d229dfcf075dc53f31444138585df2248c0
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17233920
 Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558501
-SHA256sum: 4e92baad97f3a4bb972b85ff2685dcf79aae9561ee9ad7aa4bf6e77b2704d29b
+Size: 3558876
+SHA256sum: 41386108fd1066431a14b3a0ecdfd90f13ca231a8d4ea97207f6ab3ce2899000
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11018240
 Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612689
-SHA256sum: 63e104282a019d05b5bf2e3ae81a94e23828e1e04b5fec36a802bcc604536b00
+Size: 3612690
+SHA256sum: 125ca9afe1718212163ba3d1031e183d473eaffe37a4c5ce937a58e15d270a5f
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082851
-SHA256sum: e082fcc7a9348d901520ca9c823fa1051485ade01912e0062f1c2eec7f597571
+Size: 1082761
+SHA256sum: 523c416fb71dfb902a005436c5545d45534ba304c98860f4e16869aad2cf1861
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

@@ -65,16 +65,16 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.08.28-r3
+Version: 2026.08.28-r4
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: aarch64_generic
 Installed-Size: 32307200
-Filename: dae_2026.08.28-r3_aarch64_generic.ipk
-Size: 11569861
-SHA256sum: 9f211884c63d5047ba25532c3272f9f2a6604f557ccc38b6e13ffb50db20c22e
+Filename: dae_2026.08.28-r4_aarch64_generic.ipk
+Size: 11569920
+SHA256sum: 07a71c38881ed5d3a7e52df96dc560b75938780e86f6c84a51455c7261fe85d8
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
@@ -87,8 +87,8 @@ URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_generic
 Installed-Size: 48179200
 Filename: daed_2026.08.28-r4_aarch64_generic.ipk
-Size: 23298122
-SHA256sum: be00608aee08d07f01499c04e83f9ec60c5fcc4961b2f9696396d201753d660a
+Size: 23298031
+SHA256sum: c4f152326a121a939f0ae01f8a806193632d30097c6f9f1cd4a5f9eb72879c6f
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -128,8 +128,8 @@ URL: https://github.com/sbwml/geo2txt
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: geo2txt_1.0.0-r1_aarch64_generic.ipk
-Size: 7647
-SHA256sum: 36cc4e22bfa6505d5537ed57af43e925776b03541856d9db33185930affe7a89
+Size: 7639
+SHA256sum: b13224392c7a8b7438b5fd23040995b21e88e2f058662e2b5f626ad2b12dff03
 Description:  V2ray geosite & geoip unpacking CLI tool
 
 Package: geoview
@@ -141,8 +141,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_generic
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_generic.ipk
-Size: 2744732
-SHA256sum: 01ff694681b8baaf5a1639ae23113db784221fc4c2785f83276e353b8eb8e5bf
+Size: 2744748
+SHA256sum: 950e30898285a4e54c22cce2a69c0003624303f91c1a32d1013da493c1920d6f
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -313,14 +313,14 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.14.7-r24
+Version: 1.14.7-r25
 Depends: libc, luci-base, daed
 Section: luci
 Architecture: all
-Installed-Size: 327680
-Filename: luci-app-daede_1.14.7-r24_all.ipk
-Size: 89746
-SHA256sum: 52bb7b7d33e31ccbe9613760f4cd26faedb0ca8461d25af23e7493bbcd0565d9
+Installed-Size: 348160
+Filename: luci-app-daede_1.14.7-r25_all.ipk
+Size: 94433
+SHA256sum: 8568fa512c7a839a555ff44986f7dd3b4a987af1800cc259a342594319a3cce5
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -387,15 +387,15 @@ SHA256sum: cee35c923be7cfab7395940ba87eda78e2137c0a3247f406f6d7f96a1c901a9f
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
-Version: 1.7.12-r1
+Version: 1.7.13-r1
 Depends: libc, mosdns, uclient-fetch, v2ray-geoip, v2ray-geosite, geo2txt, ucode
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 430080
-Filename: luci-app-mosdns_1.7.12-r1_all.ipk
-Size: 114748
-SHA256sum: bfc5a0a4514e6ced1b1916395353382210f62dad4ebbdabdbe66f739a78c334d
+Installed-Size: 440320
+Filename: luci-app-mosdns_1.7.13-r1_all.ipk
+Size: 117446
+SHA256sum: 7a74601e4e3acdccd41964a858e0a83c4aec059dfd7235fd58d857c06ecd2f41
 Description:  LuCI Support for mosdns
 
 Package: luci-app-nikki
@@ -429,8 +429,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1361920
 Filename: luci-app-passwall2_26.9.2-r1_all.ipk
-Size: 343652
-SHA256sum: 86933a2041efa73828887d53844fe27cfa10e4d77837c6f35005851e3bf4a022
+Size: 344446
+SHA256sum: 4671f70ace5c03b32ebab7e552bf8f82accdea3b25f25985d5af20ba7336ac64
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -588,27 +588,27 @@ SHA256sum: 7734702ee909029be64cb1c7c1e2abbaba93b55d9db9fe710d42e4849ee98fa7
 Description:  Translation for luci-app-daed - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluent-zh-cn
-Version: 26.244.58400~b62a19d
+Version: 26.248.64743~678d2fd
 Depends: libc, luci-theme-fluent
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-fluent-zh-cn_26.244.58400~b62a19d_all.ipk
-Size: 6366
-SHA256sum: 76bfb8c9b3d8f72f2fdbd51c5091796ab659e860a1bc710d00941c7c60ce2bef
+Filename: luci-i18n-fluent-zh-cn_26.248.64743~678d2fd_all.ipk
+Size: 6461
+SHA256sum: dc54438cecc46aa6a23529889fa4be0268bc5701dda24dcd272dadf991fe3528
 Description:  Translation for luci-theme-fluent - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluentdashboard-zh-cn
-Version: 26.244.58400~b62a19d
+Version: 26.248.64743~678d2fd
 Depends: libc, luci-mod-fluentdashboard
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-fluentdashboard-zh-cn_26.244.58400~b62a19d_all.ipk
-Size: 2172
-SHA256sum: e5f8f991bd0c329f96541c9027b38a85ed82df462436092b68573d7b2d258376
+Filename: luci-i18n-fluentdashboard-zh-cn_26.248.64743~678d2fd_all.ipk
+Size: 2178
+SHA256sum: 3f6c56caaf7d161033cbb34ad54b19f4ddeb39f3f7bfc9d08d7faba849578f9e
 Description:  Translation for luci-mod-fluentdashboard - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-glass-zh-cn
@@ -667,14 +667,14 @@ SHA256sum: 9321b77fe8dc669c9c884e3cf7d0be4adc641a939fa6a4a62c9f826087457d93
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 26.243.76881~51e9d4b
+Version: 26.248.64743~678d2fd
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_26.243.76881~51e9d4b_all.ipk
-Size: 6850
-SHA256sum: 935d142904e5da9fa4e9e2a9786d9033a5b350569c4a33166d5195b0472d6d5d
+Filename: luci-i18n-mosdns-zh-cn_26.248.64743~678d2fd_all.ipk
+Size: 7076
+SHA256sum: 36979873d879616964027d39cd74436323a6477b84a85daca27cd3c120c5d0a3
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
@@ -706,8 +706,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.9.2_all.ipk
-Size: 20159
-SHA256sum: 7f7e762976033391ea2b1cc314bebf90d463b48569c1fe4778248de49a9464f3
+Size: 20163
+SHA256sum: 4dfbf9d29447bef97aee7da6cebd52442a8049e84e6d04e2553339798cd32328
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -831,8 +831,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 768000
 Filename: luci-theme-fluent-lite_1.0.9-r1_all.ipk
-Size: 123260
-SHA256sum: 612e1f695ac3ed0458bccc7ddb04fe96665c02945cb8559661675e2a3b44cf25
+Size: 123350
+SHA256sum: 9a2b87fbcd212b1ee9c1f64fb38ab93a9e47ab26255b21fb4dfa99217d448165
 Description:  Core FluentUI theme styling for LuCI without optional menu, updater, log, and application enhancements.
 
 Package: luci-theme-fluent
@@ -844,21 +844,21 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 962560
 Filename: luci-theme-fluent_1.0.9-r1_all.ipk
-Size: 161385
-SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
+Size: 161586
+SHA256sum: 6fb616a54388912061d5a430927681bf414ea422c1b81ee6358395600c9ad4f4
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.248.29347~0b07dd4
+Version: 26.248.64743~678d2fd
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.248.29347~0b07dd4_all.ipk
-Size: 76469
-SHA256sum: e733d78aa5e6e3f7a20e0d1939cfb3e33d5758a4f1595be5c0806df96786ed83
+Filename: luci-theme-footstrap_26.248.64743~678d2fd_all.ipk
+Size: 76190
+SHA256sum: 4cb54561c0b738a637622c9cf6612d28f401a831aca2a4c6ee75b6c403980f5d
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -998,16 +998,16 @@ SHA256sum: dfc6d509b921727df7b59259428509b6f66ef8adda414e2f847b6c3e803dd0ed
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: mosdns
-Version: 5.3.4-r12
+Version: 5.3.4-r13
 Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 URL: https://github.com/IrineSistiana/mosdns
 Architecture: aarch64_generic
 Installed-Size: 15861760
-Filename: mosdns_5.3.4-r12_aarch64_generic.ipk
-Size: 5917421
-SHA256sum: cedc14b8f6fa47133664909e5a54549dfe9d392a6be042382e1a2fc60e4f070f
+Filename: mosdns_5.3.4-r13_aarch64_generic.ipk
+Size: 5919832
+SHA256sum: a05b9ec7a44b589335c170b23b56d8c2464ea19599494c76da1012e1758c57cb
 Description:  A plug-in DNS forwarder/splitter
 
 Package: naiveproxy
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4314
-SHA256sum: f3c80970160748de6385103f00a65620dc44a5e82cbbce6c61abb1c153aec9fb
+Size: 4323
+SHA256sum: 641f0128db3ee17bc05080219efaaae624ea03cba04920b51ddd16a88891b9c7
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17233920
 Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558876
-SHA256sum: 41386108fd1066431a14b3a0ecdfd90f13ca231a8d4ea97207f6ab3ce2899000
+Size: 3558841
+SHA256sum: 1ca4a7a24215881a61e0fe931f3c7c4c491812164019547eb54ac534502f5086
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11018240
 Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612690
-SHA256sum: 125ca9afe1718212163ba3d1031e183d473eaffe37a4c5ce937a58e15d270a5f
+Size: 3612883
+SHA256sum: 843a2ff19942b0fe7ffc6f52bc12c216bdf4a54fe6a8828e05a44277a4dbb83e
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 3686400
 Filename: vmlinux-btf_6.6.119-r6_aarch64_generic.ipk
-Size: 1208612
-SHA256sum: 67fd04aa472c45092f0ec1a676ff4856c13f1c2d6b5d6b17f9cd1ce98dd40637
+Size: 1208600
+SHA256sum: 613bb75899c791d1e8872927973597ef6f6939106c3be9fe493a4c18ed164d41
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

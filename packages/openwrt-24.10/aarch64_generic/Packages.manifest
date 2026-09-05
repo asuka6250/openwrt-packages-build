@@ -56,20 +56,20 @@ SHA256sum: 964666a14eb8ee98c939c1d7925bacda8eaf6eedfd6711ab12486d5227a61cce
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.03~810b014-r3
+Version: 2026.09.05~fd74ecb-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1788510851
+SourceDateEpoch: 1788595747
 Maintainer: kenzok8
 Architecture: aarch64_generic
 Installed-Size: 47943680
-Filename: clashoo_2026.09.03~810b014-r3_aarch64_generic.ipk
-Size: 17816856
-SHA256sum: 24e19141c7cba9dfd379276d09d2fade98649ac9940fcf200a6811bfcbcc0e12
+Filename: clashoo_2026.09.05~fd74ecb-r1_aarch64_generic.ipk
+Size: 17815069
+SHA256sum: 1e676c6db37b998c9b852fe0897f7723f831d9ee45e0497fafe900e7596f4b64
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -352,13 +352,13 @@ Depends: libc, luci-base, clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1788510851
+SourceDateEpoch: 1788595747
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r11_all.ipk
-Size: 396501
-SHA256sum: 1304556b5184a1db8a27e4530ccfa4a02bd197f5e04a6bbffbc3be21fda72543
+Size: 396513
+SHA256sum: f735639fea205d631d15f8accf06698667794b22c40144f89149c56b146950aa
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -719,13 +719,13 @@ Depends: libc, luci-app-clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1788510851
+SourceDateEpoch: 1788595747
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r11_all.ipk
-Size: 12229
-SHA256sum: 593d505c0b4b7ed44a79551e9d5cadd08a26f7a55ccee82b8239a9bd4231a435
+Size: 12222
+SHA256sum: 8e0e5d87a1271dd802a837fe796c0a31aa6c5824025845e0f3a1dc97c8793e19
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1112,21 +1112,21 @@ SHA256sum: 42750b6fa30adc40425703da06fa9c236f93406dee9c01d395511712b838130e
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.247.67965~c5ed76c
+Version: 26.248.29347~0b07dd4
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1788547965
+SourceDateEpoch: 1788595747
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 317440
-Filename: luci-theme-footstrap_26.247.67965~c5ed76c_all.ipk
-Size: 75705
-SHA256sum: f9df68e47c7da9cc63d4d703630ade2c0c633dc2dac61625f81d262aa9bbfcdc
+Filename: luci-theme-footstrap_26.248.29347~0b07dd4_all.ipk
+Size: 76469
+SHA256sum: e733d78aa5e6e3f7a20e0d1939cfb3e33d5758a4f1595be5c0806df96786ed83
 Description:  Footstrap Theme
 
 Package: luci-theme-glass

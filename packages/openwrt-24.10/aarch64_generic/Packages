@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 47943680
 Filename: clashoo_2026.09.05~fd74ecb-r1_aarch64_generic.ipk
-Size: 17815069
-SHA256sum: 1e676c6db37b998c9b852fe0897f7723f831d9ee45e0497fafe900e7596f4b64
+Size: 17815245
+SHA256sum: 4c63acd9645172dfad60de22c4e81b731df9d9cc560cb9ffa43bc939ebceebcf
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -65,30 +65,30 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.08.28-r4
+Version: 2026.08.28-r6
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: aarch64_generic
 Installed-Size: 32307200
-Filename: dae_2026.08.28-r4_aarch64_generic.ipk
-Size: 11569920
-SHA256sum: 07a71c38881ed5d3a7e52df96dc560b75938780e86f6c84a51455c7261fe85d8
+Filename: dae_2026.08.28-r6_aarch64_generic.ipk
+Size: 11569836
+SHA256sum: 620afedce9de4e253e7e4b866011bebd1866b8bb77d9be93501930eb6d2ebf31
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.08.28-r4
+Version: 2026.08.28-r6
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_generic
 Installed-Size: 48179200
-Filename: daed_2026.08.28-r4_aarch64_generic.ipk
-Size: 23298031
-SHA256sum: c4f152326a121a939f0ae01f8a806193632d30097c6f9f1cd4a5f9eb72879c6f
+Filename: daed_2026.08.28-r6_aarch64_generic.ipk
+Size: 23298325
+SHA256sum: 8319f96bd29c301a3baa67ffa6031bf06e7f64b069259d33fa31e846c7cb6039
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -175,29 +175,29 @@ SHA256sum: d0121d3715e9d89be6a57c11401777f80f1ed855891588b9185eca000aa58ce8
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
-Version: 1.2.0-r3
+Version: 1.2.1-r1
 Depends: libc, lanspeedd, tc-full, kmod-sched-bpf
 License: Apache-2.0
 Section: net
 Architecture: aarch64_generic
 Installed-Size: 624640
-Filename: lanspeedd-bpf_1.2.0-r3_aarch64_generic.ipk
-Size: 137173
-SHA256sum: 779bab2a416a8a5885fca6746951a968215017e90e9ed7599268021310e566e5
+Filename: lanspeedd-bpf_1.2.1-r1_aarch64_generic.ipk
+Size: 137198
+SHA256sum: 9b4107dcfa18afe2ab967415321c3d761dccfbf3ddee88d113132673241ffec1
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
 
 Package: lanspeedd
-Version: 1.2.0-r3
+Version: 1.2.1-r1
 Depends: libc, libgcc1, kmod-nf-conntrack-netlink
 License: Apache-2.0
 Section: net
 Architecture: aarch64_generic
 Installed-Size: 3092480
-Filename: lanspeedd_1.2.0-r3_aarch64_generic.ipk
-Size: 1619770
-SHA256sum: cb02e56db9d6634c9bbd1776b6b23bd6aeeda52b29e49532dd03a6c628293a01
+Filename: lanspeedd_1.2.1-r1_aarch64_generic.ipk
+Size: 1620021
+SHA256sum: 3d8e0a98875ec24c8a355fac29afd2ca85ce2cb824044e8897b013dc443e16af
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.30.0-r11
+Version: 1.30.0-r12
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
 Installed-Size: 942080
-Filename: luci-app-clashoo_1.30.0-r11_all.ipk
-Size: 396513
-SHA256sum: f735639fea205d631d15f8accf06698667794b22c40144f89149c56b146950aa
+Filename: luci-app-clashoo_1.30.0-r12_all.ipk
+Size: 396515
+SHA256sum: 16a381f9fe8a5c9bad956ae68493be79deba3de6e35713268667ef03ee38e91f
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -313,14 +313,14 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.14.7-r25
+Version: 1.15-r2
 Depends: libc, luci-base, daed
 Section: luci
 Architecture: all
-Installed-Size: 348160
-Filename: luci-app-daede_1.14.7-r25_all.ipk
-Size: 94433
-SHA256sum: 8568fa512c7a839a555ff44986f7dd3b4a987af1800cc259a342594319a3cce5
+Installed-Size: 358400
+Filename: luci-app-daede_1.15-r2_all.ipk
+Size: 97240
+SHA256sum: 1ea3b992c81934240e98c8dc1f4fa197b9f6ca04dc67754c12eb9190c184c0c6
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -348,15 +348,15 @@ SHA256sum: 3e834632d84619bb6255c743ef5203ca6ac82575f3631b0751fb5fdddfb66c64
 Description:  LuCI support for Kucat theme setting by sirpdboy
 
 Package: luci-app-lanspeed
-Version: 1.2.0-r3
+Version: 1.2.1-r1
 Depends: libc, lanspeedd, lanspeedd-bpf, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 860160
-Filename: luci-app-lanspeed_1.2.0-r3_all.ipk
-Size: 178656
-SHA256sum: 384257209afd2a5653c101deba555cd496ea7e51f97236c027735aea06f2f20a
+Installed-Size: 890880
+Filename: luci-app-lanspeed_1.2.1-r1_all.ipk
+Size: 184680
+SHA256sum: 718d6811de326f0f4f87a72f04763a0b25ae5462a89c921a419ce5684f48bd63
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.30.0-r11
+Version: 1.30.0-r12
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.30.0-r11_all.ipk
-Size: 12222
-SHA256sum: 8e0e5d87a1271dd802a837fe796c0a31aa6c5824025845e0f3a1dc97c8793e19
+Filename: luci-i18n-clashoo-zh-cn_1.30.0-r12_all.ipk
+Size: 12229
+SHA256sum: 3a7b0a7c35d48de01a848a4b9f45615a825c08061dd81f60ae9d314f3801da3a
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -588,27 +588,27 @@ SHA256sum: 7734702ee909029be64cb1c7c1e2abbaba93b55d9db9fe710d42e4849ee98fa7
 Description:  Translation for luci-app-daed - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluent-zh-cn
-Version: 26.249.30383~3451dd1
+Version: 26.249.65130~b06a16e
 Depends: libc, luci-theme-fluent
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-fluent-zh-cn_26.249.30383~3451dd1_all.ipk
-Size: 6462
-SHA256sum: 94c15ad81b2600a77df3ac31a648fb9c8298676363b83ec8069f57208ff7e747
+Filename: luci-i18n-fluent-zh-cn_26.249.65130~b06a16e_all.ipk
+Size: 6459
+SHA256sum: ce34f4d55063c0cfa4d7b4033a25b572e152a5a6cdfb77986cc033b1db62f293
 Description:  Translation for luci-theme-fluent - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluentdashboard-zh-cn
-Version: 26.249.30383~3451dd1
+Version: 26.249.65130~b06a16e
 Depends: libc, luci-mod-fluentdashboard
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-fluentdashboard-zh-cn_26.249.30383~3451dd1_all.ipk
+Filename: luci-i18n-fluentdashboard-zh-cn_26.249.65130~b06a16e_all.ipk
 Size: 2173
-SHA256sum: 4fd938595e0217695f11962d39ed038cdcbf76abbfe2317e6de988cb7bab3a5b
+SHA256sum: c95206300e7a12a1370df608c8a699601e237fe4ad15c82958d596e20de5385f
 Description:  Translation for luci-mod-fluentdashboard - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-glass-zh-cn
@@ -829,10 +829,10 @@ License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 768000
+Installed-Size: 870400
 Filename: luci-theme-fluent-lite_1.0.9-r1_all.ipk
-Size: 123355
-SHA256sum: e225aad54adca73392c6bf68ad2b53bf7d30abeabd2542b4f3983d5e59ecbe8b
+Size: 134649
+SHA256sum: 96ee54d0ffc4c8284800f818ee0a03fdf3469b47c33d910486f21c8a6831a209
 Description:  Core FluentUI theme styling for LuCI without optional menu, updater, log, and application enhancements.
 
 Package: luci-theme-fluent
@@ -844,21 +844,21 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 962560
 Filename: luci-theme-fluent_1.0.9-r1_all.ipk
-Size: 161597
-SHA256sum: 025fdde48e374fe753fbcaf52d08734c3b223fcf0a00a2dc7be71f6cd6504fc2
+Size: 161807
+SHA256sum: 86e4f511156f0317f621e7b64ba06243a3489e48f56ca8466a22675da78783e1
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.249.30383~3451dd1
+Version: 26.249.65130~b06a16e
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 327680
-Filename: luci-theme-footstrap_26.249.30383~3451dd1_all.ipk
-Size: 77562
-SHA256sum: d681bd4dfc30c6738da1d5ea66af72aa23d638880249effe4b386027967510cb
+Filename: luci-theme-footstrap_26.249.65130~b06a16e_all.ipk
+Size: 77599
+SHA256sum: 22bfe3f4ad64869db432a5ec2f40a447fda734534469edf6f939153c7c13727a
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17233920
 Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558709
-SHA256sum: e81ced355856d3846ae5f0711e2af5fd319edda6424ddf13f568954343a35665
+Size: 3558753
+SHA256sum: 928401a923d07757afa35ab43472a0f9c4f0f61aca35f60897b72fe94a599a61
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11018240
 Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612904
-SHA256sum: 3d97f4a485b006a70aecaddbcb00dc9a9a13f67014db39c1d64a47863236ce24
+Size: 3612744
+SHA256sum: a351950af825f40a0e3f00b6eee9c0097e18863446a56b66d7d451d69da9acf7
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 3686400
 Filename: vmlinux-btf_6.6.119-r6_aarch64_generic.ipk
-Size: 1208600
-SHA256sum: 613bb75899c791d1e8872927973597ef6f6939106c3be9fe493a4c18ed164d41
+Size: 1208705
+SHA256sum: 2f761b5ff1b12ce894747f99d80492354ea2cd9da3f6332cae51a94334b985e5
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

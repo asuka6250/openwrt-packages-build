@@ -45,31 +45,31 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269735
-SHA256sum: 3065a069924f5dca818c8bd9b576fa5f4a9d21efd4accf75cdde22508aae86ac
+Size: 269721
+SHA256sum: adaf7d07f7a530631bef0bc7e76b19e3de56e215e62885fbafce64fe8608dd62
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.05~fd74ecb-r1
+Version: 2026.09.07~8f54283-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
-Installed-Size: 47943680
-Filename: clashoo_2026.09.05~fd74ecb-r1_aarch64_cortex-a53.ipk
-Size: 17815814
-SHA256sum: e32ea2ba63b51106d8bc4100c9cd505c6004016a4c22c4bd16060b9c7c8f3d38
+Installed-Size: 47933440
+Filename: clashoo_2026.09.07~8f54283-r1_aarch64_cortex-a53.ipk
+Size: 17819161
+SHA256sum: c8bac5c3f65d491ae3e0775595f96f5ef2473d372327eb3be2ba8c031980299a
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -87,39 +87,39 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.08.28-r6
+Version: 2026.09.06-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/dae
 SourceName: dae
 License: AGPL-3.0-only
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 URL: https://github.com/daeuniverse/dae
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
-Installed-Size: 32307200
-Filename: dae_2026.08.28-r6_aarch64_cortex-a53.ipk
-Size: 11570400
-SHA256sum: 82010f1ce7a300403db6fa66d46a212aabb73ba476b48d92bc5a510fdf36ecab
+Installed-Size: 32440320
+Filename: dae_2026.09.06-r1_aarch64_cortex-a53.ipk
+Size: 11603661
+SHA256sum: 511c0f7c8368cd6d337f47beabbd80421beb9cf8df20de75510120b6b43691f0
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.08.28-r6
+Version: 2026.09.06-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/daed
 SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
-Installed-Size: 48179200
-Filename: daed_2026.08.28-r6_aarch64_cortex-a53.ipk
-Size: 23299358
-SHA256sum: 7a7ce1da584c4734efca8cd5fae62efbcee4c3d9e4867271369e94565146c7a9
+Installed-Size: 48312320
+Filename: daed_2026.09.06-r1_aarch64_cortex-a53.ipk
+Size: 23340589
+SHA256sum: 1f25d60e38a352029bc7e8f2f9a5975138e01fcd94e5967dd8a95f097161f5c8
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a53.ipk
-Size: 11389
-SHA256sum: 5044b0c19ff94504c9385e62729caf1ee819eb9076f78a25170c037c425c4e71
+Size: 11392
+SHA256sum: ecb330a6560196c0ba136af85965decc8bf55f41803c6e8e8b70b22e19f4464f
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -221,13 +221,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a53.ipk
-Size: 26149
-SHA256sum: 5694eaf612fb31d5985b834c2843c9683c2356f1b36f8950371e79ffdfce66e4
+Size: 26141
+SHA256sum: a61e0212084bf2db2fb868c86293e3f79285eeabf4c768681eb23c7edb75559e
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -269,14 +269,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5339
-SHA256sum: 69c1e143b3b2b86eb343f086a8e74753a2f2f56c298c0fcc9da6fbe11b83feda
+Size: 5342
+SHA256sum: 5f6632015e2eb833c4f0c75629cfeb88206549fb65e0f30948ba390fbc994599
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -352,13 +352,13 @@ Depends: libc, luci-base, clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r12_all.ipk
-Size: 396515
-SHA256sum: 16a381f9fe8a5c9bad956ae68493be79deba3de6e35713268667ef03ee38e91f
+Size: 396517
+SHA256sum: 01c623c8504b88e4043cd46c08880cceee55502ac509b46d31d11e990e3a3e42
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -621,19 +621,19 @@ SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
 Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
-Version: 196-r8
+Version: 196-r9
 Depends: libc, libuci-lua, lua, luci-compat, coreutils, coreutils-base64, dns2tcp, dnsmasq-full, jq, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, unzip, xz-utils, xz, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2488320
-Filename: luci-app-ssr-plus_196-r8_all.ipk
-Size: 503705
-SHA256sum: 1d764edc047373c20f4767619424b01fbd9cce62f98d84b68c0590d81e69a924
+Filename: luci-app-ssr-plus_196-r9_all.ipk
+Size: 503035
+SHA256sum: c390b4f7cc3a8469f414d5e3c180924555c66bfa8eb0f39105841a08cdabeee9
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -719,13 +719,13 @@ Depends: libc, luci-app-clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r12_all.ipk
-Size: 12229
-SHA256sum: 3a7b0a7c35d48de01a848a4b9f45615a825c08061dd81f60ae9d314f3801da3a
+Size: 12227
+SHA256sum: 83b64ed5d0e8a7ccac405f1b3cb8b393a4585da1dbca7e7529b286dfd1a731c0
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -963,17 +963,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.249.30383~3451dd1
+Version: 26.250.32558~863a56f
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.249.30383~3451dd1_all.ipk
-Size: 14603
-SHA256sum: 7ed41291f57b87d520e2374be83d8e53e884f5c1f892dcae7a7fe475f012f339
+Filename: luci-i18n-ssr-plus-zh-cn_26.250.32558~863a56f_all.ipk
+Size: 14549
+SHA256sum: aec258adfae01a2c2d9f856c1e715efb91c8ece9559f3f746aeb9f1873f206bc
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1112,21 +1112,21 @@ SHA256sum: 86e4f511156f0317f621e7b64ba06243a3489e48f56ca8466a22675da78783e1
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.249.65130~b06a16e
+Version: 26.250.32558~863a56f
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 327680
-Filename: luci-theme-footstrap_26.249.65130~b06a16e_all.ipk
-Size: 77599
-SHA256sum: 22bfe3f4ad64869db432a5ec2f40a447fda734534469edf6f939153c7c13727a
+Filename: luci-theme-footstrap_26.250.32558~863a56f_all.ipk
+Size: 77839
+SHA256sum: f5960e373ef83fea1200882eac0cc74723c78e83bbef13956f1f43fed1766284
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8796
-SHA256sum: a82541d64646dc86738bbd0ada24fe5219187d8f70fcde4427b33191b98cc7f6
+Size: 8797
+SHA256sum: 23a8181d427597b1889e05c90886b8bf394eb140ad23b4d2d467ea9d7c809498
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1788,13 +1788,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r12_aarch64_cortex-a53.ipk
-Size: 63458
-SHA256sum: b32676efc0a7cab0d1f675e12dfaa72bcfb06f708b0378415e110dedb62aa6b9
+Size: 63443
+SHA256sum: b866ac4ed45d61fba6ab08c8b44c480bb2db7eac94135883178fff69ae9dceda
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1805,13 +1805,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788683183
+SourceDateEpoch: 1788771758
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r12_aarch64_cortex-a53.ipk
-Size: 57045
-SHA256sum: 2b85a16398e3cb77f916ed9011600aa8793ef54f96302ae10fde78801f04eb97
+Size: 57012
+SHA256sum: 53d8b94d22d463b2aef19d0ccd21f6790fa441bce777fe32d9f57219309d77f1
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1988,14 +1988,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 17233920
 Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558753
-SHA256sum: 928401a923d07757afa35ab43472a0f9c4f0f61aca35f60897b72fe94a599a61
+Size: 3558661
+SHA256sum: 138205280e6f8fefcde2a7ca06184e2b43e5d4df8fd3af51ca20e978b682c00e
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2006,14 +2006,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11018240
 Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612744
-SHA256sum: a351950af825f40a0e3f00b6eee9c0097e18863446a56b66d7d451d69da9acf7
+Size: 3612687
+SHA256sum: 2f0730067af42e9bb03e11db88bbcee1ecd55a7a0ee01e383bb939c6ca4a756c
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2040,12 +2040,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788771758
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082851
-SHA256sum: 10f00af597584a7d85a6e70194b68d2ad9772d2d5c5b9ee910375d72a5a76e80
+Size: 1082798
+SHA256sum: 90e3cd8528b3f015dbd0259131ac7e7e18744fe567863d16d1172a7dab1f1095
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

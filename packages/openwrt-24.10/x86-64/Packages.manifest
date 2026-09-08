@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788856870
+SourceDateEpoch: 1788883918
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286292
-SHA256sum: 98650ce4f26e547d9499ae39292dc52c5bb20a91f827934a96c36dc53fa385e6
+Size: 286301
+SHA256sum: 235180829033d1ae8dfb393865619596456f753512aa86613172545b24c93ff4
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -73,39 +73,39 @@ SHA256sum: 881e56b2e70c8b7bc83bcc15d6a338590d6a4e952d8dc7e2ef06f1ebcf92e542
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
-Version: 2026.09.06-r1
+Version: 2026.09.06-r2
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/dae
 SourceName: dae
 License: AGPL-3.0-only
 Section: net
-SourceDateEpoch: 1788771758
+SourceDateEpoch: 1788883918
 URL: https://github.com/daeuniverse/dae
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 34918400
-Filename: dae_2026.09.06-r1_x86_64.ipk
-Size: 12901617
-SHA256sum: 2b1aeed03dd8d471191812e2e66244011cae9ec975c022b01ec9a4014083b5e1
+Filename: dae_2026.09.06-r2_x86_64.ipk
+Size: 12901680
+SHA256sum: 680b05238aec56a75c25dacd29e77df7062128f9c320732f3f43d0cfcc2a66f9
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.06-r1
+Version: 2026.09.06-r2
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/daed
 SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1788771758
+SourceDateEpoch: 1788883918
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 51363840
-Filename: daed_2026.09.06-r1_x86_64.ipk
-Size: 24934801
-SHA256sum: c812258ed494d2e4d61363596ed7113b2750377311097f334cc9fc0ea9f9e9b1
+Filename: daed_2026.09.06-r2_x86_64.ipk
+Size: 24934632
+SHA256sum: 0b27624178e75431c45d5e12bfcd7e2814536f61a756bc00a93c9a0eb37d46d5
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1788856870
+SourceDateEpoch: 1788883918
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11135
-SHA256sum: 4d50a418b591e5e88e974f5a0508dbeacd545c8451a21506c2e879a8ab6bc67e
+Size: 11136
+SHA256sum: b38d45e335341f53c6665bc5ed085b2002320eced7c844b18543360f6e7b0d07
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -223,12 +223,12 @@ Source: lanspeedd
 SourceName: lanspeedd
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788883918
 Architecture: x86_64
 Installed-Size: 358400
 Filename: lanspeedd-bpf_1.2.1-r1_x86_64.ipk
-Size: 83858
-SHA256sum: 78eddcda1f94ed5e64fb43f918db9d3b1e13a1506f0a79690972b4618d6a2e20
+Size: 83843
+SHA256sum: c6edf243d13a67ee7aea0fae23edf16da2c9e9fc7e99db0b1ff767bb4c1bdf74
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
@@ -240,12 +240,12 @@ Source: lanspeedd
 SourceName: lanspeedd
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788883918
 Architecture: x86_64
 Installed-Size: 2283520
 Filename: lanspeedd_1.2.1-r1_x86_64.ipk
-Size: 1046271
-SHA256sum: 06c6bec3f4933ea29a8045a0e62c0b3b1d7d342a70606cf6b45edc8a35d96091
+Size: 1046291
+SHA256sum: 1fd8a32ef67a4ee9d87848a4b5c35e15d00c19d8c60b7c44f0db03353970aa37
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -434,12 +434,12 @@ Source: luci-app-lanspeed
 SourceName: luci-app-lanspeed
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1788883918
 Architecture: all
 Installed-Size: 890880
 Filename: luci-app-lanspeed_1.2.1-r1_all.ipk
-Size: 184680
-SHA256sum: 718d6811de326f0f4f87a72f04763a0b25ae5462a89c921a419ce5684f48bd63
+Size: 184674
+SHA256sum: c13f7fc4b12f062c22a62e816398f7206e9e09d0e1a5dd47983cea64f4385d8d
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for
@@ -541,19 +541,19 @@ SHA256sum: c2ec61c1da12ddb7db015c837ba1e7ee5e94eb1a017d66e490b30eb4468eb6dd
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 26.9.1-r1
+Version: 26.9.9-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, lyaml, luci-lua-runtime
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1788856870
+SourceDateEpoch: 1788883918
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3143680
-Filename: luci-app-passwall_26.9.1-r1_all.ipk
-Size: 842260
-SHA256sum: 6d954dd370e4a034c8831bc010ac2956719786c4c9fea0f7bce05f71b8147b9f
+Filename: luci-app-passwall_26.9.9-r1_all.ipk
+Size: 842259
+SHA256sum: dffe24529028b2f854985c4e652606f6112bc1b271fbaa3b83aedf47b9dda1f2
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -859,17 +859,17 @@ SHA256sum: 3283282352826c4589c377a5c5723ad5fde45bdc5d23249dd8038dba44519f84
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 26.9.1
+Version: 26.9.9
 Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1788856870
+SourceDateEpoch: 1788883918
 Architecture: all
 Installed-Size: 51200
-Filename: luci-i18n-passwall-zh-cn_26.9.1_all.ipk
+Filename: luci-i18n-passwall-zh-cn_26.9.9_all.ipk
 Size: 18226
-SHA256sum: 20507a2a7a1b0f6d892d5b8e7bea93fdff270b4d409f6fefa4b555324b750a62
+SHA256sum: 665b392771731d1a7209a4023f160e79fb2393d9162a5fa80c7ba4305224be4d
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1194,14 +1194,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1788856870
+SourceDateEpoch: 1788883918
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8429
-SHA256sum: dfc72c48bdfaeab3429f61d79bd3162dab26be27bd5319a767750eeb01e4dc6e
+Size: 8425
+SHA256sum: aec3486a178e3dd19b09b5ff1c647ea50f7823439361ad0c05c2aa3a46e7d444
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1892,13 +1892,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1788856870
+SourceDateEpoch: 1788883918
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4440
-SHA256sum: 68cae4dcb27b02123da0a69dc56dcc48d1a24190a20f1df799f7c3c8bc8914d4
+Size: 4421
+SHA256sum: 9559088f8f04d56ac3d09ccfd37b015a4fe7cca19dc45208013091ee61a531ae
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1937,39 +1937,39 @@ SHA256sum: e7a2eb0e336b5be8af167dc43d13ca668fa59103de55d326aa3f660094a31c67
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 202608270741.1
+Version: 202609040655.1
 Depends: libc
 Source: feeds/base/custom_packages/v2ray-geodata
 SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788802033
+SourceDateEpoch: 1788883918
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 17233920
-Filename: v2ray-geoip_202608270741.1_all.ipk
-Size: 3558658
-SHA256sum: 4190937425c351d0ce96cc4d6614571edf368edde1491bc4233e26e5f150d6db
+Installed-Size: 17131520
+Filename: v2ray-geoip_202609040655.1_all.ipk
+Size: 3542069
+SHA256sum: 10990a4bd60fe1829a4256f6828b8391282feefd6dbbc4adb40e457910004fe9
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 202608290326.1
+Version: 202609072354.1
 Depends: libc
 Source: feeds/base/custom_packages/v2ray-geodata
 SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1788802033
+SourceDateEpoch: 1788883918
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 11018240
-Filename: v2ray-geosite_202608290326.1_all.ipk
-Size: 3612719
-SHA256sum: 1752413d2d6a5159d1cac2b1cbb47f15f766c0c7ac442f8e63bc0bbe917cd842
+Installed-Size: 10977280
+Filename: v2ray-geosite_202609072354.1_all.ipk
+Size: 3595442
+SHA256sum: 2d3aadcf311a0fdc04811e8d27f2a274d31ab49a5264fe4dba079a9d46b5e131
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1996,12 +1996,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1788771758
+SourceDateEpoch: 1788883918
 Architecture: x86_64
 Installed-Size: 4259840
 Filename: vmlinux-btf_6.6.119-r6_x86_64.ipk
-Size: 1408830
-SHA256sum: 1767c93f5b991d02fec1ba009311893b77ebcb0fa82565139962a92298bd8e19
+Size: 1408860
+SHA256sum: 5a00fa72a68f0d3125a4c0fc97b5bf29ae374941ec0a6f0c9ab28b7fa23bc44e
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

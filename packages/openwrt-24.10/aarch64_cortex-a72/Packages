@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269714
-SHA256sum: b866b1b834df45711581072a83dd0cee40aa104ed258169757baaa89e22e17ec
+Size: 269718
+SHA256sum: 74fe6b1b52e6a35017271f88c62f0ead73778cdf9fe565f12c9869cb1edb5be3
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.07~8f54283-r1
+Version: 2026.09.08~a91201f-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 47933440
-Filename: clashoo_2026.09.07~8f54283-r1_aarch64_cortex-a72.ipk
-Size: 17819504
-SHA256sum: e30b52c643eb21800ff1b20372f21132c032b2514e6e94ab731b79d1c924ca17
+Filename: clashoo_2026.09.08~a91201f-r1_aarch64_cortex-a72.ipk
+Size: 17817577
+SHA256sum: 676bd8466c674757b3f4d6e94f04b29c0167bae2ba83a45776758a1f92e35c45
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11844
-SHA256sum: 9a6d6555c8e5c66712294d952d136149f3adbbd3090a516b1e2f07a5faecf4ee
+Size: 11846
+SHA256sum: 1434701b0a1a40f2d2e334e8d8e87563a929650dc7a99d82716838c66434aa1e
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -271,8 +271,8 @@ Section: luci
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r12_all.ipk
-Size: 396517
-SHA256sum: 01c623c8504b88e4043cd46c08880cceee55502ac509b46d31d11e990e3a3e42
+Size: 396502
+SHA256sum: 98deb8dff7299e9a7d3757047f1b7350f7625259c583ec9ad8a0b8f38989adba
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.1-r1_all.ipk
-Size: 842227
-SHA256sum: 0363da51a98165656c96740ec44c2a22702a12d50c15bd7ed56e96fcdf0f9214
+Size: 842260
+SHA256sum: 6d954dd370e4a034c8831bc010ac2956719786c4c9fea0f7bce05f71b8147b9f
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -549,8 +549,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r12_all.ipk
-Size: 12227
-SHA256sum: 83b64ed5d0e8a7ccac405f1b3cb8b393a4585da1dbca7e7529b286dfd1a731c0
+Size: 12221
+SHA256sum: 2b6b8993aac4911c198792c4ec26de2f8eb4a0216ab3c1747a88c3785bcacbae
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.1_all.ipk
-Size: 18229
-SHA256sum: 8a212b612864862f8559837cfcb1e38aa87063e25d5530cb8ace784e462d1d14
+Size: 18226
+SHA256sum: 20507a2a7a1b0f6d892d5b8e7bea93fdff270b4d409f6fefa4b555324b750a62
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8812
-SHA256sum: 7ffbaaa7745ef9713b97b6061bbbb11635d8ac7d03a97a48ee2740e94cc581d2
+Size: 8803
+SHA256sum: 303a74574ae8c6defa72ddcba4cb87d9f0fc2117f03193152bd4fecb2f4152f9
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4328
-SHA256sum: 8693dfdc11323c90c174d37d68d029092d2e180b97beb2a6af4c7b5ab2ce45fc
+Size: 4329
+SHA256sum: 02fab964bc2d2d026bdb6c6cb0451a845e8855b6e8e5bcf2e4e1284e79766e0f
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

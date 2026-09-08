@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286300
-SHA256sum: 7712470488c93e5e8358e15e31084353d87c1857bb1bc17fbd8c183b02245d50
+Size: 286292
+SHA256sum: 98650ce4f26e547d9499ae39292dc52c5bb20a91f827934a96c36dc53fa385e6
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.07~8f54283-r1
+Version: 2026.09.08~a91201f-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 52439040
-Filename: clashoo_2026.09.07~8f54283-r1_x86_64.ipk
-Size: 19753534
-SHA256sum: 9163605133e38d002ceba5bbd7e2690d042363cc32f28fde7c06f59d0e7230b8
+Installed-Size: 52428800
+Filename: clashoo_2026.09.08~a91201f-r1_x86_64.ipk
+Size: 19749126
+SHA256sum: 881e56b2e70c8b7bc83bcc15d6a338590d6a4e952d8dc7e2ef06f1ebcf92e542
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -91,7 +91,7 @@ Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
 Size: 11135
-SHA256sum: 9f7e8ca2570c8429660f81a3faa026f28651de4072af9fd7621f80135c60bb46
+SHA256sum: 4d50a418b591e5e88e974f5a0508dbeacd545c8451a21506c2e879a8ab6bc67e
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -260,8 +260,8 @@ Section: luci
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r12_all.ipk
-Size: 396517
-SHA256sum: 01c623c8504b88e4043cd46c08880cceee55502ac509b46d31d11e990e3a3e42
+Size: 396502
+SHA256sum: 98deb8dff7299e9a7d3757047f1b7350f7625259c583ec9ad8a0b8f38989adba
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -418,8 +418,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.1-r1_all.ipk
-Size: 842227
-SHA256sum: 0363da51a98165656c96740ec44c2a22702a12d50c15bd7ed56e96fcdf0f9214
+Size: 842260
+SHA256sum: 6d954dd370e4a034c8831bc010ac2956719786c4c9fea0f7bce05f71b8147b9f
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -526,8 +526,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r12_all.ipk
-Size: 12227
-SHA256sum: 83b64ed5d0e8a7ccac405f1b3cb8b393a4585da1dbca7e7529b286dfd1a731c0
+Size: 12221
+SHA256sum: 2b6b8993aac4911c198792c4ec26de2f8eb4a0216ab3c1747a88c3785bcacbae
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -661,8 +661,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.1_all.ipk
-Size: 18229
-SHA256sum: 8a212b612864862f8559837cfcb1e38aa87063e25d5530cb8ace784e462d1d14
+Size: 18226
+SHA256sum: 20507a2a7a1b0f6d892d5b8e7bea93fdff270b4d409f6fefa4b555324b750a62
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -912,8 +912,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8426
-SHA256sum: c000d0bbb22692b03036319ed880b1b26bdb3bebf78ab1ea368bf084ae9ae445
+Size: 8429
+SHA256sum: dfc72c48bdfaeab3429f61d79bd3162dab26be27bd5319a767750eeb01e4dc6e
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1447,8 +1447,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4442
-SHA256sum: 560c5d183e13d4c58ed89b86b6a68bd38ea4e4b86f3e704182edfdfe64cc4c53
+Size: 4440
+SHA256sum: 68cae4dcb27b02123da0a69dc56dcc48d1a24190a20f1df799f7c3c8bc8914d4
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

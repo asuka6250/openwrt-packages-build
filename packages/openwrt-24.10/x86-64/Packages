@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286311
-SHA256sum: 247ee28f0ad6864ca35cbc1fe8765d568e310f7945390fb9fd598d71e84129e9
+Size: 286304
+SHA256sum: d700e2d647e9f02e98045b8aada72bf648626a7be20b67d6dc5f164f925bf8a7
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.08~d5f57a5-r1
+Version: 2026.09.08~d5f57a5-r2
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 52428800
-Filename: clashoo_2026.09.08~d5f57a5-r1_x86_64.ipk
-Size: 19751367
-SHA256sum: 1c13e403752b6e7e5c9aba03d5ebe2730fb1aa0877828836ba0b3884f9112041
+Installed-Size: 52439040
+Filename: clashoo_2026.09.08~d5f57a5-r2_x86_64.ipk
+Size: 19751963
+SHA256sum: 0474b83ad181083435e6cf26c0416bb8296130323763708b7a195f41799049d1
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -104,8 +104,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2tcp_1.1.2-r1_x86_64.ipk
-Size: 11104
-SHA256sum: fe7dcc0dec224bc392a077e5dc220b69f0aed0a7c47c5b4e38da3a33f395b06e
+Size: 11108
+SHA256sum: 728832947d6b8b6ac5e12768ee969ad4273e1f46c6c2f730fc19160049a4ab4a
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -159,8 +159,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: x86_64
 Installed-Size: 81920
 Filename: ipt2socks_1.1.4-r3_x86_64.ipk
-Size: 27267
-SHA256sum: a3613bd35632bfa23308c8a5578a7e467fe848bbd2256ce71f2e8555c0131dfc
+Size: 27262
+SHA256sum: 549ff6e94a3e784788eba2429f302ca17cc4d797f6899d287f3d2c1f8d344e2e
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -198,8 +198,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5342
-SHA256sum: 5f6632015e2eb833c4f0c75629cfeb88206549fb65e0f30948ba390fbc994599
+Size: 5344
+SHA256sum: 88055ea5a765cf1f00a04d53357477a2a94b4d3333681010f9ff4d35f23948bb
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -260,8 +260,8 @@ Section: luci
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r12_all.ipk
-Size: 396509
-SHA256sum: 9430479d7802b3f6897552769c86911ad0d90c5bb86d94f61aab9e751a4b614b
+Size: 396508
+SHA256sum: 3fb3b22650ab63a04f07a8c199bc8328b3691405e3eaf868bde9c372ff9dde79
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -456,8 +456,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2488320
 Filename: luci-app-ssr-plus_196-r9_all.ipk
-Size: 503035
-SHA256sum: c390b4f7cc3a8469f414d5e3c180924555c66bfa8eb0f39105841a08cdabeee9
+Size: 503059
+SHA256sum: dbe437e432db31129655a77c9318a6ea7409374902b53de6942d3ae6076b37a4
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -526,8 +526,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r12_all.ipk
-Size: 12224
-SHA256sum: 286ae885dae167e200b141811524a14ef8da2ca44885d6fb9e119ad70357f15d
+Size: 12228
+SHA256sum: 25ad489b976ce0d4f86a41e9013ebc6feca86db5dc42168f355d644a20251506
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -701,14 +701,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.250.32558~863a56f
+Version: 26.252.57964~4acaf5b
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.250.32558~863a56f_all.ipk
-Size: 14549
-SHA256sum: aec258adfae01a2c2d9f856c1e715efb91c8ece9559f3f746aeb9f1873f206bc
+Filename: luci-i18n-ssr-plus-zh-cn_26.252.57964~4acaf5b_all.ipk
+Size: 14555
+SHA256sum: 31a1406ca1a32b8d36290381647f4748980d6fc207b017e72abdb17177147425
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -815,16 +815,16 @@ SHA256sum: 86e4f511156f0317f621e7b64ba06243a3489e48f56ca8466a22675da78783e1
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.252.31527~1a264e0
+Version: 26.252.57964~4acaf5b
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 327680
-Filename: luci-theme-footstrap_26.252.31527~1a264e0_all.ipk
-Size: 77978
-SHA256sum: 365082e5692487304cd7d6e299b82727f4ed62991708f97a2350ea4e65b5a6d0
+Filename: luci-theme-footstrap_26.252.57964~4acaf5b_all.ipk
+Size: 78062
+SHA256sum: c442c817767e5f3d63455fe3d7e4db18d4d6f00e5b6404ffc1619c55bd25c9fb
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -912,8 +912,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8432
-SHA256sum: f1d5d81085f0c74a547ff352a205c993f6410152f22f7b5e63f74441bc680e6a
+Size: 8427
+SHA256sum: bc0a6d6f8884c30a12cf843551300b28b444933a3aae86b61ceb9c84b41e78f8
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1338,7 +1338,7 @@ Architecture: x86_64
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r12_x86_64.ipk
 Size: 63557
-SHA256sum: 8e591e34bacc2c1467d43c1b04e23231d19776f115c3b586e7bd203c0c428c60
+SHA256sum: 59d342df17dd47e501e9f66906b19297212072434a0e7071a1e7fb3c4300b64e
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1350,8 +1350,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: x86_64
 Installed-Size: 133120
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r12_x86_64.ipk
-Size: 56750
-SHA256sum: 36690f2f52552d72b0c921f95db77855a420372b2f64b457907d8996f3124b78
+Size: 56764
+SHA256sum: 060c0cd1a0cb76d16a92746801db43288d40c0b5abe85721b405f94e1b18b4e2
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server

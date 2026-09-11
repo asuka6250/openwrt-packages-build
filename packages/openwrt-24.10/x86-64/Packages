@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286279
-SHA256sum: d1f37bfa92c87fe1a2add300df756e0e2a9a98da518e2d69d715e456424e4e88
+Size: 286302
+SHA256sum: e1c0ecc75324f24ba9bc7257bbfe09594722e992a4ea4efc46dbe7da7373c06e
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.10~4aa9cc1-r2
+Version: 2026.09.11~dca26db-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 52439040
-Filename: clashoo_2026.09.10~4aa9cc1-r2_x86_64.ipk
-Size: 19754823
-SHA256sum: c9035170dc8992ab531f3118ba5d3ed784a417593afbcb7967ac1eaa0ea64858
+Installed-Size: 62965760
+Filename: clashoo_2026.09.11~dca26db-r1_x86_64.ipk
+Size: 23513350
+SHA256sum: 28d8501eb746dacbe4ffabedd104e34c5228c54213c167518a37dd0ac8041670
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -90,8 +90,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11138
-SHA256sum: d1136102de6154e90c57e3887f69d1315728d8b8f02281959d57fba3e12066f8
+Size: 11137
+SHA256sum: 9489eaca4a2d12eb277a2a42969335f341ff3c8a7fdd08ee8f3ddf97622f6d70
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -164,29 +164,29 @@ SHA256sum: 549ff6e94a3e784788eba2429f302ca17cc4d797f6899d287f3d2c1f8d344e2e
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
-Version: 1.2.1-r1
+Version: 1.2.1-r2
 Depends: libc, lanspeedd, tc-full, kmod-sched-bpf
 License: Apache-2.0
 Section: net
 Architecture: x86_64
 Installed-Size: 358400
-Filename: lanspeedd-bpf_1.2.1-r1_x86_64.ipk
-Size: 83821
-SHA256sum: 89d65c9450641615133ef3621ec82f1e99ecb0038c16b1a050c9fde107d1ed8e
+Filename: lanspeedd-bpf_1.2.1-r2_x86_64.ipk
+Size: 83863
+SHA256sum: afce6d576f9659d5e459a994e66023cf6c2f59acbe854be7abae017e72eca263
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
 
 Package: lanspeedd
-Version: 1.2.1-r1
+Version: 1.2.1-r2
 Depends: libc, libgcc1, kmod-nf-conntrack-netlink, libsqlite3-0, tc-full, ip, nftables, conntrack, kmod-ifb, kmod-sched-core, kmod-sched
 License: Apache-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 2283520
-Filename: lanspeedd_1.2.1-r1_x86_64.ipk
-Size: 1046537
-SHA256sum: 3f72d341610b1d784fa1bd9226a0da8b72cd688d67e35a4a977c5b4d41cff4a4
+Installed-Size: 2293760
+Filename: lanspeedd_1.2.1-r2_x86_64.ipk
+Size: 1049987
+SHA256sum: 08a74a9da1eb7eb1518b43f6a05e79ff5effd7774dd4fee3fc62dfe0ccd9a538
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -260,8 +260,8 @@ Section: luci
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r13_all.ipk
-Size: 396777
-SHA256sum: 9ff3385cf295e47ac12a5d7c56bccaed4afafab6d94cb47bc8f26747ee79ae88
+Size: 396762
+SHA256sum: 7cec4e6c862682fab8ad4803474c84b320828977f97691bbd056f1ef86287b7d
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -325,15 +325,15 @@ SHA256sum: 3e834632d84619bb6255c743ef5203ca6ac82575f3631b0751fb5fdddfb66c64
 Description:  LuCI support for Kucat theme setting by sirpdboy
 
 Package: luci-app-lanspeed
-Version: 1.2.1-r1
+Version: 1.2.1-r2
 Depends: libc, lanspeedd, lanspeedd-bpf, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 890880
-Filename: luci-app-lanspeed_1.2.1-r1_all.ipk
-Size: 184679
-SHA256sum: a941c5d964af82207cadbdad56fea49114b24dcc879cf22e029df4d0a321021e
+Filename: luci-app-lanspeed_1.2.1-r2_all.ipk
+Size: 184621
+SHA256sum: 00a700eacff40e4fb2abb500be0098140524cafb56914aad75081f3a78a39cc4
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for
@@ -418,8 +418,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.9-r1_all.ipk
-Size: 839612
-SHA256sum: cdf999549f5f33f5d9fbab9d07db46255a1ea3c50714dc3b1d806a84fd7eb1d2
+Size: 839736
+SHA256sum: e84f6f64a0cd755f34f74f63f5678e0796eb495607ab449d2873ff669520b196
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -526,8 +526,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r13_all.ipk
-Size: 12483
-SHA256sum: 1860505a90c76b313448f1744beb0f34b9bb96e026eca91b8ec52684a47a6854
+Size: 12481
+SHA256sum: 6d3fafa92d311e25235ea63472358e21277bd714f87f2b59e43be7f471964685
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -661,8 +661,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.9_all.ipk
-Size: 18233
-SHA256sum: 30014df9f6791a87b8a9cc25994406e2f5aba9588668a79f07ad20344d6dbefd
+Size: 18236
+SHA256sum: fa64962642fc5ec2c48a0a5878e1f42dcdf29a972a33785613d4cf3a453f84d5
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -815,16 +815,16 @@ SHA256sum: 86e4f511156f0317f621e7b64ba06243a3489e48f56ca8466a22675da78783e1
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.253.68404~b75a379
+Version: 26.254.31341~85b5e82
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 337920
-Filename: luci-theme-footstrap_26.253.68404~b75a379_all.ipk
-Size: 79007
-SHA256sum: db0d4f01489f44f6d7b72730366f007f11c2dd6731111336aedd3963eff01636
+Filename: luci-theme-footstrap_26.254.31341~85b5e82_all.ipk
+Size: 79034
+SHA256sum: f53b1bae1c0b7721ee3873c1525b85a3ff4e9c5c1acaaae5d28f2431ed18d8e7
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -912,8 +912,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8425
-SHA256sum: 89d3c956156d6bab9d4d7bdd0661034ec19e86704f973fb3594ef71b4398d356
+Size: 8429
+SHA256sum: 450c22e6d18d7c72833bbb162a6a31f9682021acc14fbbcb060e07390000c0c2
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1447,8 +1447,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4440
-SHA256sum: d6b451610506b9ad8de596a1bb156d2ae79df7a103d334251b01bd450d1ee06f
+Size: 4443
+SHA256sum: 7259faa3a96e0745cad3622baa626906e822c9708e29ccb8e16b626a60b140aa
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

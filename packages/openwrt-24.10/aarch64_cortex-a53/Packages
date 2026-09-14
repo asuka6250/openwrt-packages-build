@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269719
-SHA256sum: 0f5edbe9b5de0aba412bd897d85517930b411ffdce93b2fc5836e3dc1c53088c
+Size: 269748
+SHA256sum: 94399dbfba543ab73cabc80d13e138942e71831f2b4ed9b50084b0de029df915
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.11~dca26db-r1
+Version: 2026.09.14~dc66a8a-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 58316800
-Filename: clashoo_2026.09.11~dca26db-r1_aarch64_cortex-a53.ipk
-Size: 21459237
-SHA256sum: 589eb5de0640825273e058f76ff0a6a3bbd896fc49aedbb3f88a1f95024ed032
+Filename: clashoo_2026.09.14~dc66a8a-r1_aarch64_cortex-a53.ipk
+Size: 21464166
+SHA256sum: 64ffcaf3d756fe0f164bad2c29eba0971675c71d8f08ece45c331432d1e83106
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -65,30 +65,30 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.09.06-r2
+Version: 2026.09.12-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: aarch64_cortex-a53
-Installed-Size: 32440320
-Filename: dae_2026.09.06-r2_aarch64_cortex-a53.ipk
-Size: 11604071
-SHA256sum: 61e568b7c4e847c7712d73fb6b11c6b52da898229307ee517841ae6df9f76724
+Installed-Size: 32563200
+Filename: dae_2026.09.12-r1_aarch64_cortex-a53.ipk
+Size: 11650875
+SHA256sum: 2ea65013e8eaab4952fcfd26ab9c7e6ab13e027d694b01ecd570f9bd92b448b8
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.06-r3
+Version: 2026.09.12-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a53
-Installed-Size: 48322560
-Filename: daed_2026.09.06-r3_aarch64_cortex-a53.ipk
-Size: 23339772
-SHA256sum: 8502768eba2734fb98a378b32711cb4035f30b36a6ce21288732674e2bc95209
+Installed-Size: 48445440
+Filename: daed_2026.09.12-r1_aarch64_cortex-a53.ipk
+Size: 23390276
+SHA256sum: 5ca89876af49f4977a69ad81299485f6dca6095e2aefe8b740a99a54f785f024
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -102,7 +102,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
 Size: 11826
-SHA256sum: 3297b420181ed292f7c965a0be6f55240e803a0187bf60cdd8903f226eee5e98
+SHA256sum: 2a981cae9242ed7d8dcce1b87a24aff19c1c07b8d5b14242b70f0959a10bc37f
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -271,8 +271,8 @@ Section: luci
 Architecture: all
 Installed-Size: 942080
 Filename: luci-app-clashoo_1.30.0-r14_all.ipk
-Size: 397159
-SHA256sum: 066072fd24df83b43eafde4cffc2e40b3c5c90f1e9a5b534b31cf452c871d53c
+Size: 397174
+SHA256sum: 87b7398ff29c8cb90f62b5b21b17459a02974adcda345fd7e3072da889770bf0
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.9-r1_all.ipk
-Size: 840224
-SHA256sum: 9d92eb36c5b0d33e1a4c6cfde5d7d1d6d7e4ef756c50b7c729f5a9db4dbe417e
+Size: 839599
+SHA256sum: 004f26b27f023706a9497a6232e7eeeabd65e8a03e2f6dabaa0d9215c022c0c8
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -549,8 +549,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.30.0-r14_all.ipk
-Size: 12478
-SHA256sum: 5fd47a7fd5eb0dc7a132b241ad0041d0b47a5dd28bfdcbd9587d1686b3d9ae12
+Size: 12483
+SHA256sum: d8ff90114795dd8997913629e598f0c48ed0c3a2c2134f085d4004ff33ab1ccc
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.9_all.ipk
-Size: 18229
-SHA256sum: 46b09439efa297cfd0ecf3121b4da59d8eda330f8293db20c2128c7b337914ae
+Size: 17966
+SHA256sum: 97205a141c3931a2411fa57f09b123c04a2a7c37ae393e4adcd8d9cb42df7911
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -792,8 +792,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 593920
 Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
-Size: 392724
-SHA256sum: b30cc4e6b028eab1a04351b5ed12e3ad1e622540029eb3a1eae9c0e205ddcd99
+Size: 392745
+SHA256sum: 89e1ca8094f2eb41af7f5734ffbc738a54c101d2faec83f5006a79b30b20949d
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -849,16 +849,16 @@ SHA256sum: 86e4f511156f0317f621e7b64ba06243a3489e48f56ca8466a22675da78783e1
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.256.66955~8dde341
+Version: 26.257.34790~af6e9f4
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 337920
-Filename: luci-theme-footstrap_26.256.66955~8dde341_all.ipk
-Size: 79621
-SHA256sum: f63d823b5f93fb305ce4dd9c383935558007dc03a57c4e1799256d14f118addd
+Filename: luci-theme-footstrap_26.257.34790~af6e9f4_all.ipk
+Size: 79634
+SHA256sum: 1a249ce6572a406e2bb55ad3bf9e366995b7f6992719e40ffc141eb62af88d04
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8792
-SHA256sum: 1b52ffcba927fc806ca17643081b46f812f569c9c86c89db0d1bc1e586e9ff63
+Size: 8794
+SHA256sum: cb7bc47ca9345cada3142758678feca5aacba7e8b9e3ca4ec405e379bcc30a91
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1303,8 +1303,8 @@ URL: https://github.com/nikkinikki-org
 Architecture: aarch64_cortex-a53
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_aarch64_cortex-a53.ipk
-Size: 53310
-SHA256sum: 3f379ff976c2a7c670c29d235f61ad8c914de3335cd24bd79ae70fa841b318bf
+Size: 53261
+SHA256sum: e5a31bb50ed173121626f8083743a33b7924ec23cc2b01bb4208cde2572c08da
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4317
-SHA256sum: f132fb8737bb71f1390c4f0d7a03989646027ab35436592882e7d6a44ee1163f
+Size: 4321
+SHA256sum: 9cf7ed55b8ded5908dc4a4126f0ba6e2a751f497e12c0d93d6a5236c5426fba2
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3541567
-SHA256sum: 6c1dc600c260e9cfc19e30bd09867a7aff6c5b79962ac720b1d77c86fe094712
+Size: 3542162
+SHA256sum: 923e15ed776db7c61f7fe67a6a6b585dba794abd860ed969d087f1dc07acbf3b
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595444
-SHA256sum: ffbe785cdd04d4ab10914aca10b89d6d97998cf6f4e3329f523a532cd8782f4c
+Size: 3595447
+SHA256sum: 5414d383280c7f7a4b3fd8a4b117d645ce820b771d29e22bf5cfd701563f3160
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082850
-SHA256sum: 8becff389b2a665a40ba86424bd677b08602fa1a660e177cc7109894049b1a1a
+Size: 1082782
+SHA256sum: 8cbd04e1cd09baecface9ca7743ae836eab0456d205c13e1c6aca2a4422f2e9d
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

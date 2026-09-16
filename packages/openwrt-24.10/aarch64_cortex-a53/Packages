@@ -141,8 +141,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a53.ipk
-Size: 2744843
-SHA256sum: 4ed7bffd0519f032eb12a0fbd287dc49cdf9bd043bd3979649a609eae50a89c8
+Size: 2744775
+SHA256sum: d7169bf502744da0670a6841fdab9f2e353777bcaadda242fcf16dee5d774ba3
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -422,15 +422,15 @@ SHA256sum: fe19ea7e2cf65d999697ee186c90aca0beed6d5000662ca86135ec75470102b2
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
-Version: 26.9.12-r2
+Version: 26.9.16-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, lyaml, resolveip, tcping, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1372160
-Filename: luci-app-passwall2_26.9.12-r2_all.ipk
-Size: 343544
-SHA256sum: 6898a27eb5ef72ec5125cd6891466c0e9ce4ad2ac79aecb0824fc5ce088b9047
+Filename: luci-app-passwall2_26.9.16-r1_all.ipk
+Size: 343437
+SHA256sum: 39ec21f029e76dec8c5c59a52d94a6d3c000f5ec707a6ff16e28d6625880b4ee
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -700,14 +700,14 @@ SHA256sum: 185f0c3a11cedba8f8edaad46945eb8edfa36f2f0a6d3463348e0666a081bf30
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
-Version: 26.9.12
+Version: 26.9.16
 Depends: libc, luci-app-passwall2
 Section: luci
 Architecture: all
 Installed-Size: 51200
-Filename: luci-i18n-passwall2-zh-cn_26.9.12_all.ipk
-Size: 20210
-SHA256sum: ce1db6982bf7ae33130e9fd1e84f27c59efff544b4eb092f39b8094e92a70e9e
+Filename: luci-i18n-passwall2-zh-cn_26.9.16_all.ipk
+Size: 20205
+SHA256sum: 776d05246a417d05fcd2d4b59c0d0f2d41734def9fe187ee8ef8f5f5185e2317
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -797,16 +797,16 @@ SHA256sum: 89e1ca8094f2eb41af7f5734ffbc738a54c101d2faec83f5006a79b30b20949d
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 1.3.3-r20260913
+Version: 1.3.7-r20260916
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 471040
-Filename: luci-theme-aurora_1.3.3-r20260913_all.ipk
-Size: 183286
-SHA256sum: 992cfe000cb3efe383df1e59ce23b71809620728934b736113160e39238569a1
+Filename: luci-theme-aurora_1.3.7-r20260916_all.ipk
+Size: 184180
+SHA256sum: 6ad5fc9c3d266b1b764d1a4cc17d354e7248903cd5b03e79ffef18a55b88727b
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -899,16 +899,16 @@ SHA256sum: c48dcb08d2a370eea0b3369717f081d4c3bda6bcf73a01e5a345f9fed48232c7
 Description:  Material3 Theme (default)
 
 Package: luci-theme-shadcn
-Version: 0.5.4-r20260913
+Version: 0.5.10-r20260916
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 788480
-Filename: luci-theme-shadcn_0.5.4-r20260913_all.ipk
-Size: 523338
-SHA256sum: 5ec1a1aefae12f78760b08cb99c90687fff531c2af4acac177d84dc740c89cd3
+Installed-Size: 768000
+Filename: luci-theme-shadcn_0.5.10-r20260916_all.ipk
+Size: 521797
+SHA256sum: 34f07c4980f0fc24e09797f22e8972ef4500e68b42f52877a4110f5a673226c6
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: luci-theme-tp
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4326
-SHA256sum: 91617de024fb8bb0d499f95249fcc067efd349b500bdd41f50ceaca1b8571152
+Size: 4320
+SHA256sum: 756e6be072e11b3f5fd7576d70c74574d2da97180871e03f604e52d63d4ca280
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542069
-SHA256sum: 2d339baafb06bb267284f5557a83adb593a7d08bc8f8a96bcfb039b5afb0c12c
+Size: 3541555
+SHA256sum: da5c0201437a7ac760b34c9dd6563e2a8cde55d8f729ca1fac05cfa174e3303d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595435
-SHA256sum: f2696b975e68ed23248f8a80b3889055f28fe197e3b50ef4d4fa373f0076e678
+Size: 3595458
+SHA256sum: 73b7b2ace5ef09e018938519b69dd3b683444c0ef7a5b4e68dfa13c0355c7d64
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

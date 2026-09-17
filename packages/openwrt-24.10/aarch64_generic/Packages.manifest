@@ -1044,20 +1044,20 @@ SHA256sum: 89e1ca8094f2eb41af7f5734ffbc738a54c101d2faec83f5006a79b30b20949d
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 1.3.7-r20260916
+Version: 1.3.8-r20260917
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-aurora
 SourceName: luci-theme-aurora
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1789575637
+SourceDateEpoch: 1789617277
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 471040
-Filename: luci-theme-aurora_1.3.7-r20260916_all.ipk
-Size: 184180
-SHA256sum: 6ad5fc9c3d266b1b764d1a4cc17d354e7248903cd5b03e79ffef18a55b88727b
+Filename: luci-theme-aurora_1.3.8-r20260917_all.ipk
+Size: 184640
+SHA256sum: 1c8f487589d537c477c856a37486c1ce54b29747a074f05e3460e7bfdf7fcb57
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -1179,20 +1179,20 @@ SHA256sum: c48dcb08d2a370eea0b3369717f081d4c3bda6bcf73a01e5a345f9fed48232c7
 Description:  Material3 Theme (default)
 
 Package: luci-theme-shadcn
-Version: 0.5.10-r20260916
+Version: 0.5.11-r20260917
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-shadcn
 SourceName: luci-theme-shadcn
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1789575637
+SourceDateEpoch: 1789617277
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 768000
-Filename: luci-theme-shadcn_0.5.10-r20260916_all.ipk
-Size: 521797
-SHA256sum: 34f07c4980f0fc24e09797f22e8972ef4500e68b42f52877a4110f5a673226c6
+Filename: luci-theme-shadcn_0.5.11-r20260917_all.ipk
+Size: 522199
+SHA256sum: 20f5d4398e5fee85f9b136e9bac13bb0e57a0f992ac743761f749ea350c19dab
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: luci-theme-tp
@@ -1271,7 +1271,7 @@ SHA256sum: 09dac80279beff9f5e890c795166bbc25ffb14a21127b9f5104ea3564e58c6a6
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
-Version: 1.19.30
+Version: 1.19.31
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-alpha
 Provides: mihomo
@@ -1280,14 +1280,14 @@ Source: feeds/base/custom_packages/mihomo-meta
 SourceName: mihomo-meta
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1786984125
+SourceDateEpoch: 1789617277
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 46376960
-Filename: mihomo-meta_1.19.30_aarch64_generic.ipk
-Size: 16839159
-SHA256sum: e8df8bf7332d66a5d6bc4cf96d5201ef5b64464bae90bcf6a818f192ea117371
+Installed-Size: 57077760
+Filename: mihomo-meta_1.19.31_aarch64_generic.ipk
+Size: 20617623
+SHA256sum: 323dced97f54aae984fec14e86b58810e8e0a6c28d25f1ef41c9107279462b12
 Description:  A rule based proxy in Go.
 
 Package: momo

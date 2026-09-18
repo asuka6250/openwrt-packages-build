@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269724
-SHA256sum: 1af47ee45fad6c2d9ee13bcf35e9408041ce7eddba1bc33c591a0be8dbd075d1
+Size: 269732
+SHA256sum: e6e59740ef9173923ff6c36bf647e460225e292f5004d6d7ea2cf27d89409025
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11839
-SHA256sum: b065fadbb42a1e3b4b6531b3c353dcb4ee14463fc613388cbf0ddef12e3cc4a6
+Size: 11838
+SHA256sum: f50a69bf85c0e55e149ae3d47231ae1d296968c236262440d24eff6a6cb02c13
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 839473
-SHA256sum: c56f36fdb5684580063a23faccdebd00e1f4da50375f92e3c94ec94a9347e750
+Size: 839557
+SHA256sum: 2c8aca6b3aa8aafab855aa8617a7ecfa52342be9c33723ff52305b5377fdb1ab
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
-Size: 17952
-SHA256sum: e080fa23ec4a00a292bd7f881cdc798086b25908f20c85607c81f0a98011d0b3
+Size: 17944
+SHA256sum: 33495eab09d272f7c3c8f1799178c9023da82e0d0379e237a26c1cbedd817c4d
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8800
-SHA256sum: 4248e77a2152c931d1290058b547c607c45e1c249511cf9ada04bc3674d61b68
+Size: 8811
+SHA256sum: e3ca21da6d2edf499be8287046ee7e3660a07edb106fa2366212d561132e6fb3
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4323
-SHA256sum: ee2d25b7f74068a1974f43ce38b6c81e08703889e27bcbbd91f435ca2084a2ec
+Size: 4329
+SHA256sum: be33f238c3f74fb7a4a6ffd6a96e1f0d28b4f1fb548179300c39a2252b33b156
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

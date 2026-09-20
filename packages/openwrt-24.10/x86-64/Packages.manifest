@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286322
-SHA256sum: a9bda74302f6aa43869446464ec7d99045dbd253c47bde8a07b172dc5e5bce44
+Size: 286300
+SHA256sum: a690b6b55333f3c1a72329c4db942109b3a45baa06d443fad6a4f6dfc0a97495
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -73,39 +73,39 @@ SHA256sum: 8123d13a2ff91c0c7e77c663eac5454082982450dcc2f0c0c6bdbafb8341eac1
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
-Version: 2026.09.12-r1
+Version: 2026.09.18-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/dae
 SourceName: dae
 License: AGPL-3.0-only
 Section: net
-SourceDateEpoch: 1789378790
+SourceDateEpoch: 1789918689
 URL: https://github.com/daeuniverse/dae
 Maintainer: kenzok8
 Architecture: x86_64
-Installed-Size: 35051520
-Filename: dae_2026.09.12-r1_x86_64.ipk
-Size: 12949132
-SHA256sum: 6e19fc18914a358d5885c7fc7ee3b9253e3c60d2387ce55c3327318fc0ccbb09
+Installed-Size: 36106240
+Filename: dae_2026.09.18-r1_x86_64.ipk
+Size: 13351888
+SHA256sum: fa213f889b906d5ae59cbccd008e56077a442a4f2718397d2f468993dc6d7453
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.12-r1
+Version: 2026.09.18-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/daed
 SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1789378790
+SourceDateEpoch: 1789918689
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: x86_64
-Installed-Size: 51507200
-Filename: daed_2026.09.12-r1_x86_64.ipk
-Size: 24988918
-SHA256sum: f5fe2c3726a39a5cde93e511764af1e23f64f0dad93c8b106e09dcd2d19c4f35
+Installed-Size: 52582400
+Filename: daed_2026.09.18-r1_x86_64.ipk
+Size: 25401053
+SHA256sum: d4c4aaea1a089c826a9f9cb9be4a50d516f415e9b469df2ff91906271f90b252
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11131
-SHA256sum: 847d29fed0b03fb53275115dd8d7372631fb624d3cef224e16204d7585f6d53d
+Size: 11132
+SHA256sum: ea3cbd2c5f47e89678374ad7be5a17c33859b77323c233362d19d349e62be14e
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -170,14 +170,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: x86_64
 Installed-Size: 7700480
 Filename: geoview_0.2.6-r1_x86_64.ipk
-Size: 3041867
-SHA256sum: 1075fb7e5831feb3410c9dd6a59d872822a71cf9ad114529c5dafd20c720c400
+Size: 3041970
+SHA256sum: 6910597f3ffe94a2a3347083dabcdd86ea3124de4541e6f8f8099e00ea5cef45
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -530,14 +530,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1382400
 Filename: luci-app-passwall2_26.9.16-r1_all.ipk
-Size: 344159
-SHA256sum: 5aebc62fdc623b27bdc023dd7f8d4f64b2e49856846a371e7e0825959942ca0f
+Size: 344262
+SHA256sum: 71b2bd4fb22d6623400580fdb490b9996370717c373547980a763d368c87c1a6
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -546,14 +546,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 839469
-SHA256sum: 567a12a83149bbb011c68996e1a3a5546460e2f6ecac04614ebaf52fd524bc55
+Size: 839534
+SHA256sum: 63568b76b2e0e4d4ff73a71a70f176e0ff9b610c48d8bece821e30bbb3f235fb
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -864,12 +864,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
-Size: 18016
-SHA256sum: c7cdf52c1e966c157fbe8a42f4337d5ab24804fbde800fe4254c5ec9f2018bc7
+Size: 18009
+SHA256sum: 4d2c1b36a1a40f8eb37c6d80d45df6a020689c4d9ef40e5423e283d20d7b5205
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -878,12 +878,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.9.16_all.ipk
-Size: 20291
-SHA256sum: 229c9ef366c38f8f5e45aae7b1e81153b92ff8de94b07f5e78e143170f887bc9
+Size: 20299
+SHA256sum: b82ad25de3f9eb8fc230482f101589fa3b9c12b78c1b280fcd81f69d0f6cf24a
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1194,14 +1194,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8433
-SHA256sum: c24a8879928b716cab3701b7d194ea912e015131766bc100752f324dee0af00a
+Size: 8426
+SHA256sum: 0165281cae69a95276b3b32a9002766e5d11366a69f3ea985396e098ad8e1fc7
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1737,54 +1737,54 @@ SHA256sum: 438b4411dc64f56a9ed861fe86042980bf175c743c3f805f43655929f3118a39
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocksr-libev-ssr-local
-Version: 2.5.6-r12
+Version: 2.5.6-r13
 Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
 Source: feeds/base/custom_packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1789918689
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: x86_64
 Installed-Size: 143360
-Filename: shadowsocksr-libev-ssr-local_2.5.6-r12_x86_64.ipk
-Size: 63559
-SHA256sum: b6e2ee7c3e3258e57c215595830566710782da1d58c03f86cbd9b7d6e6deac7b
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_x86_64.ipk
+Size: 63563
+SHA256sum: efdf704463e37202ef855328bff1c1782f5a9ef422d541524776b6f148a8b588
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
-Version: 2.5.6-r12
+Version: 2.5.6-r13
 Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
 Source: feeds/base/custom_packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1789918689
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: x86_64
 Installed-Size: 133120
-Filename: shadowsocksr-libev-ssr-redir_2.5.6-r12_x86_64.ipk
-Size: 56751
-SHA256sum: 4e20e1b49190321b8203ecbc620cb9ef4e9fbeeafbc692d3ab31dc42a290a353
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_x86_64.ipk
+Size: 56767
+SHA256sum: fc06c74091979b8bb8edcab8ba3472b6e259abd71d20c827dc8dabf57280f3d4
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
-Version: 2.5.6-r12
+Version: 2.5.6-r13
 Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
 Source: feeds/base/custom_packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1789918689
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: x86_64
 Installed-Size: 153600
-Filename: shadowsocksr-libev-ssr-server_2.5.6-r12_x86_64.ipk
-Size: 66734
-SHA256sum: 9f8b4cf3f37483194dd6401d0721948320f0565a223aa0994ab595df7a19770e
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_x86_64.ipk
+Size: 66746
+SHA256sum: fb122d1a0fd56d9e61553819099abd2d1f21e84057899507d21b2a5f94a4c6e2
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -1892,13 +1892,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
 Size: 4438
-SHA256sum: 5176a5bc746a1b8ff5ef0ac325241818526740e5db6fea477236459080919331
+SHA256sum: 29e8f88d551579363dfe32be71e86ebe30643103943aa2c9b10327b6018beba4
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1944,14 +1944,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3541611
-SHA256sum: 02b5dc602b13d004e923545031ee1e49b55dcb8f81a9538aaa772ccca337f639
+Size: 3542292
+SHA256sum: d491a95a6be3166c250dc7bcd6cae6f0d930caf2e6a05d781a22c51b8867742c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1962,14 +1962,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595441
-SHA256sum: a6ec761be946d372c6f6161a85fa9a6adb7d308286e6dad974f2a42b18cfb723
+Size: 3595449
+SHA256sum: b7c69e0b10c9893e35153f673804191385798b5df647257922684fa3e2602b71
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1996,12 +1996,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1789378790
+SourceDateEpoch: 1789918689
 Architecture: x86_64
 Installed-Size: 4259840
 Filename: vmlinux-btf_6.6.119-r6_x86_64.ipk
-Size: 1408864
-SHA256sum: b31638241970584191a373ee940b6a68b0c7a8a3147bff06a74f1deffd09c5e4
+Size: 1408832
+SHA256sum: 5d1f33787e49cb6fe57cf2f3b557ea1db6a82143aa01c724b0cf6d1bc7e6d26e
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

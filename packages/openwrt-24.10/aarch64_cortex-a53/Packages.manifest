@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269734
-SHA256sum: 1ed422c455bdb815050aecc70a42da9ba14b4f5153907b644666490a75ff3bf2
+Size: 269722
+SHA256sum: 2ad7282c4858dacffc674b1bebd5911ae12afedd48813ad18ef9126fd2be5c66
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -87,39 +87,39 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.09.12-r1
+Version: 2026.09.18-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/dae
 SourceName: dae
 License: AGPL-3.0-only
 Section: net
-SourceDateEpoch: 1789378790
+SourceDateEpoch: 1789918689
 URL: https://github.com/daeuniverse/dae
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
-Installed-Size: 32563200
-Filename: dae_2026.09.12-r1_aarch64_cortex-a53.ipk
-Size: 11650875
-SHA256sum: 2ea65013e8eaab4952fcfd26ab9c7e6ab13e027d694b01ecd570f9bd92b448b8
+Installed-Size: 33546240
+Filename: dae_2026.09.18-r1_aarch64_cortex-a53.ipk
+Size: 12021042
+SHA256sum: a2e70ba6bf33151f832a668b1acae748b1501d2e8fe9aa3a617c65ecaadba2fa
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.12-r1
+Version: 2026.09.18-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/daed
 SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1789378790
+SourceDateEpoch: 1789918689
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
-Installed-Size: 48445440
-Filename: daed_2026.09.12-r1_aarch64_cortex-a53.ipk
-Size: 23390276
-SHA256sum: 5ca89876af49f4977a69ad81299485f6dca6095e2aefe8b740a99a54f785f024
+Installed-Size: 49428480
+Filename: daed_2026.09.18-r1_aarch64_cortex-a53.ipk
+Size: 23763943
+SHA256sum: bb7d8dc54c626eb0239b5a95f9cf6f039d10a138a39afb25b52bf4985d5f5bd6
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11825
-SHA256sum: 26f7a9d77a0c7d5503bd63eb35b92e94044f208d781ed20a87cd5284f101b5b0
+Size: 11829
+SHA256sum: 24fabb566d69c94cf36eb96a0152a0d3cc4ed3b719ed87c6225cb44bbb096051
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -184,14 +184,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a53.ipk
-Size: 2744690
-SHA256sum: bb41d87ec5c3e63a2af8d6c8b5bb9c49fbf0d414bc5686724ee1c68092e753f0
+Size: 2744755
+SHA256sum: ab8a78a87f7920f79ff5158d20a4675dd538b1302c160d5995cb5fdd3076040d
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -560,14 +560,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1382400
 Filename: luci-app-passwall2_26.9.16-r1_all.ipk
-Size: 344159
-SHA256sum: 5aebc62fdc623b27bdc023dd7f8d4f64b2e49856846a371e7e0825959942ca0f
+Size: 344262
+SHA256sum: 71b2bd4fb22d6623400580fdb490b9996370717c373547980a763d368c87c1a6
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -576,14 +576,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3143680
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 839469
-SHA256sum: 567a12a83149bbb011c68996e1a3a5546460e2f6ecac04614ebaf52fd524bc55
+Size: 839534
+SHA256sum: 63568b76b2e0e4d4ff73a71a70f176e0ff9b610c48d8bece821e30bbb3f235fb
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -908,12 +908,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
-Size: 18016
-SHA256sum: c7cdf52c1e966c157fbe8a42f4337d5ab24804fbde800fe4254c5ec9f2018bc7
+Size: 18009
+SHA256sum: 4d2c1b36a1a40f8eb37c6d80d45df6a020689c4d9ef40e5423e283d20d7b5205
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -922,12 +922,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.9.16_all.ipk
-Size: 20291
-SHA256sum: 229c9ef366c38f8f5e45aae7b1e81153b92ff8de94b07f5e78e143170f887bc9
+Size: 20299
+SHA256sum: b82ad25de3f9eb8fc230482f101589fa3b9c12b78c1b280fcd81f69d0f6cf24a
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8804
-SHA256sum: 97a232dc6a81ffe56ed12ee8415fa5192bef0f305578d1dcfd2aeb52ada04fa7
+Size: 8802
+SHA256sum: 3edbea41656735f50c8c500daa3bf0a7f63c3742005ef6bd6cfb0bd50b7ec32c
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1781,54 +1781,54 @@ SHA256sum: 5ce435fc24544196ae7c67b01cde430682097b2205fd2d7fc212c52e27975983
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocksr-libev-ssr-local
-Version: 2.5.6-r12
+Version: 2.5.6-r13
 Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
 Source: feeds/base/custom_packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1789918689
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
-Filename: shadowsocksr-libev-ssr-local_2.5.6-r12_aarch64_cortex-a53.ipk
-Size: 63436
-SHA256sum: dac01ed4fdc1d4f0600cf836075dd290be2fc07deb6346ad7ae189eafff867da
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_cortex-a53.ipk
+Size: 63508
+SHA256sum: 42151761c05baa3cefc800b94245617a9c2ec514a0cde432e275d157388c42ea
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
-Version: 2.5.6-r12
+Version: 2.5.6-r13
 Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
 Source: feeds/base/custom_packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1789918689
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: shadowsocksr-libev-ssr-redir_2.5.6-r12_aarch64_cortex-a53.ipk
-Size: 57042
-SHA256sum: a708ee6b5ca0570a87705a8dc0ddc998950e4caa68552be3bdf84d1ed2f52ad6
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_cortex-a53.ipk
+Size: 56996
+SHA256sum: 1f24a58fc653fa1eb3c8bc677e17ce05e92b69fb52c54caa67225616813e1a82
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
-Version: 2.5.6-r12
+Version: 2.5.6-r13
 Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
 Source: feeds/base/custom_packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1789918689
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
-Filename: shadowsocksr-libev-ssr-server_2.5.6-r12_aarch64_cortex-a53.ipk
-Size: 66884
-SHA256sum: 2cacfbf1cd3ece4b034f2657e1ade9fd85b53c36b4ca0460b40a78577dd66294
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_aarch64_cortex-a53.ipk
+Size: 66849
+SHA256sum: 458cb21ed579d885ebd243fa3de7c5dabe3daab23629c12dea6420ad30600078
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -1936,13 +1936,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4322
-SHA256sum: 4eb305bcdd8586218544bf82559b593d8dd319d2209b20f4529f78682a4770f4
+Size: 4328
+SHA256sum: a07e60ce20c0832fc5255bb6e8e3f3b627a9eac022fcdb1cf40c44150d773cd3
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1988,14 +1988,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3541611
-SHA256sum: 02b5dc602b13d004e923545031ee1e49b55dcb8f81a9538aaa772ccca337f639
+Size: 3542292
+SHA256sum: d491a95a6be3166c250dc7bcd6cae6f0d930caf2e6a05d781a22c51b8867742c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2006,14 +2006,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789918689
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595441
-SHA256sum: a6ec761be946d372c6f6161a85fa9a6adb7d308286e6dad974f2a42b18cfb723
+Size: 3595449
+SHA256sum: b7c69e0b10c9893e35153f673804191385798b5df647257922684fa3e2602b71
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2040,12 +2040,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1789378790
+SourceDateEpoch: 1789918689
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082782
-SHA256sum: 8cbd04e1cd09baecface9ca7743ae836eab0456d205c13e1c6aca2a4422f2e9d
+Size: 1082833
+SHA256sum: 4bfc621f5a8b9fecbc7218e6e6e3ed8b29e62feb0ad862e53beb1e4cc0439d03
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

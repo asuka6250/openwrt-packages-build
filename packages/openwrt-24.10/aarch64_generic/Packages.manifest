@@ -56,20 +56,20 @@ SHA256sum: acb73eb9258b8318ee8213e570ea3a8915bd48defc31565a82df7436949195d3
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.19~5019cc0-r1
+Version: 2026.09.19~5019cc0-r2
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789983826
 Maintainer: kenzok8
 Architecture: aarch64_generic
 Installed-Size: 58449920
-Filename: clashoo_2026.09.19~5019cc0-r1_aarch64_generic.ipk
-Size: 21518364
-SHA256sum: 733495bb5fa6436aa8b896713780fb04c3b1b2ed04365085cef35aa01d484d6b
+Filename: clashoo_2026.09.19~5019cc0-r2_aarch64_generic.ipk
+Size: 21523555
+SHA256sum: 95963eebb4f4c1d616265a297ceb623929210e827cce4b463cb4b7f2ef093605
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -87,39 +87,39 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.09.18-r1
+Version: 2026.09.20-r3
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/dae
 SourceName: dae
 License: AGPL-3.0-only
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1789983826
 URL: https://github.com/daeuniverse/dae
 Maintainer: kenzok8
 Architecture: aarch64_generic
 Installed-Size: 33546240
-Filename: dae_2026.09.18-r1_aarch64_generic.ipk
-Size: 12021578
-SHA256sum: 6d7b1223d8e57d8f00c095d221773e0e73c1f4588fbd88f1f637acbff36d4c83
+Filename: dae_2026.09.20-r3_aarch64_generic.ipk
+Size: 12023622
+SHA256sum: a6704e1eaaf151e85e5419e9336c8101ef62dbc1cfa73b0b2463390aae6ad011
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.18-r1
+Version: 2026.09.20-r4
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 Source: feeds/base/custom_packages/daed
 SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1789983826
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: aarch64_generic
 Installed-Size: 49428480
-Filename: daed_2026.09.18-r1_aarch64_generic.ipk
-Size: 23763163
-SHA256sum: af710187f4d59a6bfb3eebdeaf7c774d553875b11dc91ff6091e1f5fb6c65331
+Filename: daed_2026.09.20-r4_aarch64_generic.ipk
+Size: 23764861
+SHA256sum: 94e29443b6f85cf7f9c354412cb08000b37f93b4b179c40e51dda3db908629c4
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -347,18 +347,18 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.30.0-r15
+Version: 1.30.0-r16
 Depends: libc, luci-base, clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789983826
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 942080
-Filename: luci-app-clashoo_1.30.0-r15_all.ipk
-Size: 398438
-SHA256sum: edaf0554f6971c888e601c2719ac92cec298c546e6f9991406ae1448b2999960
+Filename: luci-app-clashoo_1.30.0-r16_all.ipk
+Size: 398321
+SHA256sum: 50c98d35e5cf05dba8b0d7bc34918309bf07390d7e72b3f8945214eec4d7550a
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -714,18 +714,18 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.30.0-r15
+Version: 1.30.0-r16
 Depends: libc, luci-app-clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1789895310
+SourceDateEpoch: 1789983826
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.30.0-r15_all.ipk
-Size: 12488
-SHA256sum: c83c05309000cbd2cfffaf5ec4b28cb427c71ac6f4110c35f4247fdcc80e2901
+Filename: luci-i18n-clashoo-zh-cn_1.30.0-r16_all.ipk
+Size: 12384
+SHA256sum: 5b41178d0641e6d640462dede182824f282cec50451c05e129c8235c5009abdb
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1988,14 +1988,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1789983826
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542292
-SHA256sum: d491a95a6be3166c250dc7bcd6cae6f0d930caf2e6a05d781a22c51b8867742c
+Size: 3542157
+SHA256sum: 80bd16726466b99ca1b4652dadef88bb7244e5f2243605aebb806ba49dab5c05
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2006,14 +2006,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1789983826
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595449
-SHA256sum: b7c69e0b10c9893e35153f673804191385798b5df647257922684fa3e2602b71
+Size: 3595463
+SHA256sum: 17033de9fe74ec13ab8138c604977d6ee070cca42465fab49a824bdc66e17488
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2040,12 +2040,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1789983826
 Architecture: aarch64_generic
 Installed-Size: 3686400
 Filename: vmlinux-btf_6.6.119-r6_aarch64_generic.ipk
-Size: 1208638
-SHA256sum: aae24a2fef2d8228f0c79b9fe1dc2a7084031b1171749850b1b7991e6d95ab21
+Size: 1208709
+SHA256sum: 4f244c1c3f0901708ebf5fbceba5c1b8b63b79957664bfc98451db0817c3078f
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

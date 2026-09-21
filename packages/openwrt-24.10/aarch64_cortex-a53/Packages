@@ -41,16 +41,16 @@ SHA256sum: 2ad7282c4858dacffc674b1bebd5911ae12afedd48813ad18ef9126fd2be5c66
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.19~5019cc0-r1
+Version: 2026.09.19~5019cc0-r2
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 58449920
-Filename: clashoo_2026.09.19~5019cc0-r1_aarch64_cortex-a53.ipk
-Size: 21518579
-SHA256sum: 8e88233366cc6b19d7071497e738af984df1296580c96077786c6e33738a446e
+Filename: clashoo_2026.09.19~5019cc0-r2_aarch64_cortex-a53.ipk
+Size: 21523867
+SHA256sum: 07348564f2e319bd001ee2a14578536df7138840c1209923370df6714b181148
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -65,30 +65,30 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.09.18-r1
+Version: 2026.09.20-r3
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: aarch64_cortex-a53
 Installed-Size: 33546240
-Filename: dae_2026.09.18-r1_aarch64_cortex-a53.ipk
-Size: 12021042
-SHA256sum: a2e70ba6bf33151f832a668b1acae748b1501d2e8fe9aa3a617c65ecaadba2fa
+Filename: dae_2026.09.20-r3_aarch64_cortex-a53.ipk
+Size: 12023788
+SHA256sum: d4bd8a37064a5039760770cbf00c63069e1da305d1d08ebd296fabf381642144
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.18-r1
+Version: 2026.09.20-r4
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a53
 Installed-Size: 49428480
-Filename: daed_2026.09.18-r1_aarch64_cortex-a53.ipk
-Size: 23763943
-SHA256sum: bb7d8dc54c626eb0239b5a95f9cf6f039d10a138a39afb25b52bf4985d5f5bd6
+Filename: daed_2026.09.20-r4_aarch64_cortex-a53.ipk
+Size: 23765361
+SHA256sum: 523e201074cb55e2e4947240c60ed48c6613b28fb1b89f9368a4be7e822e0d8c
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.30.0-r15
+Version: 1.30.0-r16
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
 Installed-Size: 942080
-Filename: luci-app-clashoo_1.30.0-r15_all.ipk
-Size: 398438
-SHA256sum: edaf0554f6971c888e601c2719ac92cec298c546e6f9991406ae1448b2999960
+Filename: luci-app-clashoo_1.30.0-r16_all.ipk
+Size: 398321
+SHA256sum: 50c98d35e5cf05dba8b0d7bc34918309bf07390d7e72b3f8945214eec4d7550a
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.30.0-r15
+Version: 1.30.0-r16
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.30.0-r15_all.ipk
-Size: 12488
-SHA256sum: c83c05309000cbd2cfffaf5ec4b28cb427c71ac6f4110c35f4247fdcc80e2901
+Filename: luci-i18n-clashoo-zh-cn_1.30.0-r16_all.ipk
+Size: 12384
+SHA256sum: 5b41178d0641e6d640462dede182824f282cec50451c05e129c8235c5009abdb
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542292
-SHA256sum: d491a95a6be3166c250dc7bcd6cae6f0d930caf2e6a05d781a22c51b8867742c
+Size: 3542157
+SHA256sum: 80bd16726466b99ca1b4652dadef88bb7244e5f2243605aebb806ba49dab5c05
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595449
-SHA256sum: b7c69e0b10c9893e35153f673804191385798b5df647257922684fa3e2602b71
+Size: 3595463
+SHA256sum: 17033de9fe74ec13ab8138c604977d6ee070cca42465fab49a824bdc66e17488
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082833
-SHA256sum: 4bfc621f5a8b9fecbc7218e6e6e3ed8b29e62feb0ad862e53beb1e4cc0439d03
+Size: 1082846
+SHA256sum: 6ac1bdf59268222297dcc0558e567a8beb72ad49c16f3e7b258a3bc00ffcf942
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

@@ -87,8 +87,8 @@ URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a53
 Installed-Size: 49428480
 Filename: daed_2026.09.20-r4_aarch64_cortex-a53.ipk
-Size: 23765361
-SHA256sum: 523e201074cb55e2e4947240c60ed48c6613b28fb1b89f9368a4be7e822e0d8c
+Size: 23765153
+SHA256sum: 24f81c0756accdf4ace7362c63171a51f7cc400244ac14b16d93140ad6a6a050
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -313,14 +313,14 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.15-r2
+Version: 1.15-r3
 Depends: libc, luci-base, daed
 Section: luci
 Architecture: all
-Installed-Size: 358400
-Filename: luci-app-daede_1.15-r2_all.ipk
-Size: 97240
-SHA256sum: 1ea3b992c81934240e98c8dc1f4fa197b9f6ca04dc67754c12eb9190c184c0c6
+Installed-Size: 368640
+Filename: luci-app-daede_1.15-r3_all.ipk
+Size: 97937
+SHA256sum: 4c837a4483fff9a9053a9e0ef98929437e111703ed6ae09e56e99aee60b3de6f
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542157
-SHA256sum: 80bd16726466b99ca1b4652dadef88bb7244e5f2243605aebb806ba49dab5c05
+Size: 3542072
+SHA256sum: 425063e0c737b9f53bb343a4ddcb16b7999e31632c8484f641b747585b608f1d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595463
-SHA256sum: 17033de9fe74ec13ab8138c604977d6ee070cca42465fab49a824bdc66e17488
+Size: 3595439
+SHA256sum: 4b51a0ba29a3fbe59cdfd46d8606e4d464542d4d26a1350b93ba6ae7dad2a95e
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082846
-SHA256sum: 6ac1bdf59268222297dcc0558e567a8beb72ad49c16f3e7b258a3bc00ffcf942
+Size: 1082850
+SHA256sum: 9bbc9062c82a511ff924ff61aa6cf89988d7abe79c10084f364be40c8c4704a2
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

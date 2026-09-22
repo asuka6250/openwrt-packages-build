@@ -112,14 +112,14 @@ SourceName: daed
 License: AGPL-3.0-only MIT
 LicenseFiles: LICENSE wing/LICENSE
 Section: net
-SourceDateEpoch: 1789983826
+SourceDateEpoch: 1790048918
 URL: https://github.com/daeuniverse/daed
 Maintainer: kenzok8
 Architecture: aarch64_generic
 Installed-Size: 49428480
 Filename: daed_2026.09.20-r4_aarch64_generic.ipk
-Size: 23764861
-SHA256sum: 94e29443b6f85cf7f9c354412cb08000b37f93b4b179c40e51dda3db908629c4
+Size: 23764998
+SHA256sum: f13d2b0659cd61d01db9bf8e7e39f122602a9aa152a6b5631d2805fef7dd7cfd
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -411,18 +411,18 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.15-r2
+Version: 1.15-r3
 Depends: libc, luci-base, daed
 Source: feeds/base/custom_packages/luci-app-daede
 SourceName: luci-app-daede
 Section: luci
-SourceDateEpoch: 1788717930
+SourceDateEpoch: 1790048918
 Maintainer: kenzok8
 Architecture: all
-Installed-Size: 358400
-Filename: luci-app-daede_1.15-r2_all.ipk
-Size: 97240
-SHA256sum: 1ea3b992c81934240e98c8dc1f4fa197b9f6ca04dc67754c12eb9190c184c0c6
+Installed-Size: 368640
+Filename: luci-app-daede_1.15-r3_all.ipk
+Size: 97937
+SHA256sum: 4c837a4483fff9a9053a9e0ef98929437e111703ed6ae09e56e99aee60b3de6f
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -1988,14 +1988,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789983826
+SourceDateEpoch: 1790048918
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542157
-SHA256sum: 80bd16726466b99ca1b4652dadef88bb7244e5f2243605aebb806ba49dab5c05
+Size: 3542072
+SHA256sum: 425063e0c737b9f53bb343a4ddcb16b7999e31632c8484f641b747585b608f1d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2006,14 +2006,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789983826
+SourceDateEpoch: 1790048918
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595463
-SHA256sum: 17033de9fe74ec13ab8138c604977d6ee070cca42465fab49a824bdc66e17488
+Size: 3595439
+SHA256sum: 4b51a0ba29a3fbe59cdfd46d8606e4d464542d4d26a1350b93ba6ae7dad2a95e
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2040,12 +2040,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1789983826
+SourceDateEpoch: 1790048918
 Architecture: aarch64_generic
 Installed-Size: 3686400
 Filename: vmlinux-btf_6.6.119-r6_aarch64_generic.ipk
-Size: 1208709
-SHA256sum: 4f244c1c3f0901708ebf5fbceba5c1b8b63b79957664bfc98451db0817c3078f
+Size: 1208613
+SHA256sum: 77c300f159d5a348d20c14c07c5ab1e21a6329b9d0b250df8152f71ac1ae7e0f
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

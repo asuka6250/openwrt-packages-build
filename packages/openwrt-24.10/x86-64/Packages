@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286306
-SHA256sum: b4048803c20c24a424b71f3a060fb0d977320951f10b02feb7247685de88322f
+Size: 286291
+SHA256sum: db28b87f4b864aec34189e93b2ca575717580fa6b878b5d50399b078340517c4
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -54,30 +54,30 @@ SHA256sum: 280ee9bda2dffefc839083a273253b5a69b211ba7b137d3e479b4f959f3d6231
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
-Version: 2026.09.20-r3
+Version: 2026.09.23-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: x86_64
 Installed-Size: 36116480
-Filename: dae_2026.09.20-r3_x86_64.ipk
-Size: 13354016
-SHA256sum: f6aa1d14c00415d80377794b6c2f382cc94221e6e9b06d4802da3cea74335fd8
+Filename: dae_2026.09.23-r1_x86_64.ipk
+Size: 13353709
+SHA256sum: c6bb7f12951dd74b8f6642012f573cbe5380a38531baecdcbed0477665259c24
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.20-r4
+Version: 2026.09.23-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: x86_64
-Installed-Size: 52592640
-Filename: daed_2026.09.20-r4_x86_64.ipk
-Size: 25398848
-SHA256sum: c935373a1e4f03d713505c667dc6ab93ac311488f0e3f4188806424f35b75d80
+Installed-Size: 52541440
+Filename: daed_2026.09.23-r1_x86_64.ipk
+Size: 25387899
+SHA256sum: 12e8e3b1f35cce98dcee175d86f0500aaaef85885c7784f426491b2960385b54
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -90,8 +90,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11133
-SHA256sum: d0fe3539622cc1466de2e992f302a81443dda2b9bfc12c18d9973665161ec7ef
+Size: 11137
+SHA256sum: fc334cdc0d39750ec77336e403fe4469d668843e412e984cfa5a9df338ff96cb
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -418,8 +418,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3153920
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 840100
-SHA256sum: ad981f4fa64e6a7c76f0e84a2fcd22f2e04d9e10582d3cf50daf7d7a6ec6f1bd
+Size: 840715
+SHA256sum: 0a85de619eb72495878ffc188acb06af905f5aa8d66f8aea15478421c6e1190c
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -661,8 +661,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
-Size: 18016
-SHA256sum: 78dc8dbbc029068fb556a01522c333e18ba4bd2bea6222d9a5ce509b8005b08d
+Size: 18015
+SHA256sum: 0b991fefd39d50832f50752cc08f8cd790e83bdd7f20e4fd4ffd3c5cf9e5be62
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -756,10 +756,10 @@ Depends: libc, wget, jsonfilter
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 593920
+Installed-Size: 604160
 Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
-Size: 393543
-SHA256sum: 7565ee8ebeb180131d998f5c8468c164afb3585cf1974aed23203f81e8b1700e
+Size: 394059
+SHA256sum: 614db5ed56d917e718747f120e101f72d73eefe211ee43067713bd9e29d46da7
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -912,8 +912,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8424
-SHA256sum: b0933eeb5f30e94450ebd549f6f4e0caebdc667a3465d5ffd9f31c3e878f9f10
+Size: 8428
+SHA256sum: 9711ca1ba6f2b3bc6e5f59ddb1ab1668181c8fb295f8ceb35085b4e1b2b137e1
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1447,8 +1447,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4419
-SHA256sum: 7a3efe284acc260c9a8cc0051aeee04a3ae588a102d33a38969761dd4794c547
+Size: 4437
+SHA256sum: 4838403b370377a26043820951edcb3fd70cdfe6bc369db72aabacff71890985
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1486,8 +1486,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542072
-SHA256sum: 425063e0c737b9f53bb343a4ddcb16b7999e31632c8484f641b747585b608f1d
+Size: 3542150
+SHA256sum: 377fa432c48256147da9391bc459bd08230af06c335bd737ff976c4a85a2e43c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1499,8 +1499,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595439
-SHA256sum: 4b51a0ba29a3fbe59cdfd46d8606e4d464542d4d26a1350b93ba6ae7dad2a95e
+Size: 3595428
+SHA256sum: 67f62855e62a1ce7911c909b72b4a2501c8443cecdb7aeb3b253e0212b4541fd
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1523,8 +1523,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4259840
 Filename: vmlinux-btf_6.6.119-r6_x86_64.ipk
-Size: 1408868
-SHA256sum: d704b856c59a3721af89bc4083148a9def3fccdb5438bd9b8aa63e16211eee7c
+Size: 1408830
+SHA256sum: 57002ec058d33879fa784f53a8e111191d5690514a46603fe3caa2d52c676fbc
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

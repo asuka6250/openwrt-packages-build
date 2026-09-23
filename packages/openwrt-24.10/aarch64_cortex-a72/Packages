@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269735
-SHA256sum: d927a5c752d6e4923e58b2f9b2a56178d66eadd1da10e5460340964a483175cc
+Size: 269719
+SHA256sum: a2f6cc0957dba79f7a6434b6881b862cff22820c168abbd091d4c8194638615b
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -65,30 +65,30 @@ SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
 Description:  CPU Frequency Scaling adjustment tool
 
 Package: dae
-Version: 2026.09.20-r3
+Version: 2026.09.23-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: aarch64_cortex-a72
 Installed-Size: 33546240
-Filename: dae_2026.09.20-r3_aarch64_cortex-a72.ipk
-Size: 12023625
-SHA256sum: dcb95f63f1a2f2a7ad46214a105f7590017930ef4e87e11763b885abf5a57c53
+Filename: dae_2026.09.23-r1_aarch64_cortex-a72.ipk
+Size: 12023890
+SHA256sum: 9049656c4bc20b4169e547d170bbc2651604349d15de82197c46fd3f4fcd60d8
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.20-r4
+Version: 2026.09.23-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a72
 Installed-Size: 49428480
-Filename: daed_2026.09.20-r4_aarch64_cortex-a72.ipk
-Size: 23765003
-SHA256sum: dbb3fd4695968369dbe4cffcb9726482e9bba33f8f6ff7cca310021671415878
+Filename: daed_2026.09.23-r1_aarch64_cortex-a72.ipk
+Size: 23751699
+SHA256sum: c1f5b88b5ffd49047c60416a7f0e21298cb0f003c17d57b76b1bc67135bda7c1
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11841
-SHA256sum: b29c2f1a79ece0594f313dfd602a556df54aa25cd3edb2b1e61266d383f65acf
+Size: 11844
+SHA256sum: e03739771aa59ca1a36a79a4eee78570bfa496c3ebc20de6dc66abef499745a3
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3153920
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 840100
-SHA256sum: ad981f4fa64e6a7c76f0e84a2fcd22f2e04d9e10582d3cf50daf7d7a6ec6f1bd
+Size: 840715
+SHA256sum: 0a85de619eb72495878ffc188acb06af905f5aa8d66f8aea15478421c6e1190c
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
-Size: 18016
-SHA256sum: 78dc8dbbc029068fb556a01522c333e18ba4bd2bea6222d9a5ce509b8005b08d
+Size: 18015
+SHA256sum: 0b991fefd39d50832f50752cc08f8cd790e83bdd7f20e4fd4ffd3c5cf9e5be62
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -790,10 +790,10 @@ Depends: libc, wget, jsonfilter
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 593920
+Installed-Size: 604160
 Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
-Size: 393543
-SHA256sum: 7565ee8ebeb180131d998f5c8468c164afb3585cf1974aed23203f81e8b1700e
+Size: 394059
+SHA256sum: 614db5ed56d917e718747f120e101f72d73eefe211ee43067713bd9e29d46da7
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8798
-SHA256sum: cf9e8b571234e0de3629217d1399ba56e588761db10548bea17c5f42a693ed97
+Size: 8806
+SHA256sum: 0c0bea9023556ce16b0606f252ce1e92ab6eceae3e30164aa956fdf168f52f70
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4328
-SHA256sum: 321c9ba8be885d7292ad594b6aba9ac8da8739065a4b68ce331fd34d97c4c5e3
+Size: 4330
+SHA256sum: e5271403f5e84b3c839df42c2873be9903b368fddf532d54b72269772a889c73
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 17131520
 Filename: v2ray-geoip_202609040655.1_all.ipk
-Size: 3542072
-SHA256sum: 425063e0c737b9f53bb343a4ddcb16b7999e31632c8484f641b747585b608f1d
+Size: 3542150
+SHA256sum: 377fa432c48256147da9391bc459bd08230af06c335bd737ff976c4a85a2e43c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10977280
 Filename: v2ray-geosite_202609072354.1_all.ipk
-Size: 3595439
-SHA256sum: 4b51a0ba29a3fbe59cdfd46d8606e4d464542d4d26a1350b93ba6ae7dad2a95e
+Size: 3595428
+SHA256sum: 67f62855e62a1ce7911c909b72b4a2501c8443cecdb7aeb3b253e0212b4541fd
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_cortex-a72
 Installed-Size: 3276800
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a72.ipk
-Size: 1073826
-SHA256sum: b0a2a814d6ef31ad6af1ad3a50d4017a911052f573cd18af22878390e094386c
+Size: 1073720
+SHA256sum: 1ca9e133e4dfdcde8207a9ad9695b3a8ec77aa668fe392ce79204502662a402f
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

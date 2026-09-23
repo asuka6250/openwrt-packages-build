@@ -41,16 +41,16 @@ SHA256sum: b4048803c20c24a424b71f3a060fb0d977320951f10b02feb7247685de88322f
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.09.19~5019cc0-r2
+Version: 2026.09.22~3c947c7-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 63139840
-Filename: clashoo_2026.09.19~5019cc0-r2_x86_64.ipk
-Size: 23589873
-SHA256sum: b66d5bc72a48947b5833df425379cedc864bb44ef90118a09a86aa0ba1396203
+Installed-Size: 63252480
+Filename: clashoo_2026.09.22~3c947c7-r1_x86_64.ipk
+Size: 23624086
+SHA256sum: 280ee9bda2dffefc839083a273253b5a69b211ba7b137d3e479b4f959f3d6231
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -254,14 +254,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.30.0-r16
+Version: 1.30.0-r17
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
-Installed-Size: 942080
-Filename: luci-app-clashoo_1.30.0-r16_all.ipk
-Size: 398321
-SHA256sum: 50c98d35e5cf05dba8b0d7bc34918309bf07390d7e72b3f8945214eec4d7550a
+Installed-Size: 952320
+Filename: luci-app-clashoo_1.30.0-r17_all.ipk
+Size: 398609
+SHA256sum: bce5ee7c099f2a61803c638fb10fef3ec54a93876267eb81b17bbf799c15257e
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -520,14 +520,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.30.0-r16
+Version: 1.30.0-r17
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.30.0-r16_all.ipk
-Size: 12384
-SHA256sum: 5b41178d0641e6d640462dede182824f282cec50451c05e129c8235c5009abdb
+Filename: luci-i18n-clashoo-zh-cn_1.30.0-r17_all.ipk
+Size: 12385
+SHA256sum: 79483a86a7a698a25039f99bb6981a40e622c869b69748a19f8ee063293b3516
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -758,8 +758,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 593920
 Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
-Size: 392745
-SHA256sum: 89e1ca8094f2eb41af7f5734ffbc738a54c101d2faec83f5006a79b30b20949d
+Size: 393543
+SHA256sum: 7565ee8ebeb180131d998f5c8468c164afb3585cf1974aed23203f81e8b1700e
 Description:  Argon Theme
 
 Package: luci-theme-aurora

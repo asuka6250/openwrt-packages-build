@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1790203616
+SourceDateEpoch: 1790268113
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287136
-SHA256sum: 90135c362cf8d5dd26b2eace81385c21c03516c6f757dfc3336bcb9830d77a9d
+Size: 287105
+SHA256sum: 2bd3b9d6cf161ee48885487b6715c51370274bb9258868915e579a93a565ad76
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1790203616
+SourceDateEpoch: 1790268113
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_generic.ipk
-Size: 11837
-SHA256sum: 546e9b11eb33613b797d846574925a8f3dc233a54334b83a00f060bf4113f5e3
+Size: 11830
+SHA256sum: c3ff8dd8debc196058d902729000427f49687612150ad4089ea678e62b385108
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1790268113
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_generic.ipk
-Size: 11406
-SHA256sum: 4f4209f77001e061e772131d20b23f30b6c6e4d045f503a21f588040a108c9fc
+Size: 11400
+SHA256sum: 791d5193f45f3c0b8f06e862937d508cf4d1a93c4292ce01ccccab5c601b85d4
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -221,13 +221,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1790268113
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_generic.ipk
-Size: 26144
-SHA256sum: fe7fcd8dff3f1332a3f286803272b7ff2b18d64386815eab6ab067d8c070864e
+Size: 26146
+SHA256sum: f39d38c1cd20c31db697b0259ea2690d7cb0cee21bccd882d025097f817e95e4
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -269,14 +269,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1790268113
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5340
-SHA256sum: 2cf923e375f16edcf268ca71356f012ecf58f41cc1e336cfcb44fa34db0ac792
+Size: 5337
+SHA256sum: 95e2800eaf68690c73ba28da09e16b12fbcb60e6bea8b8ddddfd9924b02e2203
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -576,14 +576,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1790203616
+SourceDateEpoch: 1790268113
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3153920
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 840766
-SHA256sum: ae522cd42a1f259664751d79450cea33719a6730c44b0f06fef5d4829bcf3409
+Size: 840837
+SHA256sum: ca20e25157eb9e45fbbad94ca5e53c4d8fe6a2d2dedc3fef9be55be22f51e11e
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -626,14 +626,14 @@ Depends: libc, libuci-lua, lua, luci-compat, coreutils, coreutils-base64, dns2tc
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1790268113
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2539520
+Installed-Size: 7577600
 Filename: luci-app-ssr-plus_196-r9_all.ipk
-Size: 513880
-SHA256sum: ef91d6d19d7156877f96978ea41c5fc2ebb059899cdbc7c002694262379edd06
+Size: 3263880
+SHA256sum: 9948d5d09ca1478c6635a89229e73b75d43410e6dcee0800c458ccf4bcadb0a2
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -908,12 +908,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1790203616
+SourceDateEpoch: 1790268113
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
 Size: 18014
-SHA256sum: 341fd038b620a458b66298d6cb1e5ce657ef1c51634d517273e888aadf74450a
+SHA256sum: b460eee340f9e02ac21a4a763b18271629f351ab2d71c359660938af6dafca4d
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -963,17 +963,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.258.59362~19fff5f
+Version: 26.267.60113~244984b
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1789489762
+SourceDateEpoch: 1790268113
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.258.59362~19fff5f_all.ipk
-Size: 14984
-SHA256sum: a8b2c3e422583ae494c28eccbcd69b78ef5fad6786c5c5f78cd04a4ec221b79a
+Filename: luci-i18n-ssr-plus-zh-cn_26.267.60113~244984b_all.ipk
+Size: 15285
+SHA256sum: 465f8cbde482890aff5592f92523f9d74bc1716b16a63ab3e298abab5840f3c4
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1790203616
+SourceDateEpoch: 1790268113
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8801
-SHA256sum: b3b48058747d0400e6b9fabf146251a3d41c8c9e52c17ab6d2b65319f73099cc
+Size: 8802
+SHA256sum: 901af305ffc09313f8d4cf27cb80e157c179548219ea2fbfde0816fb4a2b5c00
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1788,13 +1788,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1790268113
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_generic.ipk
-Size: 63516
-SHA256sum: 05c15a16ffc9221e04d5a7e9d0f650a8f7a3b17809691cf25a81967bcd4e5b04
+Size: 63527
+SHA256sum: 178c7e28bb5f7b53f8d853ede8e9c8c921f98e4e71e2dbb1c10acbac640c36ac
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1805,13 +1805,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1790268113
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_generic.ipk
-Size: 57019
-SHA256sum: ac0b18d4634bfceb5b5a283d824de7fb2e1840c58d23bdb45b2d2f4c7c686b40
+Size: 57002
+SHA256sum: 5daac31b5a4c9db5b9c5f1799684d5ba16470af80b82c6dfed7df973085f4aa4
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1822,13 +1822,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1789918689
+SourceDateEpoch: 1790268113
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_aarch64_generic.ipk
-Size: 66938
-SHA256sum: 1f819dcb0f1801ae6f486713f7434a80efb29e20ab4010e66afc6e08514ed787
+Size: 66945
+SHA256sum: 49d798e2938c311001260b51f2e8a5cf939f43adfeb77937848129bc96843e88
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -1869,7 +1869,7 @@ SHA256sum: 8b330c065605676a084781830ed8f61cba7d6b2f52688314e0b707c80e235b83
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sing-box
-Version: 1.14.1-r1
+Version: 1.14.2-r1
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 Source: feeds/base/custom_packages/sing-box
 SourceName: sing-box
@@ -1877,14 +1877,14 @@ License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
 Require-User: sing-box=5566:sing-box=5566
-SourceDateEpoch: 1789463763
+SourceDateEpoch: 1790268113
 URL: https://sing-box.sagernet.org/
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
-Installed-Size: 57323520
-Filename: sing-box_1.14.1-r1_aarch64_generic.ipk
-Size: 19829456
-SHA256sum: 4f3b7c3839aa5a4f0a1de7d4f98c35c7ac4550fa9687484ad7bd3529df705f4c
+Installed-Size: 57384960
+Filename: sing-box_1.14.2-r1_aarch64_generic.ipk
+Size: 19840340
+SHA256sum: ae6b01418e65beba3d245b058b859416dea7c3ca8953baa68e06e1ad13ab80d9
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -1936,13 +1936,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1790203616
+SourceDateEpoch: 1790268113
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4325
-SHA256sum: f16c6dae15d7b139cb8e409a4d38725ea31d72768453115e599b72f3f7918136
+Size: 4322
+SHA256sum: 3cdb2ecc266cfa78ac9bedea909e2402d1c1341daefdca5e864bbe5f77cf52bf
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269755
-SHA256sum: a6822e96e8f520e4c8692a52f1f21a90379e2a32acf5fc3161dd26395f7e827c
+Size: 269727
+SHA256sum: 645407c7521bd06047bcc7dcf6fde31d332109123ddefd0c01812b697509f350
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -87,8 +87,8 @@ URL: https://github.com/daeuniverse/daed
 Architecture: aarch64_cortex-a53
 Installed-Size: 49428480
 Filename: daed_2026.09.24-r2_aarch64_cortex-a53.ipk
-Size: 23755849
-SHA256sum: 756bdf636fe5a3afc093bb5b69d5f86589ee1d3d7466171ec381b9c5d09c90ee
+Size: 23756427
+SHA256sum: 3aae85cb672b5626d737571e9b0193060ed1e7f6764d1a1d995c73736c1f0759
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11824
-SHA256sum: 654816705e9c88e946357abc62625835985a681824c2cc4a41d49e547643c7ea
+Size: 11823
+SHA256sum: 518f5b160f71b3eed01273d508c3622a95a82688e575132ee3a4f7f9a6e447f1
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a53.ipk
-Size: 11388
-SHA256sum: d934eacab9ec8562704f7574814a8c4fb155417637ba8c6fefbd7a708897c92f
+Size: 11389
+SHA256sum: f74653f01e418399b69ad9332b6107b9e887eca941526be1f463ad2344d3dc6f
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -170,8 +170,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a53.ipk
-Size: 26135
-SHA256sum: 5aa0e1afb9c12907f11bf7499da6b80aa60f3f39ff70b05fd2155256d3c7c6a8
+Size: 26133
+SHA256sum: 6b1129136db6c8fd0748415a34efa96ab57c67b11e3ec816a44ffcedbd3bae9c
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -209,8 +209,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5337
-SHA256sum: 95e2800eaf68690c73ba28da09e16b12fbcb60e6bea8b8ddddfd9924b02e2203
+Size: 5344
+SHA256sum: 818caf42a1aae6482634aa9b7f73f13b03979ba9300476220760dc59520a047c
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -313,14 +313,14 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.15-r5
+Version: 1.15-r6
 Depends: libc, luci-base, daed
 Section: luci
 Architecture: all
 Installed-Size: 368640
-Filename: luci-app-daede_1.15-r5_all.ipk
-Size: 98094
-SHA256sum: 1e12677bf0a4b54b27fb6a2fd0dda984577cb5d6839a3d8f03af2fea3f9ea9bc
+Filename: luci-app-daede_1.15-r6_all.ipk
+Size: 98126
+SHA256sum: f306869c91075fef6973c0b6999980b31b970b122489463d4f4e8844fe62325c
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3153920
 Filename: luci-app-passwall_26.9.16-r1_all.ipk
-Size: 841022
-SHA256sum: abd251ebebcd9170c9a9ba3450b49a7cb6f178dee657fe9b584274945cda7e60
+Size: 841095
+SHA256sum: 267dba8e03130d04d23303151ebda137c80d7da5537fdd60a9386f03af2f84c3
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -472,15 +472,15 @@ SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
 Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
-Version: 196-r9
+Version: 196-r10
 Depends: libc, libuci-lua, lua, luci-compat, coreutils, coreutils-base64, dns2tcp, dnsmasq-full, jq, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, bind-dig, curl, nping, unzip, xz-utils, xz, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 7577600
-Filename: luci-app-ssr-plus_196-r9_all.ipk
-Size: 3263880
-SHA256sum: 9948d5d09ca1478c6635a89229e73b75d43410e6dcee0800c458ccf4bcadb0a2
+Installed-Size: 2539520
+Filename: luci-app-ssr-plus_196-r10_all.ipk
+Size: 513817
+SHA256sum: 6f854a6a25282d58979413d18f0af1b738fbff6555b6e145945c31bbf5152385
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.9.16_all.ipk
-Size: 18014
-SHA256sum: bd2fc59d82aa866cdd526f019ac702495259b98b6c9a88976e9f474d3492788e
+Size: 18003
+SHA256sum: a949ecca64990373897563c48b1924e2bb4951ae1149069194bd8b9e715c588a
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -735,14 +735,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.267.60113~244984b
+Version: 26.268.60389~bb09e57
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.267.60113~244984b_all.ipk
-Size: 15285
-SHA256sum: 465f8cbde482890aff5592f92523f9d74bc1716b16a63ab3e298abab5840f3c4
+Filename: luci-i18n-ssr-plus-zh-cn_26.268.60389~bb09e57_all.ipk
+Size: 14985
+SHA256sum: f11e2690f345ca58a311e725246d3703f7dba732cf2b7d12b708f4d04b6ef28d
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -849,16 +849,16 @@ SHA256sum: a0f24ed274942a01f75e3b57db7e34de087d43c7f0defd5fee006605fa30fdf9
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.259.32943~74f8c0b
+Version: 26.268.60389~bb09e57
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
-Installed-Size: 337920
-Filename: luci-theme-footstrap_26.259.32943~74f8c0b_all.ipk
-Size: 79719
-SHA256sum: a00262f3848dfbeb6a40bea529924e72c80b4167986413e9c338284cb866f8ce
+Installed-Size: 327680
+Filename: luci-theme-footstrap_26.268.60389~bb09e57_all.ipk
+Size: 77641
+SHA256sum: 6b1ba0c2c430e6a745e22eae66b93ae5114b5b113a929bd8bc80f31feec349bf
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -947,7 +947,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
 Size: 8794
-SHA256sum: 4510acac9b9539cbbe1a89e1d5bd727b92c09c8a276cfd45587bd79e55f7b839
+SHA256sum: 7c810a36b7777a54a5c90872e6751e2f3825e8f9e7d9fc50d2a5bf9606af4139
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1371,8 +1371,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_cortex-a53.ipk
-Size: 63501
-SHA256sum: cdcd19a22427186ecc47500e46d8db2a23aed89b28c1082bc995e09f402c00b4
+Size: 63485
+SHA256sum: ce73f040701d998ebd69e3ea045ee0c3168d7229f94f322d6962d2659e6bf71b
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1384,8 +1384,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_cortex-a53.ipk
-Size: 57029
-SHA256sum: ca86c36ae5104547b3ac78103ef5fc949445019b9f9b8607bda6eb4b9738430f
+Size: 57023
+SHA256sum: 31998c5ae8e8d0a861cc5fa2fc2d7fe060d6f56251fb9e393432c6f63d237ca2
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1397,8 +1397,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_aarch64_cortex-a53.ipk
-Size: 66866
-SHA256sum: 0f018d0b26992b9a3f86b2de102c2507ce6f93a146abba6b0de4f1ed318e923e
+Size: 66858
+SHA256sum: 6c12f35e17e29f25baafb0851530a34d93af76d5655dbba173119506a3bc8755
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -1481,8 +1481,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4324
-SHA256sum: 762435672b14f5cd0c6258140e94b190ab5558a4b17ba3bf4dd8a5952ef753da
+Size: 4328
+SHA256sum: ce482ebe8c8a95541e0ebe8e0620dd38b71184714b8d2e128f180c23b99d7704
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1520,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16640000
 Filename: v2ray-geoip_202609240030.1_all.ipk
-Size: 3452744
-SHA256sum: dbd3dd8ba22acd25ae123933fe8d7350e67c9a1ca2cb74a971eb4eaea9240382
+Size: 3453072
+SHA256sum: 05b7168f1c4944f5a2173147b5640d4d5880e25c4ee3efde563dfbfabc6f6cf8
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1533,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11130880
 Filename: v2ray-geosite_202609250012.1_all.ipk
-Size: 3661475
-SHA256sum: b5ea738e71b2915c62c3eec13a8a9ca4f83b29d8339d364b12f3affb37faf5ce
+Size: 3661484
+SHA256sum: 2e494643d03343989ea364ad985d095c3c0650186d078e2c3b0f9008ad79d783
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1557,8 +1557,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 3307520
 Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082830
-SHA256sum: a9b8a6bfbc508b9390c78ba3f18d62df13c2c69ef41456711115d5be142acf47
+Size: 1082818
+SHA256sum: 665531f72dd33003090833e7e9d5b17c3071e573be26110f64595dfb2b234cc3
 Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
  This package builds a shadow kernel tree using the OpenWrt kernel source,
  applies the same patches/files, and generates detached BTF information

@@ -1,0 +1,106 @@
+name: Delete Packages and Clean
+
+on:
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: '输入要删除的关键词 (支持多个，用空格分割，例如: luci-app-v2ray mtd)'
+        required: true
+        type: string
+      dry_run:
+        description: '试运行 (仅打印匹配到的文件，不执行真实删除和提交)'
+        required: false
+        type: boolean
+        default: true 
+
+jobs:
+  delete-and-trigger:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: ${{ github.ref_name }}
+          
+      - name: Execute deletion logic
+        run: |
+          # 读取输入的参数
+          KEYWORDS="${{ inputs.keywords }}"
+          DRY_RUN="${{ inputs.dry_run }}"
+          
+          echo "📝 目标关键词: $KEYWORDS"
+          echo "🔍 试运行模式: $DRY_RUN"
+          echo "----------------------------------------"
+          
+          # 将空格分割的关键词转换为数组并遍历
+          for KEYWORD in $KEYWORDS; do
+            echo "▶️ 正在搜索包含关键词的文件: *$KEYWORD*"
+            
+            # 使用 find 命令查找文件：
+            # -type f: 只查找文件
+            # -name "*${KEYWORD}*": 文件名包含关键词
+            # ! -name "*.ext": 排除指定的后缀文件
+            # -print0: 安全处理带空格的文件名
+            find packages/ -type f -name "*${KEYWORD}*" \
+              ! -name "*.html" \
+              ! -name "*.js" \
+              ! -name "*.pem" \
+              ! -name "*.pub" -print0 | while IFS= read -r -d '' FILE; do
+                
+              if [ "$DRY_RUN" == "true" ]; then
+                echo "[试运行] 匹配到待删除文件: $FILE"
+              else
+                echo "[已删除] $FILE"
+                rm -f "$FILE"
+              fi
+            done
+          done
+          
+          # 如果不是试运行，顺手清理一下可能变成空目录的文件夹
+          if [ "$DRY_RUN" != "true" ]; then
+            echo "🧹 正在清理空目录..."
+            find packages/ -type d -empty -delete 2>/dev/null || true
+          fi
+
+      - name: Setup UTC+8 Time
+        # 修复：移除字符串引号，直接对比布尔值
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          echo "COMMIT_TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+
+      - name: Commit and push changes
+        # 修复：移除字符串引号，直接对比布尔值
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 优化：使用 --all 确保所有被 rm -f 删除的文件变更都被记录
+          git add --all packages/
+          
+          # 检查是否有文件被真实删除
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: delete packages matching '${{ inputs.keywords }}' [${{ env.COMMIT_TIME }}]"
+            git push
+            echo "✅ 变更已提交并推送到仓库。"
+            # 设置一个环境变量标记，告诉下一步需要触发 Action
+            echo "TRIGGER_NEXT=true" >> $GITHUB_ENV
+          else
+            echo "⚠️ 未发现实际文件变动，跳过提交步骤。"
+            echo "TRIGGER_NEXT=false" >> $GITHUB_ENV
+          fi
+
+      - name: Trigger Generate Index workflow
+        # 修复：移除了 inputs.dry_run 的字符串引号，保留了 env 变量的引号（因为环境变量永远是字符串）
+        if: ${{ inputs.dry_run == false && env.TRIGGER_NEXT == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🚀 正在拉起工作流: Generate Index and Trigger Sync"
+          # 通过之前写好的 Action 名称来触发它
+          gh workflow run "Generate Index and Trigger Sync" --ref ${{ github.ref_name }}

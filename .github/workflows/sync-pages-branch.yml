@@ -1,0 +1,59 @@
+name: Sync to Pages Branch
+
+on:
+  #schedule:
+    #- cron: '22 22 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-to-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Source Branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 1 
+          persist-credentials: true 
+
+      - name: Smart Sync to Pages Branch (Flatten & Compare)
+        run: |
+          echo "🔍 [Stage 1] Preparing to evaluate state for 'pages' branch..."
+          git fetch origin pages --depth=1 2>/dev/null || true
+          
+          git checkout --orphan temp-deploy-branch
+          git rm -rf --cached . 1>/dev/null 
+          
+          echo "📦 [Stage 2] Flattening 'packages' directory structure to root..."
+          cp -a packages/. .
+          
+          rm -rf .github packages README* readme* Readme* 
+          
+          git add .
+          
+          if git branch -r | grep -q "origin/pages"; then
+            if git diff --cached --quiet origin/pages 2>/dev/null; then
+              echo "💤 [Stage 3] Target directory is identical to remote 'pages' branch. Bypassing deployment to conserve quotas."
+              exit 0
+            fi
+          fi
+          
+          echo "🔄 [Stage 3] Divergence detected. Assembling a sterile commit tree for deployment..."
+          
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git commit -m "🚀 Production deployment: $(TZ="Asia/Shanghai" date +'%Y-%m-%d %H:%M:%S CST')"
+          
+          echo "📤 [Stage 4] Executing force push to replace 'pages' branch history..."
+          git push origin temp-deploy-branch:pages --force
+          
+          echo "✅ [Success] Sync completed perfectly. Cloudflare Pages pipeline triggered!"
+          
+          echo "📤 [Stage 4] Executing force push to replace 'pages' branch history..."
+          git push origin temp-deploy-branch:pages --force
+          
+          echo "✅ [Success] Sync completed perfectly. Cloudflare Pages pipeline triggered!"

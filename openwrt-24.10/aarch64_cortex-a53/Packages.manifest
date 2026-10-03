@@ -1,0 +1,2094 @@
+Package: adguardhome
+Version: 0.107.57-r1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/adguardhome
+SourceName: adguardhome
+License: GPL-3.0-only
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1766058532
+URL: https://github.com/AdguardTeam/AdGuardHome
+CPE-ID: cpe:/a:adguard:adguardhome
+Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30484480
+Filename: adguardhome_0.107.57-r1_aarch64_cortex-a53.ipk
+Size: 10274639
+SHA256sum: f14ab37ff2422c3bf0ba7bd68667bd28dda8f4b2d6230f7e42e2d41129f1dd06
+Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
+
+Package: bash-completion
+Version: 2.17.0-r1
+Depends: libc, bash
+Source: feeds/base/custom_packages/bash-completion
+SourceName: bash-completion
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1781510289
+URL: https://github.com/scop/bash-completion
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1730560
+Filename: bash-completion_2.17.0-r1_aarch64_cortex-a53.ipk
+Size: 243608
+SHA256sum: 69a7d69a5d389bd720a8931d1b9b0e648043a3eba702ea497e55c03a3e31998e
+Description:  bash-completion is a collection of command line command completions for the Bash shell, 
+ collection of helper functions to assist in creating new completions, 
+ and set of facilities for loading completions automatically on demand, as well as installing them.
+
+Package: chinadns-ng
+Version: 2025.08.09-r1
+Depends: libc
+Source: feeds/base/custom_packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1791054260
+URL: https://github.com/zfl9/chinadns-ng
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 522240
+Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
+Size: 269722
+SHA256sum: d4be5aed763bb13e5f84bd21ff02b3ada68ca6e60c12e1efa07ae98c48685352
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: clashoo
+Version: 2026.10.02~9f053c4-r1
+Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
+Provides: mihomo, clash-meta
+Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
+SourceName: clashoo
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1790972749
+Maintainer: kenzok8
+Architecture: aarch64_cortex-a53
+Installed-Size: 58654720
+Filename: clashoo_2026.10.02~9f053c4-r1_aarch64_cortex-a53.ipk
+Size: 21580647
+SHA256sum: caca66e0c804bbf272a4d45e11fbe8dc3a7d86c4e9da70196e3cb7627664f887
+Description:  Mihomo proxy core with runtime environment for Clashoo.
+
+Package: cpufreq
+Version: 1
+Depends: libc
+Source: feeds/base/custom_packages/cpufreq
+SourceName: cpufreq
+Section: opt
+SourceDateEpoch: 1781510289
+Architecture: all
+Installed-Size: 10240
+Filename: cpufreq_1_all.ipk
+Size: 2262
+SHA256sum: 83c99926f62f8a6d3d05223588835e8ad0d42e11c159ea1b67eab15265feeee9
+Description:  CPU Frequency Scaling adjustment tool
+
+Package: dae
+Version: 2026.09.24-r2
+Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
+Source: feeds/base/custom_packages/dae
+SourceName: dae
+License: AGPL-3.0-only
+Section: net
+SourceDateEpoch: 1790328458
+URL: https://github.com/daeuniverse/dae
+Maintainer: kenzok8
+Architecture: aarch64_cortex-a53
+Installed-Size: 33546240
+Filename: dae_2026.09.24-r2_aarch64_cortex-a53.ipk
+Size: 12027332
+SHA256sum: 44000f8d2f4704f967aada355accf59b5528b80a69e882b8560b1b0fe8566273
+Description:  dae, means goose, is a lightweight and high-performance transparent
+ proxy solution.
+
+Package: daed
+Version: 2026.09.24-r2
+Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
+Source: feeds/base/custom_packages/daed
+SourceName: daed
+License: AGPL-3.0-only MIT
+LicenseFiles: LICENSE wing/LICENSE
+Section: net
+SourceDateEpoch: 1790800656
+URL: https://github.com/daeuniverse/daed
+Maintainer: kenzok8
+Architecture: aarch64_cortex-a53
+Installed-Size: 49428480
+Filename: daed_2026.09.24-r2_aarch64_cortex-a53.ipk
+Size: 23755838
+SHA256sum: 0c577e56245f4ee717aa3135120b64543e4c0a24cb5302965e76ccaa77a55db7
+Description:  daed is a backend of dae, provides a method to bundle arbitrary
+ frontend, dae and geodata into one binary.
+
+Package: dns2socks
+Version: 2.1-r2
+Depends: libc, libpthread
+Source: feeds/base/custom_packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1791054260
+URL: http://dns2socks.sourceforge.net/
+Maintainer: ghostmaker
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
+Size: 11824
+SHA256sum: c44eca730c36e7038875d1902b1ec68e88f746f38c3d18f9bd120a48588759b4
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.2-r1
+Depends: libc
+Source: feeds/base/custom_packages/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1790972749
+URL: https://github.com/zfl9/dns2tcp
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a53.ipk
+Size: 11388
+SHA256sum: a7245577c08f23f585b0eeb714a36f46f9e985f3e8469214d25dc1f25abdb5a3
+Description:  utility to convert dns query from udp to tcp
+
+Package: geo2txt
+Version: 1.0.0-r1
+Depends: libc
+Source: feeds/base/custom_packages/luci-app-mosdns/geo2txt
+SourceName: geo2txt
+License: GPL-3.0
+Section: utils
+SourceDateEpoch: 1789324555
+URL: https://github.com/sbwml/geo2txt
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: geo2txt_1.0.0-r1_aarch64_cortex-a53.ipk
+Size: 7619
+SHA256sum: ab5229ec89de9caad4153823f41816de2d9b1589258a163195132c07b4e5c247
+Description:  V2ray geosite & geoip unpacking CLI tool
+
+Package: geoview
+Version: 0.2.6-r1
+Depends: libc
+Source: feeds/base/custom_packages/geoview
+SourceName: geoview
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1791054260
+URL: https://github.com/snowie2000/geoview
+Maintainer: snowie2000
+Architecture: aarch64_cortex-a53
+Installed-Size: 7208960
+Filename: geoview_0.2.6-r1_aarch64_cortex-a53.ipk
+Size: 2744597
+SHA256sum: 4983c6662cdf70fcadcc70212326f8730ac9c78e5ee1bc7cbed9bdfe090d9ff1
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: hysteria
+Version: 2.12.3-r1
+Depends: libc, ca-bundle
+Source: feeds/base/custom_packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1789549743
+URL: https://github.com/apernet/hysteria
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 21309440
+Filename: hysteria_2.12.3-r1_aarch64_cortex-a53.ipk
+Size: 7791040
+SHA256sum: 68ede4863e5507d11039ef83ed44b2166501fb3557c71a2875ed4ba25e0e17aa
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.4-r3
+Depends: libc, libpthread
+Source: feeds/base/custom_packages/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1790972749
+URL: https://github.com/zfl9/ipt2socks
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a53.ipk
+Size: 26139
+SHA256sum: 0f49436fadb8c3bf845bd19b57dd880e1222a9d1d33230f5330baacc0a6cb58e
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lanspeedd-bpf
+Version: 1.2.1-r2
+Depends: libc, lanspeedd, tc-full, kmod-sched-bpf
+Source: lanspeedd
+SourceName: lanspeedd
+License: Apache-2.0
+Section: net
+SourceDateEpoch: 1789153637
+Architecture: aarch64_cortex-a53
+Installed-Size: 624640
+Filename: lanspeedd-bpf_1.2.1-r2_aarch64_cortex-a53.ipk
+Size: 137206
+SHA256sum: d9642dad22a406820492337712b5cb0a1df1842a2733b2709977e2a248616c20
+Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
+ The package installs architecture-matched kfunc and fallback TC-BPF objects.
+ On aarch64 it additionally installs the isolated NSS ECM kprobe object.
+
+Package: lanspeedd
+Version: 1.2.1-r2
+Depends: libc, libgcc1, kmod-nf-conntrack-netlink
+Source: lanspeedd
+SourceName: lanspeedd
+License: Apache-2.0
+Section: net
+SourceDateEpoch: 1789153637
+Architecture: aarch64_cortex-a53
+Installed-Size: 3092480
+Filename: lanspeedd_1.2.1-r2_aarch64_cortex-a53.ipk
+Size: 1619986
+SHA256sum: 8fb56e0db00cc63cb91dc4a82fc0faec8dff997655a205e01542ecf5b56c9f04
+Description:  Rust/Aya daemon for LAN client speed monitoring.
+
+Package: lua-neturl
+Version: 1.2.1-r1
+Depends: libc, lua
+Source: feeds/base/custom_packages/lua-neturl
+SourceName: neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1790972749
+URL: https://github.com/golgote/neturl
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 20480
+Filename: lua-neturl_1.2.1-r1_all.ipk
+Size: 5340
+SHA256sum: 8f09b6a86f6d4124821168aa5a0a79cb5b792b7572898236006ad3b03cf4ecd3
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-adguardhome
+Version: 26.166.28689~7af0cf3
+Depends: libc, adguardhome, luci-base, curl
+Source: feeds/base/custom_packages/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 71680
+Filename: luci-app-adguardhome_26.166.28689~7af0cf3_all.ipk
+Size: 19832
+SHA256sum: f15bab523f6b52c55e028645c7a935a6f25f277534026ff1c98245d537dbfd0e
+Description:  LuCI support for AdguardHome
+
+Package: luci-app-argon-config
+Version: 1.0-r20230608
+Depends: libc, luci-theme-argon
+Source: feeds/base/custom_packages/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-argon-config_1.0-r20230608_all.ipk
+Size: 4006
+SHA256sum: 05349e5ca580fa8ec241c4030c0d4ee8281730ee131c133d4887630a89444868
+Description:  LuCI app for Argon theme configuration
+
+Package: luci-app-arpbind
+Version: 26.166.28689~7af0cf3
+Depends: libc, ip
+Source: feeds/base/custom_packages/luci-app-arpbind
+SourceName: luci-app-arpbind
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-arpbind_26.166.28689~7af0cf3_all.ipk
+Size: 2862
+SHA256sum: 8f9a8d8061a309aff48f9b116f0fa4301763d0ad2fc612594063784f274131ad
+Description:  LuCI support for ARP binding
+
+Package: luci-app-aurora-config
+Version: 1.1.7-r20260805
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-app-aurora-config
+SourceName: luci-app-aurora-config
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1785911387
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 634880
+Filename: luci-app-aurora-config_1.1.7-r20260805_all.ipk
+Size: 173387
+SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
+Description:  LuCI configuration UI for the Aurora theme
+
+Package: luci-app-clashoo
+Version: 1.31.0-r1
+Depends: libc, luci-base, clashoo
+Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
+SourceName: luci-app-clashoo
+Section: luci
+SourceDateEpoch: 1790972749
+Maintainer: kenzok8
+Architecture: all
+Installed-Size: 952320
+Filename: luci-app-clashoo_1.31.0-r1_all.ipk
+Size: 401080
+SHA256sum: aac7213ed8df10a40a98a15e41afb386f6e32358ad21f911a4f59e485456c868
+Description:  LuCI web interface for Clashoo
+
+Package: luci-app-cpufreq
+Version: 26.166.28689~7af0cf3
+Depends: libc, cpufreq
+Source: feeds/base/custom_packages/luci-app-cpufreq
+SourceName: luci-app-cpufreq
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-cpufreq_26.166.28689~7af0cf3_all.ipk
+Size: 2456
+SHA256sum: 4c23c9685ebb57198d76b2cc8cb10ccf40f118b921d13f37366d03530eb9cd5a
+Description:  LuCI for CPU Freq Setting
+
+Package: luci-app-dae
+Version: 26.166.28689~7af0cf3
+Depends: libc, dae
+Source: feeds/base/custom_packages/luci-app-dae
+SourceName: luci-app-dae
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-dae_26.166.28689~7af0cf3_all.ipk
+Size: 3411
+SHA256sum: 4a9785116e4e8e5dfcc9276dc6753f335ae1e7f806d8947293ab9ae7afd3ba56
+Description:  LuCI app for dae
+
+Package: luci-app-daed
+Version: 26.166.28689~7af0cf3
+Depends: libc, daed
+Source: feeds/base/custom_packages/luci-app-daed
+SourceName: luci-app-daed
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-daed_26.166.28689~7af0cf3_all.ipk
+Size: 3258
+SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
+Description:  LuCI app for dae dashboard
+
+Package: luci-app-daede
+Version: 1.15-r9
+Depends: libc, luci-base, daed
+Source: feeds/base/custom_packages/luci-app-daede
+SourceName: luci-app-daede
+Section: luci
+SourceDateEpoch: 1790800656
+Maintainer: kenzok8
+Architecture: all
+Installed-Size: 368640
+Filename: luci-app-daede_1.15-r9_all.ipk
+Size: 98321
+SHA256sum: 6471b5041a5a0621a64362aaf7aa4b9698da693e27eb2bbe5c228e3281e94015
+Description:  LuCI web interface for managing dae or daed backends.
+
+Package: luci-app-homeproxy
+Version: 26.274.75107~2b4c265
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
+Source: feeds/base/custom_packages/homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1790887907
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1853440
+Filename: luci-app-homeproxy_26.274.75107~2b4c265_all.ipk
+Size: 574139
+SHA256sum: 84b78f4259a58b25f4c8809ab732dcd3797e812e594982f1b1f80030b19c182c
+Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+Package: luci-app-kucat-config
+Version: 2.2.1-r20260312
+Depends: libc, curl
+Source: feeds/base/custom_packages/luci-app-kucat-config
+SourceName: luci-app-kucat-config
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 112640
+Filename: luci-app-kucat-config_2.2.1-r20260312_all.ipk
+Size: 16916
+SHA256sum: 3e834632d84619bb6255c743ef5203ca6ac82575f3631b0751fb5fdddfb66c64
+Description:  LuCI support for Kucat theme setting by sirpdboy
+
+Package: luci-app-lanspeed
+Version: 1.2.1-r2
+Depends: libc, lanspeedd, lanspeedd-bpf, luci-base
+Source: luci-app-lanspeed
+SourceName: luci-app-lanspeed
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789153637
+Architecture: all
+Installed-Size: 890880
+Filename: luci-app-lanspeed_1.2.1-r2_all.ipk
+Size: 184673
+SHA256sum: 1e40d19cb5632d8189f94c63e6031f5ced54386555d7c112c1bc089d823868dd
+Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
+ upload, download and current TCP / UDP connections, configures interfaces as
+ collect / observe / off, and provides a dedicated diagnostics page for
+ concise plugin, backend and BPF health with only actionable alerts.
+
+Package: luci-app-lucky
+Version: 1.0.4-r3
+Depends: libc, lucky
+Source: feeds/base/custom_packages/luci-app-lucky
+SourceName: luci-app-lucky
+Section: luci
+SourceDateEpoch: 1791001003
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-lucky_1.0.4-r3_all.ipk
+Size: 8127
+SHA256sum: ca72ac492bdcbbe12a7914e64851a6702e2d82e3e13fcc1a7cf41a907a2dc29f
+Description:  LuCI Support for lucky 
+
+Package: luci-app-momo
+Version: 1.2.1-r1
+Depends: libc, luci-base, momo
+Source: feeds/base/custom_packages/OpenWrt-momo/luci-app-momo
+SourceName: luci-app-momo
+Section: luci
+SourceDateEpoch: 1786984125
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-momo_1.2.1-r1_all.ipk
+Size: 8285
+SHA256sum: cee35c923be7cfab7395940ba87eda78e2137c0a3247f406f6d7f96a1c901a9f
+Description:  LuCI Support for momo
+
+Package: luci-app-mosdns
+Version: 1.7.14-r1
+Depends: libc, mosdns, uclient-fetch, v2ray-geoip, v2ray-geosite, geo2txt, ucode
+Source: feeds/base/custom_packages/luci-app-mosdns/luci-app-mosdns
+SourceName: luci-app-mosdns
+Section: luci
+SourceDateEpoch: 1789324555
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 440320
+Filename: luci-app-mosdns_1.7.14-r1_all.ipk
+Size: 117981
+SHA256sum: cd66171355112cf5dc824f4d2b80655273e294c9ee35f997e2ef1a58f4c38654
+Description:  LuCI Support for mosdns
+
+Package: luci-app-nikki
+Version: 1.26.1-r1
+Depends: libc, luci-base, nikki
+Source: feeds/base/custom_packages/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1786984125
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-nikki_1.26.1-r1_all.ipk
+Size: 10855
+SHA256sum: 1376d04825b4601149f33dd4ad5f429faf9e3d64b6b520065afaf9e71f514c5f
+Description:  LuCI Support for nikki
+
+Package: luci-app-openclash
+Version: 0.47.156
+Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
+Source: feeds/base/custom_packages/OpenClash/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+SourceDateEpoch: 1786380963
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 22640640
+Filename: luci-app-openclash_0.47.156_all.ipk
+Size: 8169623
+SHA256sum: fe19ea7e2cf65d999697ee186c90aca0beed6d5000662ca86135ec75470102b2
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall2
+Version: 26.10.1-r2
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, lyaml, resolveip, tcping, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Source: feeds/base/custom_packages/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1791054260
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1382400
+Filename: luci-app-passwall2_26.10.1-r2_all.ipk
+Size: 346980
+SHA256sum: 39da2eb7b3a17bc4b65f64429f3447af426155f208601b3fe830b64f28e6fc7c
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 26.10.3-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, lyaml, luci-lua-runtime
+Source: feeds/base/custom_packages/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1791054260
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3164160
+Filename: luci-app-passwall_26.10.3-r1_all.ipk
+Size: 843966
+SHA256sum: c3b2deab241f5f5d5346dab997386b2813c6d28b9d782e9ab8f91aaa955143ff
+Description:  LuCI support for PassWall
+
+Package: luci-app-quickfile
+Version: 1.0.0-r1
+Depends: libc, luci-nginx, quickfile
+Source: feeds/base/custom_packages/luci-app-quickfile/luci-app-quickfile
+SourceName: luci-app-quickfile
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1790887907
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-quickfile_1.0.0-r1_all.ipk
+Size: 1677
+SHA256sum: d081c33014bbe50849d876d5162ae0964dc8ac3622370b03e89092a5bc0577c3
+Description:  LuCI File Manager module
+
+Package: luci-app-smartdns
+Version: 1.2025.47.2-r2
+Depends: libc, luci-base, smartdns, smartdns-ui
+Source: feeds/base/custom_packages/luci-app-smartdns
+SourceName: luci-app-smartdns
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-smartdns_1.2025.47.2-r2_all.ipk
+Size: 11066
+SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
+Description:  Provides Luci for smartdns
+
+Package: luci-app-ssr-plus
+Version: 196-r13
+Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, jq, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
+Source: feeds/base/custom_packages/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1790972749
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2488320
+Filename: luci-app-ssr-plus_196-r13_all.ipk
+Size: 502706
+SHA256sum: 7888e86d7b992d443f5b0f56795c496e9cbd1a678db12e2d3030124a4bdebd0a
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
+
+Package: luci-app-ua2f
+Version: 26.166.28689~7af0cf3
+Depends: libc, ua2f
+Source: feeds/base/custom_packages/luci-app-ua2f
+SourceName: luci-app-ua2f
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-ua2f_26.166.28689~7af0cf3_all.ipk
+Size: 2384
+SHA256sum: 8859b8d26f2b2eb8b7ad0066380014e420283d4379f48925ae47c3ecb621118e
+Description:  LuCI support for ua2f
+
+Package: luci-i18n-adguardhome-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-adguardhome
+Source: feeds/base/custom_packages/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-adguardhome-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 2486
+SHA256sum: 851ee3bc1063fa0fff0ae0e37ee85664a67be42cafbd09a7c0d36c3b7819bbc5
+Description:  Translation for luci-app-adguardhome - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-argon-config-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-argon-config
+Source: feeds/base/custom_packages/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1781510289
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-argon-config-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 2253
+SHA256sum: 8fbfa086bae481ec51b404aa1c286ffa29733c3bb0b7942ee6c4822d7fe286c0
+Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-arpbind-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-arpbind
+Source: feeds/base/custom_packages/luci-app-arpbind
+SourceName: luci-app-arpbind
+Section: luci
+SourceDateEpoch: 1781510289
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-arpbind-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 1467
+SHA256sum: e0f48ac59a974cd34cdb6a730be5454a52d43222f280ce60fcb6a5c9f003934f
+Description:  Translation for luci-app-arpbind - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-aurora-config-zh-cn
+Version: 26.217.23387~916ab2b
+Depends: libc, luci-app-aurora-config
+Source: feeds/base/custom_packages/luci-app-aurora-config
+SourceName: luci-app-aurora-config
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1785911387
+Architecture: all
+Installed-Size: 30720
+Filename: luci-i18n-aurora-config-zh-cn_26.217.23387~916ab2b_all.ipk
+Size: 10795
+SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
+Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-clashoo-zh-cn
+Version: 1.31.0-r1
+Depends: libc, luci-app-clashoo
+Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
+SourceName: luci-app-clashoo
+Section: luci
+SourceDateEpoch: 1790972749
+Maintainer: kenzok8
+Architecture: all
+Installed-Size: 30720
+Filename: luci-i18n-clashoo-zh-cn_1.31.0-r1_all.ipk
+Size: 12574
+SHA256sum: 06e3b8a2584453b420238dd319c7e7b92f389654cbd08b7c4d3a1c01ee34ebaf
+Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
+
+Package: luci-i18n-cpufreq-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-cpufreq
+Source: feeds/base/custom_packages/luci-app-cpufreq
+SourceName: luci-app-cpufreq
+Section: luci
+SourceDateEpoch: 1781510289
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-cpufreq-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 1742
+SHA256sum: cbe23175a30b176fbeb1f866adbd3edf4bb227486e1ae36f36de3915f18685ed
+Description:  Translation for luci-app-cpufreq - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-dae-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-dae
+Source: feeds/base/custom_packages/luci-app-dae
+SourceName: luci-app-dae
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-dae-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 1798
+SHA256sum: b313dabdd0343682997ff2089508b366cb24d0510336d7da3f29508498371857
+Description:  Translation for luci-app-dae - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-daed-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-daed
+Source: feeds/base/custom_packages/luci-app-daed
+SourceName: luci-app-daed
+Section: luci
+SourceDateEpoch: 1781510289
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-daed-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 1685
+SHA256sum: 7734702ee909029be64cb1c7c1e2abbaba93b55d9db9fe710d42e4849ee98fa7
+Description:  Translation for luci-app-daed - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-fluent-zh-cn
+Version: 26.259.32943~74f8c0b
+Depends: libc, luci-theme-fluent
+Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-theme-fluent
+SourceName: luci-theme-fluent
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789549743
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-fluent-zh-cn_26.259.32943~74f8c0b_all.ipk
+Size: 6468
+SHA256sum: 9ff730dfcdd2450ed0333f20b281bc486557c073ccae1e95a4826e03ef03c35b
+Description:  Translation for luci-theme-fluent - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-fluentdashboard-zh-cn
+Version: 26.259.32943~74f8c0b
+Depends: libc, luci-mod-fluentdashboard
+Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-mod-fluentdashboard
+SourceName: luci-mod-fluentdashboard
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789549743
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-fluentdashboard-zh-cn_26.259.32943~74f8c0b_all.ipk
+Size: 2169
+SHA256sum: e03cacaf7c7fb836c1915c512bd30cae11e7f810bf68b344c8dbf50e5ab3e78c
+Description:  Translation for luci-mod-fluentdashboard - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-glass-zh-cn
+Version: 26.214.22493~2c2bdf5
+Depends: libc, luci-theme-glass
+Source: feeds/base/custom_packages/luci-theme-glass
+SourceName: luci-theme-glass
+Section: luci
+SourceDateEpoch: 1785651293
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-glass-zh-cn_26.214.22493~2c2bdf5_all.ipk
+Size: 1199
+SHA256sum: 79434faa74cf5c72fbff6b052778bf8f871585007b4dfd155edd3249c0305cf9
+Description:  Translation for luci-theme-glass - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-homeproxy-zh-cn
+Version: 26.274.75107~2b4c265
+Depends: libc, luci-app-homeproxy
+Source: feeds/base/custom_packages/homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1790887907
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-homeproxy-zh-cn_26.274.75107~2b4c265_all.ipk
+Size: 13638
+SHA256sum: 61456846d0d90de06725c05e06675af55a93fc19bce4414cda2dcb169ef27f7b
+Description:  Translation for luci-app-homeproxy - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-kucat-config-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-kucat-config
+Source: feeds/base/custom_packages/luci-app-kucat-config
+SourceName: luci-app-kucat-config
+Section: luci
+SourceDateEpoch: 1781510289
+Maintainer: sirpdboy team <herboy2008@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-kucat-config-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 3829
+SHA256sum: c38a096a8c08b3414100b2c174e73ebb8ea6ac4c47886844eabf473640b58443
+Description:  Translation for luci-app-kucat-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-lucky-zh-cn
+Version: 26.276.15403~6ee6e14
+Depends: libc, luci-app-lucky
+Source: feeds/base/custom_packages/luci-app-lucky
+SourceName: luci-app-lucky
+Section: luci
+SourceDateEpoch: 1791001003
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-lucky-zh-cn_26.276.15403~6ee6e14_all.ipk
+Size: 2217
+SHA256sum: 38918e500c3e0712f8a56afed78fef5bf84902f7617797403db3a5d905a24509
+Description:  Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-momo-zh-cn
+Version: 26.229.59325~35e79bc
+Depends: libc, luci-app-momo
+Source: feeds/base/custom_packages/OpenWrt-momo/luci-app-momo
+SourceName: luci-app-momo
+Section: luci
+SourceDateEpoch: 1786984125
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-momo-zh-cn_26.229.59325~35e79bc_all.ipk
+Size: 3573
+SHA256sum: 9321b77fe8dc669c9c884e3cf7d0be4adc641a939fa6a4a62c9f826087457d93
+Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-mosdns-zh-cn
+Version: 26.256.66955~8dde341
+Depends: libc, luci-app-mosdns
+Source: feeds/base/custom_packages/luci-app-mosdns/luci-app-mosdns
+SourceName: luci-app-mosdns
+Section: luci
+SourceDateEpoch: 1789324555
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-mosdns-zh-cn_26.256.66955~8dde341_all.ipk
+Size: 7120
+SHA256sum: 4fc709e2b2185f5dccfbd69cf431e6d5de9b65276b286a1744f3580248a00f68
+Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nikki-zh-cn
+Version: 26.229.59325~35e79bc
+Depends: libc, luci-app-nikki
+Source: feeds/base/custom_packages/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1786984125
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-cn_26.229.59325~35e79bc_all.ipk
+Size: 5272
+SHA256sum: 3283282352826c4589c377a5c5723ad5fde45bdc5d23249dd8038dba44519f84
+Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-passwall-zh-cn
+Version: 26.10.3
+Depends: libc, luci-app-passwall
+Source: feeds/base/custom_packages/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1791054260
+Architecture: all
+Installed-Size: 51200
+Filename: luci-i18n-passwall-zh-cn_26.10.3_all.ipk
+Size: 18017
+SHA256sum: 8e8d4f75d2103c368fa691d9a199c2c048c04c87704a25cec28b26948e9e473c
+Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-passwall2-zh-cn
+Version: 26.10.1
+Depends: libc, luci-app-passwall2
+Source: feeds/base/custom_packages/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1791054260
+Architecture: all
+Installed-Size: 51200
+Filename: luci-i18n-passwall2-zh-cn_26.10.1_all.ipk
+Size: 20323
+SHA256sum: c3bbb774c30f7e67cc41e646df0b7905ba873413074f12c224b5c85dfa0bd757
+Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-quickfile-zh-cn
+Version: 26.274.75107~2b4c265
+Depends: libc, luci-app-quickfile
+Source: feeds/base/custom_packages/luci-app-quickfile/luci-app-quickfile
+SourceName: luci-app-quickfile
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1790887907
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-quickfile-zh-cn_26.274.75107~2b4c265_all.ipk
+Size: 1207
+SHA256sum: cfc5d84b820d428227a955a8d18e438975224e2bd8d2ba04b2a70a2bcda63f7b
+Description:  Translation for luci-app-quickfile - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-smartdns-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-smartdns
+Source: feeds/base/custom_packages/luci-app-smartdns
+SourceName: luci-app-smartdns
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1781510289
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-smartdns-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 7266
+SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
+Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 26.275.73549~b91c512
+Depends: libc, luci-app-ssr-plus
+Source: feeds/base/custom_packages/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1790972749
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-ssr-plus-zh-cn_26.275.73549~b91c512_all.ipk
+Size: 14507
+SHA256sum: 35d9479c35f3e7f2b5bbf51a9b47d0ecb640cffc2efa05be1f894c2b36202d1d
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ua2f-zh-cn
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-app-ua2f
+Source: feeds/base/custom_packages/luci-app-ua2f
+SourceName: luci-app-ua2f
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ua2f-zh-cn_26.166.28689~7af0cf3_all.ipk
+Size: 1667
+SHA256sum: 6d28e4946f7cf45fd5c5f99952672283e7c1710aaab7bb3f08baba888c6c4e74
+Description:  Translation for luci-app-ua2f - 简体中文 (Simplified Chinese)
+
+Package: luci-lua-runtime
+Version: 25.340.26705~d88390b
+Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
+Source: feeds/luci/modules/luci-lua-runtime
+SourceName: luci-lua-runtime
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: luci-lua-runtime_25.340.26705~d88390b_aarch64_cortex-a53.ipk
+Size: 31359
+SHA256sum: a774152c71e99040826185d6b8ff3ee0bcdf38d8cff195577fa28223b43c68e8
+Description:  LuCI Lua runtime libraries
+
+Package: luci-nginx
+Version: 25.340.26705~d88390b
+Depends: libc, nginx, nginx-mod-luci, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-app-package-manager, luci-proto-ppp, luci-proto-ipv6, rpcd-mod-rrdns
+Provides: luci-ssl-nginx
+Source: feeds/luci/collections/luci-nginx
+SourceName: luci-nginx
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1765005905
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-nginx_25.340.26705~d88390b_all.ipk
+Size: 1081
+SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: luci-theme-argon
+Version: 2.4.7-r20260824
+Depends: libc, wget, jsonfilter
+Source: feeds/base/custom_packages/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1790887907
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 604160
+Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
+Size: 394054
+SHA256sum: de9e6f52435f3b033b2fb32107d42fccae52a115bceb4df19f964027082c1308
+Description:  Argon Theme
+
+Package: luci-theme-aurora
+Version: 1.4.0-r20260920
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-aurora
+SourceName: luci-theme-aurora
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789842488
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 471040
+Filename: luci-theme-aurora_1.4.0-r20260920_all.ipk
+Size: 184294
+SHA256sum: 28dbd9be104d5414096be96d54bed5ae7f8138e145f047298da43313727cf171
+Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
+
+Package: luci-theme-design
+Version: 7.1-r20260927
+Depends: libc
+Source: feeds/base/custom_packages/luci-theme-design
+SourceName: luci-theme-design
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1790887907
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 634880
+Filename: luci-theme-design_7.1-r20260927_all.ipk
+Size: 313754
+SHA256sum: 02a0377549e77aa80ed37e7d63bef7e5fa425721cd5be9f9db0052390cb8f685
+Description:  Design Theme
+
+Package: luci-theme-fluent-lite
+Version: 1.0.9-r1
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-theme-fluent-lite
+SourceName: luci-theme-fluent-lite
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789549743
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 870400
+Filename: luci-theme-fluent-lite_1.0.9-r1_all.ipk
+Size: 134661
+SHA256sum: 33b339911893906f9c6df49e67bf353089c63effd56fb1143d6a43594f18cf7d
+Description:  Core FluentUI theme styling for LuCI without optional menu, updater, log, and application enhancements.
+
+Package: luci-theme-fluent
+Version: 1.0.9-r1
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-theme-fluent
+SourceName: luci-theme-fluent
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789549743
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 962560
+Filename: luci-theme-fluent_1.0.9-r1_all.ipk
+Size: 161793
+SHA256sum: a0f24ed274942a01f75e3b57db7e34de087d43c7f0defd5fee006605fa30fdf9
+Description:  Fluent Theme for LuCI
+
+Package: luci-theme-footstrap
+Version: 26.276.68660~2fb57e6
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
+SourceName: luci-theme-footstrap
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: luci
+SourceDateEpoch: 1791054260
+URL: https://github.com/VizzleTF/luci-theme-footstrap
+Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
+Architecture: all
+Installed-Size: 327680
+Filename: luci-theme-footstrap_26.276.68660~2fb57e6_all.ipk
+Size: 78344
+SHA256sum: f74e59cde16cb9aef6ef40958afd2bd2af353eaa582b26d48038413934df7f54
+Description:  Footstrap Theme
+
+Package: luci-theme-glass
+Version: 1.1.6-r1
+Depends: libc
+Source: feeds/base/custom_packages/luci-theme-glass
+SourceName: luci-theme-glass
+Section: luci
+SourceDateEpoch: 1785651293
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 174080
+Filename: luci-theme-glass_1.1.6-r1_all.ipk
+Size: 31384
+SHA256sum: a12c734c219b659a9bc78ad825f097bc939e2f186ceee4dabbfd0942b79bf35f
+Description:  Glass - Apple-inspired glassmorphism theme for LuCI
+
+Package: luci-theme-kucat
+Version: 3.3.2-r20260329
+Depends: libc, wget, curl, jsonfilter
+Source: feeds/base/custom_packages/luci-theme-kucat
+SourceName: luci-theme-kucat
+Section: luci
+SourceDateEpoch: 1784701817
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1228800
+Filename: luci-theme-kucat_3.3.2-r20260329_all.ipk
+Size: 910318
+SHA256sum: a11098b89ba84edc7ba2f52e087a0f9a4f3565c72bf6a8b17eb092aca6003cbd
+Description:  Kucat Theme by sirpdboy
+
+Package: luci-theme-material3
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-material3
+SourceName: luci-theme-material3
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 194560
+Filename: luci-theme-material3_26.166.28689~7af0cf3_all.ipk
+Size: 40598
+SHA256sum: c48dcb08d2a370eea0b3369717f081d4c3bda6bcf73a01e5a345f9fed48232c7
+Description:  Material3 Theme (default)
+
+Package: luci-theme-shadcn
+Version: 0.6.0-r20260920
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-shadcn
+SourceName: luci-theme-shadcn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1789895310
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 768000
+Filename: luci-theme-shadcn_0.6.0-r20260920_all.ipk
+Size: 522207
+SHA256sum: f5d76f446d8bc6293c0edd5b3c789c7dfca827183e1762a751c0943c24aff72c
+Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
+
+Package: luci-theme-tp
+Version: 26.166.28689~7af0cf3
+Depends: libc, luci-base
+Source: feeds/base/custom_packages/luci-theme-tp
+SourceName: luci-theme-tp
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1781510289
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 931840
+Filename: luci-theme-tp_26.166.28689~7af0cf3_all.ipk
+Size: 887478
+SHA256sum: af1a81b02c37d41c5a97ad7f56139ffcd80b70e755a8b901155c155561d0727d
+Description:  TP-Link Classic Theme
+
+Package: lucky
+Version: 2.27.2-r4
+Depends: libc
+Source: feeds/base/custom_packages/lucky
+SourceName: lucky
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1791001003
+URL: https://github.com/gdy666/lucky
+Maintainer: GDY666 <gdy666@foxmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9287680
+Filename: lucky_2.27.2-r4_aarch64_cortex-a53.ipk
+Size: 9272638
+SHA256sum: 981d3c2b5940e89493a49f5105d0af4a41694dc9d2d5262b3f950c94d08048ca
+Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
+
+Package: microsocks
+Version: 1.0.5-r2
+Depends: libc, libpthread
+Source: feeds/base/custom_packages/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1791054260
+URL: https://github.com/rofl0r/microsocks
+Maintainer: lean
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
+Size: 8793
+SHA256sum: 052fbb55c179559cfa8a7034e79fd8637f80b51b8900f6adda66140db0e8356b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+ This version supports forwarding rules.
+
+Package: mihomo-alpha
+Version: 2026.08.16
+Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
+Conflicts: mihomo-meta
+Provides: mihomo
+Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
+Source: feeds/base/custom_packages/mihomo-alpha
+SourceName: mihomo-alpha
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1786941780
+URL: https://wiki.metacubex.one
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 46376960
+Filename: mihomo-alpha_2026.08.16_aarch64_cortex-a53.ipk
+Size: 16839390
+SHA256sum: 0365b5da213ef00b46ddb443cb4b284059749a49106671036118fcb5ac5a2bc0
+Description:  A rule based proxy in Go.
+
+Package: mihomo-meta
+Version: 1.19.31
+Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
+Conflicts: mihomo-alpha
+Provides: mihomo
+Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
+Source: feeds/base/custom_packages/mihomo-meta
+SourceName: mihomo-meta
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1789617277
+URL: https://wiki.metacubex.one
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 57077760
+Filename: mihomo-meta_1.19.31_aarch64_cortex-a53.ipk
+Size: 20617616
+SHA256sum: b232bcae62964027a1217164fac9a2892738c04c1c2bf9657e232eaa0459daa9
+Description:  A rule based proxy in Go.
+
+Package: momo
+Version: 2026.06.03-r1
+Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, sing-box
+Source: feeds/base/custom_packages/OpenWrt-momo/momo
+SourceName: momo
+License: GPL-3.0+
+Section: net
+SourceDateEpoch: 1786984125
+URL: https://github.com/nikkinikki-org
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 286720
+Filename: momo_2026.06.03-r1_aarch64_cortex-a53.ipk
+Size: 49840
+SHA256sum: df578827a19480a79b20791e560bd67a463492dcb79005e5bae9e5f6bbc4d2f8
+Description:  Transparent Proxy with sing-box on OpenWrt.
+
+Package: mosdns
+Version: 5.3.4-r14
+Depends: libc, ca-bundle
+Source: feeds/base/custom_packages/luci-app-mosdns/mosdns
+SourceName: mosdns
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1789324555
+URL: https://github.com/IrineSistiana/mosdns
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 15861760
+Filename: mosdns_5.3.4-r14_aarch64_cortex-a53.ipk
+Size: 5918700
+SHA256sum: 8b2f2190897ff6bf3888e06d045aa6d7a8ebade691043f82d4ba3ac2942d0687
+Description:  A plug-in DNS forwarder/splitter
+
+Package: naiveproxy
+Version: 154.0.8037.49-r2
+Depends: libc, libatomic1
+Source: feeds/base/custom_packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1790328458
+URL: https://github.com/klzgrad/naiveproxy
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8202240
+Filename: naiveproxy_154.0.8037.49-r2_aarch64_cortex-a53.ipk
+Size: 3985955
+SHA256sum: 405b7fe78b2a210e8d57ff73eca36b2cb38a4dcc3fc139e2b7fd977a77f5be89
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nginx-full
+Version: 1.30.3-r1
+Depends: nginx-ssl-util (>=1.5-r1), libc, libopenssl3, libpcre2, libpthread, libxml2-16, nginx-ssl-util, zlib, libzstd
+Provides: nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1116160
+Filename: nginx-full_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 472780
+SHA256sum: 0e7d151da67236a37d0a1aa480befbce3166faf40107fe3b571d9dc5f0386301
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with ALL config selected.
+
+Package: nginx-mod-brotli
+Version: 1.30.3-r1
+Depends: libc, nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: nginx-mod-brotli_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 295095
+SHA256sum: b99e17ae2e7381118b42d085d40e006a7fc400122ff0a31f461537ed51d56051
+Description:  Add support for brotli compression module.
+
+Package: nginx-mod-dav-ext
+Version: 1.30.3-r1
+Depends: libc, nginx, libxml2-16
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: nginx-mod-dav-ext_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 11128
+SHA256sum: 786bdfce6d816abbfdf49a3e52a5ba21e26e7c30130005ef9cf0060eed70609b
+Description:  Enable the WebDAV methods PROPFIND OPTIONS LOCK UNLOCK.
+
+Package: nginx-mod-geoip2
+Version: 1.30.3-r1
+Depends: libc, nginx, nginx-mod-stream, libmaxminddb
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: nginx-mod-geoip2_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 10781
+SHA256sum: 28f57190e9d78aae4b994f09c9af724352c0687720f64bc38c34d490a4b6a8a8
+Description:  Enable MaxMind GeoIP2 module.
+
+Package: nginx-mod-headers-more
+Version: 1.30.3-r1
+Depends: libc, nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: nginx-mod-headers-more_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 9846
+SHA256sum: e68af0addbe6a25c7cb43bae2885448cfecec78b682ede7e8b4d084d744ed797
+Description:  Set and clear input and output headers...more than "add"!
+
+Package: nginx-mod-lua-resty-core
+Version: 1.30.3-r1
+Depends: libc, nginx-mod-lua-resty-lrucache
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: nginx-mod-lua-resty-core_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 35742
+SHA256sum: 244d2cf4122c11938340f89040db6a9f26e11c14256c070d886e025eea49fec2
+Description:  Nginx Lua OpenResty core module
+
+Package: nginx-mod-lua-resty-lrucache
+Version: 1.30.3-r1
+Depends: libc, luajit2
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: nginx-mod-lua-resty-lrucache_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 8482
+SHA256sum: 4c7f62f43ad8f2738b7e332b268d8e347be8f6a2b57ea87177e080637549fce6
+Description:  Nginx Lua OpenResty lrucache module
+
+Package: nginx-mod-lua
+Version: 1.30.3-r1
+Depends: libc, nginx, nginx-mod-lua-resty-core
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Filename: nginx-mod-lua_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 139143
+SHA256sum: cdbb5508bba4e34863dc4a98e14a3067334903744f2dbbae0a50df2505f69a86
+Description:  Enable Lua module (luajit2 based, OpenResty patches)
+
+Package: nginx-mod-luci
+Version: 1.30.3-r1
+Depends: libc, nginx, uwsgi, uwsgi-luci-support, nginx-mod-ubus
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: http://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: nginx-mod-luci_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 1869
+SHA256sum: cbb06f4121416008e6fe1c7fb7133ece44fd1b7eed70b5e745dcc29a2a95ed4f
+Description:  Support file for LuCI in nginx. Include custom nginx configuration, autostart script for uwsgi.
+
+Package: nginx-mod-naxsi
+Version: 1.30.3-r1
+Depends: libc, nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 614400
+Filename: nginx-mod-naxsi_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 94288
+SHA256sum: 2719ede2d8d3f4f2ac7a83ed6525a5250c99f3684b44fbcd004880d9bcb63436
+Description:  Enable NAXSI module.
+
+Package: nginx-mod-njs
+Version: 1.30.3-r1
+Depends: libc, nginx, zlib, libxml2-16, libxslt, libpcre2
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 931840
+Filename: nginx-mod-njs_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 328392
+SHA256sum: f7636dfccb520bc9f5d5e35141e959ee23d39a969b091e16b372eac2915a4f68
+Description:  Enable NJS module.
+
+Package: nginx-mod-rtmp
+Version: 1.30.3-r1
+Depends: libc, nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 368640
+Filename: nginx-mod-rtmp_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 116983
+SHA256sum: c518fd8f305537aed5a36cf9e7bf7fde380567f7dc01374bb4fb78e2e3a8340a
+Description:  Add support for NGINX-based Media Streaming Server module. DASH enhanced
+
+Package: nginx-mod-stream
+Version: 1.30.3-r1
+Depends: libc, nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: nginx-mod-stream_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 70718
+SHA256sum: 266704375fcfcc9564b5b8ce811043eab08e25803c868701d365e75c6bb361f9
+Description:  Add support for NGINX request streaming.
+
+Package: nginx-mod-ts
+Version: 1.30.3-r1
+Depends: libc, nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: nginx-mod-ts_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 22403
+SHA256sum: 40468548b50a3dddd5791f6bea710c727a4a25044d0fecc20e89037ab8c4a748
+Description:  Add support for MPEG-TS Live Module module.
+
+Package: nginx-mod-ubus
+Version: 1.30.3-r1
+Depends: libc, nginx, libubus20250102, libjson-c5, libblobmsg-json20240329
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: nginx-mod-ubus_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 9587
+SHA256sum: ce2434f8dd6b080e124d06422a0483f10b3e95abaef67a235da13607dd05c8e5
+Description:  Enable UBUS api support directly from the server.
+
+Package: nginx-mod-zstd
+Version: 1.30.3-r1
+Depends: libc, nginx, libzstd
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: nginx-mod-zstd_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 10169
+SHA256sum: 98cc7cde360ec64c1abd9a07844446eefcc860068903b687df08bd5db9f6b994
+Description:  Add support for zstd compression module.
+
+Package: nginx-ssl-util-nopcre
+Version: 1.7-r1
+Depends: libc, libstdcpp6, libuci20250120, libubus20250102, libubox20240329, libpthread, libopenssl3
+Conflicts: nginx-ssl-util
+Source: feeds/packages/net/nginx-util
+SourceName: nginx-util
+Section: net
+SourceDateEpoch: 1766058532
+Maintainer: Peter Stadler <peter.stadler@student.uibk.ac.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: nginx-ssl-util-nopcre_1.7-r1_aarch64_cortex-a53.ipk
+Size: 96979
+SHA256sum: da9ceaac6c0ac9d30f1ec04be40a53ef1a0de29d459b4f4f212884fba36bc56b
+Description:  Utility that builds dynamically LAN listen directives for Nginx.
+ Furthermore, it manages SSL directives for its server parts and can create
+ corresponding (self-signed) certificates. It uses the standard regex library of C++.
+
+Package: nginx-ssl-util
+Version: 1.7-r1
+Depends: libc, libstdcpp6, libuci20250120, libubus20250102, libubox20240329, libpthread, libopenssl3, libpcre2
+Conflicts: nginx-ssl-util-nopcre
+Source: feeds/packages/net/nginx-util
+SourceName: nginx-util
+Section: net
+SourceDateEpoch: 1766058532
+Maintainer: Peter Stadler <peter.stadler@student.uibk.ac.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: nginx-ssl-util_1.7-r1_aarch64_cortex-a53.ipk
+Size: 60999
+SHA256sum: d91aab236b690640070c265f535aca1c13dced1d2e4150629b5e6c9eda571cba
+Description:  Utility that builds dynamically LAN listen directives for Nginx.
+ Furthermore, it manages SSL directives for its server parts and can create
+ corresponding (self-signed) certificates. It uses the PCRE library for performance.
+
+Package: nginx-ssl
+Version: 1.30.3-r1
+Depends: nginx-ssl-util (>=1.5-r1), libc, libopenssl3, libpcre2, libpthread, libxml2-16, nginx-ssl-util, zlib, libzstd
+Conflicts: nginx-full
+Provides: nginx
+Source: feeds/base/custom_packages/feeds_packages_net_nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://nginx.org/
+CPE-ID: cpe:/a:f5:nginx_open_source
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 983040
+Filename: nginx-ssl_1.30.3-r1_aarch64_cortex-a53.ipk
+Size: 405538
+SHA256sum: 728fe7777270f9bfbc92249525d3cf9d5836dfcd3e767bfd473e09f0feffa658
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
+
+Package: nikki
+Version: 2026.04.08-r1
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, mihomo
+Source: feeds/base/custom_packages/nikki
+SourceName: nikki
+License: GPL3.0+
+Section: net
+SourceDateEpoch: 1789378790
+URL: https://github.com/nikkinikki-org
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Filename: nikki_2026.04.08-r1_aarch64_cortex-a53.ipk
+Size: 53261
+SHA256sum: e5a31bb50ed173121626f8083743a33b7924ec23cc2b01bb4208cde2572c08da
+Description:  Transparent Proxy with Mihomo on OpenWrt.
+
+Package: quickfile
+Version: 2.0.5-r1
+Depends: libc, liblzma
+Source: feeds/base/custom_packages/luci-app-quickfile/quickfile
+SourceName: quickfile
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1790887907
+URL: https://git.cooluc.com/sbwml/quickfile
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9984000
+Filename: quickfile_2.0.5-r1_aarch64_cortex-a53.ipk
+Size: 4477361
+SHA256sum: db7ba16b8ec46b04e8831535f377e9c5c734cfbe598e25546175f2ad1e4c31a9
+Description:  A high-performance, lightweight web file manager built with Rust (Axum) and Vue 3,
+ featuring an integrated terminal and multimedia preview, tailored for embeddedsystems
+ and the OpenWrt ecosystem.
+
+Package: shadow-tls
+Version: 0.2.25-r1
+Depends: libc
+Source: feeds/base/custom_packages/shadow-tls
+SourceName: shadow-tls
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1781510289
+URL: https://github.com/ihciah/shadow-tls
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3092480
+Filename: shadow-tls_0.2.25-r1_aarch64_cortex-a53.ipk
+Size: 1535592
+SHA256sum: b34c1712aa7138bf52d924fc29606a8d0c8c2af7d85ffe3cc366c23b89fd498c
+Description:  A proxy to expose real tls handshake to the firewall.
+ 
+ It works like trojan but it does not require signing certificate.
+ The firewall will see real tls handshake with valid certificate
+ that you choose.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.25.0-r1
+Depends: libc
+Source: feeds/base/custom_packages/shadowsocks-rust
+SourceName: shadowsocks-rust
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1787817814
+URL: https://github.com/shadowsocks/shadowsocks-rust
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8079360
+Filename: shadowsocks-rust-sslocal_1.25.0-r1_aarch64_cortex-a53.ipk
+Size: 3885572
+SHA256sum: e15efb9b87cf17941e3f230a3864d6fe3c62568b202959bbb35f08f5885ed0c9
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.25.0-r1
+Depends: libc
+Source: feeds/base/custom_packages/shadowsocks-rust
+SourceName: shadowsocks-rust
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1787817814
+URL: https://github.com/shadowsocks/shadowsocks-rust
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6379520
+Filename: shadowsocks-rust-ssserver_1.25.0-r1_aarch64_cortex-a53.ipk
+Size: 3074905
+SHA256sum: 5ce435fc24544196ae7c67b01cde430682097b2205fd2d7fc212c52e27975983
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r13
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/base/custom_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1790972749
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_cortex-a53.ipk
+Size: 63472
+SHA256sum: 861b025375ffc90946f7dd74e2b4433dd38b9673428ec36791ac3d4086cc505d
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r13
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/base/custom_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1790972749
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_cortex-a53.ipk
+Size: 57022
+SHA256sum: 9a88ab33c493519cbc46ad6bc6984b622463e20f7fef6aac348441a8e891cb55
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-r13
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/base/custom_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1790972749
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_aarch64_cortex-a53.ipk
+Size: 66838
+SHA256sum: d53de1d7858888771b5b24ce3f51f1b7a8fed3654e4753a05827f075d7d1ffb5
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-r3
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/base/custom_packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1781510289
+URL: https://github.com/shadowsocks/simple-obfs
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: simple-obfs-client_0.0.5-r3_aarch64_cortex-a53.ipk
+Size: 32038
+SHA256sum: 2a4ce167ec02c75f767dc724f4709eaf9d61ac40e15e85cbf83dbe638c7d97e9
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs-server
+Version: 0.0.5-r3
+Depends: libc, libpthread, libev
+Source: feeds/base/custom_packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1781510289
+URL: https://github.com/shadowsocks/simple-obfs
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: simple-obfs-server_0.0.5-r3_aarch64_cortex-a53.ipk
+Size: 34599
+SHA256sum: 5011ff3eacf204f9cd71e6250dd22d8705d69de58d8f68663ab1f1c3ca3136b6
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sing-box
+Version: 1.14.2-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: feeds/base/custom_packages/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1790887907
+URL: https://sing-box.sagernet.org/
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 57384960
+Filename: sing-box_1.14.2-r1_aarch64_cortex-a53.ipk
+Size: 19839966
+SHA256sum: 5148524ffdf5286a8be8535d1be14ffbd1dbf163a97df1ae7662495961e485ac
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: smartdns-ui
+Version: 48.4-r5
+Depends: libc, smartdns
+Source: feeds/base/custom_packages/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1786540354
+URL: https://www.github.com/pymumu/smartdns/
+CPE-ID: cpe:/a:pymumu:smartdns
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12800000
+Filename: smartdns-ui_48.4-r5_aarch64_cortex-a53.ipk
+Size: 6517438
+SHA256sum: 54a0e4d802b46146485a4e961ec9f8fb3c01e94b73ad18962d6ba042d229a6f0
+Description:  A dashboard ui for smartdns server.
+
+Package: smartdns
+Version: 48.4-r5
+Depends: libc, libopenssl3
+Source: feeds/base/custom_packages/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1786540354
+URL: https://www.github.com/pymumu/smartdns/
+CPE-ID: cpe:/a:pymumu:smartdns
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 593920
+Filename: smartdns_48.4-r5_aarch64_cortex-a53.ipk
+Size: 250497
+SHA256sum: 0c59a43421aa49b4a920e918a99e3c66f44e6646ec472a0f45584c3fcd3d89a2
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH.
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+Source: feeds/base/custom_packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1791054260
+URL: https://github.com/jlyo/tcping
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
+Size: 4325
+SHA256sum: 906f13fd2234e25cd9c26d4f1ce7312586dbfcb474164363bd53940208d12f1a
+Description:  tcping measures the latency of a tcp-connection
+
+Package: ua2f
+Version: 4.10.2-r1
+Depends: libc, libuci20250120, libnetfilter-conntrack3, libnetfilter-queue1, kmod-nft-queue
+Source: feeds/base/custom_packages/ua2f
+SourceName: UA2F
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1781510289
+URL: https://github.com/Zxilly/UA2F
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 317440
+Filename: ua2f_4.10.2-r1_aarch64_cortex-a53.ipk
+Size: 96810
+SHA256sum: fe809645e8d5f7f427d189b144ec5a3b8f09c9253d91c6f35f9589309e2fa9aa
+Description:  Change User-agent to Fwords to prevent being checked by Dr.Com.
+
+Package: v2dat
+Version: 2022.12.15~47b8ee51-r4
+Depends: libc
+Source: feeds/base/custom_packages/luci-app-mosdns/v2dat
+SourceName: v2dat
+License: GPL-3.0
+Section: utils
+SourceDateEpoch: 1787459905
+URL: https://github.com/urlesistiana/v2dat
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8591360
+Filename: v2dat_2022.12.15~47b8ee51-r4_aarch64_cortex-a53.ipk
+Size: 3228936
+SHA256sum: 15db7625443ac3a6dea1b03cac2942bedee3b3b6e0e21da6b7eea19142fc586b
+Description:  V2ray geo/ip data unpack tools
+
+Package: v2ray-geoip
+Version: 202609240030.1
+Depends: libc
+Source: feeds/base/custom_packages/v2ray-geodata
+SourceName: v2ray-geodata
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1791054260
+URL: https://www.v2fly.org
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 16640000
+Filename: v2ray-geoip_202609240030.1_all.ipk
+Size: 3452912
+SHA256sum: 10145e194f4fc4b19c84c3dd224540468ec12eb50589feaa4568a43f590936a9
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 202609292207.1
+Depends: libc
+Source: feeds/base/custom_packages/v2ray-geodata
+SourceName: v2ray-geodata
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1791054260
+URL: https://www.v2fly.org
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 10987520
+Filename: v2ray-geosite_202609292207.1_all.ipk
+Size: 3599968
+SHA256sum: 3026a1b3d63d4790cb3f8e42e4be6eacd423734cdb156abe45d253ad953332ee
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.49.0-r1
+Depends: libc, ca-bundle
+Source: feeds/base/custom_packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1781510289
+URL: https://github.com/teddysun/v2ray-plugin
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 16261120
+Filename: v2ray-plugin_5.49.0-r1_aarch64_cortex-a53.ipk
+Size: 5967488
+SHA256sum: a2daede7f96b883768df7ffc0c33f4e1a96c6c165b3fe909f0c34a9d3af5946e
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: vmlinux-btf
+Version: 6.6.119-r6
+Depends: libc
+Source: feeds/base/custom_packages/vmlinux-btf
+SourceName: vmlinux-btf
+Section: kernel
+SourceDateEpoch: 1790800656
+Architecture: aarch64_cortex-a53
+Installed-Size: 3307520
+Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
+Size: 1082771
+SHA256sum: 64141f246590f84d653f2160a386ab03a064f2cfb02ec032c11a6111b14a103b
+Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
+ This package builds a shadow kernel tree using the OpenWrt kernel source,
+ applies the same patches/files, and generates detached BTF information
+ without modifying the main kernel build directory.
+
+Package: xray-core
+Version: 26.7.28-r1
+Depends: libc, ca-bundle
+Source: feeds/base/custom_packages/xray-core
+SourceName: Xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1785235036
+URL: https://xtls.github.io
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 31313920
+Filename: xray-core_26.7.28-r1_aarch64_cortex-a53.ipk
+Size: 11138196
+SHA256sum: 65f925e855e67028aaca2bd3330628f90ab68791e0cae5a47864e93a4282dd95
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.8.24-r1
+Depends: libc, ca-bundle
+Source: feeds/base/custom_packages/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1781510289
+URL: https://github.com/teddysun/xray-plugin
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 18329600
+Filename: xray-plugin_1.8.24-r1_aarch64_cortex-a53.ipk
+Size: 6764455
+SHA256sum: 06910a6114d68d4b0b6787ca40be6a730b2b72873762f8603649ca8a2f22106c
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

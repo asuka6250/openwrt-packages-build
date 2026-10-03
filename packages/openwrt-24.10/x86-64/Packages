@@ -340,15 +340,15 @@ Description:  LuCI real-time status and settings page for lanspeedd. Displays pe
  concise plugin, backend and BPF health with only actionable alerts.
 
 Package: luci-app-lucky
-Version: 1.0.4-r2
+Version: 1.0.4-r3
 Depends: libc, lucky
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-lucky_1.0.4-r2_all.ipk
-Size: 7520
-SHA256sum: 42f857280384a4cd8837acd289d22637747ee430be427f02418464f6b00a1a0d
+Filename: luci-app-lucky_1.0.4-r3_all.ipk
+Size: 8127
+SHA256sum: ca72ac492bdcbbe12a7914e64851a6702e2d82e3e13fcc1a7cf41a907a2dc29f
 Description:  LuCI Support for lucky 
 
 Package: luci-app-momo
@@ -611,14 +611,14 @@ SHA256sum: c38a096a8c08b3414100b2c174e73ebb8ea6ac4c47886844eabf473640b58443
 Description:  Translation for luci-app-kucat-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-lucky-zh-cn
-Version: 26.258.33363~5f95aa1
+Version: 26.276.15403~6ee6e14
 Depends: libc, luci-app-lucky
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-lucky-zh-cn_26.258.33363~5f95aa1_all.ipk
-Size: 2943
-SHA256sum: d838f32fabec65b292939cdeb7ce2ddcfa416c1629bdbbc7c0ea4b7da68c3748
+Filename: luci-i18n-lucky-zh-cn_26.276.15403~6ee6e14_all.ipk
+Size: 2217
+SHA256sum: 38918e500c3e0712f8a56afed78fef5bf84902f7617797403db3a5d905a24509
 Description:  Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-momo-zh-cn
@@ -891,16 +891,16 @@ SHA256sum: af1a81b02c37d41c5a97ad7f56139ffcd80b70e755a8b901155c155561d0727d
 Description:  TP-Link Classic Theme
 
 Package: lucky
-Version: 2.27.2-r3
+Version: 2.27.2-r4
 Depends: libc
 License: GPL-3.0-only
 Section: net
 URL: https://github.com/gdy666/lucky
 Architecture: x86_64
 Installed-Size: 10895360
-Filename: lucky_2.27.2-r3_x86_64.ipk
-Size: 10887532
-SHA256sum: f828d4a7f010d31ec12b218c99263e21efcf9f36d5da534c65f413fbc76d5ea8
+Filename: lucky_2.27.2-r4_x86_64.ipk
+Size: 10888524
+SHA256sum: f0d056836c44e6387b03e1b88c29dd72ff13c12b1aeaee422095458e7ad2b341
 Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
 
 Package: microsocks

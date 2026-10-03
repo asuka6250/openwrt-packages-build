@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269711
-SHA256sum: 1a73638ee1909bfb5209b9a5ec2a5365596463efe1c0b23f4e32cc53dd143a67
+Size: 269722
+SHA256sum: d4be5aed763bb13e5f84bd21ff02b3ada68ca6e60c12e1efa07ae98c48685352
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11823
-SHA256sum: b687d144004e829cbdddf040795433a21b9aaa7a4799ee2e58667c27e76ddddd
+Size: 11824
+SHA256sum: c44eca730c36e7038875d1902b1ec68e88f746f38c3d18f9bd120a48588759b4
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -141,8 +141,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a53.ipk
-Size: 2744768
-SHA256sum: cd947094f1c0cd689df3adc765597371d4b86e529199b2bde1f4649c35e0c08a
+Size: 2744597
+SHA256sum: 4983c6662cdf70fcadcc70212326f8730ac9c78e5ee1bc7cbed9bdfe090d9ff1
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -429,20 +429,20 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1382400
 Filename: luci-app-passwall2_26.10.1-r2_all.ipk
-Size: 346948
-SHA256sum: c6c82d55d06edccfa3b065fa99e876b61e3d0e623657e172674edcba9da95190
+Size: 346980
+SHA256sum: 39da2eb7b3a17bc4b65f64429f3447af426155f208601b3fe830b64f28e6fc7c
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 26.10.1-r1
+Version: 26.10.3-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, lyaml, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3164160
-Filename: luci-app-passwall_26.10.1-r1_all.ipk
-Size: 843511
-SHA256sum: e09deadee6299a2518648e100a7c77f1c38d60a3d518bb4a79e3c5d61c3d5eea
+Filename: luci-app-passwall_26.10.3-r1_all.ipk
+Size: 843966
+SHA256sum: c3b2deab241f5f5d5346dab997386b2813c6d28b9d782e9ab8f91aaa955143ff
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -689,14 +689,14 @@ SHA256sum: 3283282352826c4589c377a5c5723ad5fde45bdc5d23249dd8038dba44519f84
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 26.10.1
+Version: 26.10.3
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
 Installed-Size: 51200
-Filename: luci-i18n-passwall-zh-cn_26.10.1_all.ipk
+Filename: luci-i18n-passwall-zh-cn_26.10.3_all.ipk
 Size: 18017
-SHA256sum: d856cdda756ee6d740ff13fedea7c6a4567dc815e762b209fc92b90d02122165
+SHA256sum: 8e8d4f75d2103c368fa691d9a199c2c048c04c87704a25cec28b26948e9e473c
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -706,8 +706,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.10.1_all.ipk
-Size: 20316
-SHA256sum: f0f5d66a52f0c7fdaf15cab92f4c7501186bec920ad21b7975704ac7ca3ece36
+Size: 20323
+SHA256sum: c3bbb774c30f7e67cc41e646df0b7905ba873413074f12c224b5c85dfa0bd757
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -849,16 +849,16 @@ SHA256sum: a0f24ed274942a01f75e3b57db7e34de087d43c7f0defd5fee006605fa30fdf9
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.275.73549~b91c512
+Version: 26.276.68660~2fb57e6
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 327680
-Filename: luci-theme-footstrap_26.275.73549~b91c512_all.ipk
-Size: 78339
-SHA256sum: ca31d67ad1c9a541ade96b8a4e7c9a37934b311bb0df59f3b2d8a488b6009900
+Filename: luci-theme-footstrap_26.276.68660~2fb57e6_all.ipk
+Size: 78344
+SHA256sum: f74e59cde16cb9aef6ef40958afd2bd2af353eaa582b26d48038413934df7f54
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8797
-SHA256sum: bdef41f6018df8629b154cd069d9d128824dc65623ce8455cf373bafb9757229
+Size: 8793
+SHA256sum: 052fbb55c179559cfa8a7034e79fd8637f80b51b8900f6adda66140db0e8356b
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1484,8 +1484,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4320
-SHA256sum: 26eb5893d295c764b51f747da24bf0b1352d477e61c5591118fc8a64ec35a53f
+Size: 4325
+SHA256sum: 906f13fd2234e25cd9c26d4f1ce7312586dbfcb474164363bd53940208d12f1a
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1523,8 +1523,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16640000
 Filename: v2ray-geoip_202609240030.1_all.ipk
-Size: 3452802
-SHA256sum: ce1453d0f71c4b3c0706ccc00f155c854eb63f20f20a96a9cf67c40dd5e851cb
+Size: 3452912
+SHA256sum: 10145e194f4fc4b19c84c3dd224540468ec12eb50589feaa4568a43f590936a9
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1536,8 +1536,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10987520
 Filename: v2ray-geosite_202609292207.1_all.ipk
-Size: 3599946
-SHA256sum: 7b97bd9ffcd7dc4025d81c2210418389d8b88f3b040b033e12201e8e7c599e88
+Size: 3599968
+SHA256sum: 3026a1b3d63d4790cb3f8e42e4be6eacd423734cdb156abe45d253ad953332ee
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

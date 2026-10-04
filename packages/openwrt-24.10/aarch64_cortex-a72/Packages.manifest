@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791054260
+SourceDateEpoch: 1791089267
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269716
-SHA256sum: 3fd082c8205f04053ffe74e9943b8642a067f0ceeadd7ff2a42ad8818a0af9c4
+Size: 269727
+SHA256sum: a8d97ee50046472e328bfac768dcd26501308d73bb76801193f96bdf14faf8c5
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1791054260
+SourceDateEpoch: 1791089267
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11838
-SHA256sum: 7360d8fa84d72a3b7736628d02f9823b5e1fe99b456296ed2f1a3dc32a591366
+Size: 11839
+SHA256sum: ac26fa4e28f774d6acf4242233c0c3a36b9829fc521855ac6bd07493b4eb9ca1
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -576,14 +576,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791054260
+SourceDateEpoch: 1791089267
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3164160
 Filename: luci-app-passwall_26.10.3-r1_all.ipk
-Size: 843966
-SHA256sum: c3b2deab241f5f5d5346dab997386b2813c6d28b9d782e9ab8f91aaa955143ff
+Size: 844722
+SHA256sum: dfea0ae024e0e6ca3f3c0af30b40d449fe1220b22d7df9619ed80089567405b2
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -908,12 +908,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791054260
+SourceDateEpoch: 1791089267
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.3_all.ipk
-Size: 18017
-SHA256sum: 8e8d4f75d2103c368fa691d9a199c2c048c04c87704a25cec28b26948e9e473c
+Size: 18013
+SHA256sum: ea7fe4fdee0920ec56af5973b94cdc040efdf4952697a93cff7e2cacb7e2c3b4
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1791054260
+SourceDateEpoch: 1791089267
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8810
-SHA256sum: caec80d9fe0f14cf983e1bebfe6479969aa295d4f1d7fd678703c2ba88c3e8a1
+Size: 8811
+SHA256sum: fc69b5f67e7e92262a5bd7dcde5d2791beca07df7e1354fddc10ecb3932e8376
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1940,13 +1940,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1791054260
+SourceDateEpoch: 1791089267
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4317
-SHA256sum: 1a16b488c9316287bbfa56061648e1d517edc9a623ce87454b7c0c4965664bc0
+Size: 4321
+SHA256sum: 34d6c862dc819d4952372ed08d087c696654964e11e2ec27f572b8c975a10f9b
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

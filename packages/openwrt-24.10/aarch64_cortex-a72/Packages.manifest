@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791219210
+SourceDateEpoch: 1791284675
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269704
-SHA256sum: 351b523c3876ca83a657bc1e073a27bbe5152f8ee69f058a70dc853177d5715c
+Size: 269737
+SHA256sum: 541e6d0f7454a190bfe97e2f996d6cbdf2955395cba2b297d4ced2d542c43827
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11400
-SHA256sum: 15ccad960d7a09881f87c5d7b3be3f821669770d5138b8d1f185f159d03bda13
+Size: 11406
+SHA256sum: 56c004ed6f6aa3546b260ad38b36aa51cbaebb038cef99be3420b695600a2d44
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -221,13 +221,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
-Size: 26141
-SHA256sum: 46089bec161cfeab9abf36e254089e781980ad89328faf129c04873926430272
+Size: 26136
+SHA256sum: a6c9ffeebdfb3a9180482d2d178ace0a4262509e6d1e2e1dd7fd5ae244b6a311
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -269,14 +269,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5340
-SHA256sum: 8f09b6a86f6d4124821168aa5a0a79cb5b792b7572898236006ad3b03cf4ecd3
+Size: 5339
+SHA256sum: c8aba0a1cc09fecdf31102b4c4355f4e8dd9cce6975fdc2206d87a3ed2391500
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -621,20 +621,20 @@ SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
 Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
-Version: 196-r13
+Version: 196-r16
 Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, jq, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2488320
-Filename: luci-app-ssr-plus_196-r13_all.ipk
-Size: 502706
-SHA256sum: 7888e86d7b992d443f5b0f56795c496e9cbd1a678db12e2d3030124a4bdebd0a
-Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Clash LuCI interface
+Filename: luci-app-ssr-plus_196-r16_all.ipk
+Size: 503653
+SHA256sum: 083f2293ead7714cc2cad8d092a22fa9d59462df6bc27435f1e224a2fc6cbd54
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
 Version: 26.166.28689~7af0cf3
@@ -963,17 +963,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.275.73549~b91c512
+Version: 26.279.39875~7a6a8b2
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.275.73549~b91c512_all.ipk
-Size: 14507
-SHA256sum: 35d9479c35f3e7f2b5bbf51a9b47d0ecb640cffc2efa05be1f894c2b36202d1d
+Filename: luci-i18n-ssr-plus-zh-cn_26.279.39875~7a6a8b2_all.ipk
+Size: 14564
+SHA256sum: 4f65c5a25b0c44bd29935105ddb60f44beabb5a01b81fa5252ccb385e6fafab6
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1791219210
+SourceDateEpoch: 1791284675
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8808
-SHA256sum: 23ddcf220edeb7375022bd309f9cd2dec65847f1d03f446a0b1aa0c41504999b
+Size: 8795
+SHA256sum: b44da22d2eb617f6f78dd3e2f1a4f7bc2b324f0a60a4d179dc169d7e36159e43
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1792,13 +1792,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_cortex-a72.ipk
-Size: 63553
-SHA256sum: eef9fab3140b4a638e3b20373630c0e64117ac04684c5d6facf7557f0a9b813a
+Size: 63526
+SHA256sum: 49b3ae8b34cec8d3def8c7cdcaa08073d6cf4f09fb3dffd5c9cb28fabe13f36a
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1809,13 +1809,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791284675
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_cortex-a72.ipk
-Size: 56987
-SHA256sum: 9a60d923e49435905b4185fce9ec9ab8661f5ea8564c313c458fd32b8f396f33
+Size: 57021
+SHA256sum: 1544fb180edea74344c6b4518c966da23dfa6ddd3a18be8e2b855265811beb05
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server

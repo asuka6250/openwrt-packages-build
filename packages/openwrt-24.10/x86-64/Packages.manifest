@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286312
-SHA256sum: c2beba63d0adeaacff6150a528bfa88b652a7484fe848d32c120708fefb25921
+Size: 286296
+SHA256sum: 7221e79aa77d604a5fcd33dd1ec57fa9e464f1c7e841cc34b0b94000aeb26c2a
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791219210
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 63313920
 Filename: clashoo_2026.10.02~9f053c4-r1_x86_64.ipk
-Size: 23652172
-SHA256sum: 2250abf8037aacfd0dfe02daefe724621f4b258edde10a1dbd589fa36f8fdfc2
+Size: 23652315
+SHA256sum: f4907cf93e684cdd9e7efc6e884be24a563c0a70189790ea37434fe2c82e0c1e
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11138
-SHA256sum: 16f38a3ab88457ba926bc5a8d1c5470d84c5912f10cce27c15d543b601361981
+Size: 11134
+SHA256sum: f4f182c004ac5a88a22e685ccc6728ebcbefb4310c02cc3fb9baf138dcc07250
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -181,20 +181,20 @@ SHA256sum: e6f3d7a509f3a838fa746da94da59285325d0f61b34f8dff873397f12b92bdb9
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
-Version: 2.12.3-r1
+Version: 2.13.0-r1
 Depends: libc, ca-bundle
 Source: feeds/base/custom_packages/hysteria
 SourceName: hysteria
 License: MIT
 Section: net
-SourceDateEpoch: 1789549743
+SourceDateEpoch: 1791219210
 URL: https://github.com/apernet/hysteria
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 23132160
-Filename: hysteria_2.12.3-r1_x86_64.ipk
-Size: 8693466
-SHA256sum: 3b71a2e244fbdc9929986ce472527d59ee51acf2ff063618833dec9d2ee53e9e
+Installed-Size: 24053760
+Filename: hysteria_2.13.0-r1_x86_64.ipk
+Size: 8977979
+SHA256sum: 1960ddf53eff9885a19ad7aefa21ad7d5bdcd4680329f006bace85892cec47b9
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -338,13 +338,13 @@ Depends: libc, luci-base, clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791219210
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 952320
 Filename: luci-app-clashoo_1.31.0-r1_all.ipk
-Size: 401080
-SHA256sum: aac7213ed8df10a40a98a15e41afb386f6e32358ad21f911a4f59e485456c868
+Size: 401094
+SHA256sum: 2f68d186b53f6dfa153c08877728f9906f8a511fdb649ea61187b0561284864c
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -546,14 +546,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3174400
+Installed-Size: 3184640
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 847007
-SHA256sum: 1515c3f245cca407fca6a7153d6f8f6f7cb0d1e4bf93445a32440be8ba545726
+Size: 850148
+SHA256sum: 0457eb0da76e724f78fc574d036f6fdbeed7fb96801ed71611a69f2075da493f
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -563,14 +563,14 @@ Source: feeds/base/custom_packages/luci-app-quickfile/luci-app-quickfile
 SourceName: luci-app-quickfile
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-quickfile_1.0.0-r1_all.ipk
-Size: 1681
-SHA256sum: a6f889b21bfbac13d0f62177b8a2604c3e2f0247c579a326040bef0a6d4c90f1
+Size: 1682
+SHA256sum: e0edd644364776dedd8ada4b016937dd030937d7a3408f4b077c48d63691c1b6
 Description:  LuCI File Manager module
 
 Package: luci-app-smartdns
@@ -689,13 +689,13 @@ Depends: libc, luci-app-clashoo
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1790972749
+SourceDateEpoch: 1791219210
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r1_all.ipk
-Size: 12574
-SHA256sum: 06e3b8a2584453b420238dd319c7e7b92f389654cbd08b7c4d3a1c01ee34ebaf
+Size: 12583
+SHA256sum: fb12aefd6552762e4bdc5a6ff1c535564e51310c5ec7dcc42610d182a71263d0
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -864,12 +864,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18039
-SHA256sum: 79d3a4f5f6ecd67b39737d0f1782943d25eca4ec4f28653ac8c1e48c3760a173
+Size: 18077
+SHA256sum: d8620a79abd4baf9bf49deda4b09e0276f5b2b0dd72480655f2045418678c0b5
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -887,19 +887,19 @@ SHA256sum: c3bbb774c30f7e67cc41e646df0b7905ba873413074f12c224b5c85dfa0bd757
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
-Version: 26.277.69431~39c757e
+Version: 26.278.60810~7c15a0d
 Depends: libc, luci-app-quickfile
 Source: feeds/base/custom_packages/luci-app-quickfile/luci-app-quickfile
 SourceName: luci-app-quickfile
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-quickfile-zh-cn_26.277.69431~39c757e_all.ipk
-Size: 1211
-SHA256sum: dad38b24e26d0e1caa39ab3d5825409e6d8e3245f2875c4215766394f732984c
+Filename: luci-i18n-quickfile-zh-cn_26.278.60810~7c15a0d_all.ipk
+Size: 1212
+SHA256sum: 94584ca1f8d7c03f995d5d6fb80d2122c9e46d98923b1c9530e5ccb31796d15d
 Description:  Translation for luci-app-quickfile - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-smartdns-zh-cn
@@ -1194,14 +1194,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8426
-SHA256sum: 0206f89f9d2d5a350e5e4040cf5350959b773637c67fbc18270e90e97d6de724
+Size: 8422
+SHA256sum: 014ac7293037103451fc4184f4d7b564224c42c0f30760723a068315a65a40c4
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1308,15 +1308,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 1075200
 Filename: nginx-full_1.30.3-r1_x86_64.ipk
-Size: 469468
-SHA256sum: a44cc1a5037a7991f6eb934abcf4d0afd2492f214daa1fe23ba0fc15f720b0fb
+Size: 469516
+SHA256sum: 2f602cf5fcfc552a6fa2a0d57eb72624f8771dfb1e46f400d285872be9003e63
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with ALL config selected.
 
 Package: nginx-mod-brotli
@@ -1326,15 +1326,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 655360
 Filename: nginx-mod-brotli_1.30.3-r1_x86_64.ipk
-Size: 290557
-SHA256sum: 4fe516bae56e02a9eb7973085501284b9e3907101424f589c3a95903e786e7b6
+Size: 290566
+SHA256sum: e1064a70b090643999b4f1df124f14f16e4a250e6bf6b9f607b74a266e0826ef
 Description:  Add support for brotli compression module.
 
 Package: nginx-mod-dav-ext
@@ -1344,15 +1344,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: nginx-mod-dav-ext_1.30.3-r1_x86_64.ipk
-Size: 10559
-SHA256sum: 34bb8d5ab3b20dd599955d493c30268fd23b9e4df03b72a817e0fd9eb7ec792f
+Size: 10556
+SHA256sum: e182078ee5bd67dc2fe138b1da3582dd565a6c71e8ed1b9babbc7b01baf7e396
 Description:  Enable the WebDAV methods PROPFIND OPTIONS LOCK UNLOCK.
 
 Package: nginx-mod-geoip2
@@ -1362,15 +1362,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: nginx-mod-geoip2_1.30.3-r1_x86_64.ipk
-Size: 7813
-SHA256sum: c81f0615c7a7b9c2919d62a203073e75c0f2f5310b6eda93acf58f16e0f76d51
+Size: 7815
+SHA256sum: 362d7de740f4b4c76479a05e9c3b94d7d4c0f5745da3a9c9632a97b2db35238f
 Description:  Enable MaxMind GeoIP2 module.
 
 Package: nginx-mod-headers-more
@@ -1380,15 +1380,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: nginx-mod-headers-more_1.30.3-r1_x86_64.ipk
-Size: 9570
-SHA256sum: 544c2937c468bfb2e52b61a18acb6ee11d5dccf80015ff6e02a214675ff0fad5
+Size: 9567
+SHA256sum: 99cc259973972b8efda5aa9ccd05748c07dc16bf536a8fff7aae21b9ffcaf768
 Description:  Set and clear input and output headers...more than "add"!
 
 Package: nginx-mod-lua-resty-core
@@ -1398,15 +1398,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 245760
 Filename: nginx-mod-lua-resty-core_1.30.3-r1_x86_64.ipk
-Size: 35733
-SHA256sum: 79b1ded4257918f8d49c90cbad9236a3c7b6dfa1d7495a5ce30875d081cf87a6
+Size: 35720
+SHA256sum: 1b5eba8fccd6d2bfc4e284a8250f78ca4016d900da3e853361b262dc8281cbac
 Description:  Nginx Lua OpenResty core module
 
 Package: nginx-mod-lua-resty-lrucache
@@ -1416,15 +1416,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: nginx-mod-lua-resty-lrucache_1.30.3-r1_x86_64.ipk
-Size: 8477
-SHA256sum: 37f2fb1a4c395dc2777bfef2c8989f490303ef96c5c59a3fe94a8ae5605ed809
+Size: 8471
+SHA256sum: 0f188d47997e82d20041235805719400134320e71932011807a8907ff4d2bad3
 Description:  Nginx Lua OpenResty lrucache module
 
 Package: nginx-mod-lua
@@ -1434,15 +1434,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 337920
 Filename: nginx-mod-lua_1.30.3-r1_x86_64.ipk
-Size: 138712
-SHA256sum: 80cf3be7b10287a0e229a4ee8babc9c16061c0fb3037be37b0300831dab62b5b
+Size: 138723
+SHA256sum: 2c7ad5732cbf86659c92aeb032dac95773f71eb484965c7d068a075ab72ce393
 Description:  Enable Lua module (luajit2 based, OpenResty patches)
 
 Package: nginx-mod-luci
@@ -1452,15 +1452,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: http://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 10240
 Filename: nginx-mod-luci_1.30.3-r1_x86_64.ipk
-Size: 1857
-SHA256sum: d7cb72c615db72f922d9bc0c4974a7c0a3c79abd8b4e4313230e3670e26b1aaf
+Size: 1852
+SHA256sum: f7e5e46664e057fc8d0d0d8dafd6da9e8d689973ab6f1ad4646cc27e139d2482
 Description:  Support file for LuCI in nginx. Include custom nginx configuration, autostart script for uwsgi.
 
 Package: nginx-mod-naxsi
@@ -1470,15 +1470,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 563200
 Filename: nginx-mod-naxsi_1.30.3-r1_x86_64.ipk
-Size: 93395
-SHA256sum: 286ac27a8cab7c74efd5594471650b1109d9c05f6de262f1c2faf2e5ecb5b589
+Size: 93651
+SHA256sum: 25ac1c5945e457a9b792a259dc3299f20a37ae04a8e17a21bc0c57cbbfe59719
 Description:  Enable NAXSI module.
 
 Package: nginx-mod-njs
@@ -1488,15 +1488,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 860160
 Filename: nginx-mod-njs_1.30.3-r1_x86_64.ipk
-Size: 321882
-SHA256sum: 991511e4c82b1fb4b8185aa1696f412d990edd193b1359e9728951d58c918f2c
+Size: 322039
+SHA256sum: 2e670c0fcacc4df3d9765c444da1059e6683fb58e25c3f2210ab0f690cec0b7e
 Description:  Enable NJS module.
 
 Package: nginx-mod-rtmp
@@ -1506,15 +1506,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 296960
 Filename: nginx-mod-rtmp_1.30.3-r1_x86_64.ipk
-Size: 115260
-SHA256sum: d23eee0d0b7400e5ff0d42632bc5306a8769a7180a5abc8d80257998a8cd30ad
+Size: 115259
+SHA256sum: 4383b0a4398d4659c1d901ca2c396ead55fbe9a68f97bc444f3e69d8b96d8e99
 Description:  Add support for NGINX-based Media Streaming Server module. DASH enhanced
 
 Package: nginx-mod-stream
@@ -1524,15 +1524,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 184320
 Filename: nginx-mod-stream_1.30.3-r1_x86_64.ipk
-Size: 68773
-SHA256sum: 2123d78742102cf5742c756bd922ad4d63d5cb1d289230a4a14549d3f8a22796
+Size: 68780
+SHA256sum: 698623cdfb4ba521f4b33131a26954da00118d2b1249879c68096e8dce33263c
 Description:  Add support for NGINX request streaming.
 
 Package: nginx-mod-ts
@@ -1542,7 +1542,7 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
@@ -1550,7 +1550,7 @@ Architecture: x86_64
 Installed-Size: 61440
 Filename: nginx-mod-ts_1.30.3-r1_x86_64.ipk
 Size: 22033
-SHA256sum: 2639d4712bf83dac98cc8b75192af5486bfc656794527f48f895659245d567cb
+SHA256sum: da2020f35cb42efb7a08a7734974af79e2f08a2e4ad1c231dc95eabf23744ba1
 Description:  Add support for MPEG-TS Live Module module.
 
 Package: nginx-mod-ubus
@@ -1560,15 +1560,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: nginx-mod-ubus_1.30.3-r1_x86_64.ipk
-Size: 9085
-SHA256sum: 87bc5b2ca8df59cd2f472eb59c12906872121b217181d4dd9c92719a13e319aa
+Size: 9074
+SHA256sum: 9918333bae58f5ecb441707c79e3ecdfca08a7ecce6343954bbd31ba10703ff3
 Description:  Enable UBUS api support directly from the server.
 
 Package: nginx-mod-zstd
@@ -1578,15 +1578,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: nginx-mod-zstd_1.30.3-r1_x86_64.ipk
-Size: 9028
-SHA256sum: c92b96917068e73c7702645e9a0196adbb9ae84f3147650e02c8c0b6daefcacb
+Size: 9024
+SHA256sum: d739858a9555f647663fbfd1d0b77ba1db1f0df9e6e11d6a440e973f6d778dfe
 Description:  Add support for zstd compression module.
 
 Package: nginx-ssl-util-nopcre
@@ -1634,15 +1634,15 @@ Source: feeds/base/custom_packages/feeds_packages_net_nginx
 SourceName: nginx
 License: 2-clause BSD-like license
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://nginx.org/
 CPE-ID: cpe:/a:f5:nginx_open_source
 Maintainer: Thomas Heil <heil@terminal-consulting.de> Christian Marangi <ansuelsmth@gmail.com>
 Architecture: x86_64
 Installed-Size: 921600
 Filename: nginx-ssl_1.30.3-r1_x86_64.ipk
-Size: 402259
-SHA256sum: 7238736d44206435a2cd2f8ebbaad55ca8954ace4428a5859b66a46ea6635f6e
+Size: 402370
+SHA256sum: 773d287e191e96eeb76e7869b138210c5557eef5203ac8c3c636b1498be01b34
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
 
 Package: nikki
@@ -1663,21 +1663,21 @@ SHA256sum: e7441b5954cc6e4ae313bf60b506cb0a1d51d9a48dafad4b3514ad926aed5a65
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
-Version: 2.0.6-r1
+Version: 2.0.7-r1
 Depends: libc, liblzma
 Source: feeds/base/custom_packages/luci-app-quickfile/quickfile
 SourceName: quickfile
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://git.cooluc.com/sbwml/quickfile
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 10670080
-Filename: quickfile_2.0.6-r1_x86_64.ipk
-Size: 4621980
-SHA256sum: dff09380bb14f883501d27ab6757faaf3cb2e2c394ad56b4b725ccd2382bbe03
+Filename: quickfile_2.0.7-r1_x86_64.ipk
+Size: 4621722
+SHA256sum: a9189779267d6cf7fe7b12cca8139630fd3907f2efcd863c57aec296c5398dd9
 Description:  A high-performance, lightweight web file manager built with Rust (Axum) and Vue 3,
  featuring an integrated terminal and multimedia preview, tailored for embeddedsystems
  and the OpenWrt ecosystem.
@@ -1896,13 +1896,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1791219210
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4438
-SHA256sum: 16882a5114dccd4ee9c8ed747bd7c3b914ac6458fa83f483b8b35ac23cb267b3
+Size: 4444
+SHA256sum: 9cc31d693da3efb04ef6565cf9ec53236f83cfc7fc4eeea7f4efd7040c4eb177
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

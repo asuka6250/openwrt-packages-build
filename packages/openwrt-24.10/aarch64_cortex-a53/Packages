@@ -454,8 +454,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-quickfile_1.0.0-r1_all.ipk
-Size: 1682
-SHA256sum: e0edd644364776dedd8ada4b016937dd030937d7a3408f4b077c48d63691c1b6
+Size: 1678
+SHA256sum: 3f7839987dc95872da74827a04e36081ad9dac3ffa3cf6beedc554339b3bc8f2
 Description:  LuCI File Manager module
 
 Package: luci-app-smartdns
@@ -711,15 +711,15 @@ SHA256sum: c3bbb774c30f7e67cc41e646df0b7905ba873413074f12c224b5c85dfa0bd757
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
-Version: 26.278.60810~7c15a0d
+Version: 26.279.64982~a22eb45
 Depends: libc, luci-app-quickfile
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-quickfile-zh-cn_26.278.60810~7c15a0d_all.ipk
-Size: 1212
-SHA256sum: 94584ca1f8d7c03f995d5d6fb80d2122c9e46d98923b1c9530e5ccb31796d15d
+Filename: luci-i18n-quickfile-zh-cn_26.279.64982~a22eb45_all.ipk
+Size: 1213
+SHA256sum: 8d839ad3379c1fb53a27c468d7ec25ce5e07a590cc9c78f0e37e42bec466fbc4
 Description:  Translation for luci-app-quickfile - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-smartdns-zh-cn
@@ -1011,16 +1011,16 @@ SHA256sum: 8b2f2190897ff6bf3888e06d045aa6d7a8ebade691043f82d4ba3ac2942d0687
 Description:  A plug-in DNS forwarder/splitter
 
 Package: naiveproxy
-Version: 154.0.8037.49-r2
+Version: 154.0.8037.49-r3
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 URL: https://github.com/klzgrad/naiveproxy
 Architecture: aarch64_cortex-a53
 Installed-Size: 8202240
-Filename: naiveproxy_154.0.8037.49-r2_aarch64_cortex-a53.ipk
-Size: 3985955
-SHA256sum: 405b7fe78b2a210e8d57ff73eca36b2cb38a4dcc3fc139e2b7fd977a77f5be89
+Filename: naiveproxy_154.0.8037.49-r3_aarch64_cortex-a53.ipk
+Size: 3986033
+SHA256sum: 2796bea75fd681e95fba88c59db6651ce5bccbdad7425140402014d7284ba06b
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -1036,8 +1036,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 1116160
 Filename: nginx-full_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 472827
-SHA256sum: c023f08e361a8144ecd6499d002794ea05b0d88c779c5a33ca5a24a3893b1cc4
+Size: 472848
+SHA256sum: dc72cce0f892edbd6434ddab77d76568ae0242e97d41bca8e44879c441bb38f3
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with ALL config selected.
 
 Package: nginx-mod-brotli
@@ -1050,8 +1050,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 737280
 Filename: nginx-mod-brotli_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 295134
-SHA256sum: 7169af010f3ffc9329ac624dc054752ce1d817dcb624847d721a70a98d278eaf
+Size: 295142
+SHA256sum: 8cfb5ee81411396b77c6359542a12e3d96e11a379471bf6fe7305e8798a78da7
 Description:  Add support for brotli compression module.
 
 Package: nginx-mod-dav-ext
@@ -1064,8 +1064,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: nginx-mod-dav-ext_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 11120
-SHA256sum: 063dd8f42dcf1d5c59e2cdae1fcf5afd3f9eb3729cf851856a355b031b0358b6
+Size: 11133
+SHA256sum: 891051993397ae4ef8980a4ee2a8102187586a207dd957ccf2fb094c49f76d7e
 Description:  Enable the WebDAV methods PROPFIND OPTIONS LOCK UNLOCK.
 
 Package: nginx-mod-geoip2
@@ -1078,8 +1078,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: nginx-mod-geoip2_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 10767
-SHA256sum: 68cd399e0fa9cc452b73c103b46869295c9b8661112dbe3d281525f4377b9677
+Size: 10775
+SHA256sum: 453c16f76085585ffe163c3f746d96b8ceecb1f3697ac17d783f16b0242daafd
 Description:  Enable MaxMind GeoIP2 module.
 
 Package: nginx-mod-headers-more
@@ -1092,8 +1092,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: nginx-mod-headers-more_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 9851
-SHA256sum: 10731d4765f25635fc7f4a33be5f03873f6a51f797b01f42ec60908ccdeb53c5
+Size: 9848
+SHA256sum: 687e0f2166938d3314196a7ea5c218c1f96275a5c18bd863b050056af81f89d4
 Description:  Set and clear input and output headers...more than "add"!
 
 Package: nginx-mod-lua-resty-core
@@ -1106,8 +1106,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 245760
 Filename: nginx-mod-lua-resty-core_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 35722
-SHA256sum: 3b4a3240e0a66884f87275f10e740785f1f9fa986e09ad67d68f493ed35ca255
+Size: 35735
+SHA256sum: 4f07a840d11907fe76cdf0194f6f1a0aa82cf59e4c7e238815915cbfd401952a
 Description:  Nginx Lua OpenResty core module
 
 Package: nginx-mod-lua-resty-lrucache
@@ -1120,8 +1120,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 40960
 Filename: nginx-mod-lua-resty-lrucache_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 8474
-SHA256sum: 72f7cb3b9bcec9e7a9ff6572302f923928b1f1d9d61378cb0c3ce1bd6b628d90
+Size: 8477
+SHA256sum: f9639e9984d71d791d89d262d479c27f8a885354d358488f95fcdfe928ccaab6
 Description:  Nginx Lua OpenResty lrucache module
 
 Package: nginx-mod-lua
@@ -1134,8 +1134,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 409600
 Filename: nginx-mod-lua_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 139144
-SHA256sum: 0999248a972707db69a8253300f11adb0e325d893dfe3d6cb40fa587dfbcc239
+Size: 139163
+SHA256sum: 1f724e2ba47e046c8488bf5bf752fcd3dbf89874676152a9379247c0e29e4837
 Description:  Enable Lua module (luajit2 based, OpenResty patches)
 
 Package: nginx-mod-luci
@@ -1148,8 +1148,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: nginx-mod-luci_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 1860
-SHA256sum: 26f9d503a354a26a02952c1bca5f831cb60d726018f5d24e61d8e41546f6ee6a
+Size: 1865
+SHA256sum: 27c8929642b31033b60475f6bae0edcb8939084741e7692b67a4407863860b0e
 Description:  Support file for LuCI in nginx. Include custom nginx configuration, autostart script for uwsgi.
 
 Package: nginx-mod-naxsi
@@ -1162,8 +1162,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 614400
 Filename: nginx-mod-naxsi_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 94336
-SHA256sum: c39c0a76f7b7dbe6fa685c2f00f3e79b0d368232885245eca0bb26c8adc2633f
+Size: 94275
+SHA256sum: 45f2780c0d4aae4b1f7e082f9551eca7e5ae218bcc935f6363304822bab37286
 Description:  Enable NAXSI module.
 
 Package: nginx-mod-njs
@@ -1176,8 +1176,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 931840
 Filename: nginx-mod-njs_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 328546
-SHA256sum: 25ccef9b0f8515054ccabc0cdb02d9797797745e58df372b6deb8c9390b9ffd9
+Size: 328660
+SHA256sum: b9af43bc7bd0f20d48febfd88ca6188b0318ff6e82184252127335d0462052af
 Description:  Enable NJS module.
 
 Package: nginx-mod-rtmp
@@ -1190,8 +1190,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 368640
 Filename: nginx-mod-rtmp_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 116993
-SHA256sum: dbf0a1b25da404103cd6ce3931aa1a73f5b2e4074112c58a2284ea2409e17276
+Size: 116975
+SHA256sum: cc99a6c800e11e5d2751f5a98800a5a00470722d18acd373bc78d8640d60664a
 Description:  Add support for NGINX-based Media Streaming Server module. DASH enhanced
 
 Package: nginx-mod-stream
@@ -1204,8 +1204,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: nginx-mod-stream_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 70715
-SHA256sum: d75afc65c9ebf8d2faddf5a190d5aca0d06e9358e628d9127c81e135baf84f97
+Size: 70731
+SHA256sum: a9d55cc95a40ada8fe00ed1345f8be3d80a5f977025f358b3e48a176e02109e8
 Description:  Add support for NGINX request streaming.
 
 Package: nginx-mod-ts
@@ -1218,8 +1218,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: nginx-mod-ts_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 22395
-SHA256sum: 67fd7f52fb364103f844aebef70a6089f8f77b275d9497caae63bff8d8215bad
+Size: 22400
+SHA256sum: cc679f2ef634902d2d61be6c76d01e18fdbbac3c2df8e56a2216adf37d670c88
 Description:  Add support for MPEG-TS Live Module module.
 
 Package: nginx-mod-ubus
@@ -1232,8 +1232,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: nginx-mod-ubus_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 9577
-SHA256sum: b1271fb37f402690551705a2bcda33853686d58e49863917f9f0869eb5292caf
+Size: 9582
+SHA256sum: 08b861c55dc657e31c4f6bc39e47ebe46465f3ec89caa10966df844ac6121140
 Description:  Enable UBUS api support directly from the server.
 
 Package: nginx-mod-zstd
@@ -1246,8 +1246,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: nginx-mod-zstd_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 10149
-SHA256sum: b4553dfd87fd22066782e4eddc87185eb2a6010e6fa1048ccf2560e2e50e8e5c
+Size: 10169
+SHA256sum: efbe64e7db1d6e48a8fab96b72c69795fd95a63e49f9fd2c5aa9b7cc67043290
 Description:  Add support for zstd compression module.
 
 Package: nginx-ssl-util-nopcre
@@ -1290,8 +1290,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_cortex-a53
 Installed-Size: 983040
 Filename: nginx-ssl_1.30.3-r1_aarch64_cortex-a53.ipk
-Size: 405593
-SHA256sum: 9efd298d0ca8e5113720746b6eed03c6aa97f216f50354ffe7a7fb2c589f2e21
+Size: 405539
+SHA256sum: fd16d5a0dedf5e0bac796538bca7e3f2b508556875e52946a6deba5b203eca69
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
 
 Package: nikki
@@ -1308,16 +1308,16 @@ SHA256sum: e5a31bb50ed173121626f8083743a33b7924ec23cc2b01bb4208cde2572c08da
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
-Version: 2.0.7-r1
+Version: 2.0.8-r1
 Depends: libc, liblzma
 License: Apache-2.0
 Section: net
 URL: https://git.cooluc.com/sbwml/quickfile
 Architecture: aarch64_cortex-a53
-Installed-Size: 10106880
-Filename: quickfile_2.0.7-r1_aarch64_cortex-a53.ipk
-Size: 4534586
-SHA256sum: 327c483e55b4e511d085039b715eff3e51ea6cdec7d0167c693f12612b48fff9
+Installed-Size: 10178560
+Filename: quickfile_2.0.8-r1_aarch64_cortex-a53.ipk
+Size: 4543075
+SHA256sum: a066dfe8b80c16b71f19bc989e7ea44b1b4e8694cb0d831c73d3567ccec61a31
 Description:  A high-performance, lightweight web file manager built with Rust (Axum) and Vue 3,
  featuring an integrated terminal and multimedia preview, tailored for embeddedsystems
  and the OpenWrt ecosystem.

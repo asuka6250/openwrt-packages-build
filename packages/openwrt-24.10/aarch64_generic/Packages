@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287108
-SHA256sum: 1e8e3a37d11ab000bc289706c7494d53e865b46281e6f960f60142b17baa22a8
+Size: 287113
+SHA256sum: 706031f60ebc237f6211641953599352587cf074b47128a00637a30979ea4809
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 58654720
 Filename: clashoo_2026.10.02~9f053c4-r1_aarch64_generic.ipk
-Size: 21580931
-SHA256sum: 7f10e3d9ced7b18c98acf85ec5f70502155b2eff78d880ada43983b47a675cd0
+Size: 21580338
+SHA256sum: 33394a9749ce7c9727891e91543f6786424da884d60e75147f115ff7bc8b59ce
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_generic.ipk
-Size: 11838
-SHA256sum: 1f9555dfac2ef24cb39506596c909649a970499ce532c609a21007a5835be8a5
+Size: 11839
+SHA256sum: 011f462fb031bef5846b061228d879c2d95bbb0de2c43cc914c74602b1b66c77
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -146,16 +146,16 @@ SHA256sum: b34588ba5beebdd3e30fafa7780a5cf659a8ab9e5960932e7781a93f1cfe8918
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
-Version: 2.12.3-r1
+Version: 2.13.0-r1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 URL: https://github.com/apernet/hysteria
 Architecture: aarch64_generic
-Installed-Size: 21309440
-Filename: hysteria_2.12.3-r1_aarch64_generic.ipk
-Size: 7791084
-SHA256sum: 6a0d2e8428d289f3d89f0da0ec2c5d8068453fdbb3c982b822c665377fe68666
+Installed-Size: 22169600
+Filename: hysteria_2.13.0-r1_aarch64_generic.ipk
+Size: 8050531
+SHA256sum: 7d6a32b0faa5894604eb317545e870a927468704c307855733abd0a4084e18b5
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -271,8 +271,8 @@ Section: luci
 Architecture: all
 Installed-Size: 952320
 Filename: luci-app-clashoo_1.31.0-r1_all.ipk
-Size: 401080
-SHA256sum: aac7213ed8df10a40a98a15e41afb386f6e32358ad21f911a4f59e485456c868
+Size: 401094
+SHA256sum: 2f68d186b53f6dfa153c08877728f9906f8a511fdb649ea61187b0561284864c
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -439,10 +439,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3174400
+Installed-Size: 3184640
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 847007
-SHA256sum: 1515c3f245cca407fca6a7153d6f8f6f7cb0d1e4bf93445a32440be8ba545726
+Size: 850148
+SHA256sum: 0457eb0da76e724f78fc574d036f6fdbeed7fb96801ed71611a69f2075da493f
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -454,8 +454,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-quickfile_1.0.0-r1_all.ipk
-Size: 1681
-SHA256sum: a6f889b21bfbac13d0f62177b8a2604c3e2f0247c579a326040bef0a6d4c90f1
+Size: 1682
+SHA256sum: e0edd644364776dedd8ada4b016937dd030937d7a3408f4b077c48d63691c1b6
 Description:  LuCI File Manager module
 
 Package: luci-app-smartdns
@@ -549,8 +549,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r1_all.ipk
-Size: 12574
-SHA256sum: 06e3b8a2584453b420238dd319c7e7b92f389654cbd08b7c4d3a1c01ee34ebaf
+Size: 12583
+SHA256sum: fb12aefd6552762e4bdc5a6ff1c535564e51310c5ec7dcc42610d182a71263d0
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18039
-SHA256sum: 79d3a4f5f6ecd67b39737d0f1782943d25eca4ec4f28653ac8c1e48c3760a173
+Size: 18077
+SHA256sum: d8620a79abd4baf9bf49deda4b09e0276f5b2b0dd72480655f2045418678c0b5
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -711,15 +711,15 @@ SHA256sum: c3bbb774c30f7e67cc41e646df0b7905ba873413074f12c224b5c85dfa0bd757
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
-Version: 26.277.69431~39c757e
+Version: 26.278.60810~7c15a0d
 Depends: libc, luci-app-quickfile
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-quickfile-zh-cn_26.277.69431~39c757e_all.ipk
-Size: 1211
-SHA256sum: dad38b24e26d0e1caa39ab3d5825409e6d8e3245f2875c4215766394f732984c
+Filename: luci-i18n-quickfile-zh-cn_26.278.60810~7c15a0d_all.ipk
+Size: 1212
+SHA256sum: 94584ca1f8d7c03f995d5d6fb80d2122c9e46d98923b1c9530e5ccb31796d15d
 Description:  Translation for luci-app-quickfile - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-smartdns-zh-cn
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8809
-SHA256sum: 58ca90435716a2d22a978c4870a6e393145c93bb596e992812e4590eb0251fab
+Size: 8801
+SHA256sum: 8081b52c99a80e71df940d7f3d7d12031970ff2f0679f20ee81c1b9834cfd4cc
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1036,8 +1036,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 1116160
 Filename: nginx-full_1.30.3-r1_aarch64_generic.ipk
-Size: 473505
-SHA256sum: 8476c3c1f100ba21f76588281f309503f2e557818c88f95f6d0ca145ca11c580
+Size: 473486
+SHA256sum: 7f75459d447030c4f9336cdeecec43d5bb40a6cce42edc883d114c31e519b90c
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with ALL config selected.
 
 Package: nginx-mod-brotli
@@ -1050,8 +1050,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 737280
 Filename: nginx-mod-brotli_1.30.3-r1_aarch64_generic.ipk
-Size: 295106
-SHA256sum: de94cf3133344ef13eddd2d43618b29f49580cb3f7d6311eb953db8c71bf4100
+Size: 295101
+SHA256sum: 340561ea489fcbf11cf518fda2fa23dbbddd4db015ce6e3e4ce2ecb843349711
 Description:  Add support for brotli compression module.
 
 Package: nginx-mod-dav-ext
@@ -1064,8 +1064,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: nginx-mod-dav-ext_1.30.3-r1_aarch64_generic.ipk
-Size: 11150
-SHA256sum: 0ce2bca4b3fb8512a0c373eebfc2e5b95313263286e28958fe79b95b0f31f574
+Size: 11139
+SHA256sum: d7e3b1d2c0699d00494f042993d444cce38cddfc433f2f67fcca529ae149ad0c
 Description:  Enable the WebDAV methods PROPFIND OPTIONS LOCK UNLOCK.
 
 Package: nginx-mod-geoip2
@@ -1078,8 +1078,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: nginx-mod-geoip2_1.30.3-r1_aarch64_generic.ipk
-Size: 10807
-SHA256sum: 33b9a295122284be55379da05c0f7e692f2884872c50d2abf0190ccf283bb8ce
+Size: 10778
+SHA256sum: 95602b4c8ced9498c91a7901609ef8f546835f0b08c794b3d27a45e6984ada49
 Description:  Enable MaxMind GeoIP2 module.
 
 Package: nginx-mod-headers-more
@@ -1092,8 +1092,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: nginx-mod-headers-more_1.30.3-r1_aarch64_generic.ipk
-Size: 9873
-SHA256sum: 77dd51e179b559a1799a17fb8dcaa09e6d35f51f01f5d6e0195d41d695bef379
+Size: 9854
+SHA256sum: 38335df33b9d6c35b8b341b0949ae06664dae08f70cfdb195977b34ed18dc64c
 Description:  Set and clear input and output headers...more than "add"!
 
 Package: nginx-mod-lua-resty-core
@@ -1106,8 +1106,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: nginx-mod-lua-resty-core_1.30.3-r1_aarch64_generic.ipk
-Size: 35737
-SHA256sum: 7dd496a991a4166a63fe751a433d22f3717251b6c83943c09ffbf741d27e75f5
+Size: 35723
+SHA256sum: f355b26f5208d59c061be2176889b2b9a76a2b0b9e11663b469ea8cae337b9a6
 Description:  Nginx Lua OpenResty core module
 
 Package: nginx-mod-lua-resty-lrucache
@@ -1120,8 +1120,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 40960
 Filename: nginx-mod-lua-resty-lrucache_1.30.3-r1_aarch64_generic.ipk
-Size: 8479
-SHA256sum: 7ac52ab411944e4c3c68d5332222d846ae53e2f9842941879b9fa9fec1ee9349
+Size: 8473
+SHA256sum: 20e5604bcc2a9266ace57043d133b0a6cad5c1e3fb1a6e0fcfa9b110ed29f494
 Description:  Nginx Lua OpenResty lrucache module
 
 Package: nginx-mod-lua
@@ -1134,8 +1134,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 409600
 Filename: nginx-mod-lua_1.30.3-r1_aarch64_generic.ipk
-Size: 139512
-SHA256sum: 9636832dff275d8a1fbaec374a5c77b0ab4ac32d71bd577dc9ff6a3906fbabf6
+Size: 139489
+SHA256sum: 77dade0597416d68984c1060eac5f07cfe2d3f093e21b4332f40d40813a9a47e
 Description:  Enable Lua module (luajit2 based, OpenResty patches)
 
 Package: nginx-mod-luci
@@ -1149,7 +1149,7 @@ Architecture: aarch64_generic
 Installed-Size: 10240
 Filename: nginx-mod-luci_1.30.3-r1_aarch64_generic.ipk
 Size: 1858
-SHA256sum: 18800874f93cfc498e115b442bdc115faf9ce3196a55b55f1138717ef5dd71a1
+SHA256sum: 593034ba19caaa5f155c33b0508a3e30944ce4413e34b0235f20c1fbeb73abed
 Description:  Support file for LuCI in nginx. Include custom nginx configuration, autostart script for uwsgi.
 
 Package: nginx-mod-naxsi
@@ -1162,8 +1162,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 614400
 Filename: nginx-mod-naxsi_1.30.3-r1_aarch64_generic.ipk
-Size: 94065
-SHA256sum: 1001a37038885c702de0a8356ef5b7189db07291de65d3623e322bf91e5bbfca
+Size: 93934
+SHA256sum: dd74ad1bf08ba3af54dfa082f46b96aa19ce4d1613749916da008af214632723
 Description:  Enable NAXSI module.
 
 Package: nginx-mod-njs
@@ -1176,8 +1176,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 931840
 Filename: nginx-mod-njs_1.30.3-r1_aarch64_generic.ipk
-Size: 329033
-SHA256sum: c8091736627859ef427aba72d39d9dc849c0b8ff5888757b15cbc045836e1ac5
+Size: 328947
+SHA256sum: 16a4cce060f04b2d2306b8a17309812be78d666fe30023f529fc2f3d2b86394b
 Description:  Enable NJS module.
 
 Package: nginx-mod-rtmp
@@ -1190,8 +1190,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 368640
 Filename: nginx-mod-rtmp_1.30.3-r1_aarch64_generic.ipk
-Size: 117244
-SHA256sum: 1502ab0065627c2c20b123c14eb49c94a085129033654425fccedaf0f16ba251
+Size: 117232
+SHA256sum: aba4cfc822cf4249cb3655ab7275972d9c481994d0d92f5c037c7c013154c507
 Description:  Add support for NGINX-based Media Streaming Server module. DASH enhanced
 
 Package: nginx-mod-stream
@@ -1204,8 +1204,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 225280
 Filename: nginx-mod-stream_1.30.3-r1_aarch64_generic.ipk
-Size: 70868
-SHA256sum: 6961d7a6455ce5942700781b6755025d154b090eb59b38e721910879e50fa3d6
+Size: 70864
+SHA256sum: 16323e735066f8a2be06e93de9bff5280bd05a46cd33d18f3c7fb3a2659a901d
 Description:  Add support for NGINX request streaming.
 
 Package: nginx-mod-ts
@@ -1218,8 +1218,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: nginx-mod-ts_1.30.3-r1_aarch64_generic.ipk
-Size: 22462
-SHA256sum: c2ea35dcdf325c5ea0d65fc0afc110f9fd3d9f5d079a2d410a750b96bdb9b46b
+Size: 22452
+SHA256sum: e8b4f944fb338567261b118c6c15f9cf44bd61b81fbeba21d8badafb1784b336
 Description:  Add support for MPEG-TS Live Module module.
 
 Package: nginx-mod-ubus
@@ -1232,8 +1232,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: nginx-mod-ubus_1.30.3-r1_aarch64_generic.ipk
-Size: 9610
-SHA256sum: 2729a58b4ddf83cb89deec71fdb0f8a2f82fba7dd804b6780da2907aeb11c4c9
+Size: 9604
+SHA256sum: e088e2494f8ddc340d8628ed5f6d8de321c55dde7ae8025199f8fa26596e9303
 Description:  Enable UBUS api support directly from the server.
 
 Package: nginx-mod-zstd
@@ -1246,8 +1246,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: nginx-mod-zstd_1.30.3-r1_aarch64_generic.ipk
-Size: 10187
-SHA256sum: e1683f64bf7821650e82880a91936735970982c3011d133dca5e6cfb2503783d
+Size: 10185
+SHA256sum: 475765ccab484072d8fc3e0cd9751f6bf916a49f411d53f7912b034e9ab75d10
 Description:  Add support for zstd compression module.
 
 Package: nginx-ssl-util-nopcre
@@ -1290,8 +1290,8 @@ CPE-ID: cpe:/a:f5:nginx_open_source
 Architecture: aarch64_generic
 Installed-Size: 983040
 Filename: nginx-ssl_1.30.3-r1_aarch64_generic.ipk
-Size: 406029
-SHA256sum: 2b50b90760b4cf31fe878f9cc0879505bff768dd0a6fb7bc3a1343770b5d31c2
+Size: 406036
+SHA256sum: e6a68daff97143affcd5034caf65862f1529dd5a664607629177f67f0be5428f
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
 
 Package: nikki
@@ -1308,16 +1308,16 @@ SHA256sum: c8a9e3c59f63dd0378d82542e43800667b4b881b3ce74384bb72c687fe552f8c
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
-Version: 2.0.6-r1
+Version: 2.0.7-r1
 Depends: libc, liblzma
 License: Apache-2.0
 Section: net
 URL: https://git.cooluc.com/sbwml/quickfile
 Architecture: aarch64_generic
 Installed-Size: 10106880
-Filename: quickfile_2.0.6-r1_aarch64_generic.ipk
-Size: 4532655
-SHA256sum: ebb1e8e8b3773957acfcbc360ec346a8dec555ae7a098ccdfa97278d79c549c2
+Filename: quickfile_2.0.7-r1_aarch64_generic.ipk
+Size: 4534655
+SHA256sum: d48ea99568ce5dcf8af3eadd668ed48ea9fb422a9336c0f2c1fea3432bb9b5c2
 Description:  A high-performance, lightweight web file manager built with Rust (Axum) and Vue 3,
  featuring an integrated terminal and multimedia preview, tailored for embeddedsystems
  and the OpenWrt ecosystem.
@@ -1484,8 +1484,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4325
-SHA256sum: 6d8836f83a2f92e614f54dab43b5bfe16430d511b485dbf22d56b88ba87333b2
+Size: 4320
+SHA256sum: a60cc7d55268c3bfbb225d20aff66cad3f7d289cb8d6c3898a64e3d22fa3fa12
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

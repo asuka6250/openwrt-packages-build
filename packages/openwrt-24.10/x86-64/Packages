@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286307
-SHA256sum: 27916ecadddd6fa105bff928d2ee43594be6186282702b1aa9b726c35b8ccea7
+Size: 286285
+SHA256sum: ebd2853865de63ffb39713192b6d4756a96ec062c582f2ad02b52246390f839f
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -90,8 +90,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11132
-SHA256sum: 6b2a62732e1c00e7e0456c79c92f84e646d7f4ef9c5be0f3913fc26d95c9d9da
+Size: 11133
+SHA256sum: 58f0bf37e5792d6746947eedf458ae88075f426f4c4a1ca37769ca9634775b86
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -217,15 +217,15 @@ SHA256sum: f15bab523f6b52c55e028645c7a935a6f25f277534026ff1c98245d537dbfd0e
 Description:  LuCI support for AdguardHome
 
 Package: luci-app-argon-config
-Version: 1.0-r20230608
+Version: 1.0-r20261008
 Depends: libc, luci-theme-argon
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-argon-config_1.0-r20230608_all.ipk
-Size: 4006
-SHA256sum: 05349e5ca580fa8ec241c4030c0d4ee8281730ee131c133d4887630a89444868
+Filename: luci-app-argon-config_1.0-r20261008_all.ipk
+Size: 4218
+SHA256sum: b5fb270eb73db760f35fcee79b32825e407609bc1df30a8066bf040335eccdd5
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-arpbind
@@ -418,8 +418,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3194880
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 850823
-SHA256sum: e9526ca4ecbac2615752435ada3697585e8929d72c47077b2438bf3a266b85c3
+Size: 850822
+SHA256sum: c725c8a98f9340acfad9dba8f55678200938da5e0ca66f2788c686e25bc997bc
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -486,14 +486,14 @@ SHA256sum: 851ee3bc1063fa0fff0ae0e37ee85664a67be42cafbd09a7c0d36c3b7819bbc5
 Description:  Translation for luci-app-adguardhome - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 26.166.28689~7af0cf3
+Version: 26.281.18059~e51251b
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-argon-config-zh-cn_26.166.28689~7af0cf3_all.ipk
-Size: 2253
-SHA256sum: 8fbfa086bae481ec51b404aa1c286ffa29733c3bb0b7942ee6c4822d7fe286c0
+Filename: luci-i18n-argon-config-zh-cn_26.281.18059~e51251b_all.ipk
+Size: 2305
+SHA256sum: 7b8781c940fbb0493a0ee74e923460a8a1825da1daf016eff51e397a6b9b8b96
 Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-arpbind-zh-cn
@@ -661,8 +661,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18071
-SHA256sum: 8e57443ded6d692a91c29c4b4ce328019ef3a3b73ea3bdb052854f122bc1d14a
+Size: 18079
+SHA256sum: 545d9dae2f697b7bfd9abea22bad0fb46084237dc18faba11c420de78055b860
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -758,8 +758,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 604160
 Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
-Size: 394054
-SHA256sum: de9e6f52435f3b033b2fb32107d42fccae52a115bceb4df19f964027082c1308
+Size: 394044
+SHA256sum: 854b1a5c660b327020f7544e97425da108a0d54759de5f7ad82518e8cfaaf619
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -912,8 +912,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8425
-SHA256sum: 12046226463ff1a197b73dcc7ba46b2c430ca6e20238f5a2d1f968935fae67cc
+Size: 8423
+SHA256sum: 455e0c3a496ec592c3b4d6b027021f689b91cce5ab905f7641e851ee7f403fde
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -935,7 +935,7 @@ SHA256sum: 01a1aae17c8c0bfdcf244cf0f7bff7840789ba823d3926c775806a90d3d2e84e
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
-Version: 1.19.31
+Version: 1.19.32
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-alpha
 Provides: mihomo
@@ -944,10 +944,10 @@ License: GPL3.0+
 Section: net
 URL: https://wiki.metacubex.one
 Architecture: x86_64
-Installed-Size: 61767680
-Filename: mihomo-meta_1.19.31_x86_64.ipk
-Size: 22675206
-SHA256sum: 559872c07c1c8fa045a2c1bbfda8722a5ce2fd95e46119700bf32fde7977c538
+Installed-Size: 61931520
+Filename: mihomo-meta_1.19.32_x86_64.ipk
+Size: 22739941
+SHA256sum: 8edb8ce4f06e24429ed99bdeb90e3e90314ccc403595a87388f9dbc3bdc0bbb0
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1450,8 +1450,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4428
-SHA256sum: 2ed4b458026c6a80684ba10be4989bee01eceabec45e067f8fcf8e9204715ec7
+Size: 4439
+SHA256sum: 569bd99b1c45615874e7125c9854c90ae4b88aff3fa9bd41cab13305c52a008e
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

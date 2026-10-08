@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269745
-SHA256sum: 2956200bf077434970362df48d5061046e088c28b615056d34f6a3dd01f7225f
+Size: 269721
+SHA256sum: 2324f3d2ffab522e82083e0b2855bdc7d1f03e03a54a873ac884a51456d7e04b
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.02~9f053c4-r1
+Version: 2026.10.08~e4dd968-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 58654720
-Filename: clashoo_2026.10.02~9f053c4-r1_aarch64_cortex-a53.ipk
-Size: 21580434
-SHA256sum: 289675f69ec2578bab14d488a69198235e841826e67b1e7194af067223926825
+Filename: clashoo_2026.10.08~e4dd968-r1_aarch64_cortex-a53.ipk
+Size: 21585673
+SHA256sum: 74bb3d59ec66fe34308e29b517df4f49a1ad3346ee74687ec90ed271cb188717
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11830
-SHA256sum: d12ab319f4344f187d8acd2514121d749b30b7f41bfd151a54023b47bc542dd1
+Size: 11821
+SHA256sum: 31af287974f72c7b30a2e018a047a86ddfebdc1a25b31c18d801b72c8d968e45
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a53.ipk
-Size: 11388
-SHA256sum: c0705d4a0f6b8dc8d60ef994bf3b9331878b4de5bc8384259e359b83bfe5ca4f
+Size: 11379
+SHA256sum: b80b04a02276d8101c8aba601448c0dc07c6a7a078ba61606cfe245fe79ea155
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -171,7 +171,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a53.ipk
 Size: 26136
-SHA256sum: ac7ebef53152732b83b11b1eaa0619a94a62421c5275b2c31fed861518ee614a
+SHA256sum: bb2a0798ad5d8566c81adfe4f72b9c2ee1865e8088ba9f59842b567f858c6ba9
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -209,8 +209,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5339
-SHA256sum: c8aba0a1cc09fecdf31102b4c4355f4e8dd9cce6975fdc2206d87a3ed2391500
+Size: 5331
+SHA256sum: cf73ef4abc6873aeb1a10435b8486e40625afe2644f9da12735c1f1afc507114
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.31.0-r1
+Version: 1.31.0-r2
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
-Installed-Size: 952320
-Filename: luci-app-clashoo_1.31.0-r1_all.ipk
-Size: 401094
-SHA256sum: 2f68d186b53f6dfa153c08877728f9906f8a511fdb649ea61187b0561284864c
+Installed-Size: 962560
+Filename: luci-app-clashoo_1.31.0-r2_all.ipk
+Size: 401402
+SHA256sum: ce30515a1e032f0647504e45d6973c606ee689aa24e22df03ec98f9787eb5b56
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3194880
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 850822
-SHA256sum: c725c8a98f9340acfad9dba8f55678200938da5e0ca66f2788c686e25bc997bc
+Size: 851721
+SHA256sum: 0eb8cd10111d1be44d193fb7a7b89e1166b6a8b9838198e3fb0b4aa855d8872b
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -472,15 +472,15 @@ SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
 Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
-Version: 196-r16
+Version: 196-r19
 Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, jq, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 2488320
-Filename: luci-app-ssr-plus_196-r16_all.ipk
-Size: 503653
-SHA256sum: 083f2293ead7714cc2cad8d092a22fa9d59462df6bc27435f1e224a2fc6cbd54
+Installed-Size: 2529280
+Filename: luci-app-ssr-plus_196-r19_all.ipk
+Size: 510407
+SHA256sum: a221ca1ff3b369af4b60f446d672c0adcc8b159863e8964a629e966c0f90c87d
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.31.0-r1
+Version: 1.31.0-r2
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.31.0-r1_all.ipk
+Filename: luci-i18n-clashoo-zh-cn_1.31.0-r2_all.ipk
 Size: 12583
-SHA256sum: fb12aefd6552762e4bdc5a6ff1c535564e51310c5ec7dcc42610d182a71263d0
+SHA256sum: 93fb584828671cbc7253b156a593156a14180d54479a5e9c00e36b9b912eddc9
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18079
-SHA256sum: 545d9dae2f697b7bfd9abea22bad0fb46084237dc18faba11c420de78055b860
+Size: 18072
+SHA256sum: ad8a3bcd34abb3d495d57b7ec482a7f42384f5e0807746233defdec79d1c92b8
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -735,14 +735,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.279.39875~7a6a8b2
+Version: 26.281.75925~fa065c2
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.279.39875~7a6a8b2_all.ipk
-Size: 14564
-SHA256sum: 4f65c5a25b0c44bd29935105ddb60f44beabb5a01b81fa5252ccb385e6fafab6
+Filename: luci-i18n-ssr-plus-zh-cn_26.281.75925~fa065c2_all.ipk
+Size: 14715
+SHA256sum: e260a659a2bca7551fe3b46756acbc2333b9ae7e3d23312e9e7a9290a2214b80
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -785,15 +785,15 @@ SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: luci-theme-argon
-Version: 2.4.7-r20260824
+Version: 2.4.8-r20261008
 Depends: libc, wget, jsonfilter
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 604160
-Filename: luci-theme-argon_2.4.7-r20260824_all.ipk
-Size: 394044
-SHA256sum: 854b1a5c660b327020f7544e97425da108a0d54759de5f7ad82518e8cfaaf619
+Installed-Size: 614400
+Filename: luci-theme-argon_2.4.8-r20261008_all.ipk
+Size: 395210
+SHA256sum: 2f7129d2b2ce96ffe3c82011a40525c8327f9b4ffd53a9850f457a41eaca8ad4
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8794
-SHA256sum: 2dbec5029bdc4e051697ef360484ec4c7f8acce64909af799ea23b0cc5c209e0
+Size: 8802
+SHA256sum: 74e01aee3f6e83499f82a05ef4139743bcd942eed6a43b9910c4aba595eb0ea4
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1374,8 +1374,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_cortex-a53.ipk
-Size: 63472
-SHA256sum: 5cb558cc320ee269376f71ed9e699e34720fb0b8ceaec01b04c3e20ef690f992
+Size: 63483
+SHA256sum: c32503799442fe32ff140bdbba43ad2d24ca8f72852e8586251d5d2fd1f7fe8d
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1387,8 +1387,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_cortex-a53.ipk
-Size: 57012
-SHA256sum: 384e595dbaf5ec41f88714e7e7920fca03f2942639bed31f3764a6f4617290e1
+Size: 56999
+SHA256sum: a6f619bf07f28514e7ee66428caaa42f80757cba598d2a3bc450d41c9df80c61
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1400,8 +1400,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_aarch64_cortex-a53.ipk
-Size: 66838
-SHA256sum: d53de1d7858888771b5b24ce3f51f1b7a8fed3654e4753a05827f075d7d1ffb5
+Size: 66874
+SHA256sum: 25c380fffe9e82a75ba94590e337927cb98a0cc4d89bfc2225fc4659230df741
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -1484,8 +1484,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4328
-SHA256sum: 9d2cfa15ddb04df80ad06ce1a5fb1dcac64a29a6a0637411ef1dcef66f47c9b0
+Size: 4327
+SHA256sum: 9a0e5daf38fc33ce7f573bd6b8ba3ce6a6fe01afb612b52876b636041381da7b
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

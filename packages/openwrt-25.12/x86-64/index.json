@@ -63,7 +63,7 @@
     "luci-i18n-ua2f-zh-cn": "26.166.28689~7af0cf3",
     "luci-lua-runtime": "26.133.20346~e9ebca7",
     "luci-nginx": "26.133.20346~e9ebca7",
-    "luci-theme-argon": "2.4.8-r20261008",
+    "luci-theme-argon": "2.4.8-r20261009",
     "luci-theme-aurora": "1.4.0-r20260920",
     "luci-theme-design": "7.1-r20260927",
     "luci-theme-fluent": "1.0.9-r1",

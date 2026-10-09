@@ -751,15 +751,15 @@ SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: luci-theme-argon
-Version: 2.4.8-r20261008
+Version: 2.4.8-r20261009
 Depends: libc, wget, jsonfilter
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 614400
-Filename: luci-theme-argon_2.4.8-r20261008_all.ipk
-Size: 395210
-SHA256sum: 2f7129d2b2ce96ffe3c82011a40525c8327f9b4ffd53a9850f457a41eaca8ad4
+Filename: luci-theme-argon_2.4.8-r20261009_all.ipk
+Size: 396564
+SHA256sum: 6bde8b6369e3f0d1cabb6037c00c88b678f50d1e00364e3796fa48338d78bf96
 Description:  Argon Theme
 
 Package: luci-theme-aurora

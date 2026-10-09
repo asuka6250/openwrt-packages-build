@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269720
-SHA256sum: c7dd86f9825d860155be372d828155cb32142e23b242900be0351f74809c6de9
+Size: 269707
+SHA256sum: 197e400022ae80d68cc43a54cd112a5b60c6113a42430714a1e0133b2b53ea93
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 58654720
 Filename: clashoo_2026.10.08~e4dd968-r1_aarch64_cortex-a72.ipk
-Size: 21585203
-SHA256sum: caf8d281cd5bfe1be23725da2ada6973ea7c153020413c486cf5403180aa0238
+Size: 21585473
+SHA256sum: 515bdd9d7def961eb4967bc6bd43a431c4fec7c8866062eb77bbabbfe877e3c0
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11836
-SHA256sum: de47014a24db7a50438d9bdde2ea65cab36fe37163f2bf7fe4f4e0c229ce12e1
+Size: 11840
+SHA256sum: 54edca756ebecd30d4c13c6fce13cc4537feb5075389d78e6268ab87674d0dc9
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -180,10 +180,10 @@ Depends: libc, lanspeedd, tc-full, kmod-sched-bpf
 License: Apache-2.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 624640
+Installed-Size: 645120
 Filename: lanspeedd-bpf_1.2.1-r2_aarch64_cortex-a72.ipk
-Size: 137199
-SHA256sum: e5114cb49816b287b2b74fcfb8f8bafde5b9e6bae5d322f646cd9194693c7bc7
+Size: 143223
+SHA256sum: d9cf5e767be0fe83fce75c18d0dc4b70d2633006c3a57d4f8ac797c6c5e7a8e8
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
@@ -194,10 +194,10 @@ Depends: libc, libgcc1, kmod-nf-conntrack-netlink
 License: Apache-2.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3092480
+Installed-Size: 3031040
 Filename: lanspeedd_1.2.1-r2_aarch64_cortex-a72.ipk
-Size: 1620030
-SHA256sum: 740dcc3169292df13aee9bee06448cad878be885083904c91c50f9d7f5e1fc60
+Size: 1611096
+SHA256sum: 66f6f3cc5e2a6659dcf2f958dd7a18cdc4047dfe0431bd9eef9f23d0f823ee20
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.31.0-r2
-Depends: libc, luci-base, clashoo
+Version: 1.31.0-r3
+Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Section: luci
 Architecture: all
 Installed-Size: 962560
-Filename: luci-app-clashoo_1.31.0-r2_all.ipk
-Size: 401402
-SHA256sum: ce30515a1e032f0647504e45d6973c606ee689aa24e22df03ec98f9787eb5b56
+Filename: luci-app-clashoo_1.31.0-r3_all.ipk
+Size: 403475
+SHA256sum: 366e9b022de6f178e68ce381f0500d461665e394f5b9dafddf10d0ab9a29b865
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -353,10 +353,10 @@ Depends: libc, lanspeedd, lanspeedd-bpf, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 890880
+Installed-Size: 931840
 Filename: luci-app-lanspeed_1.2.1-r2_all.ipk
-Size: 184673
-SHA256sum: 1e40d19cb5632d8189f94c63e6031f5ced54386555d7c112c1bc089d823868dd
+Size: 187042
+SHA256sum: c68e0072b3fdffc91eb1b509a4b091410aafaf4f613477ede7346a8fa4c0644a
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3194880
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 851721
-SHA256sum: 0eb8cd10111d1be44d193fb7a7b89e1166b6a8b9838198e3fb0b4aa855d8872b
+Size: 852048
+SHA256sum: 8fb5c290b4382de7283f28309d80322111ad7810036d06e47d18767331eef528
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.31.0-r2
-Depends: libc, luci-app-clashoo
+Version: 1.31.0-r3
+Depends: libc, luci-base
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.31.0-r2_all.ipk
-Size: 12583
-SHA256sum: 93fb584828671cbc7253b156a593156a14180d54479a5e9c00e36b9b912eddc9
+Filename: luci-i18n-clashoo-zh-cn_1.31.0-r3_all.ipk
+Size: 12640
+SHA256sum: 04d4af52aa5921625270a05477b260e4abb48ff150174e29ea35b54474df914b
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18072
-SHA256sum: ad8a3bcd34abb3d495d57b7ec482a7f42384f5e0807746233defdec79d1c92b8
+Size: 18080
+SHA256sum: d6eab79bafaa1cb391c2a3a716ad14b31ec043378f1feee3d5f235cb60318778
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -819,7 +819,7 @@ Architecture: all
 Installed-Size: 634880
 Filename: luci-theme-design_7.1-r20260927_all.ipk
 Size: 313754
-SHA256sum: 02a0377549e77aa80ed37e7d63bef7e5fa425721cd5be9f9db0052390cb8f685
+SHA256sum: 0603aa7d71ca642307a5e1411c1318c6c3895c573b9163307c08c3356126d147
 Description:  Design Theme
 
 Package: luci-theme-fluent-lite
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8816
-SHA256sum: d86cdc264c0a3c90697a17bc96aaa83c19c836c3d2d487819740d8ff7da47528
+Size: 8801
+SHA256sum: 1086ec4d3571485dbe15279778ec1b60a819d85d01fe59c893733be8247fb5a1
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1432,16 +1432,16 @@ SHA256sum: eb2aa793767a106990c890121a0d45ea2add569e49f983786f95258048c1c6a0
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sing-box
-Version: 1.14.2-r1
+Version: 1.14.3-r1
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 License: GPL-3.0-or-later
 Section: net
 URL: https://sing-box.sagernet.org/
 Architecture: aarch64_cortex-a72
-Installed-Size: 57384960
-Filename: sing-box_1.14.2-r1_aarch64_cortex-a72.ipk
-Size: 19840264
-SHA256sum: 9112b07f2431ab17f677d8ed46bc9fec016ed91946f08492a038fa9e06f5b0b5
+Installed-Size: 57425920
+Filename: sing-box_1.14.3-r1_aarch64_cortex-a72.ipk
+Size: 19854970
+SHA256sum: a4c2b3dd2b4011ab5745e2b329d046dce40d995dc925146d429db82276ec115b
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -1484,8 +1484,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4317
-SHA256sum: 9ae810ae97d9c70db88cbe66352e3409e3faa189fb9f47ad2702d66b7c03195c
+Size: 4329
+SHA256sum: da5bbdd36d1d722e246a777c9329aad02f1f29c2e94fbc9021e5ab15156a68c3
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

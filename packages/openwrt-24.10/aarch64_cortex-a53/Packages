@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 58654720
 Filename: clashoo_2026.10.08~e4dd968-r1_aarch64_cortex-a53.ipk
-Size: 21585169
-SHA256sum: c2dbb3c6884010e78c3659be9e532318098886e158fbcb5c183a85e9c4310922
+Size: 21585171
+SHA256sum: 7714a11d09a2cea9b4683c399c3f69a1b1715c5bbe2e46c3722573a27bb83dc5
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -271,8 +271,8 @@ Section: luci
 Architecture: all
 Installed-Size: 962560
 Filename: luci-app-clashoo_1.31.0-r3_all.ipk
-Size: 403475
-SHA256sum: 366e9b022de6f178e68ce381f0500d461665e394f5b9dafddf10d0ab9a29b865
+Size: 403478
+SHA256sum: f554e2f9044327ad028aa6a378a4bdf88022923a7ab4dbe5dd202881c9b68894
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -549,8 +549,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r3_all.ipk
-Size: 12640
-SHA256sum: 04d4af52aa5921625270a05477b260e4abb48ff150174e29ea35b54474df914b
+Size: 12633
+SHA256sum: 69042cdff5a8b30e53939d2ea4169b470b4e3a66e846d71ce30645c22c86828d
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn

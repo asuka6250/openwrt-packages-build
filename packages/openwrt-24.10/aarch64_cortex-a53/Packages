@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269708
-SHA256sum: cf644e08361e7a230d449e3d92794568a1eaed89db4d6a3a1f11730237df2d9f
+Size: 269727
+SHA256sum: 751f87ff52b803e294a3b1da41f31a26b31eeba463f7075cc2ad5e5b3ce1dfb2
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.08~e4dd968-r1
+Version: 2026.10.08~e4dd968-r2
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 58654720
-Filename: clashoo_2026.10.08~e4dd968-r1_aarch64_cortex-a53.ipk
-Size: 21585171
-SHA256sum: 7714a11d09a2cea9b4683c399c3f69a1b1715c5bbe2e46c3722573a27bb83dc5
+Installed-Size: 58664960
+Filename: clashoo_2026.10.08~e4dd968-r2_aarch64_cortex-a53.ipk
+Size: 21586149
+SHA256sum: 0682e629086fcf70e1109852776313d49442b3c412d36109ef63ae8565e0a449
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
-Size: 11829
-SHA256sum: 7a2b7eab3d1c36f5014ca0c57f37b23ff4bedf199b75548959a214cfc55bb308
+Size: 11828
+SHA256sum: cd5459203d0e40d63d660f39a5613169f420ab5b2e365eed332cd1cb588baf84
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.31.0-r3
+Version: 1.31.0-r4
 Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Section: luci
 Architecture: all
-Installed-Size: 962560
-Filename: luci-app-clashoo_1.31.0-r3_all.ipk
-Size: 403478
-SHA256sum: f554e2f9044327ad028aa6a378a4bdf88022923a7ab4dbe5dd202881c9b68894
+Installed-Size: 972800
+Filename: luci-app-clashoo_1.31.0-r4_all.ipk
+Size: 404516
+SHA256sum: 56a743264b18a5f381ba2eb7a3e9513c9fc253bdd551fef3a0d67106f856361f
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -399,15 +399,15 @@ SHA256sum: cd66171355112cf5dc824f4d2b80655273e294c9ee35f997e2ef1a58f4c38654
 Description:  LuCI Support for mosdns
 
 Package: luci-app-nikki
-Version: 1.26.1-r1
+Version: 1.26.2-r1
 Depends: libc, luci-base, nikki
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-nikki_1.26.1-r1_all.ipk
-Size: 10855
-SHA256sum: 1376d04825b4601149f33dd4ad5f429faf9e3d64b6b520065afaf9e71f514c5f
+Filename: luci-app-nikki_1.26.2-r1_all.ipk
+Size: 10858
+SHA256sum: d2b221d12fc56c0ab32c96e0497aaebdf17b0c5ed5f85f0717e3dca4f55e6cfa
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3194880
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 852048
-SHA256sum: 8fb5c290b4382de7283f28309d80322111ad7810036d06e47d18767331eef528
+Size: 853051
+SHA256sum: b9f6557b6e19a3ac8ec32ab948454cbe8b0e21ab31d2fadcb055ade49a36a317
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.31.0-r3
+Version: 1.31.0-r4
 Depends: libc, luci-base
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.31.0-r3_all.ipk
-Size: 12633
-SHA256sum: 69042cdff5a8b30e53939d2ea4169b470b4e3a66e846d71ce30645c22c86828d
+Filename: luci-i18n-clashoo-zh-cn_1.31.0-r4_all.ipk
+Size: 12746
+SHA256sum: 5574713f5fb7a8b0eac194aca6a0b49156c31e762703fbc0f94052376139e053
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -678,14 +678,14 @@ SHA256sum: 4fc709e2b2185f5dccfbd69cf431e6d5de9b65276b286a1744f3580248a00f68
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.229.59325~35e79bc
+Version: 26.283.71497~b4128d8
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.229.59325~35e79bc_all.ipk
-Size: 5272
-SHA256sum: 3283282352826c4589c377a5c5723ad5fde45bdc5d23249dd8038dba44519f84
+Filename: luci-i18n-nikki-zh-cn_26.283.71497~b4128d8_all.ipk
+Size: 5274
+SHA256sum: 5ee813ca0f0d39ad7bb23c532cf13a80b2d94de7751e3f69ea37098c35868182
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18080
-SHA256sum: d6eab79bafaa1cb391c2a3a716ad14b31ec043378f1feee3d5f235cb60318778
+Size: 18115
+SHA256sum: a44727fb602107dfbd48fd853b3a9f4b5c941a1397d1c1b6c1d3e1bc5f0f779a
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8794
-SHA256sum: 611c90252f05dfb807010730055cdcbe3c4ac23353c8b39fe40b362138183c2f
+Size: 8795
+SHA256sum: 4da6bcd1800ffe760c87fbaefaa34f65bb7a2648e0e7bf718cac4126a49357de
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1295,16 +1295,16 @@ SHA256sum: fd16d5a0dedf5e0bac796538bca7e3f2b508556875e52946a6deba5b203eca69
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
 
 Package: nikki
-Version: 2026.04.08-r1
+Version: 2026.10.10-r1
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, mihomo
 License: GPL3.0+
 Section: net
 URL: https://github.com/nikkinikki-org
 Architecture: aarch64_cortex-a53
 Installed-Size: 307200
-Filename: nikki_2026.04.08-r1_aarch64_cortex-a53.ipk
-Size: 53261
-SHA256sum: e5a31bb50ed173121626f8083743a33b7924ec23cc2b01bb4208cde2572c08da
+Filename: nikki_2026.10.10-r1_aarch64_cortex-a53.ipk
+Size: 53299
+SHA256sum: e6c3481707c2743db64a1e125dec70f8ed8eb096ef77f6e153ee9d2054a6ebb0
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
@@ -1484,8 +1484,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4323
-SHA256sum: a01065db5cf1d56ef4723679c2bd1125c3623f2235aa431680e711b17f85304e
+Size: 4328
+SHA256sum: 5dc3ffefa3d8187312ef7183f045f92242f21870ef218fde451780af63f7f70f
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1515,29 +1515,29 @@ SHA256sum: 15db7625443ac3a6dea1b03cac2942bedee3b3b6e0e21da6b7eea19142fc586b
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 202609240030.1
+Version: 202610080033.1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 16640000
-Filename: v2ray-geoip_202609240030.1_all.ipk
-Size: 3452912
-SHA256sum: 10145e194f4fc4b19c84c3dd224540468ec12eb50589feaa4568a43f590936a9
+Installed-Size: 16588800
+Filename: v2ray-geoip_202610080033.1_all.ipk
+Size: 3446044
+SHA256sum: 4eabf17c07a47476ba26c898ed9e0fa0eefa24bed517d2223e282c848357a8cd
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 202609292207.1
+Version: 202610092207.1
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10987520
-Filename: v2ray-geosite_202609292207.1_all.ipk
-Size: 3599968
-SHA256sum: 3026a1b3d63d4790cb3f8e42e4be6eacd423734cdb156abe45d253ad953332ee
+Installed-Size: 11151360
+Filename: v2ray-geosite_202610092207.1_all.ipk
+Size: 3658964
+SHA256sum: 6e803f6b3804fd4fd53a9a47f3fb8134beccea04b10047184bafd9b1d1cbfb72
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

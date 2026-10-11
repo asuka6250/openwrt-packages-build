@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269726
-SHA256sum: fdd935a401ffb126019cb04b7d1d2517d9658af7d3f87909102098918c16b878
+Size: 269725
+SHA256sum: 4fef4f4007d4390831e6b8defbf7773b0c69713f257d7a66bb6a1b1421369623
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.08~e4dd968-r2
+Version: 2026.10.11~bc76c13-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 58664960
-Filename: clashoo_2026.10.08~e4dd968-r2_aarch64_cortex-a72.ipk
-Size: 21585931
-SHA256sum: caaad07cea4ff3b7ff08929a5c9b22037eb9859d706e8c7a49105a70b0b4012e
+Filename: clashoo_2026.10.11~bc76c13-r1_aarch64_cortex-a72.ipk
+Size: 21585072
+SHA256sum: c66679b529edbf9dc48b51ab2b94d533b672f0a7261221f5fbdeeef83d1ea451
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11845
-SHA256sum: df012c1f23cfe104ffba319dbc4c0dc2b1547493a08b3eb875271f2dd556a49a
+Size: 11837
+SHA256sum: aba7fb8bbe936e06e605a5555be8ee1672c41b88acf9a003acd68a72804407b7
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11406
-SHA256sum: 57d4c3e1a9fd6a4b38d6bb616d9cf75cdb86d71f015bc5a39d41c73a57d1d1eb
+Size: 11403
+SHA256sum: 6d427b6075cadf8240b5c4f1624d81e8eedb1eb31a912c6d850da512c41d32d9
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -170,8 +170,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
-Size: 26140
-SHA256sum: 4c7f5ca20f624fa2c24643315e6e8278972bb47cfc5cf8b8992d89505a36d1f6
+Size: 26147
+SHA256sum: 63ae52f170503987a1466d393096b1c22745c8140c005432643f2500b6a234ae
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -180,24 +180,24 @@ Depends: libc, lanspeedd, tc-full, kmod-sched-bpf
 License: Apache-2.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 645120
+Installed-Size: 460800
 Filename: lanspeedd-bpf_1.2.1-r2_aarch64_cortex-a72.ipk
-Size: 143223
-SHA256sum: d9cf5e767be0fe83fce75c18d0dc4b70d2633006c3a57d4f8ac797c6c5e7a8e8
+Size: 104883
+SHA256sum: 2e2669f233e61279215c27a10eb5b2caa7e178ea59560247c7a97adb140e7548
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
 
 Package: lanspeedd
 Version: 1.2.1-r2
-Depends: libc, libgcc1, kmod-nf-conntrack-netlink
+Depends: libc, libgcc1, kmod-nf-conntrack-netlink, libsqlite3-0
 License: Apache-2.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3031040
+Installed-Size: 1976320
 Filename: lanspeedd_1.2.1-r2_aarch64_cortex-a72.ipk
-Size: 1611096
-SHA256sum: 66f6f3cc5e2a6659dcf2f958dd7a18cdc4047dfe0431bd9eef9f23d0f823ee20
+Size: 1009565
+SHA256sum: 6e3f1ce80f1fff2eda74ad4dc21c5598c4e90d07a22f5af0bf4c1cc83f6d0f1a
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -209,8 +209,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5331
-SHA256sum: cf73ef4abc6873aeb1a10435b8486e40625afe2644f9da12735c1f1afc507114
+Size: 5338
+SHA256sum: 074f1b98dc98ee48c381c8ba4343ab14de79d5bb6bff4c2faf1d18a2b6dfcc4c
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -265,14 +265,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.31.0-r4
+Version: 1.31.0-r5
 Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Section: luci
 Architecture: all
 Installed-Size: 972800
-Filename: luci-app-clashoo_1.31.0-r4_all.ipk
-Size: 404516
-SHA256sum: 56a743264b18a5f381ba2eb7a3e9513c9fc253bdd551fef3a0d67106f856361f
+Filename: luci-app-clashoo_1.31.0-r5_all.ipk
+Size: 404269
+SHA256sum: 58147a5995cc9a3b935cd7ea1dd43f637597c9b2446c884daf03261f5acc4229
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -353,10 +353,10 @@ Depends: libc, lanspeedd, lanspeedd-bpf, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 931840
+Installed-Size: 890880
 Filename: luci-app-lanspeed_1.2.1-r2_all.ipk
-Size: 187042
-SHA256sum: c68e0072b3fdffc91eb1b509a4b091410aafaf4f613477ede7346a8fa4c0644a
+Size: 180997
+SHA256sum: d4c51c09982ee1d17e3757e3967580e894c16a705e3f73f3ec1fbef6a41e15d6
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for
@@ -441,8 +441,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3194880
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 853051
-SHA256sum: b9f6557b6e19a3ac8ec32ab948454cbe8b0e21ab31d2fadcb055ade49a36a317
+Size: 853229
+SHA256sum: 2bd35ae7381e7e4324a2fdce0aed037885fc8560648072bc9a5d20325f192311
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -479,8 +479,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2529280
 Filename: luci-app-ssr-plus_196-r19_all.ipk
-Size: 510407
-SHA256sum: a221ca1ff3b369af4b60f446d672c0adcc8b159863e8964a629e966c0f90c87d
+Size: 510588
+SHA256sum: 0ccec69386f560e5ea568d806e948a6dc7f324c199599f387f935d8952b06271
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -543,14 +543,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.31.0-r4
+Version: 1.31.0-r5
 Depends: libc, luci-base
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.31.0-r4_all.ipk
-Size: 12746
-SHA256sum: 5574713f5fb7a8b0eac194aca6a0b49156c31e762703fbc0f94052376139e053
+Filename: luci-i18n-clashoo-zh-cn_1.31.0-r5_all.ipk
+Size: 12760
+SHA256sum: 24f679ece0e587fdc7a234e2466e7d47ea694e626a8cb40e2b9137b7a78b4094
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -695,8 +695,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18115
-SHA256sum: a44727fb602107dfbd48fd853b3a9f4b5c941a1397d1c1b6c1d3e1bc5f0f779a
+Size: 18104
+SHA256sum: db2d8f35bac7a9f67103e966808b373247bfc43db7082dc71ed8107d5cd16f0b
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -735,14 +735,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.281.75925~fa065c2
+Version: 26.284.71936~5470037
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.281.75925~fa065c2_all.ipk
-Size: 14715
-SHA256sum: e260a659a2bca7551fe3b46756acbc2333b9ae7e3d23312e9e7a9290a2214b80
+Filename: luci-i18n-ssr-plus-zh-cn_26.284.71936~5470037_all.ipk
+Size: 14713
+SHA256sum: 1875e8ef769b8f3c2abbba56d2cf3a38860784c61b288c20d33a2e6db20e3887
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -946,8 +946,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8805
-SHA256sum: 99e522b11b8c2e886c072d7091cc43aa13e4fa83c38a3f6d4261a79789170609
+Size: 8802
+SHA256sum: 56bf01191c40d6b941ddbff28cdd3c6a2dad5811a115f07e24282097dc26128b
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1374,8 +1374,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_cortex-a72.ipk
-Size: 63524
-SHA256sum: 8de1a1d8997337577345302a5f850e1766098e58b04186954711e2e003bdc0c1
+Size: 63527
+SHA256sum: e51903aa4edd555c32654f292d90c900e77e236720050173c5b48f39d504e331
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1387,8 +1387,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_cortex-a72.ipk
-Size: 57008
-SHA256sum: d318a7fa5a338b996426f4c853b79d5f1d0156e3f7919d1ea9343f8ea8bab710
+Size: 56996
+SHA256sum: 2da03e12391041e792676f193c33fedcfaabd2053217fc3ae6271d5d0ffe762d
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1400,8 +1400,8 @@ URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-server_2.5.6-r13_aarch64_cortex-a72.ipk
-Size: 66961
-SHA256sum: 6551b92badc6163c720460e152e01847eb498ce25660aa60896368e943e439ae
+Size: 66936
+SHA256sum: f099ebcab020d8aaed949391a1831905e3e228e144fc513de4185514bcec6973
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-client
@@ -1484,8 +1484,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4326
-SHA256sum: 1d4b208dbe365772a64538122bb56dd512811c8679f285cdea286f908917b6d2
+Size: 4322
+SHA256sum: 7fc3d943d9856b87a0ba7a8ce94ff155f19b0efb9e9ce9b79695222c4b8ab837
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

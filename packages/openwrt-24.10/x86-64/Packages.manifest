@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286266
-SHA256sum: 0e4f6141edcd2c020c7988e3e81ea1a1ede8a819979db296f8042d1f4129844f
+Size: 286288
+SHA256sum: 5cbff54b847adc3a83816860be3e0bc9c70b09f02506cdf0465e9e8f4ef0c0c4
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 63334400
 Filename: clashoo_2026.10.11~bc76c13-r1_x86_64.ipk
-Size: 23656262
-SHA256sum: 8c5bed2dc724f166884ccfd1cb2aad203539becba53ffcc3ea9fedf4a3cc5592
+Size: 23659457
+SHA256sum: 95720a50650d665a657fdd999c06ff5f6672a91e3a6f5cbfa89849a29222d719
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11125
-SHA256sum: aeb3f8a698e86909c0440b5d101e7fc43de3111d950098d9bb844d285790db1f
+Size: 11133
+SHA256sum: 226c12e70fc9ef14985187521f097a46b8db4558c75c774fc39dd96b8545c484
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -333,18 +333,18 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.31.0-r5
+Version: 1.31.0-r6
 Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
-Filename: luci-app-clashoo_1.31.0-r5_all.ipk
-Size: 404269
-SHA256sum: 58147a5995cc9a3b935cd7ea1dd43f637597c9b2446c884daf03261f5acc4229
+Filename: luci-app-clashoo_1.31.0-r6_all.ipk
+Size: 404604
+SHA256sum: bf8407ee90b6adb86076a9124a54d8b3d7a0cb7d73c0548d8fbcbaf564f1ac74
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -546,14 +546,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3194880
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 853229
-SHA256sum: 2bd35ae7381e7e4324a2fdce0aed037885fc8560648072bc9a5d20325f192311
+Size: 854160
+SHA256sum: a501fc4730eebd4ff59ca4995499b21d277bb4ab6d9c00e3f82408c8630966a3
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -684,18 +684,18 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.31.0-r5
+Version: 1.31.0-r6
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.31.0-r5_all.ipk
-Size: 12760
-SHA256sum: 24f679ece0e587fdc7a234e2466e7d47ea694e626a8cb40e2b9137b7a78b4094
+Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
+Size: 12759
+SHA256sum: fa65ac8961f2e301ad5bbd4d97a25e5320121eaf702d3885f83de37085118ac8
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -864,12 +864,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18104
-SHA256sum: db2d8f35bac7a9f67103e966808b373247bfc43db7082dc71ed8107d5cd16f0b
+Size: 18110
+SHA256sum: 420c71547d4ae9d0be0c5443671974f95ab394c31e3439600891dba919a1b527
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1194,14 +1194,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8421
-SHA256sum: f05a3c791c05c52cec81acf93f3c8a3838f91f980b0d64d4c9e78ca19e282077
+Size: 8429
+SHA256sum: f276b2edc800b1e12973a8a003af9d6acb483dd6e46094629e178bbcbe72853b
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1896,13 +1896,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791826160
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4438
-SHA256sum: 36d422711b998563ead3abd309fb3baf7674aaf07512cdd4108fce6adbc1dca2
+Size: 4439
+SHA256sum: 72f2a87e69da8d6a6392fa306b8fb27597ca2332dc3c57e9151e4f3240e325fd
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

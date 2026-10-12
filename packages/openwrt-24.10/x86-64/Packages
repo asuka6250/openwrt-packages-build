@@ -388,14 +388,14 @@ SHA256sum: d2b221d12fc56c0ab32c96e0497aaebdf17b0c5ed5f85f0717e3dca4f55e6cfa
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.156
+Version: 0.48.002
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 22640640
-Filename: luci-app-openclash_0.47.156_all.ipk
-Size: 8169623
-SHA256sum: fe19ea7e2cf65d999697ee186c90aca0beed6d5000662ca86135ec75470102b2
+Installed-Size: 23326720
+Filename: luci-app-openclash_0.48.002_all.ipk
+Size: 8339349
+SHA256sum: f345f6d694d457fc280df4d3ac9979a9078cf79ff1be5a65118f2020e93614ab
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
@@ -758,8 +758,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 614400
 Filename: luci-theme-argon_2.4.8-r20261009_all.ipk
-Size: 396564
-SHA256sum: 6bde8b6369e3f0d1cabb6037c00c88b678f50d1e00364e3796fa48338d78bf96
+Size: 396574
+SHA256sum: 453c7aa61adfd946a147d545b42f8fdcf58850fc76e31cb37f678761819ca646
 Description:  Argon Theme
 
 Package: luci-theme-aurora

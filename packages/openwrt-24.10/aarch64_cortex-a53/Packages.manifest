@@ -45,31 +45,31 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269725
-SHA256sum: 7d38bd454f481374fd9ec42d4601bc303147cc68b61057b6afdd13db5c90882c
+Size: 269728
+SHA256sum: 6aed4b439f7d1e4e7212292f9c4a9cc409a3d84d21335015912317c5c19e7b7b
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.11~bc76c13-r1
+Version: 2026.10.13~94b13ae-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
 Installed-Size: 58664960
-Filename: clashoo_2026.10.11~bc76c13-r1_aarch64_cortex-a53.ipk
-Size: 21587519
-SHA256sum: 793f47701ff20d0f338a5bb367ecd104c1a6201f1bd717f2b7e2c3278047410f
+Filename: clashoo_2026.10.13~94b13ae-r1_aarch64_cortex-a53.ipk
+Size: 21587204
+SHA256sum: 8656933881e60137dc1491d8b6ba25dde2ec8a3222fe0328a66747eab5be900c
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
 Size: 11825
-SHA256sum: fbb192934c7434089677cc87aef252cfb40a3730ce28f7767a835f93bbdf559b
+SHA256sum: 540e79bdf88bd429fbed38baf577871f369f45d310607587cbaab0b32bc12b43
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -352,13 +352,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r6_all.ipk
-Size: 404611
-SHA256sum: eae2bab2fdc501e02f49164e8a23fda0bb9762f6ec307a5955357e8e2f9136c7
+Size: 404578
+SHA256sum: 0c3fae8cfa2e63cdfc93e8da18dfadd79e8997282fa146836147f419c1cb4ed0
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -576,14 +576,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3205120
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 854911
-SHA256sum: 312edf54152e587062be23f01a2fad4bc6339910d61b865c715729110fc204a6
+Size: 857463
+SHA256sum: 57fec6ea73d6a2549585ead167465210420b0a9aea36e63bb4235f8dd32fa7d9
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -719,13 +719,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
-Size: 12757
-SHA256sum: 46fafda301fddb75f3dc34f928e0cc4420810ee190fc4b9fc18a2dd1496bf8ab
+Size: 12755
+SHA256sum: 496f1a5d6ab7fdcce40966a357f8b1274d9b4e16d156acc5c0e7f4291b598231
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -908,12 +908,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18108
-SHA256sum: 2a4155fdc23dd6b8e3480450fedc9326bed7afb15eff36cc54c3271d4fddfa30
+Size: 18122
+SHA256sum: 377dff4d0a1e11295e7c493ae40fc459c4bbce1658498e4026fbed75ce8dc80a
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1791969676
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 8798
-SHA256sum: ca03602ce5cc325b5d22254b5a3831617408747e60bc2321de66dd3c2a979b17
+Size: 8788
+SHA256sum: 67780b3a2792ee50e2663e1f321c9f8c2a2bfe2f8856f6031ed77eb351c26059
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1696,14 +1696,14 @@ Source: feeds/base/custom_packages/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1791661897
+SourceDateEpoch: 1791969676
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 307200
 Filename: nikki_2026.10.10-r1_aarch64_cortex-a53.ipk
-Size: 53299
-SHA256sum: e6c3481707c2743db64a1e125dec70f8ed8eb096ef77f6e153ee9d2054a6ebb0
+Size: 53258
+SHA256sum: 94d02e9e7364d6bfae44b8ec5b6430bef1f8bfe32da6aa8def14f6439c58d9fe
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: quickfile
@@ -1940,13 +1940,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1791918004
+SourceDateEpoch: 1791969676
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4327
-SHA256sum: 1bbc788957ebc5dec733e5d23c5f4d2db2c97fa236120f61abd1aae2ce86a5bf
+Size: 4318
+SHA256sum: 875ff0059084076e35b5a00cefba3d511786aaf7c19a726a32a34c46b6f72af7
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

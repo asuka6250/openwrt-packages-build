@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791969676
+SourceDateEpoch: 1791996243
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287090
-SHA256sum: 71f807aa21268b74939dbff56c1fa7c87f26a24f429f1a7355f20b14b37cd080
+Size: 287138
+SHA256sum: ce4a21fe32923e009eee192560dd27e8048a098df332133ac65ef9ee87b5d233
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_generic.ipk
-Size: 11402
-SHA256sum: 6e2822af6beace33beed8e52426210d668c42b4a046c6285a55d2215009ab509
+Size: 11408
+SHA256sum: 8fa71f5d5859ce58ebbdedd7a7f9c948fca4c4b0c6fafd67fd0536a7a030178b
 Description:  utility to convert dns query from udp to tcp
 
 Package: geo2txt
@@ -221,13 +221,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_generic.ipk
-Size: 26143
-SHA256sum: abd898b72538b07f510742de24cac05448454a9d53ca30b22c0121b151206702
+Size: 26135
+SHA256sum: 48dbce6e2d37597520839cd8f5f682f2bdcfb10fb61313b5be50a56fe5f4f7dc
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -269,14 +269,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5338
-SHA256sum: 074f1b98dc98ee48c381c8ba4343ab14de79d5bb6bff4c2faf1d18a2b6dfcc4c
+Size: 5341
+SHA256sum: 8b282c03da0e6a4d8d54711ca0413e400bef5fd08121ea1e285901b1e23ee2e9
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -492,19 +492,19 @@ SHA256sum: ca72ac492bdcbbe12a7914e64851a6702e2d82e3e13fcc1a7cf41a907a2dc29f
 Description:  LuCI Support for lucky 
 
 Package: luci-app-momo
-Version: 1.2.1-r1
+Version: 1.2.2-r1
 Depends: libc, luci-base, momo
 Source: feeds/base/custom_packages/OpenWrt-momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1786984125
+SourceDateEpoch: 1791996243
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-momo_1.2.1-r1_all.ipk
-Size: 8285
-SHA256sum: cee35c923be7cfab7395940ba87eda78e2137c0a3247f406f6d7f96a1c901a9f
+Filename: luci-app-momo_1.2.2-r1_all.ipk
+Size: 8288
+SHA256sum: ff99ac54b658b733b41d24918a7aff684a1fd04ea34dfac8245324ba2e240125
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -622,18 +622,18 @@ Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
 Version: 196-r19
-Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, jq, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
+Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, chinadns-ng, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2529280
 Filename: luci-app-ssr-plus_196-r19_all.ipk
-Size: 510588
-SHA256sum: 0ccec69386f560e5ea568d806e948a6dc7f324c199599f387f935d8952b06271
+Size: 510506
+SHA256sum: cf0af1e48c474b22e45def6198c96e41365b5f89cc1f62d0701aa165478686cf
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -860,17 +860,17 @@ SHA256sum: 38918e500c3e0712f8a56afed78fef5bf84902f7617797403db3a5d905a24509
 Description:  Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.229.59325~35e79bc
+Version: 26.287.60243~2f27ea9
 Depends: libc, luci-app-momo
 Source: feeds/base/custom_packages/OpenWrt-momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1786984125
+SourceDateEpoch: 1791996243
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-momo-zh-cn_26.229.59325~35e79bc_all.ipk
-Size: 3573
-SHA256sum: 9321b77fe8dc669c9c884e3cf7d0be4adc641a939fa6a4a62c9f826087457d93
+Filename: luci-i18n-momo-zh-cn_26.287.60243~2f27ea9_all.ipk
+Size: 3566
+SHA256sum: 710f59bf3c6bf89fea579012176db2f51e8f305612175a2ac8ff3550e948d4df
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -963,17 +963,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.284.71936~5470037
+Version: 26.287.60243~2f27ea9
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.284.71936~5470037_all.ipk
-Size: 14713
-SHA256sum: 1875e8ef769b8f3c2abbba56d2cf3a38860784c61b288c20d33a2e6db20e3887
+Filename: luci-i18n-ssr-plus-zh-cn_26.287.60243~2f27ea9_all.ipk
+Size: 14723
+SHA256sum: 2a84a4a8068d8e9503fc347469b7a74f885a158bae70f0a338dd2b36df5f0586
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1238,14 +1238,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1791969676
+SourceDateEpoch: 1791996243
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8799
-SHA256sum: 082a705e99333090041f90d9a7c7188a451a4d01cf7ae49453292c68557a9172
+Size: 8801
+SHA256sum: fdfeade706bb7a818329a3b90002ae61c92530e47dc7454ecacf41be33f2778a
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1291,20 +1291,20 @@ SHA256sum: 323dced97f54aae984fec14e86b58810e8e0a6c28d25f1ef41c9107279462b12
 Description:  A rule based proxy in Go.
 
 Package: momo
-Version: 2026.06.03-r1
+Version: 2026.10.14-r1
 Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, sing-box
 Source: feeds/base/custom_packages/OpenWrt-momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1786984125
+SourceDateEpoch: 1791996243
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 286720
-Filename: momo_2026.06.03-r1_aarch64_generic.ipk
-Size: 49838
-SHA256sum: dfc6d509b921727df7b59259428509b6f66ef8adda414e2f847b6c3e803dd0ed
+Filename: momo_2026.10.14-r1_aarch64_generic.ipk
+Size: 49802
+SHA256sum: da6458a8b13a0f42358185c1b07469cb6b997bfe6397640b3fca0f3852f0d16d
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: mosdns
@@ -1792,13 +1792,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: shadowsocksr-libev-ssr-local_2.5.6-r13_aarch64_generic.ipk
-Size: 63525
-SHA256sum: 358a04315ae6b919ad37df0f41becbf18c82b244ba03f3228822e64154a6b07b
+Size: 63527
+SHA256sum: 6e740f474dd9f3510ac78d29706aed6efde7641d9baf66181a50efd71093536f
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1809,13 +1809,13 @@ SourceName: shadowsocksr-libev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1791996243
 URL: https://github.com/shadowsocksrr/shadowsocksr-libev
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-r13_aarch64_generic.ipk
-Size: 56997
-SHA256sum: d6503ea1c68164a2763507dd45214752482e48819d0a95e942e83606ef9c5125
+Size: 57037
+SHA256sum: b6ad5ff3f92e14775c08fe07bc7bf4e8ef70816ba5662804fee276754fa659b1
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1881,14 +1881,14 @@ License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
 Require-User: sing-box=5566:sing-box=5566
-SourceDateEpoch: 1791578226
+SourceDateEpoch: 1791996243
 URL: https://sing-box.sagernet.org/
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_generic
 Installed-Size: 57425920
 Filename: sing-box_1.14.3-r1_aarch64_generic.ipk
-Size: 19854968
-SHA256sum: bb191f4426003592ae5868cd3580245a67fc24a088f4fddc82cd3d1659ca12eb
+Size: 19854659
+SHA256sum: 1923d262d8c72803dcdf9e4b4751be5f2a410f359683a91628a0bf4e21269180
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 

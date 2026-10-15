@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792054604
+SourceDateEpoch: 1792081775
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286309
-SHA256sum: 27e978d4af71524de0eb14630c39cdc8235e2aefd4e390bfbc9ba8a2a24c7035
+Size: 286272
+SHA256sum: d9a5051c655d48b2651300ae7e87fbd6702a5d5e5e3ab913932f4cf60bc702fa
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1792054604
+SourceDateEpoch: 1792081775
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11135
-SHA256sum: 576b02c680ec14b56fac0d948798299d5ebdc579e0e441e7d08eebf44c5dd692
+Size: 11136
+SHA256sum: 37251ba712676763a2ab066bdde9a90d68b15cd670ed7e4a4018c9745c04a9b2
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -396,19 +396,19 @@ SHA256sum: fc24d56cc99b1ed5051f1b39970a2855e0e7d097f0d246faae4548d6526794f3
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
-Version: 26.274.75107~2b4c265
+Version: 26.288.59375~fd9d5af
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
 Source: feeds/base/custom_packages/homeproxy
 SourceName: luci-app-homeproxy
 Section: luci
-SourceDateEpoch: 1790887907
+SourceDateEpoch: 1792081775
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1853440
-Filename: luci-app-homeproxy_26.274.75107~2b4c265_all.ipk
-Size: 574139
-SHA256sum: 84b78f4259a58b25f4c8809ab732dcd3797e812e594982f1b1f80030b19c182c
+Filename: luci-app-homeproxy_26.288.59375~fd9d5af_all.ipk
+Size: 572357
+SHA256sum: 944f6f9d702394a1cca0a9a96f6ac549938b7ecd7c2ddaf02bdfd34db6953cf6
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-kucat-config
@@ -546,14 +546,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792054604
+SourceDateEpoch: 1792081775
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3205120
 Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 856827
-SHA256sum: 35027fd03af8b4a100f64f3fd64214f78f9a9ce39000de37b029988f5885ebad
+Size: 858119
+SHA256sum: 21445088e678d1915258faec8bf51548953db428e80dd9f6c13655cbe1df29e5
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -773,17 +773,17 @@ SHA256sum: 79434faa74cf5c72fbff6b052778bf8f871585007b4dfd155edd3249c0305cf9
 Description:  Translation for luci-theme-glass - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: 26.274.75107~2b4c265
+Version: 26.288.59375~fd9d5af
 Depends: libc, luci-app-homeproxy
 Source: feeds/base/custom_packages/homeproxy
 SourceName: luci-app-homeproxy
 Section: luci
-SourceDateEpoch: 1790887907
+SourceDateEpoch: 1792081775
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-homeproxy-zh-cn_26.274.75107~2b4c265_all.ipk
-Size: 13638
-SHA256sum: 61456846d0d90de06725c05e06675af55a93fc19bce4414cda2dcb169ef27f7b
+Filename: luci-i18n-homeproxy-zh-cn_26.288.59375~fd9d5af_all.ipk
+Size: 13542
+SHA256sum: 2dbe7f4b8cde116813fee6157755bd0975ba27596ee17a69dd7d8fedad27267c
 Description:  Translation for luci-app-homeproxy - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-kucat-config-zh-cn
@@ -864,12 +864,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792054604
+SourceDateEpoch: 1792081775
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18188
-SHA256sum: 5818876107c59c77a0423acc0704df73af06b3441aae533118e425c68c1c10df
+Size: 18187
+SHA256sum: 74d895639eb9cbc9fd1cf7d0f7dc3e1c0c6bf5b103283e9d2e69c17383016e0e
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1017,20 +1017,20 @@ SHA256sum: 28dbd9be104d5414096be96d54bed5ae7f8138e145f047298da43313727cf171
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
-Version: 7.1-r20260927
+Version: 7.1-r20261015
 Depends: libc
 Source: feeds/base/custom_packages/luci-theme-design
 SourceName: luci-theme-design
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791578226
+SourceDateEpoch: 1792081775
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 634880
-Filename: luci-theme-design_7.1-r20260927_all.ipk
-Size: 313754
-SHA256sum: 0603aa7d71ca642307a5e1411c1318c6c3895c573b9163307c08c3356126d147
+Filename: luci-theme-design_7.1-r20261015_all.ipk
+Size: 313728
+SHA256sum: ed53f4624770bcc5368f48c081717a4f9df0afcd20ee8d8bb3a15566e2213833
 Description:  Design Theme
 
 Package: luci-theme-fluent-lite
@@ -1194,14 +1194,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1792054604
+SourceDateEpoch: 1792081775
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8435
-SHA256sum: 0bc596d08d948e3b97d062184e3df4562383d4ddd705c38c488102ddfca5e177
+Size: 8426
+SHA256sum: ea150c7eff07e2932f8086869fbcb266ab5bb14a2a62bd0eb874c6ce3c328388
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1837,14 +1837,14 @@ License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
 Require-User: sing-box=5566:sing-box=5566
-SourceDateEpoch: 1791996243
+SourceDateEpoch: 1792081775
 URL: https://sing-box.sagernet.org/
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
 Installed-Size: 61614080
 Filename: sing-box_1.14.3-r1_x86_64.ipk
-Size: 21938302
-SHA256sum: 4e3f7762c3f646b9e26d5b632d220992c987b7ea73d88b503a5e4463d79389de
+Size: 21938388
+SHA256sum: b5f57d984b8926a8e91af2a637a41b62cc15f6bd6190dfc9e363d84082638a3c
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -1896,13 +1896,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1792054604
+SourceDateEpoch: 1792081775
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4427
-SHA256sum: b6c8bb87ae43688fc2527a53bb6918bd042629c5b12a2a50913abed0f33eec8f
+Size: 4421
+SHA256sum: eff7bcc693d5b26f6eb1093243042488ea86655c5d883a9bb8d578ef60a7186b
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

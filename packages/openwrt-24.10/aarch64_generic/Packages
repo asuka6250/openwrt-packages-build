@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287110
-SHA256sum: b3393f79b0942873c66363a8bcfc222d6c0c5d01a6eaac8adeac4369b3b2fc0c
+Size: 287149
+SHA256sum: a54582b7be834cdd8df8e2daf24547582a861f5635835e3d48e2daf87fd39621
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_generic.ipk
-Size: 11839
-SHA256sum: 4e471638999dfe3da8b17b13f8e1db73c349b73c5ea66fc0276501a6296d4d8c
+Size: 11836
+SHA256sum: b564000a697b242a63b146846df412e73e8a2f427eba004356c3a75f0d9e989e
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -228,16 +228,17 @@ SHA256sum: f15bab523f6b52c55e028645c7a935a6f25f277534026ff1c98245d537dbfd0e
 Description:  LuCI support for AdguardHome
 
 Package: luci-app-argon-config
-Version: 1.0-r20230608
+Version: 3.0.0-r20261016
 Depends: libc, luci-theme-argon
+License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 30720
-Filename: luci-app-argon-config_1.0-r20230608_all.ipk
-Size: 4006
-SHA256sum: 05349e5ca580fa8ec241c4030c0d4ee8281730ee131c133d4887630a89444868
-Description:  LuCI app for Argon theme configuration
+Installed-Size: 10240
+Filename: luci-app-argon-config_3.0.0-r20261016_all.ipk
+Size: 1121
+SHA256sum: 6e9de5c71cbffa66431f5f9a4cff9256af7e3b70672ad441bdb83f668327e0ee
+Description:  Argon configuration compatibility package
 
 Package: luci-app-arpbind
 Version: 26.166.28689~7af0cf3
@@ -434,15 +435,15 @@ SHA256sum: 75f280936783f915a5ff14d24a1189ab0e79fc9deef654c112080b018f1c038d
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 26.10.4-r1
+Version: 26.10.16-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, lyaml, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3205120
-Filename: luci-app-passwall_26.10.4-r1_all.ipk
-Size: 858119
-SHA256sum: 21445088e678d1915258faec8bf51548953db428e80dd9f6c13655cbe1df29e5
+Filename: luci-app-passwall_26.10.16-r1_all.ipk
+Size: 858111
+SHA256sum: 18e929af86069506b75c2f15165e44d0869de9c6690f455742d2a6b515f5e4b9
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -509,15 +510,16 @@ SHA256sum: 851ee3bc1063fa0fff0ae0e37ee85664a67be42cafbd09a7c0d36c3b7819bbc5
 Description:  Translation for luci-app-adguardhome - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 26.166.28689~7af0cf3
-Depends: libc, luci-app-argon-config
+Version: v3.0.0
+Depends: libc, luci-theme-argon
+License: Apache-2.0 MIT
 Section: luci
 Architecture: all
-Installed-Size: 10240
-Filename: luci-i18n-argon-config-zh-cn_26.166.28689~7af0cf3_all.ipk
-Size: 2253
-SHA256sum: 8fbfa086bae481ec51b404aa1c286ffa29733c3bb0b7942ee6c4822d7fe286c0
-Description:  Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
+Installed-Size: 20480
+Filename: luci-i18n-argon-config-zh-cn_v3.0.0_all.ipk
+Size: 3429
+SHA256sum: f8c3ae28beb78b0625ced0db359a3a0413adb41f5d63ebb3b531f09ce42a3b35
+Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-arpbind-zh-cn
 Version: 26.166.28689~7af0cf3
@@ -689,14 +691,14 @@ SHA256sum: 5ee813ca0f0d39ad7bb23c532cf13a80b2d94de7751e3f69ea37098c35868182
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 26.10.4
+Version: 26.10.16
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
-Installed-Size: 51200
-Filename: luci-i18n-passwall-zh-cn_26.10.4_all.ipk
-Size: 18187
-SHA256sum: 74d895639eb9cbc9fd1cf7d0f7dc3e1c0c6bf5b103283e9d2e69c17383016e0e
+Installed-Size: 40960
+Filename: luci-i18n-passwall-zh-cn_26.10.16_all.ipk
+Size: 16974
+SHA256sum: 782d097b2308caf5956cf74b9591098b166ef16714bcf75c6ff6aff84f76eb54
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -785,15 +787,16 @@ SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: luci-theme-argon
-Version: 2.4.8-r20261009
-Depends: libc, wget, jsonfilter
+Version: 3.0.0-r20261016
+Depends: libc, luci-base, wget, jsonfilter, ucode-mod-math
+License: Apache-2.0 MIT
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 614400
-Filename: luci-theme-argon_2.4.8-r20261009_all.ipk
-Size: 396574
-SHA256sum: 453c7aa61adfd946a147d545b42f8fdcf58850fc76e31cb37f678761819ca646
+Installed-Size: 665600
+Filename: luci-theme-argon_3.0.0-r20261016_all.ipk
+Size: 285284
+SHA256sum: 4940812cd5d590dfcb9723b1d70921ff59161f9b7e6a23f72b0a5058d3511fea
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -849,16 +852,16 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.288.32204~a5fcfe7
+Version: 26.289.31750~3cc5470
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.288.32204~a5fcfe7_all.ipk
+Filename: luci-theme-footstrap_26.289.31750~3cc5470_all.ipk
 Size: 73893
-SHA256sum: b468b265f9452185719f27dedcc99d168b52d6e005899b59eaa2c98d87360246
+SHA256sum: df026a00c58b803045b860fb9aa3de7e2267a97691abcafdc754117d83046d9b
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -946,8 +949,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8804
-SHA256sum: 547a6055ffc267f6395dd830bbfdc4187c340f7ff49aea5d13656e2a30792d55
+Size: 8802
+SHA256sum: c555c6aeffc7d225a5049efd719db12c2835eff93f91640d3669344d55df5643
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1484,8 +1487,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4321
-SHA256sum: dc06eb8bfdda96861e1fe527c0ef20b28b7f565697d48c01c5a56368a516445a
+Size: 4320
+SHA256sum: 885bfc3119dd40d2b03a00495c5bdc66cba58837365cb551f98ef16a78bcf5b1
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

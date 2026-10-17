@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269726
-SHA256sum: a3729732d20de9fc101caf567d59ba194ebdbcf8e5b213ec190260fa753e12fb
+Size: 269723
+SHA256sum: eaf4a91ee4bcadcff1fadf38d53f9182ac30f32a9a3b6b2538ff5daa37b06c0e
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_cortex-a72.ipk
-Size: 11832
-SHA256sum: 01d9e4727cea399ac196c10512e3c01e959964e33f276710d14d71684d477b83
+Size: 11846
+SHA256sum: 27a4b5d0321ed070aad29f29863e6851689b01a16502b915ed06e961f258d532
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -184,14 +184,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_cortex-a72
 Installed-Size: 7208960
 Filename: geoview_0.2.6-r1_aarch64_cortex-a72.ipk
-Size: 2745596
-SHA256sum: 51dfb09b57dd9379ed1ea2f7985a45a1dae0d66243a1898a5da0cd70e2855be7
+Size: 2745588
+SHA256sum: 1ca4f9c81d46c729e79708a3f9e3e1bb8b4b84efaa31552dba9b854449cd87be
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -561,14 +561,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1402880
+Installed-Size: 1423360
 Filename: luci-app-passwall2_26.10.1-r2_all.ipk
-Size: 350992
-SHA256sum: e2a5ccb2220ce0b720874be633ab0f3a4713caadcc4583dfef08f3439d2eba91
+Size: 356628
+SHA256sum: 295d354e25b5993fd1186dcf4b3335a9c04eb7f2069867948b88825257af19f7
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -577,14 +577,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3205120
 Filename: luci-app-passwall_26.10.16-r2_all.ipk
-Size: 858857
-SHA256sum: 51b9d472fc942f49b034992c64de66eb0d28d0206d97f026a4cf26e5423694d5
+Size: 858854
+SHA256sum: 90acbefbc6bb75e5a6aa48e56695c3f4853f1f0ce0c7268c46ed679c75c0c3ef
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -909,12 +909,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.16_all.ipk
-Size: 16976
-SHA256sum: 10827a449a90b64aab82cbe3531dd02a742f0174b5655647ec958f459780900a
+Size: 16983
+SHA256sum: 29130d4f716fa3c5df8d15f5b3638a718eb2cb34755db9f88a8035fc29d523bf
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -923,12 +923,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.10.1_all.ipk
-Size: 20393
-SHA256sum: 0a5938ac4f1eb7c82e0e05b0f1c271c772d7597f3009392a2ed8c031e17de788
+Size: 20632
+SHA256sum: 6c63b24919b4b7c49ab8ae8add949c7a320d65df01b47d474f2ed0200e88ec72
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1114,21 +1114,21 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.289.31750~3cc5470
+Version: 26.290.29973~2755f16
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1792140550
+SourceDateEpoch: 1792225173
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.289.31750~3cc5470_all.ipk
-Size: 73893
-SHA256sum: df026a00c58b803045b860fb9aa3de7e2267a97691abcafdc754117d83046d9b
+Filename: luci-theme-footstrap_26.290.29973~2755f16_all.ipk
+Size: 73891
+SHA256sum: 0d20f6172432a3dfba02ea87817a864cf03d7dc5e6105df8ad377535dca9bc44
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1240,14 +1240,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8799
-SHA256sum: 90e96e001fec4c94341e6601b20094bcbe2f32148fe1c5764bd2197de8409e88
+Size: 8798
+SHA256sum: 4e55389f550526cf7cc286961a3b6e14839f216090f604e70fe7a2a93d0a6e0c
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1942,13 +1942,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4330
-SHA256sum: 5589632a50755d49ce5104731c1404ec8a8ea414023629f4dcc2db9d80185457
+Size: 4324
+SHA256sum: 42f1e62f9f454424f72ea5f71862f02089862491029eb98527d9c66f939dbfcc
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1994,14 +1994,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16588800
 Filename: v2ray-geoip_202610080033.1_all.ipk
-Size: 3445757
-SHA256sum: cb203db6a0620983323ed871ebe7862299004f134b9803bc011ec9401f6ba70f
+Size: 3445888
+SHA256sum: 2e6fb2fc99b98d0ff9ccb03ae28e3fc0fce90e35de234b39c227c03ddad746bc
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2012,14 +2012,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792225173
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11151360
 Filename: v2ray-geosite_202610092207.1_all.ipk
-Size: 3658953
-SHA256sum: df64d6acf36b8be3ede0a52424f142cc5f3528a50e82e412fa7111d2e0f67a28
+Size: 3658933
+SHA256sum: 43e4b28bb3aed1151250978ffa9b3da166265932b6b6a417b2d9a2cba7f0887a
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

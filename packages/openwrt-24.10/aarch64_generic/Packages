@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287100
-SHA256sum: c68df16ea4108a5ea5a11a8d5ac060dc666a58160cb686e8c53db2250217edf6
+Size: 287104
+SHA256sum: bfb6f64c176164da07f58e04e0bfed0125a32d0e0b90a341ac32c6056bdb0c1d
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -93,16 +93,16 @@ Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
 Package: dns2socks
-Version: 2.1-r2
+Version: 2.1-r3
 Depends: libc, libpthread
 License: BSD-3-Clause
 Section: net
 URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: dns2socks_2.1-r2_aarch64_generic.ipk
-Size: 11838
-SHA256sum: 953b01d11928eda614664b6ac421ca8fd895edbe1351cad9226216cdcbc90a55
+Filename: dns2socks_2.1-r3_aarch64_generic.ipk
+Size: 11844
+SHA256sum: 97fcbb212bad374ca3e654fa850a89b196be39df707c736226605db54f79909b
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -442,9 +442,22 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3205120
 Filename: luci-app-passwall_26.10.16-r2_all.ipk
-Size: 858640
-SHA256sum: 7fd0ecdfb7ca8e3e16bdf14169ded879d6279aab15f6ec5cc3656aeb01d85af9
+Size: 858712
+SHA256sum: 8d292c0b45795b238c6da98cc34b77a90e05406c7cb5a2c055be66c705152dea
 Description:  LuCI support for PassWall
+
+Package: luci-app-pon-status
+Version: 0.4.6-r4
+Depends: libc, luci-base, luci-mod-status, airoha-ponctl, jsonfilter, rpcd-mod-file
+License: Apache-2.0
+Section: luci
+URL: https://github.com/pbs05/openwrt-pon-userspace
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-pon-status_0.4.6-r4_all.ipk
+Size: 6807
+SHA256sum: fd55963ad14f543c1ca406ef129ea16635161a7abeb418cbb2802b6e760dc017
+Description:  LuCI PON optics, port rate and connection counters (overview card)
 
 Package: luci-app-quickfile
 Version: 1.0.0-r1
@@ -697,8 +710,8 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.16_all.ipk
-Size: 16969
-SHA256sum: 028fb81dc870ec30c71c8ceb80961102d9481efdc3b0426e3856253a1199718d
+Size: 16974
+SHA256sum: 4d44b4aeb89ac575dfdc4bf8ba8cdc196b539bbdc169d686b9b9dc129b0050e0
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -852,16 +865,16 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.291.31143~42c80f3
+Version: 26.291.66743~356990e
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.291.31143~42c80f3_all.ipk
-Size: 73922
-SHA256sum: 1938fe4b5f0c4ed0d8a8a35f635cd6411b079f3863f1bdca39ba0258816703f7
+Filename: luci-theme-footstrap_26.291.66743~356990e_all.ipk
+Size: 74031
+SHA256sum: 5800b9e626e620ded6ac22bb835cf4de218517d3ab49af452366355d51c56ab3
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -949,8 +962,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8808
-SHA256sum: a321dd6fa5fc493806c07d1b9a7d6fa24f2e1f993c2b7fad0a8d099b777d6f39
+Size: 8806
+SHA256sum: ba5acbb539dff82b19c6ebaff756c5c56d7a8456c6eed8823f33839e7d2b146e
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1487,8 +1500,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4326
-SHA256sum: 23a911499111282e424f12e62c943d6cdfe7c099a88b905ad233c60b35ac1482
+Size: 4323
+SHA256sum: 790109b79af64f5384e88a4b5d12aeeca29be81fee64cf1d0fc98c0a783719bb
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

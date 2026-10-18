@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287094
-SHA256sum: a062d705429765599903099f2ade8b6a645cedb44b43a54ed7b95348b06dbc0d
+Size: 287100
+SHA256sum: c68df16ea4108a5ea5a11a8d5ac060dc666a58160cb686e8c53db2250217edf6
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r2_aarch64_generic.ipk
-Size: 11836
-SHA256sum: a4afaed2eee421c2d8ccd4f231a9ff195216fe23068df405abd64ac8b945d9b7
+Size: 11838
+SHA256sum: 953b01d11928eda614664b6ac421ca8fd895edbe1351cad9226216cdcbc90a55
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -577,14 +577,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3205120
 Filename: luci-app-passwall_26.10.16-r2_all.ipk
-Size: 858788
-SHA256sum: 30e6633bb24527b7afb58d572aecc63cc6650c12b0ae0913904d8e9062570479
+Size: 858640
+SHA256sum: 7fd0ecdfb7ca8e3e16bdf14169ded879d6279aab15f6ec5cc3656aeb01d85af9
 Description:  LuCI support for PassWall
 
 Package: luci-app-quickfile
@@ -909,12 +909,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.16_all.ipk
-Size: 16980
-SHA256sum: 756af77d1caacee26d3f5c4d9dec12eaa754a6917b89a55e957078ba5201c655
+Size: 16969
+SHA256sum: 028fb81dc870ec30c71c8ceb80961102d9481efdc3b0426e3856253a1199718d
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1114,21 +1114,21 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.290.65715~30cb973
+Version: 26.291.31143~42c80f3
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.290.65715~30cb973_all.ipk
-Size: 73924
-SHA256sum: ab8bb791517b71b36e7bfff8b9ceaf3eed74d8337b9442c330db0102f310fbd4
+Filename: luci-theme-footstrap_26.291.31143~42c80f3_all.ipk
+Size: 73922
+SHA256sum: 1938fe4b5f0c4ed0d8a8a35f635cd6411b079f3863f1bdca39ba0258816703f7
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1240,14 +1240,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8802
-SHA256sum: 115c858bbfb735d912908b09948e960570155b2d31e447ee00adde13ab058ab9
+Size: 8808
+SHA256sum: a321dd6fa5fc493806c07d1b9a7d6fa24f2e1f993c2b7fad0a8d099b777d6f39
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1942,13 +1942,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792312743
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
 Size: 4326
-SHA256sum: 315009b9378a9e65bebaf650a74de4876cf75a6c363ef610569411efd9001437
+SHA256sum: 23a911499111282e424f12e62c943d6cdfe7c099a88b905ad233c60b35ac1482
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

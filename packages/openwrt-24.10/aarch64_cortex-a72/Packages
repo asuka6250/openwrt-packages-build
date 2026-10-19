@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269744
-SHA256sum: 95962d29795acb97d2235468c7b6c7b3c3ce81e8b8934ee857e3acc05c22a5f3
+Size: 269728
+SHA256sum: da6f91179ea8e189e509854d8801af4948e7157e53d6a6529838669ef93479c4
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a72.ipk
-Size: 11842
-SHA256sum: fa2bb9fe27cb9c31bd652a8d3b54869ef184dd54a8b167c950f3efdb7f239ab3
+Size: 11835
+SHA256sum: 380f7de5d724b384447047bc1dfd6fcbfc1f9fb749b85111c9e4b8dd70f7ae06
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -440,10 +440,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3205120
+Installed-Size: 3215360
 Filename: luci-app-passwall_26.10.16-r2_all.ipk
-Size: 858712
-SHA256sum: 8d292c0b45795b238c6da98cc34b77a90e05406c7cb5a2c055be66c705152dea
+Size: 860763
+SHA256sum: db567591b1eb31835f3dbfc869c6f1b1e570a2fe1bcb284ef17f9585205c6fb9
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -710,8 +710,8 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.16_all.ipk
-Size: 16974
-SHA256sum: 4d44b4aeb89ac575dfdc4bf8ba8cdc196b539bbdc169d686b9b9dc129b0050e0
+Size: 16979
+SHA256sum: 0e48ba67ab83badbc812059ca9004464fd9af1cbaf9f2b48424a159d2f266464
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -865,16 +865,16 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.291.66743~356990e
+Version: 26.292.66469~7d25e1d
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.291.66743~356990e_all.ipk
-Size: 74031
-SHA256sum: 5800b9e626e620ded6ac22bb835cf4de218517d3ab49af452366355d51c56ab3
+Filename: luci-theme-footstrap_26.292.66469~7d25e1d_all.ipk
+Size: 74026
+SHA256sum: a15a648b2e9f9d6c8dfd272e08c9abc38aa7c96d046d7834bdc02e1ce8eb6712
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -962,8 +962,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8808
-SHA256sum: 913938c8528e07b97c0d3ecc74267507fcbd1b8f87c53684261328ced563f6e4
+Size: 8804
+SHA256sum: 655bebc7d131b9c145fb98d5a4265ecdc21a1f7ae442424fd2a7e90ad425a2fe
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1500,8 +1500,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4327
-SHA256sum: 0e094c89a845b7a39b57e3302ef657b62f9a9f741f473351b8dd8fe78426efe1
+Size: 4334
+SHA256sum: 307c1a78804154aa9f6737103a663dbd6af686429078b8553b1132137d9eb7d0
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1576,8 +1576,8 @@ Section: kernel
 Architecture: aarch64_cortex-a72
 Installed-Size: 614400
 Filename: vmlinux-btf_6.6.119-r9_aarch64_cortex-a72.ipk
-Size: 218133
-SHA256sum: 355ba1a49b270dc9fedd4ba9826920e19db40cb35e18c63dbb28b9332f766f79
+Size: 218113
+SHA256sum: 8a12c764c8ae7fe6ec1b4aa8adee50a1e3dfe7d61de0853048bdcc8274790023
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

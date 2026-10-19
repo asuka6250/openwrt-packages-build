@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792402870
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
 Installed-Size: 58664960
 Filename: clashoo_2026.10.13~94b13ae-r2_aarch64_cortex-a53.ipk
-Size: 21586339
-SHA256sum: 5349e5034e7dc72d154382353d8a816dd1f2811edc69548490b6bab682a0dab7
+Size: 21583823
+SHA256sum: 15487e35f017b74bb24fd82ea5441fac6f279dc704525a39466e42a5a5e4fb54
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -177,21 +177,21 @@ SHA256sum: ab5229ec89de9caad4153823f41816de2d9b1589258a163195132c07b4e5c247
 Description:  V2ray geosite & geoip unpacking CLI tool
 
 Package: geoview
-Version: 0.2.6-r1
+Version: 0.2.8-r1
 Depends: libc
 Source: feeds/base/custom_packages/geoview
 SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792260915
+SourceDateEpoch: 1792402870
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
-Filename: geoview_0.2.6-r1_aarch64_cortex-a53.ipk
-Size: 2745504
-SHA256sum: 14965aea1dd4b0a52bb83b3d0911164c8d264c5c828ceac6e33abc37a20f1b41
+Filename: geoview_0.2.8-r1_aarch64_cortex-a53.ipk
+Size: 2752635
+SHA256sum: 9802de107cdbfe539d15071e8d8eff97f1fd82da30f5da73b059e2bc821ded0f
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -353,13 +353,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792402870
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r6_all.ipk
 Size: 404604
-SHA256sum: b717633170763102dad8798b53bfcc7ca7703f7dde47c198f7ac2f05b02e3f90
+SHA256sum: 6b34ece559954f2ea7f3babc652ab41ca2917409b4b79112c8c593832c0801a0
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -737,13 +737,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1792167306
+SourceDateEpoch: 1792402870
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
-Size: 12756
-SHA256sum: aa68d5f30eab73da4419ff13e3b9f4a52ccbed6e2bc021d52f2b1cdb05f47030
+Size: 12759
+SHA256sum: 70e621b5f345f19d6def4743c959dfb2757df9fae1dde77f29c35e1cdd4f96b4
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -2058,21 +2058,19 @@ SHA256sum: a2daede7f96b883768df7ffc0c33f4e1a96c6c165b3fe909f0c34a9d3af5946e
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: vmlinux-btf
-Version: 6.6.119-r6
+Version: 6.6.119-r9
 Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1791890966
+SourceDateEpoch: 1792402870
 Architecture: aarch64_cortex-a53
-Installed-Size: 3307520
-Filename: vmlinux-btf_6.6.119-r6_aarch64_cortex-a53.ipk
-Size: 1082799
-SHA256sum: a84bdf7231373696c0d119cea007c966d373d3c90cc5087ac1a13e620dc23248
-Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
- This package builds a shadow kernel tree using the OpenWrt kernel source,
- applies the same patches/files, and generates detached BTF information
- without modifying the main kernel build directory.
+Installed-Size: 614400
+Filename: vmlinux-btf_6.6.119-r9_aarch64_cortex-a53.ipk
+Size: 217525
+SHA256sum: 48a85823f8bec4ac169a454d1e811ac17bf6d59ec861497ee336d802fe054e21
+Description:  Generates detached kernel BTF from target kernel headers and config,
+ enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 
 Package: xray-core
 Version: 26.7.28-r1

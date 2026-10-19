@@ -49,8 +49,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 63334400
 Filename: clashoo_2026.10.13~94b13ae-r2_x86_64.ipk
-Size: 23656629
-SHA256sum: 9c0cf1f810fed231954cb068ea4d7bbcad10c3b3bc01ab773cb4ce7150e29f18
+Size: 23652435
+SHA256sum: c7ebf8e310f9d6fcfea8c7a94cbec53e83d6718d7ce75696a7b4150e2745ae4c
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -122,16 +122,16 @@ SHA256sum: bd9f83ce2649a5cf20b4e4c810cf0f080ac8e4274176aa973d282ad3e8a0c5d6
 Description:  V2ray geosite & geoip unpacking CLI tool
 
 Package: geoview
-Version: 0.2.6-r1
+Version: 0.2.8-r1
 Depends: libc
 License: Apache-2.0
 Section: net
 URL: https://github.com/snowie2000/geoview
 Architecture: x86_64
-Installed-Size: 7700480
-Filename: geoview_0.2.6-r1_x86_64.ipk
-Size: 3043024
-SHA256sum: ff2a861e9d662e24128fdfb5728764d0d4a58f6e564420111ec5cd10d87045e9
+Installed-Size: 7710720
+Filename: geoview_0.2.8-r1_x86_64.ipk
+Size: 3049208
+SHA256sum: b9c6fe74274af7d8f31157f202cc08adee095d501469a64d83e178a083389d00
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -262,7 +262,7 @@ Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r6_all.ipk
 Size: 404604
-SHA256sum: b717633170763102dad8798b53bfcc7ca7703f7dde47c198f7ac2f05b02e3f90
+SHA256sum: 6b34ece559954f2ea7f3babc652ab41ca2917409b4b79112c8c593832c0801a0
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -541,8 +541,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
-Size: 12756
-SHA256sum: aa68d5f30eab73da4419ff13e3b9f4a52ccbed6e2bc021d52f2b1cdb05f47030
+Size: 12759
+SHA256sum: 70e621b5f345f19d6def4743c959dfb2757df9fae1dde77f29c35e1cdd4f96b4
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -1536,18 +1536,16 @@ SHA256sum: 2c0916408641ed49f3dbcc6882435d041825ea578bb9df295f8dba0a8a571abe
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: vmlinux-btf
-Version: 6.6.119-r6
+Version: 6.6.119-r9
 Depends: libc
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4259840
-Filename: vmlinux-btf_6.6.119-r6_x86_64.ipk
-Size: 1408866
-SHA256sum: ac0e4b80ae115e86c65273f95c456574d4df493efc82ee6d7f62c1eb70192a93
-Description:  Supplies kernel BTF information to ensure CO-RE eBPF compatibility.
- This package builds a shadow kernel tree using the OpenWrt kernel source,
- applies the same patches/files, and generates detached BTF information
- without modifying the main kernel build directory.
+Installed-Size: 634880
+Filename: vmlinux-btf_6.6.119-r9_x86_64.ipk
+Size: 227430
+SHA256sum: 4ae99f0010e718e1654176fc5dbbeec01d428d44c76bddc612870ff06f57a658
+Description:  Generates detached kernel BTF from target kernel headers and config,
+ enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 
 Package: xray-core
 Version: 26.7.28-r1

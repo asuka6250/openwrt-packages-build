@@ -11,7 +11,7 @@
     "dns2socks": "2.1-r3",
     "dns2tcp": "1.1.2-r1",
     "geo2txt": "1.0.0-r1",
-    "geoview": "0.2.6-r1",
+    "geoview": "0.2.8-r1",
     "hysteria": "2.13.0-r1",
     "ipt2socks": "1.1.4-r3",
     "lanspeedd-bpf": "1.2.1-r2",
@@ -120,7 +120,7 @@
     "v2ray-geoip": "202610160207.1",
     "v2ray-geosite": "202610162206.1",
     "v2ray-plugin": "5.49.0-r1",
-    "vmlinux-btf": "6.6.119-r6",
+    "vmlinux-btf": "6.6.119-r9",
     "xray-core": "26.7.28-r1",
     "xray-plugin": "1.8.24-r1"
   }

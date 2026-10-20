@@ -54,30 +54,30 @@ SHA256sum: c7ebf8e310f9d6fcfea8c7a94cbec53e83d6718d7ce75696a7b4150e2745ae4c
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
-Version: 2026.09.30-r1
+Version: 2026.10.18-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/daeuniverse/dae
 Architecture: x86_64
-Installed-Size: 36136960
-Filename: dae_2026.09.30-r1_x86_64.ipk
-Size: 13364615
-SHA256sum: dd9be0c89e2252fbb905eb54bec4f3e7e013cbae51dbc495a055b67abe5803ed
+Installed-Size: 36065280
+Filename: dae_2026.10.18-r1_x86_64.ipk
+Size: 13340196
+SHA256sum: fc6e9233ee2657882ffa9209947c16f5be612e1ef69b40d798f1c2b5f7677af0
 Description:  dae, means goose, is a lightweight and high-performance transparent
  proxy solution.
 
 Package: daed
-Version: 2026.09.30-r1
+Version: 2026.10.18-r1
 Depends: libc, ca-bundle, kmod-sched-core, kmod-sched-bpf, kmod-veth, v2ray-geoip, v2ray-geosite, vmlinux-btf
 License: AGPL-3.0-only MIT
 Section: net
 URL: https://github.com/daeuniverse/daed
 Architecture: x86_64
-Installed-Size: 52561920
-Filename: daed_2026.09.30-r1_x86_64.ipk
-Size: 25399387
-SHA256sum: 682d9d929e7525b32a46389278c93ff4158a7d846559216ecd5f3e1ee01778e5
+Installed-Size: 52654080
+Filename: daed_2026.10.18-r1_x86_64.ipk
+Size: 25432221
+SHA256sum: ecd7332f849ff74b7067ce51c606fdc205d101d9006ad27f38e4ddb184f8d4df
 Description:  daed is a backend of dae, provides a method to bundle arbitrary
  frontend, dae and geodata into one binary.
 
@@ -107,6 +107,21 @@ Filename: dns2tcp_1.1.2-r1_x86_64.ipk
 Size: 11100
 SHA256sum: 08218133d96acbd5712d9a17457b43db5b1028c5e17e26bd250488da74efa066
 Description:  utility to convert dns query from udp to tcp
+
+Package: flock
+Version: 2.40.2-r1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+License: GPL-2.0-only
+Section: utils
+URL: http://www.kernel.org/pub/linux/utils/util-linux/
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: x86_64
+Installed-Size: 40960
+Filename: flock_2.40.2-r1_x86_64.ipk
+Size: 11944
+SHA256sum: 9f82b5f74e35adc859623654f9ffd4c8f38f7918bed2d76424fce89ba4e701a8
+Description:  manages flock locks from within shell scripts or the command line
 
 Package: geo2txt
 Version: 1.0.0-r1
@@ -226,7 +241,7 @@ Architecture: all
 Installed-Size: 10240
 Filename: luci-app-argon-config_3.0.0-r20261016_all.ipk
 Size: 1118
-SHA256sum: 151f38f8b911da078a657e9c2dfed632a46f976824a54172eabcb784db7043ed
+SHA256sum: 6d21fa90efea0011515f2998bb4be4826310e390247940c7078712a4128c4fa6
 Description:  Argon configuration compatibility package
 
 Package: luci-app-arpbind
@@ -430,10 +445,10 @@ License: Apache-2.0
 Section: luci
 URL: https://github.com/pbs05/openwrt-pon-userspace
 Architecture: all
-Installed-Size: 30720
+Installed-Size: 20480
 Filename: luci-app-pon-status_0.4.6-r4_all.ipk
-Size: 6807
-SHA256sum: fd55963ad14f543c1ca406ef129ea16635161a7abeb418cbb2802b6e760dc017
+Size: 5179
+SHA256sum: 5b5070ed994ff447927748be078b2b9bf70d5d2658ff9d3272150c0b3449d8b7
 Description:  LuCI PON optics, port rate and connection counters (overview card)
 
 Package: luci-app-quickfile
@@ -767,15 +782,15 @@ Description:  Standard OpenWrt set including full admin with ppp support and the
 
 Package: luci-theme-argon
 Version: 3.0.0-r20261016
-Depends: libc, luci-base, wget, jsonfilter, ucode-mod-math
+Depends: libc, luci-base, wget, jsonfilter, ucode-mod-math, flock, coreutils-timeout
 License: Apache-2.0 MIT
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 665600
+Installed-Size: 716800
 Filename: luci-theme-argon_3.0.0-r20261016_all.ipk
-Size: 285286
-SHA256sum: 46b7a3e8d197e3ab54af03977fa7ae17ffb4c4f129e1c85f5ebfb43c422a7e59
+Size: 294661
+SHA256sum: 160086522aff47d1ccc625ef7e51455d79f8ac35a7b0cc4c2b768af85ae5e518
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -831,16 +846,16 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.292.66469~7d25e1d
+Version: 26.293.33296~716d22c
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.292.66469~7d25e1d_all.ipk
-Size: 74026
-SHA256sum: a15a648b2e9f9d6c8dfd272e08c9abc38aa7c96d046d7834bdc02e1ce8eb6712
+Filename: luci-theme-footstrap_26.293.33296~716d22c_all.ipk
+Size: 74118
+SHA256sum: 39c26b7f702513cf99ca860bcbd7b6e9cf02b1ccc4dce18c82188cbbf83615d9
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1505,8 +1520,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16599040
 Filename: v2ray-geoip_202610160207.1_all.ipk
-Size: 3447245
-SHA256sum: 8d44f6ded3518c06c5a701682e9843ef331d923d8af518327ac8914e96734326
+Size: 3447150
+SHA256sum: 2534a21c138df2bbae2aa82cf092898801f61788d18e24e5e610e7a55e4587e6
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1518,8 +1533,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11212800
 Filename: v2ray-geosite_202610162206.1_all.ipk
-Size: 3686894
-SHA256sum: 4d7b397391afaf0ae0df2db7620e4e8ebe2b0bf05a3a3f39b8d9d949e7ff2c2b
+Size: 3686897
+SHA256sum: 9f39069d08971610878c945f62663877b9f2c9c21e51a73415aa17e25fed1e7c
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

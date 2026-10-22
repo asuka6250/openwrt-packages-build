@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792601256
+SourceDateEpoch: 1792687655
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269728
-SHA256sum: 45d7451e63de1317c24a7e8eed3bc8be70f660fbc253c5d8747e457ae3847ed8
+Size: 269741
+SHA256sum: f94a429cd68ed41262e116e2d137e9233921a4bf91570ba3f8d11e706eaa2214
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1792601256
+SourceDateEpoch: 1792687655
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a72.ipk
-Size: 11841
-SHA256sum: 2190360dc676ccfcdc596020e3ef01c4cd8ca2eb32753c9a3bb136f7e5c9d5b0
+Size: 11846
+SHA256sum: 84424e51b768a2af761bfe11ab476b6aa671592967b6727047a50cb73e8a3305
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11405
-SHA256sum: 63d0037e1790e4db0dc9d2f6def4837f6509515dbf6a5c25fa0ca4386a66c67b
+Size: 11407
+SHA256sum: 40e522a0fbf1c99ac241ec4423ad6aeb75458c98785abc9e4f9bb750982275f5
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -240,13 +240,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
-Size: 26148
-SHA256sum: 571d8bf57f6442cc1c7dab11c16a5e44819bb685cb3ba0dfef9946eceba1ab4b
+Size: 26147
+SHA256sum: c97363a7f9cb6bf9a417fe3bc31c38340f765c4c93a529b51f9f1616bb96b48d
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -288,14 +288,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5348
-SHA256sum: c53ddc1b132197e3a2c629a6778da339c48cc9564ed832d7b954b989c21eb6ec
+Size: 5342
+SHA256sum: 7eb0bde833c33ca5176f124f7e3ed11bceed62bbff7e4a534fed8ccc677552a8
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -591,19 +591,19 @@ SHA256sum: 75f9b2c7b9e95a5b31a45c4c57c735ef0b958914de9c3fcb06fc52a03295476c
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 26.10.22-r1
+Version: 26.10.22-r2
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, lyaml, luci-lua-runtime
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792601256
+SourceDateEpoch: 1792687655
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3215360
-Filename: luci-app-passwall_26.10.22-r1_all.ipk
-Size: 860918
-SHA256sum: 02edae055d32ef8ce88fc44d4bb2b290dcff8bc538956e8207ec5c61e1cb7c78
+Filename: luci-app-passwall_26.10.22-r2_all.ipk
+Size: 861012
+SHA256sum: f95a9effb46b2234d297d8ad58fa94082256af3a2983fa7a9e52c8bd78c914be
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -663,14 +663,14 @@ Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r2_all.ipk
-Size: 515095
-SHA256sum: 6420d82341e6387282ee93362d897d9272e9cbdf28eaaf7c669373ea53f6dccf
+Size: 515001
+SHA256sum: 74eac5fe2c10abe8091c3f532b2e6dfd3033b5ad5c51fb357d009d4c1c696ace
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -960,12 +960,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1792601256
+SourceDateEpoch: 1792687655
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.22_all.ipk
 Size: 16998
-SHA256sum: d72df9b31c88cfa4d67379caf4fb173e7a333d881afc83e8ea3e1118534aff30
+SHA256sum: c107482d5842040540655acca04b7976db0a6b419c9b37994dc815d94d9d09f8
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1015,17 +1015,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.295.33228~abbe5f8
+Version: 26.295.60455~edd3767
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.295.33228~abbe5f8_all.ipk
-Size: 14823
-SHA256sum: c8c72697adc7f7a9eee5572508e81ac8a2234b7b60cd9299c0923dd2ef85bc9a
+Filename: luci-i18n-ssr-plus-zh-cn_26.295.60455~edd3767_all.ipk
+Size: 14829
+SHA256sum: bd069c498da66de7168b392c617b4ed02b793fa8fa7a4b72ff08c2b3070ea434
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1165,21 +1165,21 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.295.33228~abbe5f8
+Version: 26.295.60455~edd3767
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.295.33228~abbe5f8_all.ipk
+Filename: luci-theme-footstrap_26.295.60455~edd3767_all.ipk
 Size: 74120
-SHA256sum: 32f883a335bd27ff3472909b54423b9a9bc8e54a86471bf2e4f0d31373ab73eb
+SHA256sum: 91a1fa29da51186c5b1b4810d4594a47e7cdc4d74abe04e07807657c389dc786
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1291,14 +1291,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1792660428
+SourceDateEpoch: 1792687655
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8811
-SHA256sum: 9cbe1ca557d55d3094cd317f3b4aa08455132d0989e57269af3433491f976190
+Size: 8809
+SHA256sum: 3e8e2ec51f6c583f90c7fd52bb418d1ebee0b04f0e7f8caeab5244163257755f
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1991,13 +1991,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1792601256
+SourceDateEpoch: 1792687655
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4324
-SHA256sum: a1f32bcb2c585b39dd0d975d9d6f1aa86c5b5c0a6521428f980bcd59502965d7
+Size: 4325
+SHA256sum: 3f19c4028e875472559b37a3e2ecbcdfc4b9da665491846f2ba6b17b1b8d07cd
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f

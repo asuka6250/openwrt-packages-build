@@ -1054,16 +1054,16 @@ SHA256sum: 8b2f2190897ff6bf3888e06d045aa6d7a8ebade691043f82d4ba3ac2942d0687
 Description:  A plug-in DNS forwarder/splitter
 
 Package: naiveproxy
-Version: 154.0.8037.49-r3
+Version: 154.0.8037.49-r5
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 URL: https://github.com/klzgrad/naiveproxy
 Architecture: aarch64_cortex-a53
 Installed-Size: 8202240
-Filename: naiveproxy_154.0.8037.49-r3_aarch64_cortex-a53.ipk
-Size: 3986033
-SHA256sum: 2796bea75fd681e95fba88c59db6651ce5bccbdad7425140402014d7284ba06b
+Filename: naiveproxy_154.0.8037.49-r5_aarch64_cortex-a53.ipk
+Size: 3986773
+SHA256sum: 404e56354f78abbaa81631adb1f01e2912282f781ff3255e530a54911ddee2cf
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.

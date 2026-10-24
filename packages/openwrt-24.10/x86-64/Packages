@@ -36,21 +36,21 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286296
-SHA256sum: 98f1fe0eb6ece6856e85bab2b0230b5b67d55f1c2cc793776d3eebdd7ec924f1
+Size: 286315
+SHA256sum: c0ab1f0a2310b552c3584dca090a6da2d6a43edcd4ad06e6e8f38421f30b76c7
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.21~3f27ef3-r1
+Version: 2026.10.24~91e85ee-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 63344640
-Filename: clashoo_2026.10.21~3f27ef3-r1_x86_64.ipk
-Size: 23667757
-SHA256sum: a7c94dbd950d5c7f614ca903f7020495abbe4c39884758e90e141091f0336a37
+Installed-Size: 63365120
+Filename: clashoo_2026.10.24~91e85ee-r1_x86_64.ipk
+Size: 23672599
+SHA256sum: a598a9a272e3cf552c4b96f0179eb97aa2f939596b1d2e4b330e18d0ea4fc24e
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -90,8 +90,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r3_x86_64.ipk
-Size: 11129
-SHA256sum: 34fe1c2391bffeeffafe11da52f12ff32111825d5b23ae18579877d17ada18aa
+Size: 11132
+SHA256sum: 9fe5f9236ec56743a4f05fac8fa0c4ab9fabad411cd1af5847c896efd5c90813
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -145,8 +145,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: x86_64
 Installed-Size: 7710720
 Filename: geoview_0.2.8-r1_x86_64.ipk
-Size: 3048612
-SHA256sum: 01797929e46b37051b99a09cdb5ed83fc4427d3dbefb453379e8a7e171e01a0e
+Size: 3048590
+SHA256sum: 0d146a71ee20af978f5c0b439db45bd5e0918cd7806e679841076f529b066ac0
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -276,8 +276,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r6_all.ipk
-Size: 404596
-SHA256sum: d93de407455408cd6bd0d2651134a82e4c396902464809da6971f35bec22a6d8
+Size: 404604
+SHA256sum: 79f3a61894a7931fcc7f8af51fd82f7e4505f89b267e6e0d4a109673aa4c23fe
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -420,10 +420,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 1423360
+Installed-Size: 1443840
 Filename: luci-app-passwall2_26.10.20-r1_all.ipk
-Size: 358878
-SHA256sum: 75f9b2c7b9e95a5b31a45c4c57c735ef0b958914de9c3fcb06fc52a03295476c
+Size: 365245
+SHA256sum: d1df5f75f31433c470a6d950aa39becc5e3f578bc9939f063aae3ad7edddb0dd
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -432,10 +432,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3215360
+Installed-Size: 3235840
 Filename: luci-app-passwall_26.10.22-r2_all.ipk
-Size: 860970
-SHA256sum: 499c4a1bb6ace76ca8c5f79ed40b6153bccbeaab07ff560442a782d4d80bc6dc
+Size: 867259
+SHA256sum: bafdccf9a4f3ffbe7f049b9ab618d1f7f5ea1ea0d50040ab842c8c18fe5ec95c
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -568,8 +568,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
-Size: 12761
-SHA256sum: fd109cf7254e4dee4d0917674eb7f526545032f1535a0ceab824441827563466
+Size: 12757
+SHA256sum: 26b89f72efbd7b1632dc6d56c93ad62fb700be8a02f6bd6fc8135177deed0cb8
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -703,8 +703,8 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.22_all.ipk
-Size: 16997
-SHA256sum: 74ce6b4e994a9a2317444c9f5beb2e382653b4ffa407b8d8c492c5732c42c213
+Size: 17487
+SHA256sum: 56cd9b2d3ec13566b923c1d772fa58fc857e0f325ed24a189c2bee33a8e5a4c9
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -714,8 +714,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.10.20_all.ipk
-Size: 20766
-SHA256sum: faa1c9083415270bc0f363868e3a13b35e1d5ca18b31946a3697b65713d16806
+Size: 21215
+SHA256sum: 188fbabb3b1198588d8a06eac5e8fce85b65d5450aa8b548a308ad28c12399be
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -955,8 +955,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 8427
-SHA256sum: 6ebe1c5c85447433c9e18fd7e264c81b45da38555fb684754acbd9a05abcecac
+Size: 8425
+SHA256sum: 8a4602b7c8920d059f04220e28143798ab0c86015d457c2f65ae0c97ea3fbd84
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1441,16 +1441,16 @@ SHA256sum: 2712fcefd1131c3bac9cab11778fe7321b1b059b7a11fc64bf8a18b9edc54391
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sing-box
-Version: 1.14.3-r1
+Version: 1.14.4-r1
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 License: GPL-3.0-or-later
 Section: net
 URL: https://sing-box.sagernet.org/
 Architecture: x86_64
-Installed-Size: 61614080
-Filename: sing-box_1.14.3-r1_x86_64.ipk
-Size: 21938388
-SHA256sum: b5f57d984b8926a8e91af2a637a41b62cc15f6bd6190dfc9e363d84082638a3c
+Installed-Size: 61665280
+Filename: sing-box_1.14.4-r1_x86_64.ipk
+Size: 21960226
+SHA256sum: 32627310fa672b5c2289f440d063e41f7a062f4391b8812b1696ef25d16a2152
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -1491,8 +1491,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4447
-SHA256sum: a8c8483c30cfc75700c232a18231a2ea3cecc0ab44f049d26bc12d5df28eebc7
+Size: 4438
+SHA256sum: eb5f1ced6129072778c453fc9ef9ef41ee1cc7285cacd2f82b71e88734232162
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1530,8 +1530,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16599040
 Filename: v2ray-geoip_202610190920.1_all.ipk
-Size: 3447259
-SHA256sum: 16415c13d569acad2f3c4194c78415d40d20e32f2cbc3868d63ff02d1738c011
+Size: 3447181
+SHA256sum: 7003e7259cd5c9129b2ba42ea0480a99ff3bd81b2ad4afa79dbc83754e8780a0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1543,8 +1543,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11345920
 Filename: v2ray-geosite_202610202206.1_all.ipk
-Size: 3731255
-SHA256sum: fbce63455b29ddbcc49b17539854b42f36a78fade8d4d82b341c3afe714a8331
+Size: 3731234
+SHA256sum: 30bab4f8b1bce8cfa47a31fc81805e77c590c9e9507d6342823bec25bd14b082
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

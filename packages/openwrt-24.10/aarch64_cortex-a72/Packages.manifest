@@ -56,20 +56,20 @@ SHA256sum: 1645612fa28a2ac2c3179bea9a5d496490325b549a07506826241e538e52d798
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.24~91e85ee-r1
+Version: 2026.10.25~6780eee-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1792831406
+SourceDateEpoch: 1792918798
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a72
 Installed-Size: 58664960
-Filename: clashoo_2026.10.24~91e85ee-r1_aarch64_cortex-a72.ipk
-Size: 21597247
-SHA256sum: cdf5f0a2c916329d7b1132ff0513e659cabf377b4c3826640eac9ed4496ba400
+Filename: clashoo_2026.10.25~6780eee-r1_aarch64_cortex-a72.ipk
+Size: 21598017
+SHA256sum: 5ea478dcbfff6f9d865990d7473a92545709b91867d7f551f75b0afbb1cbcfc6
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1792855976
+SourceDateEpoch: 1792918798
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11402
-SHA256sum: c4ba3fd348cae56f6bada828f26d6e248288c933b51e8795c00b6b7086574905
+Size: 11414
+SHA256sum: 69e4bfd5a575fc6075aeb6293e7504bd26b38ea3b1e6c0da8d19e5496df4ef14
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -240,13 +240,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1792855976
+SourceDateEpoch: 1792918798
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
-Size: 26144
-SHA256sum: a989e984c1f1abb70f959e8fe089d71e0d96c4c5c188c90ecbd73fb637d81a36
+Size: 26150
+SHA256sum: 95b2636dcb9415b4e8ee80167cc8381c7dadb9c817d62a6e85cce041b0b1246c
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -288,14 +288,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1792855976
+SourceDateEpoch: 1792918798
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
 Size: 5344
-SHA256sum: cbac726611f4858970f8db49d26fcf021693d801837f8d0aef676595ac21c6c0
+SHA256sum: 5843b422b39c91d8bd23b2dfc61d18f0563204c29363b7297077731f2666091c
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1792831406
+SourceDateEpoch: 1792918798
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r6_all.ipk
-Size: 404604
-SHA256sum: 79f3a61894a7931fcc7f8af51fd82f7e4505f89b267e6e0d4a109673aa4c23fe
+Size: 404609
+SHA256sum: 9e6a70acf421634bdc176e2114a72cd3674c8ee315c581dcdae814a01e32a0e8
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -663,14 +663,14 @@ Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1792855976
+SourceDateEpoch: 1792918798
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r2_all.ipk
-Size: 515302
-SHA256sum: d2e464d6aa66635b222924d6649228a62b6ef9378e6ff8281df320b7afe7b0bf
+Size: 515275
+SHA256sum: ae6b7a8b835ee801810632595fa4553c5d17fc81dd070c1f52256f4a9754f4f2
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -771,13 +771,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1792831406
+SourceDateEpoch: 1792918798
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
-Size: 12757
-SHA256sum: 26b89f72efbd7b1632dc6d56c93ad62fb700be8a02f6bd6fc8135177deed0cb8
+Size: 12752
+SHA256sum: 3acde597896eacbb4b2942ff5b4fdfef0c6874913f65774a9e945abafcf0e6cc
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1015,17 +1015,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.297.55976~5a0d6cd
+Version: 26.298.32398~5f45bfa
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1792855976
+SourceDateEpoch: 1792918798
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.297.55976~5a0d6cd_all.ipk
-Size: 14897
-SHA256sum: c05f1f87397e94d46fd777cfb191dead7fad34bab5646c58b2d9acdb4eb09fe0
+Filename: luci-i18n-ssr-plus-zh-cn_26.298.32398~5f45bfa_all.ipk
+Size: 14899
+SHA256sum: e7ea9952637bb1b05dc01bcdde66d001bff08ddb121c003c7f046ce2322b6f29
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1165,21 +1165,21 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.295.60455~edd3767
+Version: 26.298.32398~5f45bfa
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1792687655
+SourceDateEpoch: 1792918798
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.295.60455~edd3767_all.ipk
-Size: 74120
-SHA256sum: 91a1fa29da51186c5b1b4810d4594a47e7cdc4d74abe04e07807657c389dc786
+Filename: luci-theme-footstrap_26.298.32398~5f45bfa_all.ipk
+Size: 73119
+SHA256sum: 6b41e6c9ffb47acef3fadfc6ffb498688bd943ae05479f478847f4cac817b552
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1291,14 +1291,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1792855976
+SourceDateEpoch: 1792918798
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8807
-SHA256sum: 031a7b89cf77ae1e2c4374570dfa6d1fda6c0c291dca75e3faa3f287d1543ba5
+Size: 8814
+SHA256sum: df927bc852ce626b41f2685d66b47e3ffda33f6ba3eb9c3632f5d9cf9e2e993c
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.

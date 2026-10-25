@@ -41,16 +41,16 @@ SHA256sum: 479c70b0511a5ba002498ecb27a40c8996dc2fbbacc459804236d69de8436058
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.10.24~91e85ee-r1
+Version: 2026.10.25~6780eee-r1
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 License: GPL3.0+
 Section: net
 Architecture: aarch64_generic
 Installed-Size: 58664960
-Filename: clashoo_2026.10.24~91e85ee-r1_aarch64_generic.ipk
-Size: 21597234
-SHA256sum: c9b86a1f72463520d5e158b54b581f2ac1b376e7cd900cdf96864bffe6ec82a0
+Filename: clashoo_2026.10.25~6780eee-r1_aarch64_generic.ipk
+Size: 21598009
+SHA256sum: abad4e34b66ea7bd2fba90486c7f27d3e4bbd41f0011a06ed75633dab2e7c18a
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_generic.ipk
-Size: 11399
-SHA256sum: 470967fd21f6f6fd580861c484f39457292ba52780da012a3aaa5d173e1095d1
+Size: 11413
+SHA256sum: f70bd85f6189fe8b24d40baf06273cb669e85bf61cb327004634cdec9807bf7b
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -185,8 +185,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_generic.ipk
-Size: 26143
-SHA256sum: 875cd46958abf34d7eb754882e507594991e5458b24cd84b83739354abac59fa
+Size: 26146
+SHA256sum: e28344601f14a70ffa4d775411309012813cdd956c2c497eae01d96a20adbf5c
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -225,7 +225,7 @@ Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
 Size: 5344
-SHA256sum: cbac726611f4858970f8db49d26fcf021693d801837f8d0aef676595ac21c6c0
+SHA256sum: 5843b422b39c91d8bd23b2dfc61d18f0563204c29363b7297077731f2666091c
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -287,8 +287,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r6_all.ipk
-Size: 404604
-SHA256sum: 79f3a61894a7931fcc7f8af51fd82f7e4505f89b267e6e0d4a109673aa4c23fe
+Size: 404609
+SHA256sum: 9e6a70acf421634bdc176e2114a72cd3674c8ee315c581dcdae814a01e32a0e8
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -508,8 +508,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r2_all.ipk
-Size: 515302
-SHA256sum: d2e464d6aa66635b222924d6649228a62b6ef9378e6ff8281df320b7afe7b0bf
+Size: 515275
+SHA256sum: ae6b7a8b835ee801810632595fa4553c5d17fc81dd070c1f52256f4a9754f4f2
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -591,8 +591,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r6_all.ipk
-Size: 12757
-SHA256sum: 26b89f72efbd7b1632dc6d56c93ad62fb700be8a02f6bd6fc8135177deed0cb8
+Size: 12752
+SHA256sum: 3acde597896eacbb4b2942ff5b4fdfef0c6874913f65774a9e945abafcf0e6cc
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -777,14 +777,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.297.55976~5a0d6cd
+Version: 26.298.32398~5f45bfa
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.297.55976~5a0d6cd_all.ipk
-Size: 14897
-SHA256sum: c05f1f87397e94d46fd777cfb191dead7fad34bab5646c58b2d9acdb4eb09fe0
+Filename: luci-i18n-ssr-plus-zh-cn_26.298.32398~5f45bfa_all.ipk
+Size: 14899
+SHA256sum: e7ea9952637bb1b05dc01bcdde66d001bff08ddb121c003c7f046ce2322b6f29
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -892,16 +892,16 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.295.60455~edd3767
+Version: 26.298.32398~5f45bfa
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 307200
-Filename: luci-theme-footstrap_26.295.60455~edd3767_all.ipk
-Size: 74120
-SHA256sum: 91a1fa29da51186c5b1b4810d4594a47e7cdc4d74abe04e07807657c389dc786
+Filename: luci-theme-footstrap_26.298.32398~5f45bfa_all.ipk
+Size: 73119
+SHA256sum: 6b41e6c9ffb47acef3fadfc6ffb498688bd943ae05479f478847f4cac817b552
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -989,8 +989,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 8803
-SHA256sum: 98cfbd184b8d25cd4abdadae90cdca534bca915c0b3ae0f053c475afb16b351d
+Size: 8806
+SHA256sum: 9db2bbd7a9a5a8f58e81198f1f324f65f870dd20f115df003f56e1761bdb7ec2
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.

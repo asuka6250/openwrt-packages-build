@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269737
-SHA256sum: 2fab8b842d16f4000d7315e2428549c59670f6792cec0362842d6dbc3e36cbeb
+Size: 269739
+SHA256sum: 8bca1a1088071e143619f58a7b61ab3794ada4ca995e20adc392ac2b82b62dce
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a72.ipk
-Size: 11839
-SHA256sum: c00c8f36d6e8e13101ddde2eda20001b3406b188e0fcd6379e6e1f8880891928
+Size: 11834
+SHA256sum: 3b4d17db8d2631866102b24fec374f43195b49fbfd48412781de60c6b06074ca
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -148,16 +148,16 @@ SHA256sum: ba01357dbeb0dce639f3bb03492734c6a71c5e91334c71afc91ce8dbe28ca6c8
 Description:  V2ray geosite & geoip unpacking CLI tool
 
 Package: geoview
-Version: 0.2.8-r1
+Version: 0.2.9-r1
 Depends: libc
 License: Apache-2.0
 Section: net
 URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a72
 Installed-Size: 7208960
-Filename: geoview_0.2.8-r1_aarch64_cortex-a72.ipk
-Size: 2752633
-SHA256sum: 8a18c26bd9e8669a53b17aba8528f7c8339c3a39f4b49cec627ddcca3369dec7
+Filename: geoview_0.2.9-r1_aarch64_cortex-a72.ipk
+Size: 2752903
+SHA256sum: 77328f28d3e6030c83745654f09ae3bd8073917d0d0f2cf3becd8079594c4917
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -438,27 +438,27 @@ SHA256sum: f345f6d694d457fc280df4d3ac9979a9078cf79ff1be5a65118f2020e93614ab
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
-Version: 26.10.20-r1
+Version: 26.10.29-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, lyaml, resolveip, tcping, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1454080
-Filename: luci-app-passwall2_26.10.20-r1_all.ipk
-Size: 366486
-SHA256sum: 36dde18a16aae0225b44cf4fc475860fbff41be081dcbf5a69009a9d66d88e54
+Filename: luci-app-passwall2_26.10.29-r1_all.ipk
+Size: 366628
+SHA256sum: 8fa4dc242359f95baa42e5002bd9e4e784f78e2ca901a5016df1ebad608c8cc7
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 26.10.22-r2
+Version: 26.10.29-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, lyaml, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3246080
-Filename: luci-app-passwall_26.10.22-r2_all.ipk
-Size: 868256
-SHA256sum: 6003597f3e0761b14d5e06927853b6254711509b2da3c26982fd9648a8ff75cb
+Installed-Size: 3225600
+Filename: luci-app-passwall_26.10.29-r1_all.ipk
+Size: 862814
+SHA256sum: a16fb1fea1a3a990912f4e6c5631ee03fa1cc85291b1b10f8be41ee4abefaf92
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -559,6 +559,18 @@ Installed-Size: 20480
 Filename: luci-i18n-argon-config-zh-cn_v3.1.0_all.ipk
 Size: 4273
 SHA256sum: 5d56ab981dda7895bd9f79a06d86112185c39e1840258c772531fab41002b049
+Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-argon-config-zh-cn
+Version: v3.1.1
+Depends: libc, luci-theme-argon
+License: Apache-2.0 MIT
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-argon-config-zh-cn_v3.1.1_all.ipk
+Size: 4283
+SHA256sum: efa3f1193381a22d0e89edca0f49a788019bea0eebb0976f7c20a9776fc2f903
 Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-arpbind-zh-cn
@@ -731,25 +743,25 @@ SHA256sum: 5ee813ca0f0d39ad7bb23c532cf13a80b2d94de7751e3f69ea37098c35868182
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 26.10.22
+Version: 26.10.29
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-passwall-zh-cn_26.10.22_all.ipk
-Size: 17494
-SHA256sum: c1bfe6da9124d7e5e677e6c00985c5ba6442ee04d44c59f38200a298832854d9
+Filename: luci-i18n-passwall-zh-cn_26.10.29_all.ipk
+Size: 17489
+SHA256sum: 351e55e0289766ae7bca1dce17d0da5dd9d8991645fbdd1e8db9db3acfad9ac2
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
-Version: 26.10.20
+Version: 26.10.29
 Depends: libc, luci-app-passwall2
 Section: luci
 Architecture: all
 Installed-Size: 51200
-Filename: luci-i18n-passwall2-zh-cn_26.10.20_all.ipk
+Filename: luci-i18n-passwall2-zh-cn_26.10.29_all.ipk
 Size: 21233
-SHA256sum: 803025db3399ded0d494886267ea6c2ee9b9f67feba79e42e50cd4f67e56e113
+SHA256sum: bd6a484707b35ce1c33e282a35cc4aacf02a88042628b398d49714d805880e78
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -827,16 +839,16 @@ SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: luci-theme-argon
-Version: 3.1.0-r20261022
+Version: 3.1.1-r20261028
 Depends: libc, luci-base, wget, jsonfilter, ucode-mod-math, flock, coreutils, coreutils-timeout
 License: Apache-2.0 MIT
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 737280
-Filename: luci-theme-argon_3.1.0-r20261022_all.ipk
-Size: 296444
-SHA256sum: 69a1e6362eb2fd4876be79e1d673a714998337786cb963914ddf5a013db4219c
+Installed-Size: 747520
+Filename: luci-theme-argon_3.1.1-r20261028_all.ipk
+Size: 297804
+SHA256sum: 613268e412b8820649597533a0695a63a4a8d70f58c89e774d10b51ea7caafd2
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -989,8 +1001,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 8804
-SHA256sum: 970aaa8129437a51f7a794ccf98187d5842df0756aac590a77b35387c44f2261
+Size: 8815
+SHA256sum: a55c2af750ce50fbed4699797e1efd18ddc6806b5a7fe13d01a32f87732f75e5
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1525,8 +1537,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4330
-SHA256sum: 3f60e73431713d8c495d5cdd861dd18d013d53442f09d589e223972cdd3d5451
+Size: 4326
+SHA256sum: 1efdbec4d5630746250e71a29f55e10dfe30868a90dd3b7faf73628ba05bc6cf
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1564,8 +1576,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16599040
 Filename: v2ray-geoip_202610190920.1_all.ipk
-Size: 3447382
-SHA256sum: d3517ae9af82871df7d42125f896d85e24588e21e12dfe27c34879102416ed73
+Size: 3447281
+SHA256sum: 6a585fa79ea7e9a9fa599113ab5b560af8af1abb9542b19bcbfb3e9530385950
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1577,8 +1589,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11345920
 Filename: v2ray-geosite_202610202206.1_all.ipk
-Size: 3731231
-SHA256sum: 34fced40065701be28955443ad9f12032a79ca97ed74683501fa26ea3ecdd14a
+Size: 3731247
+SHA256sum: 37359f3ff1152fd46ce7caa618b8eb3fc53df91d14989781643f00fd7a6d9067
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

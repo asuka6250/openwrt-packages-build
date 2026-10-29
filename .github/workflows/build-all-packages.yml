@@ -16,7 +16,7 @@ env:
 jobs:
   check-cache:
     name: Check Upstream Updates
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       actions: write 
     outputs:
@@ -70,7 +70,7 @@ jobs:
     name: ${{ matrix.arch }} (${{ matrix.ver }})
     needs: check-cache
     if: needs.check-cache.outputs.cache-hit != 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write 
       actions: write
@@ -524,7 +524,7 @@ jobs:
     name: Sync to Pages
     needs: [build-packages]
     if: always() && !cancelled()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       actions: write
     steps:

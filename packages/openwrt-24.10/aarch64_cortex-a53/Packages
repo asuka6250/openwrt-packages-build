@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269738
-SHA256sum: 41d4bebd09bd2f25a60e5c5822a50cc605ca9305ce3b0bfc33f85da36ca26c17
+Size: 269740
+SHA256sum: 9f0c1de0b5189454edd4ace2b003d0c6d4b8dc5e3b7922e20c0f6193f892982b
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 58685440
 Filename: clashoo_2026.10.25.1.19.33-r5_aarch64_cortex-a53.ipk
-Size: 21599423
-SHA256sum: 18e54ef65e1ad1dae5460a85a35100069dc31e4359d89bd419e26741c490b45c
+Size: 21599696
+SHA256sum: 6e2e2de77e87bd3d3e2839b1af7eaf9b26f61fd9169ee5938bad5b72d916a7e0
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a53.ipk
-Size: 11828
-SHA256sum: 3f473865f8e5a7406675ebefe912346a52d19610c106585ff0c7c0f49925e86b
+Size: 11824
+SHA256sum: 38547edb8dd462bff25c5ecb8579398f6ac7a3a5d6271258b50e3fde7fe2300b
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -156,8 +156,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_cortex-a53.ipk
-Size: 2752864
-SHA256sum: 69777c2b67718542bac17ccf9b38f63e47099c59349e0f096616998ac695a1db
+Size: 2752845
+SHA256sum: 4d42d5a4228d735cd24153fabb5077fabfca98b7d77549d42caf990f24fc6393
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -287,8 +287,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r9_all.ipk
-Size: 405546
-SHA256sum: acfec6fab69f482d4c9f5c7ef1daa779cc16a4e8ae69317e98dffe64707a280a
+Size: 405572
+SHA256sum: 210e4fe1c0dcb70510eb6b06f0e51383cf72539d63170edaf3fda5360021e92f
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -445,8 +445,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1454080
 Filename: luci-app-passwall2_26.10.29-r1_all.ipk
-Size: 366768
-SHA256sum: 56c37d576880d9dac99d7b7181a7ef16870cae9d3eb206771717139630f3fa18
+Size: 366582
+SHA256sum: f8d5180e18f381365e34046fba8efdaf9a193dac175f46e100b6b387d39b00f6
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -457,8 +457,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3225600
 Filename: luci-app-passwall_26.10.29-r1_all.ipk
-Size: 862909
-SHA256sum: abd26dc20155eb539594987440efba41864a8bc89035ea0fe86046464eeee430
+Size: 862771
+SHA256sum: 27e7769f31ca26946e20b7cf43e57176561f3dc898f01a5a9d05bdaa3bacd8eb
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -603,8 +603,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r9_all.ipk
-Size: 12774
-SHA256sum: 5cb593b2c54dbaa3115f2ecac73b7f1cf730e2a797a4d1410352d45b842d4aea
+Size: 12769
+SHA256sum: c91592f305c9303d5b65d5831064fc12269caabf41a17a93d2b865e03038b17f
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -749,8 +749,8 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.29_all.ipk
-Size: 17495
-SHA256sum: 7906725b210f1950f534b6dc34f3188439a26d39ff35a1c712663b90d4e22cee
+Size: 17489
+SHA256sum: 4e04617ea27a047a0f4fbfc6c70e0312f90be410b4c65d01c9f5c096e85f281b
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -760,8 +760,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.10.29_all.ipk
-Size: 21234
-SHA256sum: 9869908672b0683df5997dc049e69b10e0e97377ff8fc0009ab8ba2ae9236f58
+Size: 21236
+SHA256sum: 1718d9a45c3a8009f87ed2929f406a0f3a345dd3bb752778c42b0bff5b07cc9b
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1001,8 +1001,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 7208
-SHA256sum: 21ff0aeed4ec072764e0ba3690e5abbe77afe4caaf399f525c8a87ec17c91c94
+Size: 7204
+SHA256sum: f4ceb30ad00efb10a563be4be149d3fa8c9c85810fab0cae55b71c0c7ac5f271
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1537,8 +1537,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4321
-SHA256sum: edc573a5c3ebab9afac5098080c76512ef183050f381f6da1135815e547d3b3f
+Size: 4318
+SHA256sum: 8effee4d9c3222b7ea7dc97fe567c81dcc6145f4bc51db2d9cb188ec088bb480
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1576,21 +1576,21 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16558080
 Filename: v2ray-geoip_202610290022.1_all.ipk
-Size: 3442546
-SHA256sum: 325143abadcffffcd816862251ef5dd43fed2465534387d2ba5c3eddd06baebd
+Size: 3441953
+SHA256sum: b79a196698de555b4b09357555105b387e49650f2ddbaee4be621d043724536d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 202610282204.1
+Version: 202610302203.1
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 11304960
-Filename: v2ray-geosite_202610282204.1_all.ipk
-Size: 3693816
-SHA256sum: 55ac9d8ba2c469a30576e16db974a364945cbe8c5809a7bcf13902e915e1764b
+Installed-Size: 11315200
+Filename: v2ray-geosite_202610302203.1_all.ipk
+Size: 3696513
+SHA256sum: dedfdfeb2edf28ed16a04f707e5cb5de37f6058f697523bd4998f9d119f0fcb2
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1613,8 +1613,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 614400
 Filename: vmlinux-btf_6.6.119-r9_aarch64_cortex-a53.ipk
-Size: 217481
-SHA256sum: 24f7642d0676a67a1c0a1f49dc4e58342123034b0e17ae9366a1f463d9ebcc67
+Size: 217527
+SHA256sum: 845b76fb1071f120af168be117babf85f6a2c57548639b36e7b4397e44e065cc
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

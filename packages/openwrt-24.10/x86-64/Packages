@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286304
-SHA256sum: 0d8d2f17e18c6b060e3153f312636615fba7856a556b9cc2a553837e5ddefa20
+Size: 286305
+SHA256sum: 0a90772cc5ee4f71e28d32207b525794f77c5f626476382eb68c6754e0caf8b0
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -49,8 +49,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 63365120
 Filename: clashoo_2026.10.25.1.19.33-r5_x86_64.ipk
-Size: 23674184
-SHA256sum: e3ebdd4b01f2c94ecb01c58f32af97fd058558920f9691a3462caf00bfe36936
+Size: 23673687
+SHA256sum: 97182b9468648ae29eba079f761326d0ed38516ca35c46dacbd51d15ece3f141
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -90,8 +90,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r3_x86_64.ipk
-Size: 11132
-SHA256sum: 5d66518f5ec9997493d83d7882cc3ee92a1dadc85b10e52ba253e48f8b653302
+Size: 11134
+SHA256sum: 2abcd3f3642e3a2b30cac6c2560eaba97e2944b5bf79d1a82080c9f1b0ae7a53
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -145,8 +145,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: x86_64
 Installed-Size: 7720960
 Filename: geoview_0.2.9-r1_x86_64.ipk
-Size: 3050441
-SHA256sum: 6947328413302a764bad8dc3d1307db3f4f19b5e0285d0312df9d62ef6f8a8d2
+Size: 3050616
+SHA256sum: 09399f82c2faaeb589c8fca08f1b6d48c7769397a52dafdd12cf9303c14d0fbb
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -276,8 +276,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r9_all.ipk
-Size: 405546
-SHA256sum: acfec6fab69f482d4c9f5c7ef1daa779cc16a4e8ae69317e98dffe64707a280a
+Size: 405572
+SHA256sum: 210e4fe1c0dcb70510eb6b06f0e51383cf72539d63170edaf3fda5360021e92f
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -422,8 +422,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1454080
 Filename: luci-app-passwall2_26.10.29-r1_all.ipk
-Size: 366768
-SHA256sum: 56c37d576880d9dac99d7b7181a7ef16870cae9d3eb206771717139630f3fa18
+Size: 366582
+SHA256sum: f8d5180e18f381365e34046fba8efdaf9a193dac175f46e100b6b387d39b00f6
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -434,8 +434,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3225600
 Filename: luci-app-passwall_26.10.29-r1_all.ipk
-Size: 862909
-SHA256sum: abd26dc20155eb539594987440efba41864a8bc89035ea0fe86046464eeee430
+Size: 862771
+SHA256sum: 27e7769f31ca26946e20b7cf43e57176561f3dc898f01a5a9d05bdaa3bacd8eb
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -580,8 +580,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r9_all.ipk
-Size: 12774
-SHA256sum: 5cb593b2c54dbaa3115f2ecac73b7f1cf730e2a797a4d1410352d45b842d4aea
+Size: 12769
+SHA256sum: c91592f305c9303d5b65d5831064fc12269caabf41a17a93d2b865e03038b17f
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -715,8 +715,8 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.29_all.ipk
-Size: 17495
-SHA256sum: 7906725b210f1950f534b6dc34f3188439a26d39ff35a1c712663b90d4e22cee
+Size: 17489
+SHA256sum: 4e04617ea27a047a0f4fbfc6c70e0312f90be410b4c65d01c9f5c096e85f281b
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -726,8 +726,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.10.29_all.ipk
-Size: 21234
-SHA256sum: 9869908672b0683df5997dc049e69b10e0e97377ff8fc0009ab8ba2ae9236f58
+Size: 21236
+SHA256sum: 1718d9a45c3a8009f87ed2929f406a0f3a345dd3bb752778c42b0bff5b07cc9b
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -967,8 +967,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 6746
-SHA256sum: cf69bf33989dcf4987deaef1a1a131abea00a0852ac9408d2329ed8db8e6ffc3
+Size: 6748
+SHA256sum: 25db4d29b1cf4f1abf41c5d50f6deb4dfe67ef697fc322c23121f50fe13b922c
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1503,8 +1503,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4442
-SHA256sum: 88e3b97d67cea0578f8835a8ab4e3ec15c62f3dd83daeab8b5c9b9181140562a
+Size: 4445
+SHA256sum: 809c7c9755694a24e29196acceb00002477d91d4c5b40103deacc4c875427433
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1542,21 +1542,21 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16558080
 Filename: v2ray-geoip_202610290022.1_all.ipk
-Size: 3442546
-SHA256sum: 325143abadcffffcd816862251ef5dd43fed2465534387d2ba5c3eddd06baebd
+Size: 3441953
+SHA256sum: b79a196698de555b4b09357555105b387e49650f2ddbaee4be621d043724536d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 202610282204.1
+Version: 202610302203.1
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 11304960
-Filename: v2ray-geosite_202610282204.1_all.ipk
-Size: 3693816
-SHA256sum: 55ac9d8ba2c469a30576e16db974a364945cbe8c5809a7bcf13902e915e1764b
+Installed-Size: 11315200
+Filename: v2ray-geosite_202610302203.1_all.ipk
+Size: 3696513
+SHA256sum: dedfdfeb2edf28ed16a04f707e5cb5de37f6058f697523bd4998f9d119f0fcb2
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1579,8 +1579,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 634880
 Filename: vmlinux-btf_6.6.119-r9_x86_64.ipk
-Size: 227369
-SHA256sum: e218d81245c35c604330c6e7a9d730c1a8296303e2c11fe5310dbd368b1316ac
+Size: 227438
+SHA256sum: 6e5de8107196432179559333e4c663569ba7cb01635cb46d1af0ced2d737de2e
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

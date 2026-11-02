@@ -1,0 +1,359 @@
+#!/bin/bash
+
+echo "正在生成分布式多级静态索引"
+
+# 设定目标执行目录为 packages
+TARGET_DIR="packages"
+
+# 开启 nullglob 避免空目录解析错误
+shopt -s nullglob
+
+# 核心生成函数：为指定目录生成专用的 index.html
+generate_index() {
+    local dir="$1"
+    local index_file="$dir/index.html"
+
+    # 1. 写入 HTML 和 CSS 头部
+    cat << 'EOF' > "$index_file"
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Index of / - OpenWrt Packages</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231890ff'/><text x='50' y='72' font-size='65' font-family='Arial, sans-serif' font-style='italic' font-weight='bold' fill='white' text-anchor='middle'>O</text></svg>">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        
+        :root { --bg: #ffffff; --text: #333333; --muted: #737373; --primary: #0366d6; --border: #e1e4e8; --hover: #f6f8fa; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.5; overflow-x: hidden; }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; }
+        
+        .toolbar { display: flex; align-items: center; justify-content: flex-start; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+        .breadcrumb { font-size: 20px; font-weight: 500; color: var(--muted); display: flex; align-items: center; gap: 6px; flex-grow: 1; min-width: 0; }
+        .breadcrumb a { color: var(--primary); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .home-icon { width: 22px; height: 22px; fill: var(--muted); transition: fill 0.2s; flex-shrink: 0; }
+        .home-icon:hover { fill: var(--primary); }
+        
+        .search-box-wrapper { position: relative; width: 300px; max-width: 100%; flex-shrink: 0; }
+        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; fill: var(--muted); }
+        .search-box { width: 100%; padding: 8px 12px 8px 32px; border: 1px solid var(--border); border-radius: 20px; font-size: 14px; outline: none; transition: all 0.2s; background: #fafbfc; }
+        .search-box:focus { border-color: var(--primary); background: #fff; box-shadow: 0 0 0 3px rgba(3,102,214,0.1); }
+        
+        .table-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 6px; border: 1px solid var(--border); }
+        table { width: 100%; border-collapse: collapse; table-layout: fixed; font-variant-numeric: tabular-nums; min-width: 300px; }
+        
+        th:nth-child(1) { width: auto; }
+        th:nth-child(2) { width: 160px; }
+        th:nth-child(3) { width: 100px; text-align: right; }
+        th:nth-child(4) { width: 100px; text-align: center; }
+
+        th { text-align: left; padding: 10px 16px; background: #f6f8fa; color: #586069; font-size: 14px; font-weight: 600; cursor: pointer; user-select: none; border-bottom: 1px solid var(--border); transition: background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        th:not(.no-sort):hover { background: #e1e4e8; color: var(--text); }
+        th .sort-indicator { display: inline-block; width: 14px; text-align: center; font-weight: normal; font-size: 12px; margin-left: 2px; }
+        
+        td { padding: 10px 16px; border-bottom: 1px solid var(--border); font-size: 14px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        th:nth-child(4), td:nth-child(4) { overflow: visible; text-overflow: clip; }
+
+        tr:hover td { background-color: var(--hover); }
+        
+        .item-name { display: flex; align-items: center; gap: 8px; width: 100%; overflow: hidden; }
+        .item-name a { color: var(--primary); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+        .item-name a:hover { text-decoration: underline; }
+        
+        .icon { width: 18px; height: 18px; flex-shrink: 0; }
+        .action-link { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 4px; color: var(--muted); transition: background 0.2s, color 0.2s; text-decoration: none; }
+        .action-link:hover { background: #e1e4e8; color: var(--primary); }
+        .action-icon { width: 18px; height: 18px; fill: currentColor; }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .toolbar { flex-direction: column; align-items: stretch; gap: 10px; margin-bottom: 10px; }
+            .breadcrumb { font-size: 16px; }
+            
+            th:nth-child(2) { width: 125px; } 
+            th:nth-child(3) { width: 70px; }  
+            th:nth-child(4) { width: 65px; }  
+            
+            th, td { padding: 10px 6px; font-size: 12px; }
+            th { font-size: 12px; }
+            
+            .icon { width: 16px; height: 16px; gap: 4px; }
+            .action-link { width: 24px; height: 24px; }
+            .action-icon { width: 16px; height: 16px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="toolbar">
+        <div class="breadcrumb" id="breadcrumb"></div>
+        <div class="search-box-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="text" id="searchBox" class="search-box" placeholder="Filter..." oninput="renderTableBody()">
+        </div>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortData('name', this)">Name<span class="sort-indicator">⇅</span></th>
+                    <th onclick="sortData('time', this)">Last Modified<span class="sort-indicator">⇅</span></th>
+                    <th onclick="sortData('size', this)">Size<span class="sort-indicator">⇅</span></th>
+                    <th class="no-sort" style="text-align: center;">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="file-list"></tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+const currentData = [
+EOF
+
+    # 2. 注入当前目录的文件夹数据
+    for d in "$dir"/*/; do
+        local name=$(basename "$d")
+        
+        # 仅排除隐藏目录和存放脚本的目录
+        if [[ "$name" == .* ]] || [[ "$name" == "scripts" ]]; then continue; fi
+
+        local count=0
+        for item in "$d"*; do
+            [ -e "$item" ] || continue
+            local iname=$(basename "$item")
+            
+            # 统计目录下文件数量时，同样排除前端文件和隐藏文件
+            if [[ "$iname" != *.html ]] && [[ "$iname" != *.css ]] && [[ "$iname" != *.js ]] && [[ "$iname" != .* ]]; then 
+                count=$((count + 1))
+            fi
+        done
+        
+        local mtime=$(git log -1 --format="%ct" -- "$d" 2>/dev/null || echo 0)
+        local safe_name=$(echo "$name" | sed "s/'/\\\'/g")
+        echo "    { type: 'folder', name: '$safe_name', size: $count, time: $mtime }," >> "$index_file"
+    done
+
+    # 3. 注入当前目录的文件数据（无差别遍历）
+    for f in "$dir"/*; do
+        if [ -f "$f" ]; then
+            local name=$(basename "$f")
+            
+            # 直接抛弃 html, css, js 文件及隐藏文件
+            if [[ "$name" == *.html ]] || [[ "$name" == *.css ]] || [[ "$name" == *.js ]] || [[ "$name" == .* ]]; then 
+                continue 
+            fi
+            
+            local size=$(stat -c%s "$f" 2>/dev/null || echo 0)
+            local mtime=$(git log -1 --format="%ct" -- "$f" 2>/dev/null || echo 0)
+            local safe_name=$(echo "$name" | sed "s/'/\\\'/g")
+            echo "    { type: 'file', name: '$safe_name', size: $size, time: $mtime }," >> "$index_file"
+        fi
+    done
+
+    # 4. 写入底部的独立 JS 逻辑
+    cat << 'EOF' >> "$index_file"
+];
+
+// 纯小写完美排序
+currentData.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
+    const nameA = a.name.toLowerCase();
+    const nameB = b.name.toLowerCase();
+    if (nameA < nameB) return -1;
+    if (nameA > nameB) return 1;
+    return 0;
+});
+
+currentData.forEach((item, index) => item.originalIndex = index);
+
+let sortStates = { name: 0, time: 0, size: 0 };
+let currentSortKey = null;
+
+// 精准定制专属的证书与公钥图标
+const icons = {
+    home: `<svg class="home-icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>`,
+    folder: `<svg class="icon" viewBox="0 0 24 24" fill="#79b8ff"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>`,
+    apk: `<svg class="icon" viewBox="0 0 24 24" fill="#ffab70"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18-.21 0-.41-.06-.57-.18l-7.9-4.44A.991.991 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18.21 0 .41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9M12 4.15L6.04 7.5 12 10.85l5.96-3.35L12 4.15M5 15.91l6 3.38v-6.71L5 9.19v6.72m14 0v-6.72l-6 3.39v6.71l6-3.38z"/></svg>`,
+    document: `<svg class="icon" viewBox="0 0 24 24" fill="#959da5"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>`,
+    archive: `<svg class="icon" viewBox="0 0 24 24" fill="#e1e4e8"><path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-1 8h-3v3h-2v-3h-3v-2h3V9h2v3h3v2z"/></svg>`,
+    pem: `<svg class="icon" viewBox="0 0 24 24" fill="#586069"><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M19,19H5V5h14V19z"/><path d="M7,7h10v2H7V7z"/><path d="M7,11h7v2H7V11z"/><path d="M15.5,13c-1.38,0-2.5,1.12-2.5,2.5c0,0.85,0.43,1.6,1.08,2.06L13.5,21l2-1l2,1l-0.58-3.44c0.65-0.46,1.08-1.21,1.08-2.06 C18,14.12,16.88,13,15.5,13z M15.5,16.5c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S16.05,16.5,15.5,16.5z"/></svg>`,
+    pub: `<svg class="icon" viewBox="0 0 24 24" fill="#586069"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>`,
+    download: `<svg class="action-icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>`
+};
+
+function formatSize(item) {
+    if (item.type === 'folder') return item.size === 1 ? '1 item' : item.size + ' items';
+    if (item.size === 0 || isNaN(item.size)) return '-';
+    const i = Math.floor(Math.log(item.size) / Math.log(1024));
+    return parseFloat((item.size / Math.pow(1024, i)).toFixed(1)) + ' ' + ['B', 'KB', 'MB', 'GB'][i];
+}
+
+function formatDate(ts) {
+    if (!ts) return '-';
+    const d = new Date(ts * 1000);
+    const p = n => n.toString().padStart(2, '0');
+    return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+function renderBreadcrumbs() {
+    const pathParts = window.location.pathname.split('/').filter(p => p);
+    let bcHtml = `<a href="/" title="Home">${icons.home}</a>`;
+    let currPath = '/';
+    let docTitle = 'Index of /';
+
+    pathParts.forEach((part, index) => {
+        currPath += part + '/';
+        bcHtml += ` / <a href="${currPath}">${decodeURIComponent(part)}</a>`;
+        docTitle += decodeURIComponent(part) + '/';
+    });
+
+    document.getElementById('breadcrumb').innerHTML = bcHtml;
+    document.title = docTitle + ' - OpenWrt Packages';
+    return pathParts.length > 0;
+}
+
+const isSubdir = renderBreadcrumbs();
+
+function sortData(key, thElement) {
+    document.querySelectorAll('th:not(.no-sort) .sort-indicator').forEach(span => span.innerHTML = '⇅');
+    document.querySelectorAll('th').forEach(th => th.classList.remove('active'));
+
+    if (currentSortKey !== key) {
+        if (currentSortKey) sortStates[currentSortKey] = 0;
+        currentSortKey = key;
+    }
+
+    sortStates[key] = (sortStates[key] + 1) % 3;
+    
+    let iconStr = '⇅';
+    if (sortStates[key] === 1) iconStr = '↓';
+    else if (sortStates[key] === 2) iconStr = '↑';
+    
+    thElement.querySelector('.sort-indicator').innerHTML = iconStr;
+
+    if (sortStates[key] === 0) {
+        thElement.classList.remove('active');
+        currentData.sort((a, b) => a.originalIndex - b.originalIndex);
+    } else {
+        thElement.classList.add('active');
+        let sortAsc = sortStates[key] === 1;
+        
+        currentData.sort((a, b) => {
+            if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
+            let valA = a[key], valB = b[key];
+            if (key === 'name') {
+                const nameA = valA.toLowerCase();
+                const nameB = valB.toLowerCase();
+                if (sortAsc) return nameA < nameB ? -1 : (nameA > nameB ? 1 : 0);
+                else return nameA > nameB ? -1 : (nameA < nameB ? 1 : 0);
+            }
+            return sortAsc ? valA - valB : valB - valA;
+        });
+    }
+    renderTableBody();
+}
+
+function renderTableBody() {
+    const searchTerm = document.getElementById('searchBox').value.toLowerCase().trim();
+    const tbody = document.getElementById('file-list');
+    let html = '';
+
+    if (isSubdir && searchTerm === '') {
+        html += `
+        <tr>
+            <td><div class="item-name">${icons.folder} <a href="../">..</a></div></td>
+            <td>-</td>
+            <td style="text-align:right;">-</td>
+            <td style="text-align:center;">-</td>
+        </tr>`;
+    }
+
+    const filtered = currentData.filter(item => item.name.toLowerCase().includes(searchTerm));
+
+    if (filtered.length === 0 && currentData.length > 0) {
+        html += '<tr><td colspan="4" style="text-align:center; color:var(--muted); padding:30px; white-space: normal;">未找到文件</td></tr>';
+    }
+
+    // 将 pem, pub, key 加入可预览文本列表，点击直接浏览器打开而不是弹窗下载
+    const viewableExts = ['txt', 'json', 'yaml', 'yml', 'sh', 'conf', 'log', 'md', 'csv', 'xml', 'ini', 'pem', 'pub', 'key'];
+
+    filtered.forEach(item => {
+        if (item.type === 'folder') {
+            html += `
+            <tr>
+                <td><div class="item-name">${icons.folder} <a href="${item.name}/" title="${item.name}">${item.name}</a></div></td>
+                <td>${formatDate(item.time)}</td>
+                <td style="text-align:right;">${formatSize(item)}</td>
+                <td style="text-align:center;">-</td>
+            </tr>`;
+        } else {
+            const ext = item.name.includes('.') ? item.name.split('.').pop().toLowerCase() : '';
+            const isViewable = viewableExts.includes(ext) || ext === '';
+
+            // 🌟 核心修改：精确匹配后缀来应用新图标
+            let iconHtml = icons.archive;
+            if (ext === 'pem') iconHtml = icons.pem;
+            else if (ext === 'pub' || ext === 'key') iconHtml = icons.pub;
+            else if (isViewable) iconHtml = icons.document;
+            else if (ext === 'apk' || ext === 'ipk') iconHtml = icons.apk;
+
+            const attr = isViewable ? '' : 'download';
+
+            html += `
+            <tr>
+                <td><div class="item-name">${iconHtml} <a href="${item.name}" ${attr} title="${item.name}">${item.name}</a></div></td>
+                <td>${formatDate(item.time)}</td>
+                <td style="text-align:right;">${formatSize(item)}</td>
+                <td style="text-align:center;"><a href="${item.name}" download class="action-link" title="Download">${icons.download}</a></td>
+            </tr>`;
+        }
+    });
+
+    tbody.innerHTML = html;
+}
+
+renderTableBody();
+</script>
+</body>
+</html>
+EOF
+    echo "✅ 生成完毕: $index_file"
+}
+
+# 5. 遍历指定目录(packages)下的所有子目录并生成索引
+find "$TARGET_DIR" -type d ! -path "*/\.*" ! -path "*/scripts*" | while read -r dir; do
+    generate_index "$dir"
+done
+
+echo "🎉 完美！多级目录索引生成完毕！"
+
+# 6. 生成全局 404 页面
+cat << 'EOF' > "$TARGET_DIR/404.html"
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Not Found</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #fff; color: #333; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; }
+        .container { max-width: 500px; padding: 40px; }
+        h1 { font-size: 80px; margin: 0; color: #0366d6; font-weight: 800; letter-spacing: -2px; }
+        p { font-size: 18px; color: #586069; margin-bottom: 30px; }
+        a { display: inline-block; background: #0366d6; color: #fff; padding: 12px 30px; border-radius: 6px; text-decoration: none; font-weight: 500; transition: background 0.2s; }
+        a:hover { background: #005cc5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>哎呀！您访问的路径不存在或已被移除。</p>
+        <a href="/">返回根目录</a>
+    </div>
+</body>
+</html>
+EOF

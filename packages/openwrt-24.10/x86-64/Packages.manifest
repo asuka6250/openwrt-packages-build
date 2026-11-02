@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286299
-SHA256sum: 0805f7e637efad1f23d9c57b4b064dd7dfb3b9e6d90c93f5e48097c654d0e734
+Size: 286302
+SHA256sum: 04fc6a34e2165f8a9c21f9e9be35f422fabc0715e6797a5294493f90523cb6a2
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r3_x86_64.ipk
-Size: 11135
-SHA256sum: 18e53a29b0251c4d19a1a4a7cfc82b13b09e56f3aab0da87bfdbd50e452cec43
+Size: 11134
+SHA256sum: 3e8e2a3bb29780deb1ccb6106ce1f6531c3f312ba4f6578aa9b6ac2e43f721b1
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -189,14 +189,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: x86_64
 Installed-Size: 7720960
 Filename: geoview_0.2.9-r1_x86_64.ipk
-Size: 3050443
-SHA256sum: bc7e7db21f1edf4b46955fb161d80f4253d9aeac1b3602ffd60bfffafb33d44f
+Size: 3050619
+SHA256sum: cae41f194b362368afb93112c024b6cd32e81b21f82d61128bee729a16236751
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -550,14 +550,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1454080
 Filename: luci-app-passwall2_26.10.29-r1_all.ipk
-Size: 366751
-SHA256sum: 8dc2033079cd6013ee185d2cc3f82f363ef02ff77a64c928bad98f72eda4376a
+Size: 366726
+SHA256sum: 1557383a94f1b3359a7d93da3b16fa679b4fa5daab6d157b25f4465770d18901
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -566,14 +566,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3235840
 Filename: luci-app-passwall_26.10.29-r1_all.ipk
-Size: 862857
-SHA256sum: c2f362ceccbb5b0af5d3d85f8949c9b880f3063f25ed9c3003a4eb943eab3eef
+Size: 863055
+SHA256sum: 4f47615cba73bfd94496bc02e56cbcf79d114ed62690fbba0dd891a0c53ff50d
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -931,12 +931,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.10.29_all.ipk
-Size: 17497
-SHA256sum: a4e686c10a476ad07ffe9ae77ca2b1febea52399242218ecb836ed1d6915c086
+Size: 17504
+SHA256sum: 8dced1c1d770b1ba414dc09bdd80818756fff150c807c8edab6a9ea690f5446e
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -945,12 +945,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.10.29_all.ipk
-Size: 21233
-SHA256sum: 145632446355c78af4e4e90e4d18e3afe119cd1cba0bfde7fb4894269baae85f
+Size: 21229
+SHA256sum: a123a6a5c4c753686eb20ef9de4f82a630568da4bc83e8a17fe8e03f0ca8b470
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1262,14 +1262,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 6737
-SHA256sum: c928991c728471196ec13c5fa76f022c8d808c5a521fe8cf28f0c26c3cebc55d
+Size: 6742
+SHA256sum: 115d2dd6a618fea422bf1b156e0b732fb4f5335dc3de4087466277b37f7caa8b
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1962,13 +1962,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4422
-SHA256sum: bcf4b9b7537dc0920804e95ed0bbae06911fffa0d197064fd51f44f4e3ec3248
+Size: 4438
+SHA256sum: 04f4b04af40d683262f5e4936459fd507873679c7ecbdb9fa4d1ad1e88fa98dc
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -2014,14 +2014,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16558080
 Filename: v2ray-geoip_202610290022.1_all.ipk
-Size: 3441896
-SHA256sum: 5c7a0812699d9743abc7150c4828f27beef25a1b4689b70951cb013e4efa8856
+Size: 3442064
+SHA256sum: 45cc996ea08bef1a037747611337609d0c4970b179bdcd1fd711909c71a6e5ac
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2032,14 +2032,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793595270
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11315200
 Filename: v2ray-geosite_202610302203.1_all.ipk
-Size: 3696440
-SHA256sum: d41376e177de013e142cea0e1963eeb5d7db6d18f822f9a9ee34a7b6556b25bc
+Size: 3696523
+SHA256sum: 6ea79e18c8afc462c9dc1050530745ae7a675cffe61e8e767e988d400885f085
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

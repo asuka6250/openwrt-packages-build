@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1793475942
+SourceDateEpoch: 1793642189
 Maintainer: kenzok8
 Architecture: aarch64_generic
-Installed-Size: 58685440
+Installed-Size: 58675200
 Filename: clashoo_2026.10.25.1.19.33-r5_aarch64_generic.ipk
-Size: 21600034
-SHA256sum: f77a9cea1b052e56fb44e3f1a7fa95d6627f5382b97d91935642f92ae599df75
+Size: 21599808
+SHA256sum: af9fad33cc6f64340bacf5ff0921681a9b68c9ed97b5a36b0edcb68438ff6445
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1793475942
+SourceDateEpoch: 1793642189
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.31.0-r9_all.ipk
-Size: 405572
-SHA256sum: 210e4fe1c0dcb70510eb6b06f0e51383cf72539d63170edaf3fda5360021e92f
+Size: 405560
+SHA256sum: 2a5512c7bafb321e541ce005d1d01a6d04cbe20e43b3a49b72de4fc59dbe559a
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -751,6 +751,21 @@ Size: 4283
 SHA256sum: efa3f1193381a22d0e89edca0f49a788019bea0eebb0976f7c20a9776fc2f903
 Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
 
+Package: luci-i18n-argon-config-zh-cn
+Version: v3.1.2
+Depends: libc, luci-theme-argon
+Source: feeds/base/custom_packages/luci-theme-argon
+SourceName: luci-theme-argon
+License: Apache-2.0 MIT
+Section: luci
+SourceDateEpoch: 1793642189
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-argon-config-zh-cn_v3.1.2_all.ipk
+Size: 4274
+SHA256sum: 1dff92f3aa770c262a9b8b8f3f0e636a871dd93e8ec03a6457aedccf53e87751
+Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
+
 Package: luci-i18n-arpbind-zh-cn
 Version: 26.166.28689~7af0cf3
 Depends: libc, luci-app-arpbind
@@ -786,13 +801,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1793475942
+SourceDateEpoch: 1793642189
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.31.0-r9_all.ipk
-Size: 12769
-SHA256sum: c91592f305c9303d5b65d5831064fc12269caabf41a17a93d2b865e03038b17f
+Size: 12770
+SHA256sum: 7192915c7a64f0f939419e09fe7f4fd0d4318990d32391c5d28cb20c817517c9
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1095,20 +1110,20 @@ SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: luci-theme-argon
-Version: 3.1.1-r20261028
+Version: 3.1.2-r20261102
 Depends: libc, luci-base, wget, jsonfilter, ucode-mod-math, flock, coreutils, coreutils-timeout
 Source: feeds/base/custom_packages/luci-theme-argon
 SourceName: luci-theme-argon
 License: Apache-2.0 MIT
 Section: luci
-SourceDateEpoch: 1793261778
+SourceDateEpoch: 1793642189
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 747520
-Filename: luci-theme-argon_3.1.1-r20261028_all.ipk
-Size: 297804
-SHA256sum: 613268e412b8820649597533a0695a63a4a8d70f58c89e774d10b51ea7caafd2
+Filename: luci-theme-argon_3.1.2-r20261102_all.ipk
+Size: 297848
+SHA256sum: 19662c188bf11d5613458b8f43878d2057bba503371df30b03721faaedd7b8ea
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -1180,21 +1195,21 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.305.73089~bac07e4
+Version: 26.306.64589~8bbf81f
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1793564289
+SourceDateEpoch: 1793642189
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 296960
-Filename: luci-theme-footstrap_26.305.73089~bac07e4_all.ipk
-Size: 73861
-SHA256sum: db18a121dc4a894e12098ed1ca8f6df7ce4db7c74b2d400f3cac94d46b023298
+Filename: luci-theme-footstrap_26.306.64589~8bbf81f_all.ipk
+Size: 73915
+SHA256sum: e8b42513d45c3fdc3977f70818a2eb4a4198981d2fcdb98252aa482dda7b53ab
 Description:  Footstrap Theme
 
 Package: luci-theme-glass

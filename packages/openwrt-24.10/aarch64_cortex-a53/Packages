@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a53.ipk
-Size: 11388
-SHA256sum: 2ceb0658a0e2e54012f2e8f83c272804bfacbfb84aabe583bba1251c40f47cdd
+Size: 11387
+SHA256sum: 9df5aec1ce9f99407adcb07ba6c43804f7319ada14266d9bfedbcff1609069e6
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -185,8 +185,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a53.ipk
-Size: 26145
-SHA256sum: 382c2a0c4637a501dc1a03d2a70599e7c68b03779461969365a52da21fd50cde
+Size: 26143
+SHA256sum: 01cb28562fcd3f3411588368fba7e78b635d480b36a1456672435eff3abafcb5
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -225,7 +225,7 @@ Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
 Size: 5344
-SHA256sum: 6fcf874a7145840cc00df68a2a8af8ab3961ea5d8a3f5b0698ab6c58233df604
+SHA256sum: 31a6227aa3a835ec40f2727ee9fa7e1e5d96c22a2def992d7bef5126e157b0e0
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -501,15 +501,15 @@ SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
 Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
-Version: 198-r2
+Version: 198-r3
 Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2560000
-Filename: luci-app-ssr-plus_198-r2_all.ipk
-Size: 516227
-SHA256sum: 2ba867ac05b5a239e2c8fa25ce2237dc673ed2871c1923169ee540e7c11141b9
+Filename: luci-app-ssr-plus_198-r3_all.ipk
+Size: 516220
+SHA256sum: 68e3642a94cffa00d41a1c88a7e5d16aaa3c9d8c6effbc6af09e6011b9d6a9d6
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -801,14 +801,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.307.69558~46f1578
+Version: 26.308.42899~664c608
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.307.69558~46f1578_all.ipk
-Size: 14900
-SHA256sum: 60b275849959762295e095c02a7eab3c377134fc69dae6e9aa22a045065bc674
+Filename: luci-i18n-ssr-plus-zh-cn_26.308.42899~664c608_all.ipk
+Size: 14901
+SHA256sum: c452c1e67cb1d288202d6a37260d6648eed656432860ad2d94c7d2a844c800fa
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -864,16 +864,16 @@ SHA256sum: 19662c188bf11d5613458b8f43878d2057bba503371df30b03721faaedd7b8ea
 Description:  Argon Theme
 
 Package: luci-theme-aurora
-Version: 1.4.2-r20261104
+Version: 1.4.3-r20261104
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 471040
-Filename: luci-theme-aurora_1.4.2-r20261104_all.ipk
-Size: 185022
-SHA256sum: e8e807b19b8f2cec8dda907e58d04f644a8b633377805661fa2e2bcd6c4a9a14
+Filename: luci-theme-aurora_1.4.3-r20261104_all.ipk
+Size: 185400
+SHA256sum: 588f205e94444006cc41ce392b233920592680f98771ec96bd6d3d2d7f5be992
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
@@ -916,16 +916,16 @@ SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.306.64589~8bbf81f
+Version: 26.308.42899~664c608
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Architecture: all
 Installed-Size: 296960
-Filename: luci-theme-footstrap_26.306.64589~8bbf81f_all.ipk
-Size: 73915
-SHA256sum: e8b42513d45c3fdc3977f70818a2eb4a4198981d2fcdb98252aa482dda7b53ab
+Filename: luci-theme-footstrap_26.308.42899~664c608_all.ipk
+Size: 73981
+SHA256sum: 2809d08c140c839f19c2a913d583632b3b621aac46f387b93dcb8111d3737e28
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -966,16 +966,16 @@ SHA256sum: c48dcb08d2a370eea0b3369717f081d4c3bda6bcf73a01e5a345f9fed48232c7
 Description:  Material3 Theme (default)
 
 Package: luci-theme-shadcn
-Version: 0.6.2-r20261104
+Version: 0.6.3-r20261104
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 768000
-Filename: luci-theme-shadcn_0.6.2-r20261104_all.ipk
-Size: 522822
-SHA256sum: 769463f1783fb782ae8439d255fb91e91ed8a867577c37ccc8eb11f8e2dc3130
+Filename: luci-theme-shadcn_0.6.3-r20261104_all.ipk
+Size: 523137
+SHA256sum: 5571e4a9d894cc027d93bcd6eace6fa77d90786e5fdc92b9ccb8f52bf8fa822a
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: luci-theme-tp
@@ -1013,8 +1013,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 7211
-SHA256sum: f597d7ba8665e9d3dfebbc18429134beb5b1e973410a71347389fd72ef066e07
+Size: 7199
+SHA256sum: 67ec40d0bba6ac4d56ee9226930f5f7d357e4be30e9292a561bad7c8f5ebf7c3
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.

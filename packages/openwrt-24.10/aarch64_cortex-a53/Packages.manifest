@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269714
-SHA256sum: 991c0435a1adf34711df28307304a25404a95350240d41210f9b2c416334083d
+Size: 269734
+SHA256sum: aa50c12741c71bf0a0ad12a98279a51f9f2e25c92ead2ca9566ed57283c1f303
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1793820539
+SourceDateEpoch: 1793966031
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
 Installed-Size: 58685440
 Filename: clashoo_2026.11.04.1.19.33-r3_aarch64_cortex-a53.ipk
-Size: 21598826
-SHA256sum: 7c02a3422db1273e77c490e574d8c4794a38b282bfceec4645ffd72abe35e154
+Size: 21594780
+SHA256sum: fa5eda5c144d97f312e89bee518ae2fb6ab60f54efd5e2c0898bd535c69fd0b2
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a53.ipk
-Size: 11822
-SHA256sum: 2ac753ef73b15cf62fe907e4fa06768468355a493086d6a102475c2d80873d68
+Size: 11828
+SHA256sum: a2bea84c3a96596a0a2099a40aac071d77d28d96af827cf739c86d03e7f03156
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -203,14 +203,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_cortex-a53.ipk
-Size: 2752808
-SHA256sum: 4c58f016de2a5736c56b81b906307aa7f37286d0f96ea2e959fdc2dea6bfc213
+Size: 2752858
+SHA256sum: 244351998424deee5f84c91031a861cd3c6dc8d46ff2fa1951b3402be17d6360
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1793820539
+SourceDateEpoch: 1793966031
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406247
-SHA256sum: c66b2e0e05116b29ef4dffb1aa385fa81db0aa6a92785e9dabafdaf2f25afa5e
+Size: 406244
+SHA256sum: 56efc76dc14c08935fa7b6688d6283a444402e92728b984ad869d3e759216345
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -580,14 +580,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1454080
 Filename: luci-app-passwall2_26.11.3-r1_all.ipk
-Size: 367547
-SHA256sum: 82ebe795418c0f5d5732ed791df4e0edca15a99542c661008fdbd3b41acfb94e
+Size: 367906
+SHA256sum: 45b5a2635aee2176ed59567ac23934108a467df973b0212deb6f96e8c1256c1b
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -596,14 +596,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3235840
 Filename: luci-app-passwall_26.11.3-r1_all.ipk
-Size: 863671
-SHA256sum: 4b54423f22ba0abb37ea9c65f6315c9d890b6b8959a98545f9ba3d162ba49ece
+Size: 864150
+SHA256sum: 122a325aa0c911f18f43b700ec91ec7d6110b53a7d32de8b04b69734ae5f6c78
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -766,6 +766,21 @@ Size: 4274
 SHA256sum: 1dff92f3aa770c262a9b8b8f3f0e636a871dd93e8ec03a6457aedccf53e87751
 Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
 
+Package: luci-i18n-argon-config-zh-cn
+Version: v3.1.3
+Depends: libc, luci-theme-argon
+Source: feeds/base/custom_packages/luci-theme-argon
+SourceName: luci-theme-argon
+License: Apache-2.0 MIT
+Section: luci
+SourceDateEpoch: 1793966031
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-argon-config-zh-cn_v3.1.3_all.ipk
+Size: 4276
+SHA256sum: 69cc3abe9aba69e10fe2082ae4c1d6b0170f2073711b12c9ee64f7eab3fce06a
+Description:  Translation for luci-theme-argon - 简体中文 (Simplified Chinese)
+
 Package: luci-i18n-arpbind-zh-cn
 Version: 26.166.28689~7af0cf3
 Depends: libc, luci-app-arpbind
@@ -801,13 +816,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1793820539
+SourceDateEpoch: 1793966031
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12962
-SHA256sum: 8923a1194c5c96b1c25181e2db250eee4dfb7d5f86e3a16272c54418279ee3f2
+Size: 12964
+SHA256sum: 45664f5b4d16dce535ff5960be98d930cfe0e599a027f7e9467c90a35436742a
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -990,12 +1005,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_26.11.3_all.ipk
-Size: 17505
-SHA256sum: 1e2014f324e6575b24d53fc834c173c921a966080accef2c557652397ad86c04
+Size: 17500
+SHA256sum: 7cf04315b288da4f03fa65525c1266f29d7140a118f1d7df8a1c5611767b1671
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1004,12 +1019,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall2-zh-cn_26.11.3_all.ipk
-Size: 21228
-SHA256sum: e4884147ef7a75b0ebd358aa52f6775673cc53c4e66fdae6d421cc0bb9d5e31e
+Size: 21230
+SHA256sum: c937efeafc6fed058e031c06ef3a5b4084c7fcb1011ade5d552d0ed4e48084ec
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1110,20 +1125,20 @@ SHA256sum: e4e8d4bbc91ba80a401e54893060c93e8774fd6ef323363bc57167735aad10e5
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: luci-theme-argon
-Version: 3.1.2-r20261102
-Depends: libc, luci-base, wget, jsonfilter, ucode-mod-math, flock, coreutils, coreutils-timeout
+Version: 3.1.3-r20261106
+Depends: libc, luci-base, wget-ssl, ca-bundle, jsonfilter, ucode-mod-math, flock, coreutils, coreutils-timeout
 Source: feeds/base/custom_packages/luci-theme-argon
 SourceName: luci-theme-argon
 License: Apache-2.0 MIT
 Section: luci
-SourceDateEpoch: 1793642189
+SourceDateEpoch: 1793966031
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 747520
-Filename: luci-theme-argon_3.1.2-r20261102_all.ipk
-Size: 297848
-SHA256sum: 19662c188bf11d5613458b8f43878d2057bba503371df30b03721faaedd7b8ea
+Installed-Size: 757760
+Filename: luci-theme-argon_3.1.3-r20261106_all.ipk
+Size: 298394
+SHA256sum: 80e97513f35deb5ed526909c8d55d7c0065dea4e177c2315598f3dcc433e5e27
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -1296,21 +1311,21 @@ SHA256sum: af1a81b02c37d41c5a97ad7f56139ffcd80b70e755a8b901155c155561d0727d
 Description:  TP-Link Classic Theme
 
 Package: lucky
-Version: 2.27.2-r4
+Version: 3.5.0-r5
 Depends: libc
 Source: feeds/base/custom_packages/lucky
 SourceName: lucky
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1791001003
+SourceDateEpoch: 1793966031
 URL: https://github.com/gdy666/lucky
 Maintainer: GDY666 <gdy666@foxmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 9287680
-Filename: lucky_2.27.2-r4_aarch64_cortex-a53.ipk
-Size: 9272638
-SHA256sum: 981d3c2b5940e89493a49f5105d0af4a41694dc9d2d5262b3f950c94d08048ca
+Installed-Size: 14325760
+Filename: lucky_3.5.0-r5_aarch64_cortex-a53.ipk
+Size: 14315612
+SHA256sum: 561f769588ddf0e2bbb261e28f6dd24739d898cf2be4da32f768e9a4a30a3636
 Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
 
 Package: microsocks
@@ -1321,14 +1336,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 7208
-SHA256sum: a46e943bdfcadb47cbbec02c1fa8d77620afed2e301f8262f306b39b40d01644
+Size: 7201
+SHA256sum: 7464588e2f8a4119413569d9f849f2b68f0d70a5c4814732be4db38ae231843e
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -2021,13 +2036,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4321
-SHA256sum: effc7e7e354722614464b62c6d95201b9ed596a17c15629523380d334fde1e07
+Size: 4325
+SHA256sum: a7a29095bf25aec437ac18459bdff73cdd2c274c64f5319bc25b361597328277
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -2073,14 +2088,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16558080
 Filename: v2ray-geoip_202610290022.1_all.ipk
-Size: 3443470
-SHA256sum: c3ee4080259fdfc648bce352447a53c60446aa970b342cbb0b9dbfa76178dc4a
+Size: 3443317
+SHA256sum: 8bec2def69e75dcdd8722a02f8b3300ea0d7df6a943e44a13816cab4c8c1d45a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2091,14 +2106,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793907533
+SourceDateEpoch: 1793966031
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11315200
 Filename: v2ray-geosite_202610302203.1_all.ipk
-Size: 3696492
-SHA256sum: b4bcbed97c24d890958811a3ff2e2a767efaea592e9910921807d1e9e0f48f1d
+Size: 3696446
+SHA256sum: ef1915c07bf896f7d341a4108978bc1de66332a9d3268b9279b9457bacf433bd
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2125,12 +2140,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1793475942
+SourceDateEpoch: 1793966031
 Architecture: aarch64_cortex-a53
 Installed-Size: 614400
 Filename: vmlinux-btf_6.6.119-r9_aarch64_cortex-a53.ipk
-Size: 217527
-SHA256sum: 845b76fb1071f120af168be117babf85f6a2c57548639b36e7b4397e44e065cc
+Size: 217512
+SHA256sum: e3a7cb5034b8f84b0ea5b3c18ae9ef6481d5a395dbb73ca055760ec5aade6bdb
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

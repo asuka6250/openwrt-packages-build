@@ -135,14 +135,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2tcp_1.1.2-r1_x86_64.ipk
-Size: 11102
-SHA256sum: 8cb742564e89a13919c89c3be83885151f7412d4c4a88d0a200d378f3f008abb
+Size: 11099
+SHA256sum: 4a4610587f1559a385505ce9f66866a1a5104fd11474163f9e95eab739f863e4
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -226,13 +226,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/zfl9/ipt2socks
 Architecture: x86_64
 Installed-Size: 81920
 Filename: ipt2socks_1.1.4-r3_x86_64.ipk
-Size: 27261
-SHA256sum: a38ce5491f77b7dc5a214b75731ac3771ee1db7e083f2a6f2735fe66e180d674
+Size: 27257
+SHA256sum: 1a4d385ad5d4114edc2ad843178aefe8c2dbdb864b1aa725f8bfb896cb69315a
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -274,14 +274,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5344
-SHA256sum: 4aef119fcbb8a7c7e57ab4e5a662799cb4736aa6dbac561f2c2ca1f4d62960d1
+Size: 5336
+SHA256sum: be2e090cb0a39277b96d154c2fd15932efb4dfb472193f649c9e1a6c6f7138d4
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -633,14 +633,14 @@ Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2560000
+Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r3_all.ipk
-Size: 516956
-SHA256sum: 63e49a9fa6798330087c4a63c030e2f31c21273cdeab3db0f78eb032ecac60d9
+Size: 516671
+SHA256sum: ab064764afe601d4fd55cd3f242231be45f56968ff4c83f8a87aba2e62bc56cc
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -1016,17 +1016,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.311.18119~aec99a9
+Version: 26.312.17830~76406b6
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.311.18119~aec99a9_all.ipk
-Size: 14906
-SHA256sum: 0ed603e4350b82d31adc2769a8d56fcee69d1d8861f8a6e031bbed74f5b8f2d5
+Filename: luci-i18n-ssr-plus-zh-cn_26.312.17830~76406b6_all.ipk
+Size: 14857
+SHA256sum: 70efeb5ede1c04f035bd75092165e9a705712fd53b1da5be640c0d2604d5213e
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1292,14 +1292,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794113830
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 6749
-SHA256sum: 8ed1be9660675626c1046c506202d14c1226e9b4a714d9f7ba76c8de1ebb9e1f
+Size: 6752
+SHA256sum: d8b6585ec324f285eda1ce27ce41ddc438f15c718c6a96546767a32e423a8eb7
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.

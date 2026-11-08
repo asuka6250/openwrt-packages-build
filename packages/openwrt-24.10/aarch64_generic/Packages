@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_generic.ipk
-Size: 11418
-SHA256sum: 889286797fec140f447402d4b6a1c472c45ba6f7191819ae5a5c2ccae76a3e53
+Size: 11403
+SHA256sum: 715d994dd129e67099694d93e9cc226452111a9549bc951824fd0aa91387c2e4
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -185,8 +185,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_generic.ipk
-Size: 26139
-SHA256sum: 79721e98528d29a523480fe727dbf3456d5761d80350661768f7ad19f6aa42a5
+Size: 26143
+SHA256sum: 9455caa06bc3e26dceefa0085b08f5cb2da6393b263c4392d59b3e9a7a01d90a
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -224,8 +224,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5344
-SHA256sum: 4aef119fcbb8a7c7e57ab4e5a662799cb4736aa6dbac561f2c2ca1f4d62960d1
+Size: 5336
+SHA256sum: be2e090cb0a39277b96d154c2fd15932efb4dfb472193f649c9e1a6c6f7138d4
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -506,10 +506,10 @@ Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 2560000
+Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r3_all.ipk
-Size: 516956
-SHA256sum: 63e49a9fa6798330087c4a63c030e2f31c21273cdeab3db0f78eb032ecac60d9
+Size: 516671
+SHA256sum: ab064764afe601d4fd55cd3f242231be45f56968ff4c83f8a87aba2e62bc56cc
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -813,14 +813,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.311.18119~aec99a9
+Version: 26.312.17830~76406b6
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.311.18119~aec99a9_all.ipk
-Size: 14906
-SHA256sum: 0ed603e4350b82d31adc2769a8d56fcee69d1d8861f8a6e031bbed74f5b8f2d5
+Filename: luci-i18n-ssr-plus-zh-cn_26.312.17830~76406b6_all.ipk
+Size: 14857
+SHA256sum: 70efeb5ede1c04f035bd75092165e9a705712fd53b1da5be640c0d2604d5213e
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1025,8 +1025,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 7201
-SHA256sum: 97ae55226008fdca6f078058334053a55e5fda9a658979ca6719b1517211e108
+Size: 7206
+SHA256sum: aa3e0d436da845ba49306d3f6462dffd12ca2aaa01dae5fc85b6e9530f861448
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.

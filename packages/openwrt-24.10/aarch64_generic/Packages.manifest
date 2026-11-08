@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287139
-SHA256sum: 59a3ac123ab9a8535b201f30c72fcf3a4c5505dcb70b0000b0abb4c489c5ac91
+Size: 287114
+SHA256sum: bbf80a26257a006f46e59796cb7aa5233b9b51f181bedddc513e35127a891275
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 Maintainer: kenzok8
 Architecture: aarch64_generic
 Installed-Size: 58685440
 Filename: clashoo_2026.11.04.1.19.33-r3_aarch64_generic.ipk
-Size: 21599063
-SHA256sum: fd873c2c90c31515695ad794e1a0e6251837f616d72dd4a9601a62151cb4b7ce
+Size: 21593053
+SHA256sum: 9bba4c612e0a2bc18ed2f9a918b62b1a37e6ca850adf6cb3c99d54f5618758ab
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_generic.ipk
-Size: 11836
-SHA256sum: f7300379783d358b435e9117cc95a45fc10bda08221580ccfde78885541ab79c
+Size: 11838
+SHA256sum: 2fcad589db0bf6f655fd2d1c0e86f3e8d44cfd8cd2f11d313ecb81059ccaf7aa
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -203,14 +203,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_generic
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_generic.ipk
-Size: 2752944
-SHA256sum: ad9354683ee843449405adf4d1efedcc870af550b693bdb283c426f0a00cba65
+Size: 2752981
+SHA256sum: f328bc135053dbdc66873fb4f57b623f0cca09ce61e496744da7a179969024ec
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406232
-SHA256sum: b79e4a0f1489988c3221f66dab96d16fe2d3bc6db4b79b1c4616c92823bc6bf2
+Size: 406239
+SHA256sum: 286c53d982a33d83168cf6d27bd476dec86ba1a704ba4a8a845c8314d58f29b9
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -580,14 +580,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1474560
 Filename: luci-app-passwall2_26.11.3-r1_all.ipk
-Size: 373516
-SHA256sum: edfb7a046cb570db36608fe3356c308c0a8032a6148ebdbc340eab1b003cab57
+Size: 373569
+SHA256sum: 81619600ac2fc984e0b62f4ef585b490ffaa2456b8a2eb49b9bc4013974453e8
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -596,14 +596,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3235840
 Filename: luci-app-passwall_26.11.3-r1_all.ipk
-Size: 864407
-SHA256sum: b92ffc19fb31ec825aefa0ae3b3da988eadc82fda1ee295c8722467cba7468de
+Size: 864457
+SHA256sum: 6fee61e0cb18aa72ad131532db1ff43fe212ca9b168033c3ebdc647514dbbf40
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -816,13 +816,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12965
-SHA256sum: c6c56817a2389e4ebef12300dcce0127c55210da042b9bb31028b9c9c839deff
+Size: 12968
+SHA256sum: eb4bbec08eac69728184eae6cd48c79500dfeffd0d0e874b7d063a3e930bd5f9
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -870,33 +870,33 @@ SHA256sum: 7734702ee909029be64cb1c7c1e2abbaba93b55d9db9fe710d42e4849ee98fa7
 Description:  Translation for luci-app-daed - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluent-zh-cn
-Version: 26.277.69431~39c757e
+Version: 26.312.72934~0b8cc12
 Depends: libc, luci-theme-fluent
 Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-theme-fluent
 SourceName: luci-theme-fluent
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1794168934
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-fluent-zh-cn_26.277.69431~39c757e_all.ipk
-Size: 6458
-SHA256sum: f9afc30686c5ebde7ab439fca74d6e8608175b4c82e52aec6e09e52e976b1ba2
+Filename: luci-i18n-fluent-zh-cn_26.312.72934~0b8cc12_all.ipk
+Size: 6461
+SHA256sum: eb3080dca5116bf51a6a122d81f836ae2e45108cd43997a2c5949daaeca0e8da
 Description:  Translation for luci-theme-fluent - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluentdashboard-zh-cn
-Version: 26.277.69431~39c757e
+Version: 26.312.72934~0b8cc12
 Depends: libc, luci-mod-fluentdashboard
 Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-mod-fluentdashboard
 SourceName: luci-mod-fluentdashboard
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1794168934
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-fluentdashboard-zh-cn_26.277.69431~39c757e_all.ipk
-Size: 2175
-SHA256sum: c3e05ac5b1cba1c7258d2035715d3b507416e5364dae8e2c6d1f8c06d9f75679
+Filename: luci-i18n-fluentdashboard-zh-cn_26.312.72934~0b8cc12_all.ipk
+Size: 2173
+SHA256sum: d5d87847168f49b9c6b9474814780a0b6bb3c5d5d414858e1e4f8136735532dc
 Description:  Translation for luci-mod-fluentdashboard - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-glass-zh-cn
@@ -1005,12 +1005,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.3_all.ipk
-Size: 17559
-SHA256sum: 1779ae155a6b0b982a14c558af6e077d293bfb8af09c5d281912e1d58839aa9c
+Size: 17563
+SHA256sum: b8e6eff968f711d9377a87c085dad0d9efefe90e053b65db06fbedb138418d4b
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1019,12 +1019,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.3_all.ipk
-Size: 21662
-SHA256sum: 291177bf332ed1ae0750e63fd56965806a23843deeb0ff5cd739447122b4aa1c
+Size: 21658
+SHA256sum: 6cebe0445379bd407f732df9e8be1df2a2ee859b6a691cb87f40abb22395909d
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1159,20 +1159,20 @@ SHA256sum: 588f205e94444006cc41ce392b233920592680f98771ec96bd6d3d2d7f5be992
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
 Package: luci-theme-design
-Version: 7.1-r20261015
+Version: 7.1-r20261109
 Depends: libc
 Source: feeds/base/custom_packages/luci-theme-design
 SourceName: luci-theme-design
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1792081775
+SourceDateEpoch: 1794168934
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 634880
-Filename: luci-theme-design_7.1-r20261015_all.ipk
-Size: 313728
-SHA256sum: ed53f4624770bcc5368f48c081717a4f9df0afcd20ee8d8bb3a15566e2213833
+Installed-Size: 645120
+Filename: luci-theme-design_7.1-r20261109_all.ipk
+Size: 315764
+SHA256sum: eeb299172af519232620161ffd468ade025d9000e448697fbc5cb86e97f736c4
 Description:  Design Theme
 
 Package: luci-theme-fluent-lite
@@ -1182,49 +1182,49 @@ Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-theme-fluent-l
 SourceName: luci-theme-fluent-lite
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1794168934
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 870400
 Filename: luci-theme-fluent-lite_1.0.9-r1_all.ipk
-Size: 134721
-SHA256sum: 6c27f13f0af0b3bab0861a5508f1eec7b8617e89f1a2780ec212034771841463
+Size: 136775
+SHA256sum: 2a43ee832eedb6f70896806e20ffb853c52f5566d1c8969c0cecbdac9997bb42
 Description:  Core FluentUI theme styling for LuCI without optional menu, updater, log, and application enhancements.
 
 Package: luci-theme-fluent
 Version: 1.0.9-r1
-Depends: libc, luci-base
+Depends: libc, luci-base, flock
 Source: feeds/base/custom_packages/luci-theme-fluent/package/luci-theme-fluent
 SourceName: luci-theme-fluent
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791141431
+SourceDateEpoch: 1794168934
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 962560
+Installed-Size: 972800
 Filename: luci-theme-fluent_1.0.9-r1_all.ipk
-Size: 161579
-SHA256sum: 3c6e68bd74426483e132e16c3bd57e6b6033ba2e230cc1c1ce4e5144e360b9a5
+Size: 161919
+SHA256sum: 0a0589e8fc7fb7bce833a078ac56b6673d4566ef0a0204f99d9a52f0dd92b309
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
-Version: 26.308.70139~9ba067b
+Version: 26.312.72934~0b8cc12
 Depends: libc, luci-base
 Source: feeds/base/custom_packages/luci-theme-footstrap/luci-theme-footstrap
 SourceName: luci-theme-footstrap
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: luci
-SourceDateEpoch: 1793820539
+SourceDateEpoch: 1794168934
 URL: https://github.com/VizzleTF/luci-theme-footstrap
 Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
 Architecture: all
 Installed-Size: 296960
-Filename: luci-theme-footstrap_26.308.70139~9ba067b_all.ipk
-Size: 74070
-SHA256sum: f4cea3608e016e22986dcb3fd856232178e9f44cc99a39af743bfe63e83d74c4
+Filename: luci-theme-footstrap_26.312.72934~0b8cc12_all.ipk
+Size: 74101
+SHA256sum: f7267469fb71b7f6b4d687ed6c48bd2449f41f8b56b6b30d088f0b94305118fb
 Description:  Footstrap Theme
 
 Package: luci-theme-glass
@@ -1336,14 +1336,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1794113830
+SourceDateEpoch: 1794168934
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 7206
-SHA256sum: aa3e0d436da845ba49306d3f6462dffd12ca2aaa01dae5fc85b6e9530f861448
+Size: 7208
+SHA256sum: fb2be2896e4e20bf065db585103c6c5a36d537b2ad8bcebebe386dad36fc961f
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -2036,13 +2036,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4322
-SHA256sum: a732d8304d286bd06591177e37926a05a6a74c780cf782bb8ced1fa9629cfdaa
+Size: 4327
+SHA256sum: 654c1494862ddc68bbb0ad73eda22454d71a544c6c4e174c36b7a9dfe7da9bc3
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -2088,14 +2088,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16558080
 Filename: v2ray-geoip_202610290022.1_all.ipk
-Size: 3442213
-SHA256sum: 438dea723a5fe1c9a1eba200f5ac22cc1fba9ea259af643be72c27bea921232d
+Size: 3442423
+SHA256sum: 4d32322672e430adc17c925328a4bda4ebc7802c2f2b5849d7e83885d8c1ad99
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2106,14 +2106,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794168934
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11315200
 Filename: v2ray-geosite_202610302203.1_all.ipk
-Size: 3696454
-SHA256sum: 02f4bf3c08f2b28ee3cf18ba5d92f972cfc7e7e810b6c284cead9827d14fc7db
+Size: 3696494
+SHA256sum: 7670ba8bed9819aecd1a2fff3e68a69baade2274a9418eb80e0ce09bac040ae2
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

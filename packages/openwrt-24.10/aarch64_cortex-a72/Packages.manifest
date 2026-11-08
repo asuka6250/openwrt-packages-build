@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11412
-SHA256sum: e22859397ca95ead6307e59ed063b177de2bf87bf9d40cad52e97a3985a3e349
+Size: 11407
+SHA256sum: 2d2ed192239c088476f1a68b3c356d3809a7549583d378a2cc2460622bb8c89b
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -240,13 +240,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
-Size: 26140
-SHA256sum: a833b099ebe2299841ea00c899771ee8f1ed6fc8b22f30c38b42b81e6b090b85
+Size: 26141
+SHA256sum: 7399e3a8c59d855ecc60dfa29ebefd211d32434c18a122d280a2109ecff7bf50
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -288,14 +288,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5344
-SHA256sum: 4aef119fcbb8a7c7e57ab4e5a662799cb4736aa6dbac561f2c2ca1f4d62960d1
+Size: 5336
+SHA256sum: be2e090cb0a39277b96d154c2fd15932efb4dfb472193f649c9e1a6c6f7138d4
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -663,14 +663,14 @@ Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2560000
+Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r3_all.ipk
-Size: 516956
-SHA256sum: 63e49a9fa6798330087c4a63c030e2f31c21273cdeab3db0f78eb032ecac60d9
+Size: 516671
+SHA256sum: ab064764afe601d4fd55cd3f242231be45f56968ff4c83f8a87aba2e62bc56cc
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -1060,17 +1060,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.311.18119~aec99a9
+Version: 26.312.17830~76406b6
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1794027719
+SourceDateEpoch: 1794113830
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.311.18119~aec99a9_all.ipk
-Size: 14906
-SHA256sum: 0ed603e4350b82d31adc2769a8d56fcee69d1d8861f8a6e031bbed74f5b8f2d5
+Filename: luci-i18n-ssr-plus-zh-cn_26.312.17830~76406b6_all.ipk
+Size: 14857
+SHA256sum: 70efeb5ede1c04f035bd75092165e9a705712fd53b1da5be640c0d2604d5213e
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1336,14 +1336,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1794062652
+SourceDateEpoch: 1794113830
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 7202
-SHA256sum: 445251cefe0ccc21f0764f2f04b939f0da10bbb6e55fa2af94b5ab395888f649
+Size: 7206
+SHA256sum: 90726cbe005c6b9f39e6269bc87ff50cc5561af6d3446e20187941f9b050190a
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.

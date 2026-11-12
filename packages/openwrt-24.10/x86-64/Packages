@@ -49,8 +49,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 63354880
 Filename: clashoo_2026.11.04.1.19.33-r3_x86_64.ipk
-Size: 23670073
-SHA256sum: f89e53b43a5820ba76d0911d7c5d4d6dd0d68a022890595905e3c4e0a23c094c
+Size: 23668253
+SHA256sum: 455917ad502cbb16cee9414b5d97dad56905ceeb6ebf01e40e70c729b4f28f02
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -276,8 +276,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406249
-SHA256sum: 8654c1a3074519dfb076451c92bd228f20f93a355af2f847eb1d68dcf7738d33
+Size: 406248
+SHA256sum: f1ea18bcc93141ded474f8c0d6cad21080b5218f38312e2653c1404da021850f
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -604,8 +604,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12966
-SHA256sum: d24e5740bf10c0f387bd28aaa64db49ad6d185068f463ef74398a7a8f7a1517f
+Size: 12964
+SHA256sum: 73ccccffcebc1d2b5219a63e97b71a9a73efa15d5f1e5b7dd1f3c8f18e57c352
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -998,7 +998,7 @@ Description:  A SOCKS5 service that you can run on your remote boxes to tunnel c
  This version supports forwarding rules.
 
 Package: mihomo-alpha
-Version: 2026.08.16
+Version: 2026.11.11
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-meta
 Provides: mihomo
@@ -1007,14 +1007,14 @@ License: GPL3.0+
 Section: net
 URL: https://wiki.metacubex.one
 Architecture: x86_64
-Installed-Size: 50882560
-Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 18765400
-SHA256sum: 01a1aae17c8c0bfdcf244cf0f7bff7840789ba823d3926c775806a90d3d2e84e
+Installed-Size: 61829120
+Filename: mihomo-alpha_2026.11.11_x86_64.ipk
+Size: 22624046
+SHA256sum: d7486e998c916d4109f863b1e2d9683b45114053a39b23dfec6235ebb6058543
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
-Version: 1.19.32
+Version: 1.19.34
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-alpha
 Provides: mihomo
@@ -1023,10 +1023,10 @@ License: GPL3.0+
 Section: net
 URL: https://wiki.metacubex.one
 Architecture: x86_64
-Installed-Size: 61931520
-Filename: mihomo-meta_1.19.32_x86_64.ipk
-Size: 22739941
-SHA256sum: 8edb8ce4f06e24429ed99bdeb90e3e90314ccc403595a87388f9dbc3bdc0bbb0
+Installed-Size: 61829120
+Filename: mihomo-meta_1.19.34_x86_64.ipk
+Size: 22622917
+SHA256sum: 1f46a19c283dc8bbf5d3766b56af9e85ac24fa91108b688640d39de1137b9140
 Description:  A rule based proxy in Go.
 
 Package: momo

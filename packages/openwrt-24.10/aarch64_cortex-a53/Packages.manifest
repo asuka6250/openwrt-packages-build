@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1794312961
+SourceDateEpoch: 1794463890
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a53
 Installed-Size: 58675200
 Filename: clashoo_2026.11.04.1.19.33-r3_aarch64_cortex-a53.ipk
-Size: 21592517
-SHA256sum: 43a147e11c5659f5374012b0263b57f91c0d62127c0e2bfdc345914f0e60182e
+Size: 21591636
+SHA256sum: 454f6b54a9ce464ea8a4c4ee467c45626ab04d7277e124bb820a1af5428b9a29
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794312961
+SourceDateEpoch: 1794463890
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406249
-SHA256sum: 8654c1a3074519dfb076451c92bd228f20f93a355af2f847eb1d68dcf7738d33
+Size: 406248
+SHA256sum: f1ea18bcc93141ded474f8c0d6cad21080b5218f38312e2653c1404da021850f
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -816,13 +816,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794312961
+SourceDateEpoch: 1794463890
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12966
-SHA256sum: d24e5740bf10c0f387bd28aaa64db49ad6d185068f463ef74398a7a8f7a1517f
+Size: 12964
+SHA256sum: 73ccccffcebc1d2b5219a63e97b71a9a73efa15d5f1e5b7dd1f3c8f18e57c352
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1349,7 +1349,7 @@ Description:  A SOCKS5 service that you can run on your remote boxes to tunnel c
  This version supports forwarding rules.
 
 Package: mihomo-alpha
-Version: 2026.08.16
+Version: 2026.11.11
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-meta
 Provides: mihomo
@@ -1358,18 +1358,18 @@ Source: feeds/base/custom_packages/mihomo-alpha
 SourceName: mihomo-alpha
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1786941780
+SourceDateEpoch: 1794463890
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 46376960
-Filename: mihomo-alpha_2026.08.16_aarch64_cortex-a53.ipk
-Size: 16839390
-SHA256sum: 0365b5da213ef00b46ddb443cb4b284059749a49106671036118fcb5ac5a2bc0
+Installed-Size: 57108480
+Filename: mihomo-alpha_2026.11.11_aarch64_cortex-a53.ipk
+Size: 20548997
+SHA256sum: b5d3404d0f9dd59e1b5cc1d9b10d6eb81a8a770738c76af15043255ba4725483
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
-Version: 1.19.32
+Version: 1.19.34
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-alpha
 Provides: mihomo
@@ -1378,14 +1378,14 @@ Source: feeds/base/custom_packages/mihomo-meta
 SourceName: mihomo-meta
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1791435659
+SourceDateEpoch: 1794463890
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 57272320
-Filename: mihomo-meta_1.19.32_aarch64_cortex-a53.ipk
-Size: 20671196
-SHA256sum: 830f721d41598c3f3605b3df9972846b867a9bdb0392c4a72d254ed3219eb748
+Installed-Size: 57108480
+Filename: mihomo-meta_1.19.34_aarch64_cortex-a53.ipk
+Size: 20550028
+SHA256sum: dde1fc1f148e1e7441de8cc6f6b997e2e59028ea002c672b8e71767eeb920737
 Description:  A rule based proxy in Go.
 
 Package: momo

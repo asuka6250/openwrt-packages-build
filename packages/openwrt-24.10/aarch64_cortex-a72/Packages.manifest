@@ -256,12 +256,12 @@ Source: lanspeedd
 SourceName: lanspeedd
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1794597590
 Architecture: aarch64_cortex-a72
 Installed-Size: 460800
 Filename: lanspeedd-bpf_1.2.1-r2_aarch64_cortex-a72.ipk
-Size: 104883
-SHA256sum: 2e2669f233e61279215c27a10eb5b2caa7e178ea59560247c7a97adb140e7548
+Size: 104336
+SHA256sum: 4377b913ff771dc13806ddd34f17337ebcf5a4e170e9919209a01e12c7ea9dc8
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
@@ -273,12 +273,12 @@ Source: lanspeedd
 SourceName: lanspeedd
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1794597590
 Architecture: aarch64_cortex-a72
 Installed-Size: 1976320
 Filename: lanspeedd_1.2.1-r2_aarch64_cortex-a72.ipk
-Size: 1009565
-SHA256sum: 6e3f1ce80f1fff2eda74ad4dc21c5598c4e90d07a22f5af0bf4c1cc83f6d0f1a
+Size: 1004755
+SHA256sum: 89eda0c23ff0908a4ff52d57b12f62aafb204403105535c899bf2f42b3bf9616
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -484,12 +484,12 @@ Source: luci-app-lanspeed
 SourceName: luci-app-lanspeed
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1791748736
+SourceDateEpoch: 1794597590
 Architecture: all
 Installed-Size: 890880
 Filename: luci-app-lanspeed_1.2.1-r2_all.ipk
-Size: 180997
-SHA256sum: d4c51c09982ee1d17e3757e3967580e894c16a705e3f73f3ec1fbef6a41e15d6
+Size: 181029
+SHA256sum: aa4e23ee7048aab20786688a716d2b553967bf7920a2892863b4fd63f16225cb
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for

@@ -186,8 +186,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 389120
 Filename: lanspeedd-bpf_1.2.1-r2_x86_64.ipk
-Size: 90935
-SHA256sum: 6ab50efb7368389a04ceddb5c243450a101394bc7c8ae2398b70115ad18594be
+Size: 91698
+SHA256sum: 5460cfebd594216b18ff9ba83e1d297126dcca4547944a9c83b76867525f6237
 Description:  Required Aya eBPF programs for luci-app-lanspeed Full mode support.
  The package installs architecture-matched kfunc and fallback TC-BPF objects.
  On aarch64 it additionally installs the isolated NSS ECM kprobe object.
@@ -198,10 +198,10 @@ Depends: libc, libgcc1, kmod-nf-conntrack-netlink, libsqlite3-0, tc-full, ip, nf
 License: Apache-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 2283520
+Installed-Size: 2273280
 Filename: lanspeedd_1.2.1-r2_x86_64.ipk
-Size: 1050161
-SHA256sum: cd54cc79638e8990729fb4ecf9b915259ad3b9867661a4d2ddad77bfbb373770
+Size: 1045916
+SHA256sum: 5c6e86e7c9f930883a62682724c80abb19ddbf0e7a7199b178f2982aa0b43936
 Description:  Rust/Aya daemon for LAN client speed monitoring.
 
 Package: lua-neturl
@@ -348,8 +348,8 @@ Section: luci
 Architecture: all
 Installed-Size: 890880
 Filename: luci-app-lanspeed_1.2.1-r2_all.ipk
-Size: 180997
-SHA256sum: d4c51c09982ee1d17e3757e3967580e894c16a705e3f73f3ec1fbef6a41e15d6
+Size: 181029
+SHA256sum: aa4e23ee7048aab20786688a716d2b553967bf7920a2892863b4fd63f16225cb
 Description:  LuCI real-time status and settings page for lanspeedd. Displays per-client
  upload, download and current TCP / UDP connections, configures interfaces as
  collect / observe / off, and provides a dedicated diagnostics page for

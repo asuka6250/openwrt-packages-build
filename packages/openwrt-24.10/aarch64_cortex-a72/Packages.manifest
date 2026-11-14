@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794654921
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a72
 Installed-Size: 58511360
 Filename: clashoo_2026.11.12.1.19.34-r1_aarch64_cortex-a72.ipk
-Size: 21458261
-SHA256sum: 5afe3f41e0f7e06b2c93edec5a95469b350172810459a79de6b7789f56505ce7
+Size: 21458247
+SHA256sum: 876f8651b7a74312a01de8a72bd3047ec39d63c53c5e98a3b297a6fa57b8c0d6
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794654921
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406234
-SHA256sum: f5c471891c158eff0613f02e92c7fc1fe03e35700b09ec9ed2287e55aff7f426
+Size: 406245
+SHA256sum: b7cacd2aaf56c913c7e25270e3b527a54971545022d109ac05ea95457cf8d5d8
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -831,13 +831,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794654921
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12964
-SHA256sum: 38f5e173b4ac6cf83deb119da0eedecf0fd35518b7d8feecc657e3288ff16f77
+Size: 12962
+SHA256sum: adc5bf2290dbf1e188131457a9d792cb4ad11470a5e3e9e411abf0bf29772b28
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn

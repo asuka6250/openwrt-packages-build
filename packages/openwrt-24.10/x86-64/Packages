@@ -49,8 +49,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 63232000
 Filename: clashoo_2026.11.12.1.19.34-r1_x86_64.ipk
-Size: 23540556
-SHA256sum: d57feb6f7d00a8fe00dc5ae6d589d6ba3135f2cd882e861dc93c660065f5af1e
+Size: 23540442
+SHA256sum: 5b4ddf80a181daf747654aa89103dbe50bd91abb83447af5fd757e6949f7f232
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -276,8 +276,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406234
-SHA256sum: f5c471891c158eff0613f02e92c7fc1fe03e35700b09ec9ed2287e55aff7f426
+Size: 406245
+SHA256sum: b7cacd2aaf56c913c7e25270e3b527a54971545022d109ac05ea95457cf8d5d8
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -616,8 +616,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12964
-SHA256sum: 38f5e173b4ac6cf83deb119da0eedecf0fd35518b7d8feecc657e3288ff16f77
+Size: 12962
+SHA256sum: adc5bf2290dbf1e188131457a9d792cb4ad11470a5e3e9e411abf0bf29772b28
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn

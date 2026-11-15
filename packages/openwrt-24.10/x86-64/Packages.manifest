@@ -45,31 +45,31 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286286
-SHA256sum: f933fe49fffff4815ee3141332306b8d9d8c4a9d8b6e24944ac60d3a40881af8
+Size: 286338
+SHA256sum: 02a0ae7b455c0e0feebf2eede1facc015b3587ccbd889543149eca4b8781aeff
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.11.12.1.19.34-r1
+Version: 2026.11.12.1.19.34-r2
 Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1794654921
+SourceDateEpoch: 1794720022
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 63232000
-Filename: clashoo_2026.11.12.1.19.34-r1_x86_64.ipk
-Size: 23540442
-SHA256sum: 5b4ddf80a181daf747654aa89103dbe50bd91abb83447af5fd757e6949f7f232
+Filename: clashoo_2026.11.12.1.19.34-r2_x86_64.ipk
+Size: 23541320
+SHA256sum: 96389038bdfe14aa8ade3ed663040d684f1db476f619326efca44c536f47c299
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r3_x86_64.ipk
 Size: 11134
-SHA256sum: 40a202fddd66a839efc6e8279cac0c1e3778f725bf2437a22f5a5339f2568316
+SHA256sum: 704b13df782a2beafbbe4c56c76e0e79bd6602699e7e515d0641596ab8a2e193
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -165,20 +165,20 @@ SHA256sum: 9f82b5f74e35adc859623654f9ffd4c8f38f7918bed2d76424fce89ba4e701a8
 Description:  manages flock locks from within shell scripts or the command line
 
 Package: geo2txt
-Version: 1.0.0-r1
+Version: 1.0.1-r1
 Depends: libc
 Source: feeds/base/custom_packages/luci-app-mosdns/geo2txt
 SourceName: geo2txt
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1792953961
+SourceDateEpoch: 1794720022
 URL: https://github.com/sbwml/geo2txt
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: geo2txt_1.0.0-r1_x86_64.ipk
-Size: 7236
-SHA256sum: bcc733a49f3f7a2f57424a0edf7da91360fd470d6c7be2dfc7c4797931376eed
+Filename: geo2txt_1.0.1-r1_x86_64.ipk
+Size: 8307
+SHA256sum: c6a590911cd25e9532b6898f2a089582724fe50fb84c00bda48612a640195131
 Description:  V2ray geosite & geoip unpacking CLI tool
 
 Package: geoview
@@ -189,14 +189,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: x86_64
 Installed-Size: 7720960
 Filename: geoview_0.2.9-r1_x86_64.ipk
-Size: 3050409
-SHA256sum: 4618e02bcddeeed83b50c2a565ce175c55d08b6622657da03c83ecbf2cc5e8c9
+Size: 3050467
+SHA256sum: be9870966421ce1ec79f780d6fca3df394b1c4260ac4e34319c0b6baec218c37
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -358,13 +358,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794654921
+SourceDateEpoch: 1794720022
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406245
-SHA256sum: b7cacd2aaf56c913c7e25270e3b527a54971545022d109ac05ea95457cf8d5d8
+Size: 406241
+SHA256sum: e3f56da9f3d14b81933469b37fe2efec3dba8964cd6c0b4a08674e1198f463b4
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -503,14 +503,14 @@ Depends: libc, mosdns, uclient-fetch, v2ray-geoip, v2ray-geosite, geo2txt, ucode
 Source: feeds/base/custom_packages/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1792953961
+SourceDateEpoch: 1794720022
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 440320
 Filename: luci-app-mosdns_1.7.15-r1_all.ipk
-Size: 118464
-SHA256sum: 3340fe664e6fdc00d9868ec21485dc197375aec24ac133146077b39e2a86e719
+Size: 118151
+SHA256sum: 0164c618dd1becca07e40e1c3053011523d7d23a9929805fda92ad75aaa6909c
 Description:  LuCI Support for mosdns
 
 Package: luci-app-nikki
@@ -550,14 +550,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1474560
 Filename: luci-app-passwall2_26.11.11-r1_all.ipk
-Size: 375195
-SHA256sum: c54ded2d2133088489fc30c1be5ac3498c812f681f1d63ab3efddf0c15e7c629
+Size: 375345
+SHA256sum: e6b40e732a4824df5fb29c62615db9dd1fa30f20439ef3a0296d8dbf66eba3fd
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -566,14 +566,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3256320
 Filename: luci-app-passwall_26.11.11-r1_all.ipk
-Size: 867333
-SHA256sum: e80d74bed8225756bacee7f8726e9d7458611eb9d3493ae549a4cf3c46c18584
+Size: 867600
+SHA256sum: 19c309783edfd880ca65562598242ca0385222a824ded11c393be4d86289fb40
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -801,13 +801,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1794654921
+SourceDateEpoch: 1794720022
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12962
-SHA256sum: adc5bf2290dbf1e188131457a9d792cb4ad11470a5e3e9e411abf0bf29772b28
+Size: 12961
+SHA256sum: 3982b5b8bc41132319211748f6a6dbe8ea386d783254e7159b51c80e1252958f
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -942,18 +942,18 @@ SHA256sum: 710f59bf3c6bf89fea579012176db2f51e8f305612175a2ac8ff3550e948d4df
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 26.298.67561~1ba29e3
+Version: 26.319.19222~369625e
 Depends: libc, luci-app-mosdns
 Source: feeds/base/custom_packages/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1792953961
+SourceDateEpoch: 1794720022
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_26.298.67561~1ba29e3_all.ipk
-Size: 7114
-SHA256sum: b6afa6974cb86599dce1ad65ebd86348571835537827c84ff548c0eab0b3f341
+Filename: luci-i18n-mosdns-zh-cn_26.319.19222~369625e_all.ipk
+Size: 7120
+SHA256sum: fa97d3974258c13d69899b07da4ddf420497d23fb230fa16e687b49681f765da
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-cn
@@ -976,12 +976,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.11_all.ipk
-Size: 17598
-SHA256sum: 6036b1e6c22fa37cc7f7b9def20d26a0d01c40387b5386ac7dbc398178c5b773
+Size: 17588
+SHA256sum: 217965010e5723e3b59ff62ab7293e6ac1d5ed08441889925a0691af34abd042
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -990,12 +990,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.11_all.ipk
-Size: 21664
-SHA256sum: f078b1276f282057a0626702d6dd2fa49fbed5a92a6e8ade44fc5946b00f4a56
+Size: 21665
+SHA256sum: ecf63c2cde18df020d61d69b7037d91a79739d3fd31896bfa3b38f6a1e846126
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1307,14 +1307,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1794570973
+SourceDateEpoch: 1794720022
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 6741
-SHA256sum: 578946d81acba2795b021136ceabc8aff807411ae4788fc8479c4968238876a7
+Size: 6747
+SHA256sum: 0bcbc1be014e9b6ffd9d6ec1c27e06d3835f116ce50ac85c9186121449f45ad6
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1383,14 +1383,14 @@ Source: feeds/base/custom_packages/luci-app-mosdns/mosdns
 SourceName: mosdns
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1792953961
+SourceDateEpoch: 1794720022
 URL: https://github.com/IrineSistiana/mosdns
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
 Installed-Size: 17172480
 Filename: mosdns_5.3.4-r15_x86_64.ipk
-Size: 6621020
-SHA256sum: 73bee26f09b5cb9954033134e9acf9ec3666db8fe590b642b2bad70035220d81
+Size: 6620650
+SHA256sum: 6910bc60aa8482bc3fd7a309f774112db16e01fadcafe4bdd0f3794279c07a27
 Description:  A plug-in DNS forwarder/splitter
 
 Package: naiveproxy
@@ -2007,13 +2007,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4436
-SHA256sum: e35aa304827f9acd62c774efd57afb32c418f02870af665f8142a1c16e27d865
+Size: 4425
+SHA256sum: 98d3643b6aa27cadf2444a09b9e87ccf2503e1d3ccc6545b0b5405542b8929f0
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -2059,14 +2059,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16486400
 Filename: v2ray-geoip_202611050019.1_all.ipk
-Size: 3429482
-SHA256sum: 529a4414e53982061fa51adf8d97fd8491e0c178881f1f385fe2d8814893bd80
+Size: 3430013
+SHA256sum: 8e1e47245fb5810ba5d6a42f1a876f81ae2c1b37037b800bc3804041fb40a556
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2077,14 +2077,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794501514
+SourceDateEpoch: 1794720022
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11448320
 Filename: v2ray-geosite_202611082203.1_all.ipk
-Size: 3753240
-SHA256sum: e3d6095d4cc09a788589e1cc8779be11204a63cad47206a138cd9439fec17edb
+Size: 3753261
+SHA256sum: b1413d1b530ce95dfd8d710f1cb5cfa3f5f7439d1f106414afb2b300bc46c5ac
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

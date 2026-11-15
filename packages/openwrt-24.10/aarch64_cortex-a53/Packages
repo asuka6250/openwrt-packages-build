@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a53.ipk
-Size: 269740
-SHA256sum: 0046b11da7ffb9002df3e53000b0806c1593ce7bde67b7b902ed56c272fa4fde
+Size: 269721
+SHA256sum: 8b2374719ce5aea94e95b32be68ca1e0b07fef1e389fb1e2f040f9daa508af70
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a53.ipk
-Size: 11825
-SHA256sum: b220c9a1deff34d164fa6068e9d499896d2562d36dac4cddc144918de3936cde
+Size: 11828
+SHA256sum: 60d3262f152a780bd90779886a7881533c46968a0a38bc6733d49a8d3c8f5e6e
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -156,21 +156,21 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_cortex-a53
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_cortex-a53.ipk
-Size: 2753328
-SHA256sum: 236d3a8cc44e730ab44f2651aa720cda906fa33fdf001010dfb8a473a3aa2c43
+Size: 2753257
+SHA256sum: 2f8eade5abf88752231d01f6bd780ed16faaee9687b88db3d136bc59e6d6a2ae
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
-Version: 2.13.0-r1
+Version: 2.14.0-r1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 URL: https://github.com/apernet/hysteria
 Architecture: aarch64_cortex-a53
-Installed-Size: 22169600
-Filename: hysteria_2.13.0-r1_aarch64_cortex-a53.ipk
-Size: 8050533
-SHA256sum: 8a255c1618a583a8030f305087cb32ff2db0128cc317979b552f9fcea9e3d0e5
+Installed-Size: 23357440
+Filename: hysteria_2.14.0-r1_aarch64_cortex-a53.ipk
+Size: 8407005
+SHA256sum: 1aa5c2dc2b3da59dd106463e155e38d70bb9a9920f81694754070997903214cf
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -443,10 +443,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 1474560
+Installed-Size: 1495040
 Filename: luci-app-passwall2_26.11.11-r1_all.ipk
-Size: 375345
-SHA256sum: e6b40e732a4824df5fb29c62615db9dd1fa30f20439ef3a0296d8dbf66eba3fd
+Size: 378499
+SHA256sum: d428050f68389f48f6de832c420fff2a62f0f64087a47751a04f26de4fc49737
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -455,10 +455,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3256320
+Installed-Size: 3266560
 Filename: luci-app-passwall_26.11.11-r1_all.ipk
-Size: 867600
-SHA256sum: 19c309783edfd880ca65562598242ca0385222a824ded11c393be4d86289fb40
+Size: 870941
+SHA256sum: baa1544203aaec55071ee608c683ef6ba462ef56fb03c8ceb8d026ca7b23ac04
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -786,7 +786,7 @@ Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.11_all.ipk
 Size: 17588
-SHA256sum: 217965010e5723e3b59ff62ab7293e6ac1d5ed08441889925a0691af34abd042
+SHA256sum: 9e74cddb8016df89856693a41702c2c8915914a047ed0db19d6ed84496d55a8f
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -796,8 +796,8 @@ Section: luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.11_all.ipk
-Size: 21665
-SHA256sum: ecf63c2cde18df020d61d69b7037d91a79739d3fd31896bfa3b38f6a1e846126
+Size: 21674
+SHA256sum: 433663c0e605016a7f279f10b522a1186872c1dadf983254ec96b3cf67d424ba
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1016,16 +1016,16 @@ SHA256sum: af1a81b02c37d41c5a97ad7f56139ffcd80b70e755a8b901155c155561d0727d
 Description:  TP-Link Classic Theme
 
 Package: lucky
-Version: 3.5.0-r5
+Version: 3.5.0-r6
 Depends: libc
 License: GPL-3.0-only
 Section: net
 URL: https://github.com/gdy666/lucky
 Architecture: aarch64_cortex-a53
 Installed-Size: 14325760
-Filename: lucky_3.5.0-r5_aarch64_cortex-a53.ipk
-Size: 14315612
-SHA256sum: 561f769588ddf0e2bbb261e28f6dd24739d898cf2be4da32f768e9a4a30a3636
+Filename: lucky_3.5.0-r6_aarch64_cortex-a53.ipk
+Size: 14315614
+SHA256sum: 28b0eda95830c69740a32796e56163e9af256a05e3a3abb0e69dc28c956a8860
 Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
 
 Package: microsocks
@@ -1037,8 +1037,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a53.ipk
-Size: 7204
-SHA256sum: ccdf0e2be7ee1a03d96192dc310fb25c954252f6af28f70adc6a40049e02faf9
+Size: 7207
+SHA256sum: 1c358a29f3713e574125d666a67a23503ce710d7aea7f30c2a3fdcddb092c14b
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1573,8 +1573,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
-Size: 4321
-SHA256sum: 52d7a5c73c43cd84f3fcbb927618a1e3a9393274efdfb8acc9ec9882875ecafe
+Size: 4315
+SHA256sum: a1645d654697a315a19053314f97993064d21d4df5dfee9413290e1f28c19497
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1612,8 +1612,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16486400
 Filename: v2ray-geoip_202611050019.1_all.ipk
-Size: 3430013
-SHA256sum: 8e1e47245fb5810ba5d6a42f1a876f81ae2c1b37037b800bc3804041fb40a556
+Size: 3429578
+SHA256sum: 207ee326b6fd628295b4d30e922b5a18e7f4fc0ce4c5f99d1352cb010ece20bc
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1625,8 +1625,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11448320
 Filename: v2ray-geosite_202611082203.1_all.ipk
-Size: 3753261
-SHA256sum: b1413d1b530ce95dfd8d710f1cb5cfa3f5f7439d1f106414afb2b300bc46c5ac
+Size: 3753233
+SHA256sum: 31bcbf8c1e267995e464734109250f704182ea2ce1a2b4c974bed69402b0cdda
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

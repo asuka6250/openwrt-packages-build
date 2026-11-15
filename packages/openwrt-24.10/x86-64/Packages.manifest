@@ -45,14 +45,14 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 624640
 Filename: chinadns-ng_2025.08.09-r1_x86_64.ipk
-Size: 286338
-SHA256sum: 02a0ae7b455c0e0feebf2eede1facc015b3587ccbd889543149eca4b8781aeff
+Size: 286330
+SHA256sum: 120db8017c3431959acd7c73a7ce3545f47021c10dd600bdad1abf0e03380ecd
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -116,14 +116,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r3_x86_64.ipk
-Size: 11134
-SHA256sum: 704b13df782a2beafbbe4c56c76e0e79bd6602699e7e515d0641596ab8a2e193
+Size: 11137
+SHA256sum: 5360797abcbf330718259b3bd208109f890a11a705478d5e56c1101a12a4a4e5
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -189,31 +189,31 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: x86_64
 Installed-Size: 7720960
 Filename: geoview_0.2.9-r1_x86_64.ipk
-Size: 3050467
-SHA256sum: be9870966421ce1ec79f780d6fca3df394b1c4260ac4e34319c0b6baec218c37
+Size: 3050435
+SHA256sum: c29612c6253c4baae5f4946e641eca3207f4580c779110085a1825a8c04d2869
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
-Version: 2.13.0-r1
+Version: 2.14.0-r1
 Depends: libc, ca-bundle
 Source: feeds/base/custom_packages/hysteria
 SourceName: hysteria
 License: MIT
 Section: net
-SourceDateEpoch: 1791219210
+SourceDateEpoch: 1794756377
 URL: https://github.com/apernet/hysteria
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 24053760
-Filename: hysteria_2.13.0-r1_x86_64.ipk
-Size: 8977979
-SHA256sum: 1960ddf53eff9885a19ad7aefa21ad7d5bdcd4680329f006bace85892cec47b9
+Installed-Size: 25282560
+Filename: hysteria_2.14.0-r1_x86_64.ipk
+Size: 9382465
+SHA256sum: d3fb05db2e54d753f8942c6257090f01ecf81b9dfeecb886c6d0c9bccc410db2
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -550,14 +550,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1474560
+Installed-Size: 1495040
 Filename: luci-app-passwall2_26.11.11-r1_all.ipk
-Size: 375345
-SHA256sum: e6b40e732a4824df5fb29c62615db9dd1fa30f20439ef3a0296d8dbf66eba3fd
+Size: 378499
+SHA256sum: d428050f68389f48f6de832c420fff2a62f0f64087a47751a04f26de4fc49737
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -566,14 +566,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3256320
+Installed-Size: 3266560
 Filename: luci-app-passwall_26.11.11-r1_all.ipk
-Size: 867600
-SHA256sum: 19c309783edfd880ca65562598242ca0385222a824ded11c393be4d86289fb40
+Size: 870941
+SHA256sum: baa1544203aaec55071ee608c683ef6ba462ef56fb03c8ceb8d026ca7b23ac04
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -976,12 +976,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.11_all.ipk
 Size: 17588
-SHA256sum: 217965010e5723e3b59ff62ab7293e6ac1d5ed08441889925a0691af34abd042
+SHA256sum: 9e74cddb8016df89856693a41702c2c8915914a047ed0db19d6ed84496d55a8f
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -990,12 +990,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.11_all.ipk
-Size: 21665
-SHA256sum: ecf63c2cde18df020d61d69b7037d91a79739d3fd31896bfa3b38f6a1e846126
+Size: 21674
+SHA256sum: 433663c0e605016a7f279f10b522a1186872c1dadf983254ec96b3cf67d424ba
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1282,21 +1282,21 @@ SHA256sum: af1a81b02c37d41c5a97ad7f56139ffcd80b70e755a8b901155c155561d0727d
 Description:  TP-Link Classic Theme
 
 Package: lucky
-Version: 3.5.0-r5
+Version: 3.5.0-r6
 Depends: libc
 Source: feeds/base/custom_packages/lucky
 SourceName: lucky
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1793966031
+SourceDateEpoch: 1794756377
 URL: https://github.com/gdy666/lucky
 Maintainer: GDY666 <gdy666@foxmail.com>
 Architecture: x86_64
 Installed-Size: 16793600
-Filename: lucky_3.5.0-r5_x86_64.ipk
-Size: 16786479
-SHA256sum: 8819323001a4d85a3fc84e09b55874eb3748b0e178e134dc906fb3e94efdfe38
+Filename: lucky_3.5.0-r6_x86_64.ipk
+Size: 16786472
+SHA256sum: 8a71c3db5eb55aa5bb0866e2c4b46cfaa3bedea1eb956e43d89f232757ec6b8f
 Description:  Main functions of Lucky: ipv4/ipv6 portforward,ddns,IOT wake on lan ,reverse proxy and more...
 
 Package: microsocks
@@ -1307,14 +1307,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
 Size: 6747
-SHA256sum: 0bcbc1be014e9b6ffd9d6ec1c27e06d3835f116ce50ac85c9186121449f45ad6
+SHA256sum: c57a72d6bc90c48087b8818702afd805cbb8744d075e5e1ee0b686841f7942b9
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -2007,13 +2007,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4425
-SHA256sum: 98d3643b6aa27cadf2444a09b9e87ccf2503e1d3ccc6545b0b5405542b8929f0
+Size: 4444
+SHA256sum: 98254ff1d929faf90e709c936e305f80683e7dad1075f2c03a474203904e36b8
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -2059,14 +2059,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16486400
 Filename: v2ray-geoip_202611050019.1_all.ipk
-Size: 3430013
-SHA256sum: 8e1e47245fb5810ba5d6a42f1a876f81ae2c1b37037b800bc3804041fb40a556
+Size: 3429578
+SHA256sum: 207ee326b6fd628295b4d30e922b5a18e7f4fc0ce4c5f99d1352cb010ece20bc
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2077,14 +2077,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1794720022
+SourceDateEpoch: 1794756377
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11448320
 Filename: v2ray-geosite_202611082203.1_all.ipk
-Size: 3753261
-SHA256sum: b1413d1b530ce95dfd8d710f1cb5cfa3f5f7439d1f106414afb2b300bc46c5ac
+Size: 3753233
+SHA256sum: 31bcbf8c1e267995e464734109250f704182ea2ce1a2b4c974bed69402b0cdda
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

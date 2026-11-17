@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287091
-SHA256sum: 37a2b3d09c89377354d79c3c245f597f23aad289696874bb42259a7d87f9d956
+Size: 287120
+SHA256sum: 8f311dae09f4b1d6683bff3eae898bdd5d1f9c8bd7d3f087f7929b872e50794b
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_generic.ipk
-Size: 11835
-SHA256sum: bcfaf475acbf7fa40ead6e7b6a477c753dfa23ac0b4ebaf0d398a57661b26bfe
+Size: 11836
+SHA256sum: fb8ec6cbcbcbe2cee275d6ac880e9f921ccc04cf3a4ef24b760bad35dffde6ce
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -115,8 +115,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_generic.ipk
-Size: 11399
-SHA256sum: d0f1fb0743a27d2e1dac13d3cec9c0298a6268601ec4636bf33eac681905fb39
+Size: 11408
+SHA256sum: d672eed04cd3442e4763394389e6dac1a22fb7013e59422e2b0482eea44a961f
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -156,8 +156,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_generic
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_generic.ipk
-Size: 2753299
-SHA256sum: 2a7817922cb0b0e516599e2185245523cfb6e85c3c6523470a4464f096be3c59
+Size: 2753337
+SHA256sum: c051a1e8d08c0bbbd96e17656cb83d4641befe31fb043467f97ed5761c7eb3a0
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -185,8 +185,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_generic.ipk
-Size: 26145
-SHA256sum: c405238381b8e8f601b5bbe1d6bc4bccb43c6d284a2a9c669fab8d3d21ede995
+Size: 26142
+SHA256sum: ae11e05be58cf3215d57a477d525e6791b0d865464957a0bf6d0c06c6c2ceb22
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -224,8 +224,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5341
-SHA256sum: 3a106fd7fb6632b2a34a3b0c61cbcbef92445d0bd02593227b1d07944d1e30c5
+Size: 5343
+SHA256sum: 0a90fb6d410a01c8621a0183116b5abfdfe4bb0a9ffc081c0576af3893ae96c7
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -445,8 +445,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1495040
 Filename: luci-app-passwall2_26.11.11-r1_all.ipk
-Size: 378917
-SHA256sum: ae747c858059ae5de99ca26a43a587b965f8b37b76add41688cebd17ce434bff
+Size: 379332
+SHA256sum: 21ab9da2deaf935c3eaf945346b39cc87845a448dc0fe6cf3f669b550ff46bff
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -457,8 +457,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 3266560
 Filename: luci-app-passwall_26.11.11-r1_all.ipk
-Size: 871358
-SHA256sum: 1b2b25546dcb580a46f8d72afd532fe62b08352b6f40b1e00e4341a328e666e4
+Size: 871645
+SHA256sum: fb38bc94a1a200a5c7f9baba6ebcfa01fc4e3bbc9ab9b6db6a65a3fcff12b45e
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -501,15 +501,15 @@ SHA256sum: 6ae2e55208ec81d3232699b07e8f3bc4e476df3ae2801090e00fc7cf9cd5bfbf
 Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
-Version: 198-r4
+Version: 198-r5
 Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, coreutils-timeout, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2549760
-Filename: luci-app-ssr-plus_198-r4_all.ipk
-Size: 516588
-SHA256sum: f7a50db43afa25782882c1c4c74d988573307eb00f5cfedb1ce87adbbb336f65
+Filename: luci-app-ssr-plus_198-r5_all.ipk
+Size: 516542
+SHA256sum: e427699fe6b223819e4e656f19c4f27b48cf6b60fc888aeb7e36293689612553
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -678,27 +678,27 @@ SHA256sum: 7734702ee909029be64cb1c7c1e2abbaba93b55d9db9fe710d42e4849ee98fa7
 Description:  Translation for luci-app-daed - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluent-zh-cn
-Version: 26.312.72934~0b8cc12
+Version: 26.321.46252~c9708c1
 Depends: libc, luci-theme-fluent
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-fluent-zh-cn_26.312.72934~0b8cc12_all.ipk
-Size: 6461
-SHA256sum: eb3080dca5116bf51a6a122d81f836ae2e45108cd43997a2c5949daaeca0e8da
+Filename: luci-i18n-fluent-zh-cn_26.321.46252~c9708c1_all.ipk
+Size: 6462
+SHA256sum: 025d84e060f8e2c05db18e31e0af1b08394395d55e6893cab39015979600548f
 Description:  Translation for luci-theme-fluent - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-fluentdashboard-zh-cn
-Version: 26.312.72934~0b8cc12
+Version: 26.321.46252~c9708c1
 Depends: libc, luci-mod-fluentdashboard
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-fluentdashboard-zh-cn_26.312.72934~0b8cc12_all.ipk
-Size: 2173
-SHA256sum: d5d87847168f49b9c6b9474814780a0b6bb3c5d5d414858e1e4f8136735532dc
+Filename: luci-i18n-fluentdashboard-zh-cn_26.321.46252~c9708c1_all.ipk
+Size: 2177
+SHA256sum: 97dde90b91cfafc4b501d160013e5f5fc7d91fbf99a3ed1de737bd4aa450bfb6
 Description:  Translation for luci-mod-fluentdashboard - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-glass-zh-cn
@@ -785,8 +785,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.11_all.ipk
-Size: 17587
-SHA256sum: 1a68a14981c3a737bf14c9cc9272d6c06f280aad05893821fe25b1f4da264f14
+Size: 17600
+SHA256sum: 66cdcb6ad29a6344b1b40dcf45ba2152aad6040076625d371f4675dbab6bb568
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -796,8 +796,8 @@ Section: luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.11_all.ipk
-Size: 21665
-SHA256sum: fe2043323d4470ef089b9a429344d830092190b9eb770fb76eab0af3a9c0f0d0
+Size: 21674
+SHA256sum: 6b495a837f4e1bbb6d999385568b21f0a54ba013ea016298a4d0ec4c60207041
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -825,14 +825,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.317.42973~1382723
+Version: 26.321.46252~c9708c1
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.317.42973~1382723_all.ipk
-Size: 14854
-SHA256sum: b139d3f5587525d7e93f6560699e3c3451daf117ff87941e1beae58975ef7c6a
+Filename: luci-i18n-ssr-plus-zh-cn_26.321.46252~c9708c1_all.ipk
+Size: 14866
+SHA256sum: 4a570c2d3d224bc7478559c9e426a2e96ba80b0bfe805582f9cf9e611c1e3e7e
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -922,8 +922,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 870400
 Filename: luci-theme-fluent-lite_1.0.9-r1_all.ipk
-Size: 136775
-SHA256sum: 2a43ee832eedb6f70896806e20ffb853c52f5566d1c8969c0cecbdac9997bb42
+Size: 136786
+SHA256sum: ed6f5ac15fa27f1c79848912b5a6a2a2d4d6dda9fb63c6c852ac579d86c9d49d
 Description:  Core FluentUI theme styling for LuCI without optional menu, updater, log, and application enhancements.
 
 Package: luci-theme-fluent
@@ -935,8 +935,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-theme-fluent_1.0.9-r1_all.ipk
-Size: 161919
-SHA256sum: 0a0589e8fc7fb7bce833a078ac56b6673d4566ef0a0204f99d9a52f0dd92b309
+Size: 161921
+SHA256sum: 27048892e93b6d1dea1de46dca1f4517717b700627c5eb42ad20aec7064ae2c1
 Description:  Fluent Theme for LuCI
 
 Package: luci-theme-footstrap
@@ -1037,8 +1037,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 7204
-SHA256sum: c8d91b93e421092cb4d66026bd213b7cf9578eae1f9f986b440fea2b272606aa
+Size: 7207
+SHA256sum: f099804d53c57f118b641c7b5bdf9d0721d9660fafb26784112de63d041ec5e3
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1573,8 +1573,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4316
-SHA256sum: b76b90aefe658b4406de472f9ad31bb1a7130500a6aaa83523a7f03fbe396152
+Size: 4322
+SHA256sum: abbadf2605397ce63f724a9bdd91248bf34b62c2668612f7b99b627dff08c1c2
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1612,8 +1612,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16476160
 Filename: v2ray-geoip_202611120018.1_all.ipk
-Size: 3434228
-SHA256sum: 1d5744305e2d5ef66bdb5863b3cfe2ab02ab3953f0f43081617b7a5ee06de410
+Size: 3433780
+SHA256sum: 9f62aab44c15bb416bca9d988599e61c75bd8e2fba16c2fac8c3418ff9edaea2
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1625,8 +1625,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11489280
 Filename: v2ray-geosite_202611152204.1_all.ipk
-Size: 3760775
-SHA256sum: 022062e3772568d0e30c4915f3f535e396e41dddcb690808eed8fc9de33fb4ac
+Size: 3760728
+SHA256sum: 7ecaa807a60935a4f55df65b2835c2a9ea6d4e795c1144c26f055ad9f3b53e67
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

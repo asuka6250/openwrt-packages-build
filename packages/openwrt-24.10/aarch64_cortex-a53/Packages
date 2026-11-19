@@ -1612,8 +1612,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16476160
 Filename: v2ray-geoip_202611120018.1_all.ipk
-Size: 3433433
-SHA256sum: 3e5ec352dbee07600fd3a80307dfc844f9f0d1c9d38a3bee9c15dc1d006e3da1
+Size: 3433685
+SHA256sum: 9c71315a47620d9c67edf38877ffe5493781c70fa2d7ac0f2ab04d04edfea391
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1625,8 +1625,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11489280
 Filename: v2ray-geosite_202611152204.1_all.ipk
-Size: 3760776
-SHA256sum: 3ff75a9845eb4a49dc5eb7f52e96aa987d35449a54336600a999d5128876c001
+Size: 3760702
+SHA256sum: e6f30d0d4f1a8cbe0f591843b68d49c5b6ae017b389283b450d4f1bab31147be
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1649,8 +1649,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 614400
 Filename: vmlinux-btf_6.6.119-r9_aarch64_cortex-a53.ipk
-Size: 217523
-SHA256sum: 7a1e7c7dd6bff9d44779e449b63e61d82195af10488c5a9b365fe4ac3d65ff44
+Size: 217516
+SHA256sum: 98749fdc3b0a9ea1268d01365bd9f7a7d8f2b84a9ce8159faa263bc4ec82a43f
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

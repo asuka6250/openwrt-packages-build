@@ -2059,14 +2059,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795021176
+SourceDateEpoch: 1795091690
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16476160
 Filename: v2ray-geoip_202611120018.1_all.ipk
-Size: 3433433
-SHA256sum: 3e5ec352dbee07600fd3a80307dfc844f9f0d1c9d38a3bee9c15dc1d006e3da1
+Size: 3433685
+SHA256sum: 9c71315a47620d9c67edf38877ffe5493781c70fa2d7ac0f2ab04d04edfea391
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2077,14 +2077,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795021176
+SourceDateEpoch: 1795091690
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11489280
 Filename: v2ray-geosite_202611152204.1_all.ipk
-Size: 3760776
-SHA256sum: 3ff75a9845eb4a49dc5eb7f52e96aa987d35449a54336600a999d5128876c001
+Size: 3760702
+SHA256sum: e6f30d0d4f1a8cbe0f591843b68d49c5b6ae017b389283b450d4f1bab31147be
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2111,12 +2111,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1795021176
+SourceDateEpoch: 1795091690
 Architecture: x86_64
 Installed-Size: 634880
 Filename: vmlinux-btf_6.6.119-r9_x86_64.ipk
-Size: 227389
-SHA256sum: a42ebfafab865d7a713f56a9bfdd46c9963c1c5140c7b44859fa7f40deb1739c
+Size: 227328
+SHA256sum: 8f223d02e1452050ed186c2f71d154cac9263eee3968b862ea8be18df424317f
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

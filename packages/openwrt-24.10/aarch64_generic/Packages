@@ -36,8 +36,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_generic
 Installed-Size: 593920
 Filename: chinadns-ng_2025.08.09-r1_aarch64_generic.ipk
-Size: 287142
-SHA256sum: f855b2f53ee7715318b23e5c2c81bcf9c5c0c0b5f006f1b12521360f56ca52da
+Size: 287104
+SHA256sum: 7a761f1cd3736c136425ea5aedc4ee8919a518387b050bb4dfafd7396de79bae
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 58511360
 Filename: clashoo_2026.11.12.1.19.34-r2_aarch64_generic.ipk
-Size: 21458319
-SHA256sum: aca1bcb9fd17ec7fa7b5fda0d1f62225d9d98b41125df883e850c88697ea330c
+Size: 21458499
+SHA256sum: d74bb4a056fe9abc7d3cb588ce89e8c3fcaffbe61c2b6c645fa07380a7b1f729
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -101,8 +101,8 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_generic.ipk
-Size: 11837
-SHA256sum: 4ec117181df1517f4841a06184cbe003475fd94b1f2e52061dab540a2dd9efd3
+Size: 11838
+SHA256sum: 4281be9ca9e0f547e3bb267d06a0f0da823987135fd072d2850f221d681926df
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -156,8 +156,8 @@ URL: https://github.com/snowie2000/geoview
 Architecture: aarch64_generic
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_generic.ipk
-Size: 2753457
-SHA256sum: 86bd3dc68de9e503052eeef234a47a9a15166396570f1d6b47d169f006a6cae2
+Size: 2753377
+SHA256sum: d8a95ead1e9dda1bbe89bfb3592ab5857321aff5302cd5277414d4d534e85ac0
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -287,8 +287,8 @@ Section: luci
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406241
-SHA256sum: 5179a6e5ace012b750edd6ff9dc57b8046b640f1da7aaf65457b4433ff340b58
+Size: 406256
+SHA256sum: 3c99e8bed24fc9ab7c7ce06e15c57986ee97c6aa32fd00ab5c05f33fe6849ee0
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -445,8 +445,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1505280
 Filename: luci-app-passwall2_26.11.11-r1_all.ipk
-Size: 381070
-SHA256sum: 350959e933c4b72608a65f1d2e31ca2b98c105a5cd2e8bb762c4866aba73ebc9
+Size: 381941
+SHA256sum: a1411c499623a37f45a28a8ca2223ec6cadfd3fd02f4a26117fa71612c973cf2
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -455,10 +455,10 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 3276800
+Installed-Size: 3287040
 Filename: luci-app-passwall_26.11.11-r1_all.ipk
-Size: 872888
-SHA256sum: 9042f8f59e49e70fc32420664546aa1a98cbcacb90480a5f4b40b9997ff74521
+Size: 873927
+SHA256sum: 12e88dc66c2d37a342c60b891f6749cc7beb76348b9ce476342e15303f4de2bd
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -639,8 +639,8 @@ Section: luci
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12957
-SHA256sum: 9a5c6926a6b02432074d27d81c5bd7421cc4f3e173841b6dcc30fc3bbd0307c0
+Size: 12964
+SHA256sum: 6ba838204bcb2633d5ae9864900c0b12cf9693eabc5d9e99a89ada99da3e9b45
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -785,8 +785,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.11_all.ipk
-Size: 17595
-SHA256sum: 5885f877e5c79b3dcc81b9022604517c57467f223aeaf9f1302b3bc92e4de2bf
+Size: 17593
+SHA256sum: 404c0b39348c3bd904d0d3c52369bf821576d9fe4f64f4856c75554c2f9b3a41
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -796,8 +796,8 @@ Section: luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.11_all.ipk
-Size: 21734
-SHA256sum: a3ef7690459d1594d9d040c793fc124f8f9649bc332cdd1f81160d64a5458a7e
+Size: 21733
+SHA256sum: 698fa5593509a3eb17924d5d28cff6aff5b79b1f83fa9791dae2a9a9f42bf85d
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1037,8 +1037,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_generic.ipk
-Size: 7202
-SHA256sum: f20af2f23fdc3acff810d9e00415752b7696f0a38f4134088549c136ba8d1d4d
+Size: 7208
+SHA256sum: 7686851c222815b213ac64932c288372823c6147e59cbb031009d2f97f56bb5c
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1573,8 +1573,8 @@ URL: https://github.com/jlyo/tcping
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_generic.ipk
-Size: 4322
-SHA256sum: 8a6f1b6b55abebaf96a677a1f1f172990d8afc6eade7843959917e3e076deeb4
+Size: 4313
+SHA256sum: acac33eb5b8fd97ab9a88cca4e8d4a37d60b4558beb2fffcc54ec0e0215b51e3
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -1612,8 +1612,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 16476160
 Filename: v2ray-geoip_202611120018.1_all.ipk
-Size: 3433433
-SHA256sum: 3e5ec352dbee07600fd3a80307dfc844f9f0d1c9d38a3bee9c15dc1d006e3da1
+Size: 3433944
+SHA256sum: d569779abbfbaf2b6157a3314fa05f405668cc9b99e9065b848f007bb927d7f7
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1625,8 +1625,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11489280
 Filename: v2ray-geosite_202611152204.1_all.ipk
-Size: 3760776
-SHA256sum: 3ff75a9845eb4a49dc5eb7f52e96aa987d35449a54336600a999d5128876c001
+Size: 3760777
+SHA256sum: 79f2709b7b89bbc54ff19cbc3cc7c83eda5a832c21d367279fddf0913208686b
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

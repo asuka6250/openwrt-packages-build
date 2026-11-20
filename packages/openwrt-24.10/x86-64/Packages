@@ -104,8 +104,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2tcp_1.1.2-r1_x86_64.ipk
-Size: 11096
-SHA256sum: 457e81c856f2e55fe15d3ed4b1c378cb81d7d042a4478edbe0f56c459d53f8d2
+Size: 11092
+SHA256sum: 4d49e5c099a2fd3de3487154e6e2eb3cd76f87aaaf6524b3328064af354c32ec
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -174,8 +174,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: x86_64
 Installed-Size: 81920
 Filename: ipt2socks_1.1.4-r3_x86_64.ipk
-Size: 27262
-SHA256sum: 919a240002566bd593e81e621286ca02390ca4a4a38b49b81dc191d47a8a2f74
+Size: 27261
+SHA256sum: 3ea8896dd7db8d3a96637d239a9db75c10d0cf9b09fc00504f6cface249add86
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -213,8 +213,8 @@ URL: https://github.com/golgote/neturl
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5336
-SHA256sum: a1b26367b157651f733b21cdeabcc244a078c966f1daf8af4c67baf4780289d8
+Size: 5341
+SHA256sum: dca077a8f713ec97c5ae7d397da21bc56ada950bdb872c7653a959bb2e13582f
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -485,8 +485,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2549760
 Filename: luci-app-ssr-plus_198-r5_all.ipk
-Size: 516602
-SHA256sum: 66e8c6983561ed0308bd69d3c66cd8bdb4d611e3f9719605943e0acbe88e8887
+Size: 516487
+SHA256sum: 925c78227b57fce5086fbab9c46f0d26c81797b3a61aa26d8756bc012135fa10
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
 
 Package: luci-app-ua2f
@@ -791,14 +791,14 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.321.84169~2263925
+Version: 26.324.60383~e097d50
 Depends: libc, luci-app-ssr-plus
 Section: luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.321.84169~2263925_all.ipk
-Size: 14860
-SHA256sum: f24ce776fa8031869ec902437af4c11cb70a2f725405368b1fae94c0f28449c5
+Filename: luci-i18n-ssr-plus-zh-cn_26.324.60383~e097d50_all.ipk
+Size: 14857
+SHA256sum: 63bffcaafc3a406e59731e97ba57328b92c6a7f6cf0bed775d56b6241b0c429e
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1003,8 +1003,8 @@ URL: https://github.com/rofl0r/microsocks
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 6749
-SHA256sum: c2eefc2a943ef26bc876f957795c9e0292bbeea4bd2365840e0ca463a6d255bc
+Size: 6741
+SHA256sum: 66c5008f5e3543f942408dd47c571d2767d324ea5b0b73cfb06a278954550054
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -1503,29 +1503,29 @@ Description:  Sing-box is a universal proxy platform which supports hysteria, SO
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: smartdns-ui
-Version: 48.5_rc1-r11
+Version: 48.5-r12
 Depends: libc, smartdns
 License: GPL-3.0-or-later
 Section: net
 URL: https://www.github.com/pymumu/smartdns/
 Architecture: x86_64
-Installed-Size: 13209600
-Filename: smartdns-ui_48.5_rc1-r11_x86_64.ipk
-Size: 6591733
-SHA256sum: 3b072f1bda5723f85221338c173558bca01c6e67954f85f183db61e2bd50bf83
+Installed-Size: 13219840
+Filename: smartdns-ui_48.5-r12_x86_64.ipk
+Size: 6596686
+SHA256sum: 6cec9cde4631768cce7289f3a9587bff1118b8abf7c289c1a72d4c3f58c9bcc8
 Description:  A dashboard ui for smartdns server.
 
 Package: smartdns
-Version: 48.5_rc1-r11
+Version: 48.5-r12
 Depends: libc, libpthread, libopenssl3, libatomic1, zlib
 License: GPL-3.0-or-later
 Section: net
 URL: https://www.github.com/pymumu/smartdns/
 Architecture: x86_64
 Installed-Size: 573440
-Filename: smartdns_48.5_rc1-r11_x86_64.ipk
-Size: 255282
-SHA256sum: f1ad99a276348dedca048bb84f3c4ff67f4fb1dceb14c5fe2d7d2e9c103b8dd1
+Filename: smartdns_48.5-r12_x86_64.ipk
+Size: 255378
+SHA256sum: 6486b713bd71a2a3936ddca1c060cc8879cc148c9e76fc21154b31a16b33be54
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH. 
@@ -1646,6 +1646,4 @@ Filename: xray-plugin_1.8.24-r1_x86_64.ipk
 Size: 7549456
 SHA256sum: e4cf1906bcd531d83e4d85bde7dc3694d021c615c00eaf4fe13a866a1336bdf4
 Description:  SIP003 plugin for Shadowsocks, based on Xray
-
-
 

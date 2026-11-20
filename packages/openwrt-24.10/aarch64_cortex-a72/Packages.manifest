@@ -2096,39 +2096,39 @@ SHA256sum: 4eec7b1e8386abf14a437f375d32278081a888b8252d41d5efd7205a51224812
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 202611120018.1
+Version: 202611190019.1
 Depends: libc
 Source: feeds/base/custom_packages/v2ray-geodata
 SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795154941
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 16476160
-Filename: v2ray-geoip_202611120018.1_all.ipk
-Size: 3433944
-SHA256sum: d569779abbfbaf2b6157a3314fa05f405668cc9b99e9065b848f007bb927d7f7
+Installed-Size: 16506880
+Filename: v2ray-geoip_202611190019.1_all.ipk
+Size: 3444673
+SHA256sum: 88f9f5c986b49a7515ae734c4783fe004e0c61ac9363335d19ea1afe30668863
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 202611152204.1
+Version: 202611192204.1
 Depends: libc
 Source: feeds/base/custom_packages/v2ray-geodata
 SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795154941
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 11489280
-Filename: v2ray-geosite_202611152204.1_all.ipk
-Size: 3760777
-SHA256sum: 79f2709b7b89bbc54ff19cbc3cc7c83eda5a832c21d367279fddf0913208686b
+Installed-Size: 11479040
+Filename: v2ray-geosite_202611192204.1_all.ipk
+Size: 3762324
+SHA256sum: e67e3ba0f70298cae9910fb7f00dd727cedc701d5e1f3fa001215309e29bff69
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin

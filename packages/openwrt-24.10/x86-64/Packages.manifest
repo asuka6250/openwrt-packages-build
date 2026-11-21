@@ -63,13 +63,13 @@ Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795263257
 Maintainer: kenzok8
 Architecture: x86_64
 Installed-Size: 63232000
 Filename: clashoo_2026.11.12.1.19.34-r2_x86_64.ipk
-Size: 23541196
-SHA256sum: 4d1d872da6f19444f7331b1edf8f21738bc73468bee3b71be8e36e12aa053e1a
+Size: 23541150
+SHA256sum: cd4da797adcf54b89927b3309f360257558c118a508dec1f74f287f99c73c7b1
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: dae
@@ -135,14 +135,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795263257
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2tcp_1.1.2-r1_x86_64.ipk
-Size: 11092
-SHA256sum: 4d49e5c099a2fd3de3487154e6e2eb3cd76f87aaaf6524b3328064af354c32ec
+Size: 11102
+SHA256sum: c5a91514ef4d195cf48527596796474cd5acabfb682e0de36ce622946873b7a0
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -226,13 +226,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795263257
 URL: https://github.com/zfl9/ipt2socks
 Architecture: x86_64
 Installed-Size: 81920
 Filename: ipt2socks_1.1.4-r3_x86_64.ipk
-Size: 27261
-SHA256sum: 3ea8896dd7db8d3a96637d239a9db75c10d0cf9b09fc00504f6cface249add86
+Size: 27263
+SHA256sum: a81edf1ce798bd4edb2763375c601d6bb931849bac3397831f7f17c6ced1ff0a
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -274,14 +274,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795263257
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5341
-SHA256sum: dca077a8f713ec97c5ae7d397da21bc56ada950bdb872c7653a959bb2e13582f
+Size: 5340
+SHA256sum: 4ff8f66cf623b67b5e373aed14a42fe85d990eb18fa0beba4ea54987c1825d63
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -358,13 +358,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795263257
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406256
-SHA256sum: 3c99e8bed24fc9ab7c7ce06e15c57986ee97c6aa32fd00ab5c05f33fe6849ee0
+Size: 406237
+SHA256sum: cee24c45e5a0b4f256a88061b53f437181c97f217b8b29262670d567bbc12f89
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-dae
@@ -629,19 +629,19 @@ Description:  Provides Luci for smartdns
 
 Package: luci-app-ssr-plus
 Version: 198-r5
-Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua-neturl, libuci-lua, microsocks, ipt2socks, lyaml, resolveip, curl, nping, coreutils, coreutils-timeout, luci-lua-runtime
+Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua-neturl, microsocks, ipt2socks, lyaml, resolveip, curl, nping, coreutils, coreutils-timeout, idn2, 3proxy, mihomo, v2ray-geoip, v2ray-geoip, v2ray-geosite, xray-core, luci-lua-runtime
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795263257
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2549760
+Installed-Size: 2560000
 Filename: luci-app-ssr-plus_198-r5_all.ipk
-Size: 516487
-SHA256sum: 925c78227b57fce5086fbab9c46f0d26c81797b3a61aa26d8756bc012135fa10
-Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/AnyTLS/Socks5/Clash LuCI interface
+Size: 517594
+SHA256sum: c53dcfdcaffac4efce323c11edf0d29ab5eb08544d541c1869864ba58d72dd1a
+Description:  LuCI support for SSR-Plus (Multi-protocol Proxy)
 
 Package: luci-app-ua2f
 Version: 26.166.28689~7af0cf3
@@ -801,13 +801,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795263257
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12964
-SHA256sum: 6ba838204bcb2633d5ae9864900c0b12cf9693eabc5d9e99a89ada99da3e9b45
+Size: 12960
+SHA256sum: 4bdbe0794a493039df5c4a85f2b30c48edc9de22003bfc9add154e0f4a206162
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-dae-zh-cn
@@ -1031,17 +1031,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.324.60383~e097d50
+Version: 26.325.44057~3ddc8d3
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795263257
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.324.60383~e097d50_all.ipk
+Filename: luci-i18n-ssr-plus-zh-cn_26.325.44057~3ddc8d3_all.ipk
 Size: 14857
-SHA256sum: 63bffcaafc3a406e59731e97ba57328b92c6a7f6cf0bed775d56b6241b0c429e
+SHA256sum: e861d01cbf3fda3381b0d2abad3e48dc734bf75507c192aa193875cb5f7b0d0a
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1307,14 +1307,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795263257
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: x86_64
 Installed-Size: 30720
 Filename: microsocks_1.0.5-r2_x86_64.ipk
-Size: 6741
-SHA256sum: 66c5008f5e3543f942408dd47c571d2767d324ea5b0b73cfb06a278954550054
+Size: 6751
+SHA256sum: e159558801f9f7bc53c81c37f3dd052892cd5845400a2c71e620f861d8222051
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -2059,14 +2059,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795154941
+SourceDateEpoch: 1795263257
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16506880
 Filename: v2ray-geoip_202611190019.1_all.ipk
-Size: 3444673
-SHA256sum: 88f9f5c986b49a7515ae734c4783fe004e0c61ac9363335d19ea1afe30668863
+Size: 3444683
+SHA256sum: 7eaf476300c5ce77dbcfa759d780422c77ecc936ec94f70ea6c7f8df966b05ec
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2077,14 +2077,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795154941
+SourceDateEpoch: 1795263257
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11479040
 Filename: v2ray-geosite_202611192204.1_all.ipk
-Size: 3762324
-SHA256sum: e67e3ba0f70298cae9910fb7f00dd727cedc701d5e1f3fa001215309e29bff69
+Size: 3762103
+SHA256sum: 53afcf08ce0250533fe0fc0cd192e92f3b7c4aee8d23d5baeef64b8125903523
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2111,12 +2111,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1795091690
+SourceDateEpoch: 1795263257
 Architecture: x86_64
 Installed-Size: 634880
 Filename: vmlinux-btf_6.6.119-r9_x86_64.ipk
-Size: 227328
-SHA256sum: 8f223d02e1452050ed186c2f71d154cac9263eee3968b862ea8be18df424317f
+Size: 227348
+SHA256sum: e47ff5041c9e382b1ca3f70c242d10326570a74b8571fefd24aa934cbe7faf8d
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

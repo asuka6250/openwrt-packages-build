@@ -45,31 +45,31 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 522240
 Filename: chinadns-ng_2025.08.09-r1_aarch64_cortex-a72.ipk
-Size: 269749
-SHA256sum: 68fa780a217d8341c10d268f57bdabae701b64feebe45bcb81ba7533b009e4fc
+Size: 269730
+SHA256sum: d0ad9621c17b724d4878f6396ddd07752dbbf1a4cd325254b441cdbe99e3a860
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: clashoo
-Version: 2026.11.12.1.19.34-r2
-Depends: libc, ca-bundle, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
+Version: 2026.11.12.1.19.34-r3
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, coreutils-nohup, coreutils-timeout, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, unzip
 Provides: mihomo, clash-meta
 Source: feeds/base/custom_packages/openwrt-clashoo/clashoo
 SourceName: clashoo
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 Maintainer: kenzok8
 Architecture: aarch64_cortex-a72
 Installed-Size: 58511360
-Filename: clashoo_2026.11.12.1.19.34-r2_aarch64_cortex-a72.ipk
-Size: 21458641
-SHA256sum: 9ce7857d7570864c10add04e9d1312ce481a29520d8c73681cc61b1579e4ae79
+Filename: clashoo_2026.11.12.1.19.34-r3_aarch64_cortex-a72.ipk
+Size: 21458406
+SHA256sum: b0c62537d2150704601f23a3cb0f80eb28b86d4f54f4605f6a555d237ac98f64
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -130,14 +130,14 @@ Source: feeds/base/custom_packages/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 URL: http://dns2socks.sourceforge.net/
 Maintainer: ghostmaker
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2socks_2.1-r3_aarch64_cortex-a72.ipk
 Size: 11841
-SHA256sum: 0b10a49b0701c8148ea89113648b82ce982c2042149b5792d4b415ac2b0b7ebf
+SHA256sum: 9d78f84acb15ee7c15992f8c340abe78678de62e5f514d996f655295a737e607
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -149,14 +149,14 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dns2tcp_1.1.2-r1_aarch64_cortex-a72.ipk
-Size: 11408
-SHA256sum: 3ee893d300832c2a432b6ca459d1bd56c2813549d6a0f1394a74646f07999060
+Size: 11410
+SHA256sum: 3d114764e6ee9f6530a2ce8260dedb896024beab6f11683cbe100fa238eeca30
 Description:  utility to convert dns query from udp to tcp
 
 Package: flock
@@ -203,14 +203,14 @@ SourceName: geoview
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 URL: https://github.com/snowie2000/geoview
 Maintainer: snowie2000
 Architecture: aarch64_cortex-a72
 Installed-Size: 7208960
 Filename: geoview_0.2.9-r1_aarch64_cortex-a72.ipk
-Size: 2753380
-SHA256sum: e1fdd38a11cda66e3cffcc684579c2bab8ea1cb1afa2f14341946b0016129c97
+Size: 2753333
+SHA256sum: 757a340c512c4ca400b7b63aa6e789b3fa28b0fd9823240aa3bb9bf609c831c3
 Description:  geoview is a handy tool to extract useful information from geo* files.
 
 Package: hysteria
@@ -240,13 +240,13 @@ Source: feeds/base/custom_packages/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a72.ipk
-Size: 26144
-SHA256sum: 6d43297588c230e047574d5eab83c570afa9ea0eae21414b6175d884a33d93c1
+Size: 26146
+SHA256sum: f92318f234679354a293828a406c4f5f0a85afd718bfc87cee43f77a0ebee5d5
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lanspeedd-bpf
@@ -288,14 +288,14 @@ Source: feeds/base/custom_packages/lua-neturl
 SourceName: neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://github.com/golgote/neturl
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-neturl_1.2.1-r1_all.ipk
-Size: 5340
-SHA256sum: 4ff8f66cf623b67b5e373aed14a42fe85d990eb18fa0beba4ea54987c1825d63
+Size: 5342
+SHA256sum: 1b21ecb541e9f2bcfa10fdd6cad4d31cd919c52a6dac468e7d92fe02aa90f041
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -372,13 +372,13 @@ Depends: libc, luci-base, clashoo, luci-i18n-clashoo-zh-cn
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 972800
 Filename: luci-app-clashoo_1.32.0-r1_all.ipk
-Size: 406237
-SHA256sum: cee24c45e5a0b4f256a88061b53f437181c97f217b8b29262670d567bbc12f89
+Size: 406228
+SHA256sum: d46f80a2f3fd539bb94f18312903c3c84201864e328c75a4ff5f4ff12fb31620
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -431,18 +431,18 @@ SHA256sum: b2687d4572f224e9819da2d44742ef6b77876d588a0cae5450557ddad4b654bf
 Description:  LuCI app for dae dashboard
 
 Package: luci-app-daede
-Version: 1.15-r13
-Depends: libc, luci-base, daed
+Version: 1.15-r14
+Depends: libc, luci-base, curl, daed
 Source: feeds/base/custom_packages/luci-app-daede
 SourceName: luci-app-daede
 Section: luci
-SourceDateEpoch: 1792573878
+SourceDateEpoch: 1795383429
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 368640
-Filename: luci-app-daede_1.15-r13_all.ipk
-Size: 99504
-SHA256sum: 7edf3c46a94067963278c58c0e57c036160d41608435bba9d8636470732247c5
+Filename: luci-app-daede_1.15-r14_all.ipk
+Size: 99516
+SHA256sum: 96e303aef132468b02d4b16137a0fbbaf7c7dbf8ad4eabb56ab6ce6940eafb9f
 Description:  LuCI web interface for managing dae or daed backends.
 
 Package: luci-app-homeproxy
@@ -580,14 +580,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1505280
+Installed-Size: 1515520
 Filename: luci-app-passwall2_26.11.11-r1_all.ipk
-Size: 381941
-SHA256sum: a1411c499623a37f45a28a8ca2223ec6cadfd3fd02f4a26117fa71612c973cf2
+Size: 382649
+SHA256sum: c0ae00d2f7d4eb77d88670b349e1bb4a9877a0407a81cf17aa1624bf424e400d
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -596,14 +596,14 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, coreutils-timeout, 
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3287040
 Filename: luci-app-passwall_26.11.11-r1_all.ipk
-Size: 873927
-SHA256sum: 12e88dc66c2d37a342c60b891f6749cc7beb76348b9ce476342e15303f4de2bd
+Size: 874973
+SHA256sum: df0a05a3a656c778ff61710c19120e1beb93b8021c53d6421dde4bb59901a97d
 Description:  LuCI support for PassWall
 
 Package: luci-app-pon-status
@@ -663,14 +663,14 @@ Depends: libc, libuci-lua, lua, luci-compat, dns2tcp, dnsmasq-full, ip-full, lua
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2560000
 Filename: luci-app-ssr-plus_198-r5_all.ipk
-Size: 517574
-SHA256sum: 000c1f6277c9004131852416c93663f8a3b08626ca570769adde55a52ad38997
+Size: 517598
+SHA256sum: f78e88592183fd9e99e866c773f521fab21279b24d6b3f0556a7292a21a93a58
 Description:  LuCI support for SSR-Plus (Multi-protocol Proxy)
 
 Package: luci-app-ua2f
@@ -831,13 +831,13 @@ Depends: libc, luci-base
 Source: feeds/base/custom_packages/openwrt-clashoo/luci-app-clashoo
 SourceName: luci-app-clashoo
 Section: luci
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 Maintainer: kenzok8
 Architecture: all
 Installed-Size: 30720
 Filename: luci-i18n-clashoo-zh-cn_1.32.0-r1_all.ipk
-Size: 12960
-SHA256sum: 4bdbe0794a493039df5c4a85f2b30c48edc9de22003bfc9add154e0f4a206162
+Size: 12964
+SHA256sum: 9051c6d3520979c5bd4b3deba9fc08cd181489adc382a095250e9060c11b1e9d
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
@@ -1020,12 +1020,12 @@ Depends: libc, luci-app-passwall
 Source: feeds/base/custom_packages/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 Architecture: all
 Installed-Size: 51200
 Filename: luci-i18n-passwall-zh-cn_26.11.11_all.ipk
-Size: 17593
-SHA256sum: 404c0b39348c3bd904d0d3c52369bf821576d9fe4f64f4856c75554c2f9b3a41
+Size: 17597
+SHA256sum: 117f882e250af7607caf89bd739c82bf59da1b56e3f2aeed4edf7c7381503514
 Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -1034,12 +1034,12 @@ Depends: libc, luci-app-passwall2
 Source: feeds/base/custom_packages/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 Architecture: all
 Installed-Size: 61440
 Filename: luci-i18n-passwall2-zh-cn_26.11.11_all.ipk
-Size: 21733
-SHA256sum: 698fa5593509a3eb17924d5d28cff6aff5b79b1f83fa9791dae2a9a9f42bf85d
+Size: 21731
+SHA256sum: 984bacb3dce0bf4e54964156a0a7627a091c21ee5dcba5d01e062c832cc2abfd
 Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-quickfile-zh-cn
@@ -1075,17 +1075,17 @@ SHA256sum: a38bb7c3f995e4b8a39e51b201e11ea0918479550731c7197da229aa78ec4f0d
 Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: 26.325.44057~3ddc8d3
+Version: 26.326.77829~be435bf
 Depends: libc, luci-app-ssr-plus
 Source: feeds/base/custom_packages/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-ssr-plus-zh-cn_26.325.44057~3ddc8d3_all.ipk
-Size: 14857
-SHA256sum: e861d01cbf3fda3381b0d2abad3e48dc734bf75507c192aa193875cb5f7b0d0a
+Filename: luci-i18n-ssr-plus-zh-cn_26.326.77829~be435bf_all.ipk
+Size: 14861
+SHA256sum: c5f4e98552e98c3ae9b483cc16095f78783b168a9448be57daacf7d959a1a13a
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-ua2f-zh-cn
@@ -1146,14 +1146,14 @@ Source: feeds/base/custom_packages/luci-theme-argon
 SourceName: luci-theme-argon
 License: Apache-2.0 MIT
 Section: luci
-SourceDateEpoch: 1794570973
+SourceDateEpoch: 1795383429
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 768000
 Filename: luci-theme-argon_3.1.4-r20261113_all.ipk
-Size: 299958
-SHA256sum: 44028617cf9a6d8ccff9b0e80ff0656e40dc54aeaf4afae94f6a15dba5ded311
+Size: 300437
+SHA256sum: 5f918f9b20af6ded3f2f07c2b6d6bc523dcca25b27ba4eede890d332635ada25
 Description:  Argon Theme
 
 Package: luci-theme-aurora
@@ -1351,14 +1351,14 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://github.com/rofl0r/microsocks
 Maintainer: lean
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: microsocks_1.0.5-r2_aarch64_cortex-a72.ipk
-Size: 7218
-SHA256sum: d64a97d4e8f22f66f6c4c073322766124ba6201f2a620a6bb7868714e82200ef
+Size: 7202
+SHA256sum: 8f6a9d8fead567d97205fb332d3491fb00a1ddc0334487636a38845804a66bcc
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
  This version supports forwarding rules.
@@ -2006,39 +2006,39 @@ Description:  Sing-box is a universal proxy platform which supports hysteria, SO
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: smartdns-ui
-Version: 48.5-r12
+Version: 48.5-r13
 Depends: libc, smartdns
 Source: feeds/base/custom_packages/smartdns
 SourceName: smartdns
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795383429
 URL: https://www.github.com/pymumu/smartdns/
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 12810240
-Filename: smartdns-ui_48.5-r12_aarch64_cortex-a72.ipk
-Size: 6502831
-SHA256sum: 96075014f10432a12effd9cddb4fe36a01da00c080ede63f61f5690e8dc22498
+Filename: smartdns-ui_48.5-r13_aarch64_cortex-a72.ipk
+Size: 6501391
+SHA256sum: 989ec7fa987ccab22a063c7ca4561e338111eba99c6c4f12776fd9de61ece9ab
 Description:  A dashboard ui for smartdns server.
 
 Package: smartdns
-Version: 48.5-r12
+Version: 48.5-r13
 Depends: libc, libpthread, libopenssl3, libatomic1, zlib
 Source: feeds/base/custom_packages/smartdns
 SourceName: smartdns
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795193183
+SourceDateEpoch: 1795383429
 URL: https://www.github.com/pymumu/smartdns/
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 593920
-Filename: smartdns_48.5-r12_aarch64_cortex-a72.ipk
-Size: 256175
-SHA256sum: e64415f9dd297353e75769a119fe1bf3bc2de0a073182111b42e5e38ef37d0e2
+Filename: smartdns_48.5-r13_aarch64_cortex-a72.ipk
+Size: 256191
+SHA256sum: 228ecbf797e3bcd4fb42ccb4cb9ee3f498c5995942f4816419e7ac07857e0ff3
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH. 
@@ -2051,13 +2051,13 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1795128983
+SourceDateEpoch: 1795383429
 URL: https://github.com/jlyo/tcping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: tcping_0.3-r1_aarch64_cortex-a72.ipk
-Size: 4326
-SHA256sum: d1c29d2ceca0b4cbc795557a67ff6c8c98bb8e9db88799bfbc47e475950c49cc
+Size: 4325
+SHA256sum: cdea13db7025d4a7a8b39a88ecfdd85bab1f6c507aed0e800070fbb631ceb8bf
 Description:  tcping measures the latency of a tcp-connection
 
 Package: ua2f
@@ -2103,14 +2103,14 @@ SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 16506880
 Filename: v2ray-geoip_202611190019.1_all.ipk
-Size: 3444683
-SHA256sum: 7eaf476300c5ce77dbcfa759d780422c77ecc936ec94f70ea6c7f8df966b05ec
+Size: 3444828
+SHA256sum: 166917e37fa35b53bd322b66391b99fd40f3be1949fa221f13bd6ba3abee2052
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -2121,14 +2121,14 @@ SourceName: v2ray-geodata
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 11479040
 Filename: v2ray-geosite_202611192204.1_all.ipk
-Size: 3762103
-SHA256sum: 53afcf08ce0250533fe0fc0cd192e92f3b7c4aee8d23d5baeef64b8125903523
+Size: 3762079
+SHA256sum: 26daf5098820c23db68581c33f300d94614115406ed345fc3f0e6bc47bf2e65a
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2155,12 +2155,12 @@ Depends: libc
 Source: feeds/base/custom_packages/vmlinux-btf
 SourceName: vmlinux-btf
 Section: kernel
-SourceDateEpoch: 1795263257
+SourceDateEpoch: 1795383429
 Architecture: aarch64_cortex-a72
 Installed-Size: 614400
 Filename: vmlinux-btf_6.6.119-r9_aarch64_cortex-a72.ipk
-Size: 218093
-SHA256sum: 5d8137436a426cce57e8ef162daf359941cc937040a40722b5eedf904be1c2ee
+Size: 218071
+SHA256sum: e124dd79cdc8dbd93ddbc6b07e022d9152b6ba75199fb2cd4112a64de464e20e
 Description:  Generates detached kernel BTF from target kernel headers and config,
  enabling CO-RE eBPF programs on OpenWrt without rebuilding the kernel.
 

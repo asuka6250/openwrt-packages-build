@@ -49,8 +49,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 58511360
 Filename: clashoo_2026.11.12.1.19.34-r4_aarch64_generic.ipk
-Size: 21458282
-SHA256sum: f71169b9e9e3536fced0b586b993a93eabdda8cd4f51cf6787cea1445370568e
+Size: 21458314
+SHA256sum: cddc194ba4a9896edb6c6ac0eeec6ad44ae2c5953acf9a610812f0897a1723c2
 Description:  Mihomo proxy core with runtime environment for Clashoo.
 
 Package: cpufreq
@@ -281,14 +281,14 @@ SHA256sum: 362e0ce581602d75228a585856bbcde28a25d2e1d6dc25d3547d4ff5a4ab15c9
 Description:  LuCI configuration UI for the Aurora theme
 
 Package: luci-app-clashoo
-Version: 1.32.0-r2
+Version: 1.32.0-r3
 Depends: libc, luci-base, clashoo
 Section: luci
 Architecture: all
 Installed-Size: 972800
-Filename: luci-app-clashoo_1.32.0-r2_all.ipk
-Size: 406224
-SHA256sum: e018e0356f2919707d0e377546905607d01c58a33e1ddf47f5330410b708eca6
+Filename: luci-app-clashoo_1.32.0-r3_all.ipk
+Size: 406238
+SHA256sum: 9945096114d6a415061bc3e5e5d9b27a7b3cf5c9ea774cd8c6b6512af6fec10a
 Description:  LuCI web interface for Clashoo
 
 Package: luci-app-cpufreq
@@ -645,14 +645,14 @@ SHA256sum: ad0b439c069de9811cd16d8ed08f9c92681ef15b4454da2df4ec7f64961d26e7
 Description:  Translation for luci-app-aurora-config - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-clashoo-zh-cn
-Version: 1.32.0-r2
+Version: 1.32.0-r3
 Depends: libc, luci-app-clashoo
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-clashoo-zh-cn_1.32.0-r2_all.ipk
-Size: 12963
-SHA256sum: 9f859bf30511a64c7d2da649b34f3acdf7e1cbbe6bafabb2d2cdf01d3d6c93ac
+Filename: luci-i18n-clashoo-zh-cn_1.32.0-r3_all.ipk
+Size: 12965
+SHA256sum: 234138008a23e87725b9f22f025eaa74560d17410723939352da8e6f0dbe82f9
 Description:  luci-app-clashoo - Simplified Chinese (zh-cn)
 
 Package: luci-i18n-cpufreq-zh-cn
